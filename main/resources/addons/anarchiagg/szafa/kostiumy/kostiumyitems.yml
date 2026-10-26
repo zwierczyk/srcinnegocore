@@ -1,0 +1,991 @@
+items:
+  w1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[" "]}'
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: b04db65c-c144-4c45-badf-7077901d6613
+        name: 0rzelMain89
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTc2MDc5MTYwOTE1MiwKICAicHJvZmlsZUlkIiA6ICJiMDRkYjY1Y2MxNDQ0YzQ1YmFkZjcwNzc5MDFkNjYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICIwcnplbE1haW44OSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZGUyMGRkYjJjN2NhZDJhMjc3ZjFhOTE3NTk1MTg5N2Y3NTNjMTE4MDE5YTVmZDQyMDc1OWQ2MzE1ODdlNDNhIgogICAgfQogIH0KfQ==
+            signature: W/seGFXlbXJkEmc+nOrfvWqOAHnQO8vQLqwV+xN+Xfe/8ifnEYaOEd4dIISML10QqxWEF4/j/2dl8sYgdCsVxc4BCcl3JuhXZzEv7s5WN34srJfvyPLNUt7+ihD+GrLuXKdQAn0sIfmUu0x61Pdr+TstkoRKvjYiK+lly5DadRx+AKzzo7nOMpVnuV526pKE5z6X9/WKHps/ItLNUZsbv1AGfGEB8906vqF08xgWrEa/T/wjHHtWh7cs56pxlRU+/vTgjMVOd6ZlLoxmJDq9K1OClauJM0KcWRSzzuIU68q2TlwbHalYD1LcYsrlOOkUOiQAjd/5UvoHEz9k5Ia1kCBA4xgp8zamGENDNPcKF5Uj8RsbV2lHUjkQpR21yngR5klpcqGtvdj60LK4vngoMf/lxDzLBYmrXLPrwYIUauSgIHgDNGpvOaY9xSZLJdfeSIBATpb+xWivLSo6VroRBLMkYlMaljmBw7wEyc5IZKazp7eGuzz1EmI7OKLofDBCi2PGm7y4R5SqFSHaBpAVchMlnsFo4xEs/adZlQuqFwPtJqmSaXKhpQ/ZZ9UTTebJKU5Eszqbhrk3A5SThQ/igL/aIBC1dnJqiqrZ0gz1yW2W2I0/cWdARsYmSzIDufQZl01wii1iEGvd2UXFU+S1O1dkA06svk7NqApchnO3XDU=
+  w2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 219
+        BLUE: 228
+        GREEN: 103
+  w3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 219
+        BLUE: 228
+        GREEN: 103
+  w4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 219
+        BLUE: 228
+        GREEN: 103
+  wp1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[" "]}'
+      internal: H4sIAAAAAAAA/+NiYOBg4AzOLs3JKbbydGFgNTWzMDdnAABoK2hTFwAAAA==
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 8bd7e3c6-6980-32c9-82fe-55865de5e23c
+        name: XSeries
+        properties:
+          - name: XSeries
+            value: 13.0.0
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNkMzg1MTIxMjI4MGU3Mzk2NjhkMDZhYjQ0NTM1ODFlZWVmNzlhNjNhZWZhNjA5YzJkNTgxOGI4MzJlM2RlZSJ9fX0=
+  wp2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      attribute-modifiers:
+        GENERIC_LUCK:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 0.0
+            name: gg-sectors:dummy
+            uuid: 82e6f22f-45fe-4152-95fc-8da788d74fa3
+            operation: 0
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      Unbreakable: true
+      internal: H4sIAAAAAAAA/81YzW8bRRQfk1BiFyRID6i36aqV+LBD1rET2ydStQhESiJEWgFC1tvdsT3ZjzGzMyy7bYUUgYqQkLggVFXiwgEkjhzpARX7xB+A4A/gDwDBqUKMHX9tGm/j0JXsy3p338e83/u9N28nh1AOnb168cYOZ4KZzNHrxdV6+S3Wv67l0BMW9dsOhEto8Q1wCfrpukY+FBy02rvXNSXPuFbTmhxCLa9JzyLcoR6xtFoDHJ/kNaGElcDrzBdUulgJGcwZv/YFpzYRLc5kszV6yoyG9E0QE3aoAIeag9ub+bFrroRGbgJw21St7bD8eyMJ7WYWLW4xTpYQQs+ir4+KxgJu1x8a0q5HbRAsABwQ7u/BuUcU2+Ra0W8nQvsdhTZ09zHzcBBa4IU4wMqIbVKSQgaCFhVkIgfKI4+IR5PTgO4dFdrQ1vTYWuA4LCDEw8XVYvnRRzMAd+BtJTmGxzQNfX+iFF2KaOe2TbEgrsRthZflUlWAAcVM8Ch0wY9S4FOmcDLQ5YDrYQr0iQMehE2n84mFGYcIPwD+dNaRNjXtA3of05PBPOmHyfk9O4ZLw1rs1VcnSvsWVZWJ+65//iGopZFiFFtzfta2du/HtJu0vnphhjRZzAJhK+qZLcwMDt27pPtxctb+mkME+q5jMLxYmgEFn3AzMejMmTkMOh7Ddr+xyT3iR1i6lOx1bguPde90bs1S6AaJeu0yYJbaBZosmQn/TAPloXgwEVDCQe1iKeAC70uYyG1LOjbhqh8cnw/nkslQmUMyxMi/w0w1oEiP2Hgws81QDA4xoxCrZ2YEOErWDElvXBjrblxIZswv05AbGZoOWwS9WetQn0q1pJJpkLR9/f6/xni1S0P3jkdJLf15slgs6MVCb9jLY71S04u18npy2N8dHZuaGZODc6jt0T01jUEQunkMRqjY1d1n3bth51Yq431vfrw/h7UaZ9m1UA0tAVUfFLP0aXAN6VfX15I7lT730SvOR2KWyM/r1dJKtWon6kyGN9B7rqeYr1YrzyfT+7OjrUwt51EWBzXbb5kJ69fXW1jXXVzytQnH+ADq+Lp6BM68PJcpPKj2Q6V9jIzE9LYuX3v7SvLGFJMfNg1btqkaa0bfdcl9egE93reH/v7iI5RDyzvSUJIXpW1TcRUcSfwltOwq7EwODVEDD7jZooDO60ZF18mGXmgYFSiUStWNQqVRWitsNBplC6ChF0ulBfTMWNVU/Vu6BCGUVY5eiB/76INDn/IN6pnM+4BwQQ2H1NX8DVl0BoTKiiEFqbvMog01Hfm9M5QMerrZLPjEFIz7NUu6bqiend71DE7ABmUgk0XLm0PlK0PdXE93eKj0gIkFlN1uq/lLUOYpQXQaLe7uvnZJ/Vvc/+PPly7/u/nml/c///bTX7e/WUJPjaz3jT3ZJB7h1FxxpGmfQqc2XSY9gYY/ZfpVapFXHGj66raRJhDoP87Pq71fEwAA
+      PublicBukkitValues: |-
+        {
+            "minecraft:anarchia": "1b811e71-fb8a-4497-8f43-7ff5daaf1244",
+            "minecraft:costume": 9
+        }
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 245
+        BLUE: 127
+        GREEN: 144
+  wp3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      attribute-modifiers:
+        GENERIC_LUCK:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 0.0
+            name: gg-sectors:dummy
+            uuid: 82e6f22f-45fe-4152-95fc-8da788d74fa3
+            operation: 0
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      Unbreakable: true
+      internal: H4sIAAAAAAAA/81YzW8bRRQfk1BiFyRID6i36aqV+LBD1rET2ydStQhESiJEWgFC1tvdsT3ZjzGzMyy7bYUUgYqQkLggVFXiwgEkjhzpARX7xB+A4A/gDwDBqUKMHX9tGm/j0JXsS+z1m/fe7/d+781zcgjl0NmrF2/scCaYyRy9Xlytl99i/b9rWbS8KQSnhhTkCrNogxLu5xBCmSW0+Aa4BD3dbBZ8YgrG/ZolXTdcQNntNuEgKPOUITqNFnd3X7uk3i3u//HnS5f/3Xzzy/uff/vpr9vfLKGnRt77zp5sEo9waq440rRPoVObLpOeQMNXDi3vSMOh5kVp21RcBUcSfwktu9QjJoeGqIEH3GxRQOd1o6LrZEMvNIwKFEql6kah0iitFTYajbIF0NCLpdICemZ81GS+kCoHhLIq0AtxSvQBIeUb1DOZ9wHhghoOqVsgIIvOwBBF3R2StNQj6UF21LPTu57BCdigHGRy6AmL+m0HwiGhP13XyIeCg1Z797qmojOu1bQmh1DLa9KzCHdUypZWa4Djk7wmlLEyeF1lT6WLlZHBnPHXvkrMJqLFmWy2Rk+Z0ZC+CWLCDxWgiB18vJkfh+bKaBQmALdNVW6H7d8bWWg3s2hxi3HSI+BZ9PVRaCzgdv2hkHY9aoNgAeBA8bkH5x4Rtslc0W8nYvsdxTZ09zHzcBBa4IU4wMqJbVKSQgWCFhVkogYqIo+IR5PLgO4dBW3oazq2FjgOCwjxcHG1WH70aAbkDqKtJGN4TNPQ9ycq0aWIdm7bFAviStxWfFkuVe0cUMwEj0IX/CgFPWUKJyNdDrQepiCfOOFB2HQ6n1iYcYjwA+RPVx1pU9M+kPcxIxnMk36YXN+zY7o0rMW++upEZd+iqjNxP/TPPwS1NEqMYjnnZx1r935Me0jrqxdmKJPF1CVmK+mZLcwMDt27pPtxctX+mkMG+qFjNLxYmoEFn3AzEXTmzByCjmPY7g82uUf8CEuXkr3ObeGx7p3OrVka3SBRb1wGzFK3QJMlK+GfaaQ8lA8mArUmgbrFUuAF3pcwUduWdGzC1Tw4vh7OJYuhModiiIl/h5lqQZEesfFgZ5uhGRxiRiFWz8wIcJR8MiS9dWF8duNCsmJ+mcbcyNF02iLo7VqH5lSqLZUsg6Tr6/f/tcarWxq6dzxKaunvk8ViQS8WesteHuuVml6sldeTYX93NDa1MyaDc6jt0T21jUEQunkMRqjU1d1n3bth51Yq631vf7w/h70aV9m1UC0tAVU/KGaZ0+Aa0q+uryVPKn3u0SvNR2IW5Of1ammlWrUTz0zCG5x7rncwX61Wnk+W92dHe5nazqMqDnq2PzIT8tfXW1jXXVzytYnA+IDqeF49AWdenssSHnT7odY+RkVi57YuX3v7SvLFFLMfDg1btqlaa0a/65Ln9AJ6vO8P/f3FR2gBZV+lFnnFgaaPEGqk+c8e9B+MZpgXXxMAAA==
+      PublicBukkitValues: |-
+        {
+            "minecraft:anarchia": "1b811e71-fb8a-4497-8f43-7ff5daaf1244",
+            "minecraft:costume": 9
+        }
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 245
+        BLUE: 127
+        GREEN: 144
+  wp4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      attribute-modifiers:
+        GENERIC_LUCK:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 0.0
+            name: gg-sectors:dummy
+            uuid: 82e6f22f-45fe-4152-95fc-8da788d74fa3
+            operation: 0
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      Unbreakable: true
+      internal: H4sIAAAAAAAA/81YzW8bRRQfk1BiFyRID6i36aqV+LBD1rET2ydStQhESiJEWgFC1tvdsT3ZjzGzMyy7bYUUgYqQkLggVFXiwgEkjhzpARX7xB+A4A/gDwDBqUKMHX9tGm/j0JXsS+z1m/fe7/d+781zcgjl0NmrF2/scCaYyRy9Xlytl99i/b9rWbS8KQSnhhTkCrNogxLu5xBCmSW0+Aa4BD3dbBZ8YgrG/ZolXTdcQNntNuEgKPOUITqNFnd3X7uk3i3u//HnS5f/3Xzzy/uff/vpr9vfLKGnRt77zp5sEo9waq440rRPoVObLpOeQMNXDi3vSMOh5kVp21RcBUcSfwktu9QjJoeGqIEH3GxRQOd1o6LrZEMvNIwKFEql6kah0iitFTYajbIF0NCLpdICemZ81GS+kCoHhLIq0AtxSvQBIeUb1DOZ9wHhghoOqVsgIIvOwBBF3R2StNQj6UF21LPTu57BCdigHGRy6AmL+m0HwiGhP13XyIeCg1Z797qmojOu1bQmh1DLa9KzCHdUypZWa4Djk7wmlLEyeF1lT6WLlZHBnPHXvkrMJqLFmWy2Rk+Z0ZC+CWLCDxWgiB18vJkfh+bKaBQmALdNVW6H7d8bWWg3s2hxi3HSI+BZ9PVRaCzgdv2hkHY9aoNgAeBA8bkH5x4Rtslc0W8nYvsdxTZ09zHzcBBa4IU4wMqJbVKSQgWCFhVkogYqIo+IR5PLgO4dBW3oazq2FjgOCwjxcHG1WH70aAbkDqKtJGN4TNPQ9ycq0aWIdm7bFAviStxWfFkuVe0cUMwEj0IX/CgFPWUKJyNdDrQepiCfOOFB2HQ6n1iYcYjwA+RPVx1pU9M+kPcxIxnMk36YXN+zY7o0rMW++upEZd+iqjNxP/TPPwS1NEqMYjnnZx1r935Me0jrqxdmKJPF1CVmK+mZLcwMDt27pPtxctX+mkMG+qFjNLxYmoEFn3AzEXTmzByCjmPY7g82uUf8CEuXkr3ObeGx7p3OrVka3SBRb1wGzFK3QJMlK+GfaaQ8lA8mArUmgbrFUuAF3pcwUduWdGzC1Tw4vh7OJYuhModiiIl/h5lqQZEesfFgZ5uhGRxiRiFWz8wIcJR8MiS9dWF8duNCsmJ+mcbcyNF02iLo7VqH5lSqLZUsg6Tr6/f/tcarWxq6dzxKaunvk8ViQS8WesteHuuVml6sldeTYX93NDa1MyaDc6jt0T21jUEQunkMRqjU1d1n3bth51Yq631vf7w/h70aV9m1UC0tAVU/KGaZ0+Aa0q+uryVPKn3u0SvNR2IW5Of1ammlWrUTz0zCG5x7rncwX61Wnk+W92dHe5nazqMqDnq2PzIT8tfXW1jXXVzytYnA+IDqeF49AWdenssSHnT7odY+RkVi57YuX3v7SvLFFLMfDg1btqlaa0a/65Ln9AJ6vO8P/f3FR2gBZV+lFnnFgaaPEGqk+c8e9B+MZpgXXxMAAA==
+      PublicBukkitValues: |-
+        {
+            "minecraft:anarchia": "1b811e71-fb8a-4497-8f43-7ff5daaf1244",
+            "minecraft:costume": 9
+        }
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 245
+        BLUE: 127
+        GREEN: 144
+  z1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[" "]}'
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: b04db65c-c144-4c45-badf-7077901d6613
+        name: 0rzelMain89
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTc2MDc5MTgwOTA2NiwKICAicHJvZmlsZUlkIiA6ICJiMDRkYjY1Y2MxNDQ0YzQ1YmFkZjcwNzc5MDFkNjYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICIwcnplbE1haW44OSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NTcwNjkxMjQ4YmUzNzM0YjBmNTc0OTY4MjNkYTcyY2M2OWY4YWI2ZDg0MGE3ZjUxOWM5ZDgyYjc3MjhhZWVkIgogICAgfQogIH0KfQ==
+            signature: LJ6+oEQTvjSZ+su0OhW/RCZuN+p7ZuL/h9DWXVjjznfuXcmV2+0BZIY0vJMR3jqyINZgAF+bPrV94b/G9TFCE21UevxDuGmdwlRelvvdx17AKdZWOHBL5s8eDMQytjzBfbZsQzQcUlAI+frySNC9lyqfXBzwdV/NmtNB6PNjGDuA0rCPZSfgQnky4fjNl/NE5GEduHwMMBFxWKmSTnRu0CqFCvbVCIssntTAvsfM4sNxqHOuX84VFe5jnw7rdfgat6M/k0Tc4SZuUUFqK/yypJ/l6B9ie61UAuTK4I9thrOMCeA1WUf7dx7nKsHvryf3RpSqxFFxUmSQBJR/TQkpPz5HuL5Rds99R34SSLpMFGc//8wSWj/tKGKv8JB3IsTppEaA7j4DyAiGxY6u+gncOgbLQ2f7h8lQUcciHLjBhd3ol2o8GyPSW0WJrx63sTZ9dbc6f+GyGoHfZC+PTlRHs1q2mK06gZyn4jHdUGGpjUWpM9ayf4IKWsF1ui5+IfIhz4tI0votNR5ULeXE/dYVb3T6gRU3m+KO9/Nu8v9VylI0w90oXmNml/YtU4PkX0J+ZwzkgkK0x3Np1GSm/b63P7YhVrqJt7AMgWfmdnxUB9Rfg32NEGxfwhsQ/ec/Nhw2J8i3OrduFj6VkcUhk7+NVm+FtK/bz2TqwJ0d/rigalk=
+  z2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 231
+        BLUE: 63
+        GREEN: 198
+  z3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 231
+        BLUE: 63
+        GREEN: 198
+  z4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 231
+        BLUE: 63
+        GREEN: 198
+  k1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[" "]}'
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: b04db65c-c144-4c45-badf-7077901d6613
+        name: 0rzelMain89
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTc2MDc5MTkwMDIzMywKICAicHJvZmlsZUlkIiA6ICJiMDRkYjY1Y2MxNDQ0YzQ1YmFkZjcwNzc5MDFkNjYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICIwcnplbE1haW44OSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lZjk4MzM3YjgyNDIyMjlkOTVkYTIzMDkwNzU1Nzg5Nzc4YjE4YmY1ZDA3ZDYxZjYyMGNkYmRiYmQyOWZhNjE1IgogICAgfQogIH0KfQ==
+            signature: ILd6sEHvSePtjD9HeRAk9zr7gWQumtHcvt9XPqgRyKIMnfacX8rseQq4So1+zIzopG3JT8tpYTHEH8aQdugxEmEW/ViVCNBcr/yFsMk7zEoEdfe5Fv8IGJZpnteoxuBuo4jepeJUvUxVXUwi2a78ylWvY9sZKIty8NTJ42/gO9bkUy1s1nKoRHbaqsMjRtpYwpsOC1XS6vekHPAXmgF+x1J+gAZJbT6PyV/tXs+kDjqFjCoE1zlAPiwn7Iyq+cqFjV7bIk6mJGLjSIYAAfsZzHEUo1i/n+XqCUcx3xriCgm6kO3BiN4TcWzhkDEPqU+wBSfLGdYNeB+w/dIFnW3IXOpc+vczq9gxJu9quQM4+NbT0mw3/xwrtqIyHlCeYDfRi8Nw4CEkrVL///fqpJq67KFjhfTN9c5+mWPaR1YzzWf2/L13A61nw7PTU5KcYKmionjNcoN+k/va6eYF/xFB2N1nKEVh9loGw7AWcU+aFe/p0P5NjhsSHEZeDxppbVhRZMtMCNZQN8+KQjFhvj6FZXWQERO1ekDfBLhRo+u8OGEBv+Ry8YTiSBMvg9H7oNMEolxz5nJyy6Oyr3isbR0uA60Hsimpn9ANu+JXy2Z/klc3qWJM3sJyOn2HhbvA0gKsddtyWpGBLXz2Py2MTbBYGVtfL4xCfYe10HiKS7phPy4=
+  k2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+  k3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+  k4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+  b4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 255
+        BLUE: 0
+        GREEN: 255
+  b3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 255
+        BLUE: 0
+        GREEN: 255
+  b2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 255
+        BLUE: 0
+        GREEN: 255
+  b1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[" "]}'
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: b04db65c-c144-4c45-badf-7077901d6613
+        name: 0rzelMain89
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTc2MDc5MTk0ODkwNCwKICAicHJvZmlsZUlkIiA6ICJiMDRkYjY1Y2MxNDQ0YzQ1YmFkZjcwNzc5MDFkNjYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICIwcnplbE1haW44OSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZDQxNzA0NzliYzk3ZDhiMGI5YzhjNWNiM2E3N2JjNDIwNDA5YTQzMjFjYTJkNzIyZmY5MzdjYjA3ZTNjM2VjIgogICAgfQogIH0KfQ==
+            signature: ilzCA8M/SzBrWM3NRmsVrFR15g1CKvL7bqn/iJ17QoiQmv+Wd8yU3SpVuD4ZrstI8F0U3HlI2C5wV0QpQcmJMbX28+49uM5FOyaYQRbTxTSj0NaNxqI2DJ6Q7n0HVLv0dnjvPUAhpN/UIW5RAykV+Aap5SISgwxd9uFKmZruwJsyL6YLaqOogwy9Mz0fFnoXwqELLJlZ1SuWs7dAlF30VlwXgAT2AOhPlJF3jaGl4L3WwhJkPquekWFpDrZkXs682iFfofEjF+Q4BdWbq1ndVX8VQVQiCJ6Xu9WxWsirz+98XR/64Glu9H+7qKqUYc5vgnLohrLlRcocE1zUrHKktUwl1sx7A8cbKENPCUTjSNMjCKxkt7RRTTdkUkdq70B8SfeluBslPVF0/OUMYBQ68wHzTywQKgQds+hTPXr79HCwRLw4TWmju+NhJQJPDs7Ibm8JfoMDme4/WL9Z0TOekQIbOg8wu9Y4xegwR6yrTuzQl6HB8DzpXJH3ULDXR9bruUxQaf2+hEEL7RgAobr+INgczHWwaFI/WlsQyAlsJl1sOSJDUchH5WwrXpgZl9aCCjHJn1iqy386uPWfaVwotfwz5IHfZJQIB2xoTYgRY9nmuhADkXM8Y2KS9/4rhcQ1YQ8SzcsiPOkzAIoBTswqt9VKnY/uIOu3mo8w2mQRkg0=
+  p4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:costume-duration": 86400000L,
+            "ocode-anarchialocker:costume-name": "pirata"
+        }
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 102
+        BLUE: 57
+        GREEN: 57
+  p3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:costume-duration": 86400000L,
+            "ocode-anarchialocker:costume-name": "pirata"
+        }
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 102
+        BLUE: 57
+        GREEN: 57
+  p2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:costume-duration": 86400000L,
+            "ocode-anarchialocker:costume-name": "pirata"
+        }
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 102
+        BLUE: 57
+        GREEN: 57
+  p1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[" "]}'
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: b04db65c-c144-4c45-badf-7077901d6613
+        name: 0rzelMain89
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTc2MDc5MjA4MjQ1OSwKICAicHJvZmlsZUlkIiA6ICJiMDRkYjY1Y2MxNDQ0YzQ1YmFkZjcwNzc5MDFkNjYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICIwcnplbE1haW44OSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zYTUxMzNjMWU0MDA4NDI1YWRiMTQ1MGViOGY2ZThiNmE0ZGI0NjU5MjU5ZGYyM2VhZDc4NzQyNTZmOGNiYzQ3IgogICAgfQogIH0KfQ==
+            signature: ZEh1/2RpQZHvlRgOu49eB4cxrmWn8DQ5T1nmoQmrYhupYLK6MOLAfqbDvYwvDoYPagHnfAXZOfTvvitG/eKyuUFNumL8TqR32t2ka3WUJJiviCaM7W3ZG7rh605YRpNTxcUEA8FXBf+e9pBBCbua1jwSnw685SNezNdUF3ytUykUI/Q9YbN7Y0xmhYibJ1T5UT3H42aBgtQzXSd7Fqam1Bpl4IvWS+ldB9h3krZhFyROy8Er1JvAbDDoV8bQ0eIskjJVZYtcJAeiBobskuy6CHhgCOrLdhJMdcMC32PCrJO9d1EfWpqiDQX/hLO7/ajcFAnduZvxxWPiq1BZB3a34tSgM1SOKB+pDOTR1UBZ0s1D+1ZlApjlCaU8/MavNOHt0n3qYT4GUcc7BF8WbCo0KM03C+yLIIoZ92DjCzLlE20shTtQc0gzuELEeeAQ0jbYo/n5SHITjdlJ09Hb0IfTU4I1dUKi5Ffm5fZUk55rs/uGRitC+MgxxIBNWIwCHtzftJ3PaHKPyIy/EZbVad57mCwI/4a8z1LKawVRSA6KHwNDM3ntLmjxJulE/1ySHmLVrPs8C7RdxrLAM7VQajH4JY95U2vJ8QbaGWxaLxoPdCYTyxXYPnjDaEBnTygoLH5OHm/G64ppt0izv3kZb/v3WYqigydiYPCv8DD9ToH2WgM=
+  m4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 29
+        BLUE: 33
+        GREEN: 29
+  m3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 249
+        BLUE: 254
+        GREEN: 255
+  m2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 29
+        BLUE: 33
+        GREEN: 29
+  m1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      internal: H4sIAAAAAAAA/+NiYOBg4AzOLs3JKbbydGFgNTQ0NjBkAABsg83+FwAAAA==
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 1fb8e4d9-9e9a-3a65-a044-e36185ad9d27
+        name: XSeries
+        properties:
+          - name: XSeries
+            value: 13.0.0
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjUxMmE3ZWI2ZDMxNmU2NDNmMWViM2FhMDU1NDAxMDQ1ZmE3NDA4NmZiOGMzMmFiZWNhMmFhMzVhMTE3OWIifX19
+  n1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[" "]}'
+      internal: H4sIAAAAAAAA/+NiYOBg4AzOLs3JKbbydGFgNTU1MjZiAABF7QsBFwAAAA==
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 9d7f3bd1-ac33-37ed-828e-6e9251ba44f2
+        name: XSeries
+        properties:
+          - name: XSeries
+            value: 13.0.0
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjc2OTgxN2MzMmVjNGIwZDNiM2NkYzUwOGE0ZDZjOGExOTFhMjUyMzA2MzRkMWYwMGU1N2E3NzRkNGNiODhhOCJ9fX0=
+  n2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      Unbreakable: true
+      internal: H4sIAAAAAAAA/81Yz2sbRxQe1S6x1V6aQyG3yZJAS6WwWklJvKcQ4hCoWwxpEtpSzNvZJ2k0qxl3djab3SQQQkr+hBIMPRd6zDE5pdKxp55a6F/Rc6EjRbEs115HagTSRT923rz5vu/t996qTEiZnLl99cG2VkYxFdV2PHen+ZUavdfL5PR2EkScXU2E4OY2RAnGa+R0j0tkGlrGBwmadTiQc/XQ8zaaG1D1aqxWbVy+2KgGzSCsNhvgNV2vFrLAWyEfTUKZik3SQ0LIKbJOPtyUrAPS9FCamAxfJfLBLRloBAFBhKUyORXyeDeCbI2sfgk28Lf7Dt4zGhz/2/uOPbvSju+0NWROxUlkiDqyuULHb0EUY8UxdrFd8LlNy5MetYsCFU0ux0ZzgaajVdLu7P+qglYSMzAH9uEGLCPjrw8rk9TwfQLOfh6ZaAG0PXjcfxZwqVJsK+dw8Hf7q52H62R1S2lcs8g/Jj8dBS0ELXZOxHdLcgFGpUBT1HEXzr4joAfPSv6Yi/pvLPUweEyVpGkWgsxoSu0mgnFcgBxphxuc6DHMqHOUHAplIP2joL3Z63hsqS1TlnWllZl6rtd893jG9I7zXShG8Z7jkF/mEulazvvPBKcGewndtYyFPW69IeVUGZ1nPYjzBVRUqTof7cm42rMFFNA04WnWjvo/hFRpyOl/yD++7nCXM/G6wN8yU6BkEmfF+p6Z0OVQZ+rSj3PJvsXtvUlHqX99nvqLkLg8debKrMb26sXCNb45tKeMYguFKRRs2urjPAuEGuwxTgOObbAeQ71i/f5aei62lW0g3SGohIb2swqzsQMkXRx5QAG834+DdyIypmgXBB/sUZZDvPAubc/DukhDjFpcFneG0uoSajZKPQ3ps7p7fga3UYGGwUscPLHN2IqccyyW9u9lZUHblRMSGjNQEKNmc9vtn/9rCrVdBQZ7kqO/+AnI86o1rzocTiq0tuF7db9xsRj2z0djQ5TF4CIuJO/a6QHSrFehEGQ0t86qBi+z/tOFDKTDeeefJazM6UK7k9kmm3I7As8wQGxGeBellCiK7enC0sO3RZ8X99VD0M/VLzdFYcBBbOOgT4ZRFdd1Py3ma23p+RqXi5JqFtI8d3Kbe65fv+TXLp34sFC6spRsvHaaQ7byFvUwFbe1eefrL4q7wdT6N4Ylkl3efzp5BjpbyOIKeX+0HyGPCFkh6zd4iNcjaA//zEBC/gXUWVcdahEAAA==
+      PublicBukkitValues: |-
+        {
+            "minecraft:anarchia": "3d22959a-21c1-4864-b5bd-54a25021dcb2",
+            "minecraft:costume": 7
+        }
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 0
+        BLUE: 0
+        GREEN: 128
+  n3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      Unbreakable: true
+      internal: H4sIAAAAAAAA/81Yz2sbRxQe1S6x1V6aQyG3yZJAS6WwWklJvKcQ4hCoWwxpEtpSzNvZJ2k0qxl3djab3SQQQkr+hBIMPRd6zDE5pdKxp55a6F/Rc6EjRbEs115HagTSRT923rz5vu/t996qTEiZnLl99cG2VkYxFdV2PHen+ZUavdfL5PR2EkScXU2E4OY2RAnGa+R0j0tkGlrGBwmadTiQc/XQ8zaaG1D1aqxWbVy+2KgGzSCsNhvgNV2vFrLAWyEfTUKZik3SQ0LIKbJOPtyUrAPS9FCamAxfJfLBLRloBAFBhKUyORXyeDeCbI2sfgk28Lf7Dt4zGhz/2/uOPbvSju+0NWROxUlkiDqyuULHb0EUY8UxdrFd8LlNy5MetYsCFU0ux0ZzgaajVdLu7P+qglYSMzAH9uEGLCPjrw8rk9TwfQLOfh6ZaAG0PXjcfxZwqVJsK+dw8Hf7q52H62R1S2lcs8g/Jj8dBS0ELXZOxHdLcgFGpUBT1HEXzr4joAfPSv6Yi/pvLPUweEyVpGkWgsxoSu0mgnFcgBxphxuc6DHMqHOUHAplIP2joL3Z63hsqS1TlnWllZl6rtd893jG9I7zXShG8Z7jkF/mEulazvvPBKcGewndtYyFPW69IeVUGZ1nPYjzBVRUqTof7cm42rMFFNA04WnWjvo/hFRpyOl/yD++7nCXM/G6wN8yU6BkEmfF+p6Z0OVQZ+rSj3PJvsXtvUlHqX99nvqLkLg8debKrMb26sXCNb45tKeMYguFKRRs2urjPAuEGuwxTgOObbAeQ71i/f5aei62lW0g3SGohIb2swqzsQMkXRx5QAG834+DdyIypmgXBB/sUZZDvPAubc/DukhDjFpcFneG0uoSajZKPQ3ps7p7fga3UYGGwUscPLHN2IqccyyW9u9lZUHblRMSGjNQEKNmc9vtn/9rCrVdBQZ7kqO/+AnI86o1rzocTiq0tuF7db9xsRj2z0djQ5TF4CIuJO/a6QHSrFehEGQ0t86qBi+z/tOFDKTDeeefJazM6UK7k9kmm3I7As8wQGxGeBellCiK7enC0sO3RZ8X99VD0M/VLzdFYcBBbOOgT4ZRFdd1Py3ma23p+RqXi5JqFtI8d3Kbe65fv+TXLp34sFC6spRsvHaaQ7byFvUwFbe1eefrL4q7wdT6N4Ylkl3efzp5BjpbyOIKeX+0HyGPCFkh6zd4iNcjaA//zEBC/gXUWVcdahEAAA==
+      PublicBukkitValues: |-
+        {
+            "minecraft:anarchia": "3d22959a-21c1-4864-b5bd-54a25021dcb2",
+            "minecraft:costume": 7
+        }
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 0
+        BLUE: 0
+        GREEN: 128
+  n4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      Unbreakable: true
+      internal: H4sIAAAAAAAA/81Yz2sbRxQe1S6x1V6aQyG3yZJAS6WwWklJvKcQ4hCoWwxpEtpSzNvZJ2k0qxl3djab3SQQQkr+hBIMPRd6zDE5pdKxp55a6F/Rc6EjRbEs115HagTSRT923rz5vu/t996qTEiZnLl99cG2VkYxFdV2PHen+ZUavdfL5PR2EkScXU2E4OY2RAnGa+R0j0tkGlrGBwmadTiQc/XQ8zaaG1D1aqxWbVy+2KgGzSCsNhvgNV2vFrLAWyEfTUKZik3SQ0LIKbJOPtyUrAPS9FCamAxfJfLBLRloBAFBhKUyORXyeDeCbI2sfgk28Lf7Dt4zGhz/2/uOPbvSju+0NWROxUlkiDqyuULHb0EUY8UxdrFd8LlNy5MetYsCFU0ux0ZzgaajVdLu7P+qglYSMzAH9uEGLCPjrw8rk9TwfQLOfh6ZaAG0PXjcfxZwqVJsK+dw8Hf7q52H62R1S2lcs8g/Jj8dBS0ELXZOxHdLcgFGpUBT1HEXzr4joAfPSv6Yi/pvLPUweEyVpGkWgsxoSu0mgnFcgBxphxuc6DHMqHOUHAplIP2joL3Z63hsqS1TlnWllZl6rtd893jG9I7zXShG8Z7jkF/mEulazvvPBKcGewndtYyFPW69IeVUGZ1nPYjzBVRUqTof7cm42rMFFNA04WnWjvo/hFRpyOl/yD++7nCXM/G6wN8yU6BkEmfF+p6Z0OVQZ+rSj3PJvsXtvUlHqX99nvqLkLg8debKrMb26sXCNb45tKeMYguFKRRs2urjPAuEGuwxTgOObbAeQ71i/f5aei62lW0g3SGohIb2swqzsQMkXRx5QAG834+DdyIypmgXBB/sUZZDvPAubc/DukhDjFpcFneG0uoSajZKPQ3ps7p7fga3UYGGwUscPLHN2IqccyyW9u9lZUHblRMSGjNQEKNmc9vtn/9rCrVdBQZ7kqO/+AnI86o1rzocTiq0tuF7db9xsRj2z0djQ5TF4CIuJO/a6QHSrFehEGQ0t86qBi+z/tOFDKTDeeefJazM6UK7k9kmm3I7As8wQGxGeBellCiK7enC0sO3RZ8X99VD0M/VLzdFYcBBbOOgT4ZRFdd1Py3ma23p+RqXi5JqFtI8d3Kbe65fv+TXLp34sFC6spRsvHaaQ7byFvUwFbe1eefrL4q7wdT6N4Ylkl3efzp5BjpbyOIKeX+0HyGPCFkh6zd4iNcjaA//zEBC/gXUWVcdahEAAA==
+      PublicBukkitValues: |-
+        {
+            "minecraft:anarchia": "3d22959a-21c1-4864-b5bd-54a25021dcb2",
+            "minecraft:costume": 7
+        }
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 0
+        BLUE: 0
+        GREEN: 128
+  mk1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      internal: H4sIAAAAAAAA/+NiYOBg4AzOLs3JKbbydGFgNbE0NDdmAACS5QADFwAAAA==
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 812e2d62-0943-30da-a60b-a98a8dd03102
+        name: XSeries
+        properties:
+          - name: XSeries
+            value: 13.0.0
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzYyZjlmMmQ1ZDUyYTQyYzIxY2Q0Y2Y5ZGQ1ZDE5YjgwNDdiOTIwODdmY2I4ZjZjNmM3ODEzMWQ5ZWNkOWNkMSJ9fX0=
+  mk2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 176
+        BLUE: 38
+        GREEN: 46
+  mk3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 176
+        BLUE: 38
+        GREEN: 46
+  mk4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 131
+        BLUE: 50
+        GREEN: 84
+  o1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      internal: H4sIAAAAAAAA/+NiYOBg4AzOLs3JKbbydGFgNbE0NDNnAAChSq5mFwAAAA==
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: f41d9eb3-e492-3154-9507-8fd5d8490048
+        name: XSeries
+        properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVmNWI4NDdmZjQ1M2Y0NTI1NTBmNTMzNWFmNmJlNjAwY2JhNmRiYmIyOWZiYjI2NDc1YTIwMGVmZjc3YzEyOCJ9fX0=
+          - name: XSeries
+            value: 13.0.0
+  o2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 109
+        BLUE: 187
+        GREEN: 171
+  o3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 109
+        BLUE: 187
+        GREEN: 171
+  o4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: COLORABLE_ARMOR
+      display-name: '{"text":"","extra":[" "]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 109
+        BLUE: 187
+        GREEN: 171
+  ninja-helmet:
+    material: PLAYER_HEAD
+    head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ4MTFlOWQxYzBlNTQyNDEwYWFiNDQ4ZDM4M2ExNDI1ZGU5NzhhOGVkNzQyYmY2ZjIyNThmZmQ5MzdjOTQ5MCJ9fX0=
+    name: ' '
+  ninja-chest:
+    material: LEATHER_CHESTPLATE
+    name: ' '
+  ninja-legs:
+    material: LEATHER_LEGGINGS
+    name: ' '
+  ninja-boots:
+    material: LEATHER_BOOTS
+    name: ' '
+  goat-helmet:
+    material: PLAYER_HEAD
+    head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQxN2YzZGFiMDFiYWRmZGU3MDU2ZGJmMDhjMmYxYjRkOTJlZDIzY2ViNjEzY2FiNDViOGM3YzUyOTRmOGUwOSJ9fX0=
+    name: ' '
+  goat-chest:
+    material: LEATHER_CHESTPLATE
+    name: ' '
+  goat-legs:
+    material: LEATHER_LEGGINGS
+    name: ' '
+  goat-boots:
+    material: LEATHER_BOOTS
+    name: ' '

@@ -1,0 +1,17 @@
+enabled: true
+
+itemName: "&x&8&A&F&F&0&0&lᴄ&x&8&4&F&3&0&2&lᴢ&x&7&E&E&7&0&3&lᴇ&x&7&9&D&B&0&5&lᴋ &x&6&D&C&3&0&8&lᴘ&x&6&7&B&7&0&9&lɪ&x&6&C&C&1&0&8&lᴇ&x&7&1&C&C&0&6&lɴ&x&7&6&D&6&0&5&lɪ&x&7&B&E&0&0&4&lᴇ&x&8&0&E&A&0&3&lᴢ&x&8&5&F&5&0&1&lɴ&x&8&A&F&F&0&0&lʏ"
+itemMaterial: "PAPER"
+itemLore:
+  - ""
+  - "&8 » &fWartość czeku wynosi &2$${AMOUNT}"
+  - ""
+  - "&8 » &aKliknij &2PPM &aaby wpłacić czek!"
+
+messageCreated: "&#00FF3B✔ &8Ξ &#4EFA76Stworzono czek o wartości &e$${AMOUNT}&a!"
+messageDeposited: "&#00FF3B✔ &8Ξ &#4EFA76Wpłacono czek o wartości &e$${AMOUNT}&a na konto!"
+messageInvalidAmount: "&#FF0000✘ &8Ξ &cPodaj poprawną kwotę czeku!"
+messageNotEnoughMoney: "&#FF0000✘ &8Ξ &cNie posiadasz wystarczająco pieniędzy!"
+messageInventoryFull: "&#FF0000✘ &8Ξ &cTwój ekwipunek jest pełny!"
+messageError: "&#FF0000✘ &8Ξ &cWystąpił błąd podczas przetwarzania czeku!"
+messageReloaded: "&#00FF3B✔ &8Ξ &#4EFA76Pomyślnie przeładowano konfigurację czeków!"

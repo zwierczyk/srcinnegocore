@@ -1,0 +1,26 @@
+permissions:
+  send: holly.cmd.helpop
+  view: holly.cmd.helpop.view
+  reload: holly.cmd.helpop.reload
+  bypass-cooldown: holly.cmd.helpop.bypass
+
+cooldown-seconds: 10
+console-name: Konsola
+console-location: Konsola
+
+message-lines:
+  - '&#FF3D3D&lHELPOP &8| &7Nowe zgloszenie od &f{player}'
+  - '&8> &7Wiadomosc: &f{message}'
+
+sound:
+  enabled: true
+  name: BLOCK_NOTE_BLOCK_PLING
+  volume: 0.8
+  pitch: 1.2
+
+messages:
+  no-permission: '&#FF0000✘ &8Ξ &cNie posiadasz dostępu do &#FF0000/helpop &8(&4holly.cmd.helpop&8)'
+  cooldown: '&8[&#FF3D3D&lHELPOP&8] &cOdczekaj jeszcze &#FFB347{time}s &cprzed kolejnym zgloszeniem.'
+  sent: '&8[&#32D583&lHELPOP&8] &aWyslano zgloszenie do administracji.'
+  sent-no-admins: '&8[&#FF3D3D&lHELPOP&8] &cWyslano zgloszenie, ale zaden administrator nie jest online.'
+  reload: '&8[&#32D583&lHELPOP&8] &aPrzeladowano helpop.yml.'

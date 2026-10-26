@@ -1,0 +1,10 @@
+discord-link: https://dc.hollyservice.pl
+message-lines:
+- ''
+- '  &b&lDISCORD &8» &fDołącz do naszego Discorda!'
+- ''
+- '  &7Link: &a&n{link}'
+- ''
+- '  &8↳ &eTutaj odbierzesz nagrodę!'
+- ''
+reload-message: '&#00FF3B✔ &8Ξ &#4EFA76Przeładowano konfigurację komendy Discord!'

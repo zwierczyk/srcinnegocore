@@ -1,0 +1,52 @@
+# Addon mslf-szczesciarz — kopia zmianek (koniczynka = losowanie %)
+zmianki:
+  damage-multiplier: 0.3
+  item:
+    name: '&f\uE01F'
+    lore:
+    - ''
+    - '&8✕ &#7CFC7CKoniczynka szczęścia'
+    - '&8✕ &7PPM &8→ &fotwórz kowadło'
+    - ''
+    - '&8✕ &#E05454-10% &8· &#4EFA76+60%'
+    type: AMETHYST_SHARD
+    custom-model-data: 1
+  gui:
+    title: ' &8▶ &#7CFC7Cꜱᴢᴄᴢᴇꜱᴄɪᴀʀᴢ &8· &fᴍɪᴇᴄᴢ &8◀'
+    size: 27
+    apply-item:
+      type: AMETHYST_SHARD
+      name: '&#7CFC7C&lᴋᴏɴɪᴄᴢʏɴᴋᴀ'
+      lore:
+      - ''
+      - '&8✕ &#E05454Trwałe &7przebonowanie miecza'
+      - ''
+      - '&8✕ &7Koszt &8· &#7CFC7C1× koniczynka'
+      - '&8✕ &7Zakres &8· &#E05454-10% &8– &#4EFA76+60%'
+      - ''
+      - '&8✕ &#A8A8A820–26 &8· &7częste'
+      - '&8✕ &#E0A02030–36 &8· &7ciężkie'
+      - '&8✕ &#B7000037+ &8· &7prawie nigdy'
+      - ''
+      - '&8✕ &#4EFA76Kliknij, aby wylosować'
+      slot: 11
+      custom-model-data: 1
+    main-slot:
+      type: PAPER
+      name: '&6&lᴡʏʙɪᴇʀᴢ ᴍɪᴇᴄᴢ'
+      lore:
+      - ''
+      - '&8✕ &7Wybierz &fdiamentowy &7lub'
+      - '&8✕ &8netherytowy &7miecz z EQ'
+      - ''
+      slot: 13
+      custom-model-data: 0
+    close-button:
+      type: BARRIER
+      name: '&c&lᴢᴀᴍᴋɴɪᴊ'
+      lore:
+      - ''
+      - '&8✕ &7Zamknij menu'
+      - ''
+      slot: 15
+      custom-model-data: 0

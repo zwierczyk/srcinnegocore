@@ -1,0 +1,13 @@
+enabled: true
+disableAllMessages: false
+hideDefault: true
+broadcastJoinQuit: false
+joinMessage: ''
+quitMessage: ''
+firstJoinMessage: '&8[&6★&8] &eGracz &f{player} &edołączył po raz pierwszy!'
+firstJoinEnabled: false
+joinTitle: ''
+joinSubtitle: ''
+titleFadeIn: 10
+titleStay: 40
+titleFadeOut: 20

@@ -1,0 +1,19 @@
+title:
+  main: '&c&lOGŁOSZENIE'
+  player-main: '&eWiadomość od: &f{from}'
+  fade-in-ms: 250
+  stay-ms: 3500
+  fade-out-ms: 600
+sound: BLOCK_NOTE_BLOCK_CHIME
+sound-volume: 0.35
+sound-pitch: 1.15
+sound-attention: BLOCK_NOTE_BLOCK_PLING
+sound-attention-volume: 0.2
+sound-attention-pitch: 1.45
+chat:
+  format: '&#FF3D3D&lOGŁOSZENIE &8» &f{message}'
+messages:
+  success: '&#00FF3B✔ &8Ξ &#4EFA76Wysłano ogłoszenie do wszystkich graczy!'
+  success-chat: '&#00FF3B✔ &8Ξ &#4EFA76Wysłano ogłoszenie na chat do wszystkich graczy!'
+  success-player: '&#00FF3B✔ &8Ξ &#4EFA76Wysłano ogłoszenie do gracza &f{player}&a.'
+  reload: '&#00FF3B✔ &8Ξ &#4EFA76Przeładowano broadcast-title.yml.'

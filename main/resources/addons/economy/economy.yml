@@ -1,0 +1,5 @@
+starting-balance: 100.0
+currency-name-singular: dolar
+currency-name-plural: dolarów
+currency-symbol: $
+money-format: '#,##0.00'

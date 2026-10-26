@@ -1,0 +1,93 @@
+enabled: true
+
+mongo:
+  collection: discord_rewards
+
+gui:
+  title: '&7Nagroda Discord'
+  size: 45
+
+status:
+  available: '&aDostępna'
+  claimed: '&cOdebrana'
+
+messages:
+  menuDisabled: '&cNagroda Discord jest aktualnie wyłączona.'
+  linkMessage: '&bKliknij tutaj, aby wejść na Discord: &f{LINK}'
+  minecraftClick:
+    - '&#00E0FFℹ &8Ξ &fWejdź na Discorda i odbierz nagrodę na kanale &b#nagroda&f.'
+    - '&#00E0FFℹ &8Ξ &fLink: &bdc.masakra.gg'
+
+reward:
+  slot: 22
+  displayName: '&#0079FF&lᴅ&#1986FF&lɪ&#3294FF&lꜱ&#4BA1FF&lᴄ&#3294FF&lᴏ&#1986FF&lʀ&#0079FF&lᴅ'
+  reward: DISCORD
+  link: 'https://discord.gg/fRmxkKWmeG'
+  verificationTime: 60
+  clickable: false
+  head: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzM5ZWU3MTU0OTc5YjNmODc3MzVhMWM4YWMwODc4MTRiNzkyOGQwNTc2YTI2OTViYTAxZWQ2MTYzMTk0MjA0NSJ9fX0='
+  itemStack:
+    material: PLAYER_HEAD
+    displayName: '&x&0&0&7&9&F&F&lᴅ&x&1&9&8&6&F&F&lɪ&x&3&2&9&4&F&F&lꜱ&x&4&B&A&1&F&F&lᴄ&x&3&2&9&4&F&F&lᴏ&x&1&9&8&6&F&F&lʀ&x&0&0&7&9&F&F&lᴅ'
+    lore:
+      - '&8'
+      - '&8● &x&F&F&F&F&F&FDołącz na nasz serwer Discord i zgarnij nagrodę!'
+      - '&8'
+      - '&8► &x&9&E&A&7&B&3Wejdź na &fdc.masakra.gg&f'
+      - '&8► &x&9&E&A&7&B&3Zweryfikuj się i przejdź na kanał &f#nagroda'
+      - '&8► &x&9&E&A&7&B&3Postępuj zgodnie z &finstrukcją &x&9&E&A&7&B&3na kanale.'
+      - '&8'
+      - '&8► &x&F&F&D&D&5&7Nagroda zostanie dostarczona pod &6/odbierz'
+      - '&8'
+      - '&8✸ &fStatus: {STATUS}'
+      - '&8'
+  commands:
+    - 'odbierz give {PLAYER} skarbow 4'
+
+bot:
+  enabled: true
+  token: ''
+  guildId: ''
+  commandName: 'nagroda-nazwatrybu'
+  panelPermission: MANAGE_SERVER
+  rewardOptionValue: '2'
+  selectionCooldownSeconds: 60
+  rewardMessageConfig:
+    embedTitle: 'Nagrody'
+    embedColorHex: '#00FFFF'
+    embedImageUrl: ''
+    embedFields:
+      - name: 'DARMOWA NAGRODA'
+        value: '● Rozwiń listę poniżej, aby wybrać tryb, na który chcesz odebrać darmową nagrodę ↓'
+        inline: false
+      - name: 'JAK ODEBRAĆ?'
+        value: 'Po odebraniu nagrody wystarczy wpisać **/odbierz**!'
+        inline: false
+    selectMenuId: reward_options
+    selectMenuPlaceholder: 'Wybierz serwer!'
+    selectMenuOptions:
+      - label: 'Rapy LifeSteal Practice'
+        value: '2'
+        description: 'Odbierz nagrodę na tryb Rapy LifeSteal Practice'
+        emoji:
+          name: Sword_Golden
+          id: '1273331402439655538'
+          animated: false
+      - label: 'puste pole!'
+        value: '2137'
+    modalId: reward_skypvp_modal
+    modalTitle: 'Nagroda'
+    modalInputs:
+      - id: nick1
+        label: 'Podaj Swój nick'
+        style: SHORT
+      - id: nick2
+        label: 'Potwierdź swój nick (wpisz ponownie)'
+        style: SHORT
+    cooldownMessage: 'Musisz chwilę poczekać przed ponownym wyborem nagrody.'
+    rewardTypeErrorMessage: 'Problem z nazwą nagrody...'
+    nickMismatchMessage: 'Podane nicki nie są takie same!'
+    rewardAlreadyClaimed: 'Odebrales juz nagrode...'
+    playerNoFound: 'Nie znajdujesz sie na serwerze!'
+    successMessage: 'Nagroda została nadana. Wpisz /odbierz na serwerze.'
+    noPermissionMessage: '&#FF0000✘ &8Ξ &cNie posiadasz dostępu do &#FF0000/nagroda reload &8(&4Holly.cmd.nagroda.reload&8)'

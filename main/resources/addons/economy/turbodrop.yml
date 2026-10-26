@@ -1,0 +1,13 @@
+bossbar:
+  title: "&7Aktualnie trwa event &bTurboDrop &3x{MULTIPLIER}&7, jeszcze przez &b{TIME} &7⌚"
+  color: BLUE
+  style: SOLID
+
+messages:
+  start-sender: "&#00FF3B✔ &8Ξ &#4EFA76Pomyślnie uruchomiono event &bTurboDrop &3x{MULTIPLIER} &#4EFA76na czas &b{TIME}&a!"
+  start-broadcast: "&#00E0FFℹ &8Ξ &fUruchomiono event &bTurboDrop &3x{MULTIPLIER} &fna czas &b{TIME}&f!"
+  stop-sender: "&#00FF3B✔ &8Ξ &#4EFA76Pomyślnie zatrzymano event &bTurboDrop&a."
+  stop-broadcast: "&#FF0000✘ &8Ξ &cEvent &bTurboDrop &czostał zatrzymany przez administratora!"
+  end-broadcast: "&#FF0000✘ &8Ξ &cEvent &bTurboDrop &czakończył się!"
+  no-active-event: "&#FF0000✘ &8Ξ &cAktualnie nie trwa żaden event TurboDrop!"
+  reload-success: "&#00FF3B✔ &8Ξ &#4EFA76Przeładowano konfigurację &eaddons/economy/turbodrop.yml&a."

@@ -1,0 +1,12 @@
+permission: 'Holly.cmd.rozdaj'
+countdown-seconds: 5
+rozdaj-countdown-title: '&#00E0FF&lGRACZ &#FFB800{player}'
+rozdaj-countdown-subtitle: '&frozdaje eventowy klucz dla kazdego'
+rozdaj-finished-title: '&#4EFA76&lODBIERZ'
+rozdaj-finished-subtitle: '&fdostałeś eventowy kluczyk do &#00E0FF/odbierz'
+rozdaj-final-message: '&#00FF3B✔ &8Ξ &#4EFA76Gracz &e{player} &arozdał eventowe klucze dla każdego!'
+rozdaj-countdown-sound: 'BLOCK_NOTE_BLOCK_PLING'
+rozdaj-finished-sound: 'UI_TOAST_CHALLENGE_COMPLETE'
+commands:
+  - 'odbierz giveall event_key 1'
+

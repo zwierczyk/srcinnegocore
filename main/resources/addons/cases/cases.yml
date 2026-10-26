@@ -1,0 +1,5 @@
+# type: KEY - otwieranie kluczem przy skrzynce
+# type: LUCKYBLOCK - otwieranie po postawieniu itemu ustawionego jako klucz
+# name: ninjabox (lub ninja_box / ninja-box) + type: LUCKYBLOCK
+#   = custom WORLD animacja (widoczna dla wszystkich), max 1 otwarcie naraz na gracza
+cases: {}

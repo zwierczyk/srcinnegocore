@@ -1,0 +1,1265 @@
+name: HollyCore
+version: '2.0'
+main: dev.grzybalson.HollyCore
+api-version: '1.20'
+# Po światach i po pluginach z softdepend — HollyCore ma startować jako jeden z ostatnich.
+load: POSTWORLD
+softdepend:
+  - Vault
+  - PlaceholderAPI
+  - LuckPerms
+  - WorldGuard
+  - WorldEdit
+  - FastAsyncWorldEdit
+  - ViaVersion
+  - ViaBackwards
+  - ViaRewind
+  - ProtocolLib
+  - packetevents
+  - FancyNpcs
+  - FancyHolograms
+  - DecentHolograms
+  - Citizens
+  - ModelEngine
+  - MythicMobs
+  - Multiverse-Core
+  - Multiverse-Portals
+  - Essentials
+  - EssentialsX
+  - CoreProtect
+  - Nightcore
+  - ItemsAdder
+  - Oraxen
+  - Nexo
+  - HollySpoofer
+  - floodgate
+  - Geyser-Spigot
+  - spark
+  - Liberhenchman
+  - WorldBorder
+  - Chunky
+
+commands:
+  tp:
+    permission: Holly.cmd.tp
+  tpa:
+    permission: Holly.cmd.tpa
+  tphere:
+    permission: Holly.cmd.tphere
+  s:
+    permission: Holly.cmd.s
+  tpaccept:
+  tpdeny:
+  gm:
+    usage: /gm <0|1|2|3> [gracz]
+  flyspeed:
+    permission: Holly.cmd.flyspeed
+  fly:
+    permission: Holly.cmd.fly
+  bc:
+    permission: Holly.cmd.bc
+    usage: /bc title <tekst> | /bc chat <tekst> | /bc <nick> <tekst> | /bc reload
+  autotitle:
+    permission: Holly.cmd.autotitle
+    usage: /autotitle <tekst> <od HH:mm> [do HH:mm] <co ile> | /autotitle cancel
+  title:
+    permission: Holly.cmd.title.reload
+    usage: /title reload
+    aliases:
+      - titles
+  guis:
+    permission: Holly.cmd.guis.reload
+    usage: /guis reload
+  core:
+    permission: Holly.cmd.core.reload
+    usage: /core <reload|hardreset> ...
+    aliases:
+      - hollycore
+  admin:
+    permission: Holly.cmd.admin.loadnew
+    usage: /admin loadnew
+  ustawienia:
+    usage: /ustawienia
+    permission: Holly.cmd.ustawienia
+    aliases:
+      - settings
+  event:
+    usage: /event
+    permission: holly.event.use
+  skip:
+    usage: /skip
+    description: Pomin tutorial dungeona ninja
+    aliases:
+      - skipnij
+  adungeon:
+    usage: /adungeon <give|setspawn|setloc|add|addcam|tutocam|coinprize|coinreward|reward|reload>
+    aliases:
+      - admindungeon
+  piniata:
+    usage: /piniata <start|stop|setspawn|reload>
+    permission: Holly.cmd.piniata.admin
+    aliases:
+      - pinata
+  adminevent:
+    usage: /adminevent piniata <czas>
+    permission: Holly.cmd.piniata.admin
+  case:
+    permission: Holly.case.admin
+  ec:
+    permission: Holly.cmd.ec
+    description: Otwiera enderchest
+    usage: /ec
+    aliases:
+      - enderchest
+  enderchest:
+    permission: Holly.cmd.ec
+  save-all:
+    permission: Holly.cmd.itemsync.saveall
+    usage: /save-all [reload]
+    aliases:
+      - saveall
+  setspawn:
+    permission: Holly.cmd.setspawn
+  spawn:
+    permission: Holly.cmd.spawn
+  msg:
+    permission: Holly.cmd.msg
+  r:
+    permission: Holly.cmd.reply
+    aliases:
+      - reply
+  reply:
+    permission: Holly.cmd.reply
+  eco:
+    permission: Holly.cmd.eco
+  money:
+    permission: Holly.cmd.money
+    usage: /money
+  pay:
+    permission: Holly.cmd.pay
+    usage: /pay <nick> <ilość>
+  sklep:
+    permission: Holly.cmd.sklep
+  skup:
+    permission: Holly.cmd.skup
+    usage: /skup
+    aliases:
+      - sellshop
+  asklep:
+    permission: Holly.cmd.asklep
+  rynek:
+    permission: Holly.cmd.rynek
+    usage: /rynek open|gui|wystaw <cena>|reload
+    aliases:
+      - market
+      - ah
+  wystaw:
+    permission: Holly.cmd.rynek
+    usage: /wystaw [ilość] <cena>
+  amarket:
+    permission: Holly.cmd.amarket
+    aliases:
+      - arynek
+  ulepsz:
+    permission: Holly.cmd.ulepsz
+    usage: /ulepsz [remove <poziom>]
+    aliases:
+      - itemupgrader
+      - itemupgrade
+  usunlore:
+    permission: Holly.cmd.usunlore
+    usage: /usunlore <ilość>
+  skull:
+    permission: Holly.cmd.skull
+    usage: /skull <nick> [ilość]
+    aliases:
+      - glowa
+      - glowka
+      - head
+  patron:
+    permission: Holly.cmd.patron
+    usage: /patron [random|random stop|set <nazwa>|setpatron <patron> <nick>|sethead <nazwa>]
+    aliases:
+      - patroni
+      - patrony
+  armorcreate:
+    permission: Holly.cmd.armorcreate
+    usage: /armorcreate create <poziom> <cena> <startHex> <endHex> [headvalue|none] <nazwa>
+  zonebox:
+    permission: Holly.cmd.zonebox
+    usage: /zonebox add <blok> | /zonebox reload
+  blockseconomy:
+    permission: Holly.cmd.blockseconomy
+    aliases: [blockeconomy, beconomy, blockeco]
+    usage: /blockseconomy [menu|reload|set|remove]
+  drwal:
+    permission: Holly.cmd.drwal
+    usage: /drwal
+  turbodrop:
+    permission: Holly.cmd.turbodrop
+    usage: /turbodrop <mnożnik> <czas>
+  szaman:
+    usage: /szaman [reload|setshard|setperk|giveall|reset|giveshard]
+  sigil:
+    permission: Holly.cmd.sigil
+    usage: /sigil [give|giveall|reload|reset|zdejmij]
+    aliases:
+      - sigile
+  misje:
+    usage: /misje
+    aliases:
+      - misja
+      - quests
+      - quest
+  dropkeys:
+    permission: Holly.cmd.dropkeys
+    usage: /dropkeys reload
+    aliases:
+      - klucze
+  itemshop:
+    usage: /itemshop <ranga|pakiet|losowan|dungeon> ...
+    aliases:
+      - nadajitemshop
+  trade:
+    permission: Holly.cmd.trade
+    usage: /trade <gracz>
+    aliases:
+      - wymiana
+  wymiana:
+    permission: Holly.cmd.trade
+    usage: /wymiana <gracz>
+  itemstorage:
+    permission: Holly.cmd.itemstorage
+    usage: /itemstorage
+  odbierz:
+    permission: Holly.cmd.odbierz
+    usage: /odbierz [create|give|giveall|reload]
+  czek:
+    permission: Holly.cmd.czek
+    usage: /czek <ilość>
+  home:
+    permission: holly.home.use
+    aliases: [h, dom]
+    usage: /home [numer|nazwa]
+  sethome:
+    permission: holly.home.use
+    usage: /sethome [numer|nazwa]
+  delhome:
+    permission: holly.home.use
+    usage: /delhome <numer|nazwa>
+  hollyplayeraction:
+    description: Menu akcji po kliknieciu nicku na chacie (TPA)
+    usage: /hollyplayeraction <gracz>
+    permission: holly.playeraction
+  ignore:
+    permission: Holly.cmd.ignore
+  afk:
+    permission: Holly.cmd.afk.admin
+  turboafk:
+    permission: Holly.cmd.afk.admin
+    description: Wlacza turbo AFK
+    usage: /turboafk <mnoznik> <czas>
+  clearlag:
+    permission: Holly.cmd.clearlag
+  ch:
+    permission: Holly.cmd.ch
+  helpop:
+    permission: holly.cmd.helpop
+    usage: /helpop <wiadomosc> | /helpop reload
+  adminchat:
+    permission: holly.cmd.adminchat
+    usage: /adminchat <wiadomosc> | /adminchat reload
+    aliases:
+      - ac
+  rozdaj:
+    permission: Holly.cmd.rozdaj
+    usage: /rozdaj [nazwa_przedmiotu] [ilość] [czas_sekund]
+    aliases:
+      - rozdajadmin
+  rozdajadmin:
+    permission: Holly.cmd.rozdaj
+  vanish:
+    permission: Holly.cmd.vanish
+  klan:
+    permission: Holly.cmd.klan
+    usage: /klan <subkomenda>
+  restartadmin:
+    permission: Holly.cmd.restartadmin
+  kit:
+    permission: Holly.cmd.kit
+  akit:
+    permission: Holly.cmd.akit
+  tops:
+    description: Zarzadzaj topkami NPC
+    permission: Holly.tops.manage
+    usage: /tops | /tops create <typ> <pozycja> | /tops delete <id> | /tops list
+  mobs:
+    permission: Holly.cmd.mobs
+    usage: /mobs setrespawn <czas> | /mobs delete [id] | /mobs list | /mobs reload
+  osiagniecia:
+    usage: /osiagniecia
+    aliases:
+      - achievements
+      - achievement
+  aosiagniecia:
+    permission: Holly.cmd.aosiagniecia
+    usage: /aosiagniecia edit <typ> <tier>|reload
+
+  rangi:
+    permission: Holly.cmd.rangi
+    aliases:
+      - ranks
+  media:
+    permission: Holly.cmd.media
+  nadajmedia:
+    permission: Holly.cmd.nadajmedia
+    usage: /nadajmedia <minimedia|media|tworca> <nick>
+    description: Nadaje range media na 7 dni
+  warp:
+    permission: Holly.cmd.warp
+    aliases:
+      - warps
+  setwarp:
+    permission: Holly.cmd.setwarp
+  delwarp:
+    permission: Holly.cmd.delwarp
+  rtp:
+    permission: Holly.cmd.rtp
+    aliases:
+      - randomtp
+      - losowyteleport
+  sector:
+    permission: Holly.cmd.ch
+    description: Menu sektorow oraz sprawdzanie ilosci graczy
+    aliases:
+      - ch
+      - sektor
+      - sektory
+  entitylimit:
+    permission: Holly.cmd.entitylimit
+    description: Zarządzanie czyszczeniem nadmiarowych entity w chunkach
+    usage: /entitylimit <start|stop|run|status>
+  eqsee:
+    permission: Holly.cmd.eqsee
+    description: Podgląd ekwipunku i zbroi gracza
+    usage: /eqsee <nick>
+    aliases:
+      - podglad
+      - eq
+  trener:
+    permission: Holly.cmd.trener
+    aliases:
+      - coach
+      - umiejetnosci
+  adminitems:
+    permission: Holly.cmd.aitems
+    aliases:
+      - aitems
+      - msitems
+  mslf:
+    permission: Holly.cmd.mslf
+    description: GUI itemow LF Minestar
+    usage: /mslf [gui|reload|setitem <id>|resetcooldown <nick|*|all>]
+    aliases:
+      - mslfgui
+      - lfms
+  szczesciarz:
+    permission: holly.zmianki.use
+    description: GUI szczesciarza (losowanie % obrazen)
+    usage: /szczesciarz
+    aliases:
+      - mslfszczesciarz
+  aszczesciarz:
+    permission: holly.zmianki.admin
+    description: Admin szczesciarza
+    usage: /aszczesciarz give|setitem|set|reload
+  mkostiumy:
+    permission: Holly.mslfkostiumy.use
+    description: GUI kostiumow MSLF
+    usage: /mkostiumy
+    aliases:
+      - kostium
+      - kostiumy
+      - mslfkostiumy
+      - mslfkostium
+  amkostiumy:
+    permission: Holly.mslfkostiumy.admin
+    description: Admin kostiumow MSLF
+    usage: /amkostiumy
+  adminitemsclear:
+    permission: Holly.cmd.adminitemsclear
+    aliases:
+      - aitemsclear
+      - msitemsclear
+  resetujcooldown:
+    aliases:
+      - resetcooldown
+      - resetcd
+  losuj-zestaw:
+    permission: Holly.cmd.losuj-zestaw
+    aliases:
+      - randomkit
+  kod:
+    permission: Holly.cmd.kod
+  akod:
+    permission: Holly.cmd.akod
+  bossbar:
+    permission: Holly.cmd.bossbar
+  tablist:
+    permission: Holly.cmd.tablist.reload
+    usage: /tablist reload
+  incognito:
+    permission: Holly.cmd.incognito
+    usage: /incognito
+    aliases:
+      - inco
+      - ukryty
+  timer:
+    permission: Holly.cmd.timer
+  serverinfo:
+    permission: Holly.cmd.serverinfo
+    usage: /serverinfo [quick|deep|reload]
+    aliases:
+      - serwerinfo
+      - performance
+  repair:
+    permission: Holly.cmd.repair
+  automessage:
+    permission: Holly.cmd.automessage
+  autocommands:
+    permission: Holly.cmd.autocommands
+  tryb-tworca:
+    permission: hollycore.creatormode
+    aliases:
+      - creatormode
+      - trybtworcy
+  atryb-tworca:
+    permission: Holly.cmd.atryb-tworca
+    usage: /atryb-tworca <nick> <czas|off>
+    aliases:
+      - atrybtworcy
+      - agivect
+  trash:
+    permission: Holly.cmd.trash
+    aliases:
+      - kosz
+  gamma:
+    permission: Holly.cmd.gamma
+    aliases:
+      - jasnosc
+  backup:
+    permission: holly.cmd.backup.give
+  backupverify:
+    permission: holly.cmd.backup.verify
+  rollback:
+    permission: holly.cmd.rollback
+    usage: /cofka
+    aliases:
+      - cofka
+      - serverrollback
+  odbierzbackup:
+    permission: Holly.cmd.odbierzbackup
+    aliases:
+      - claimbackup
+      - odbierzbackupi
+  invsee:
+    permission: Holly.cmd.invsee
+  ecsee:
+    permission: Holly.cmd.ecsee
+  szukaj:
+    permission: Holly.cmd.szukaj
+    usage: /szukaj
+    aliases:
+      - finditem
+      - searchitem
+  lpexpire:
+    permission: Holly.cmd.lpexpire
+    usage: /lpexpire add <ranga> <czas> [nick]
+    aliases:
+      - lpexp
+  deletstats:
+    permission: Holly.cmd.deletstats
+    aliases:
+      - deletestats
+      - resetstats
+      - delstats
+  adminstats:
+    permission: Holly.cmd.adminstats
+    usage: /adminstats <set|add|remove> <points|deaths|kills> <nick> <ilosc>
+  stats:
+    permission: Holly.cmd.stats.reset
+    usage: /stats reset <*|nick>
+  resetujranking:
+    permission: Holly.cmd.resetujranking
+    description: Resetuje ranking, kille i śmierci gracza
+    usage: /resetujranking
+    aliases:
+      - resetranking
+      - resetuj-ranking
+  discord:
+    permission: Holly.cmd.discord
+    usage: /discord [reload]
+    aliases:
+      - dc
+  gracz:
+    permission: Holly.cmd.gracz
+    usage: /gracz [nick]
+    aliases:
+      - player
+  nagroda:
+    permission: Holly.cmd.nagroda
+    usage: /nagroda [reload]
+  sprawdz:
+    permission: Holly.cmd.sprawdz
+    aliases:
+      - check
+  szybkiezgloszenie:
+    permission: Holly.cmd.szybkiezgloszenie
+    description: Szybkie zgloszenie przeciwnika podczas walki
+    usage: /szybkiezgloszenie
+    aliases:
+      - fastreport
+  boss:
+    permission: Holly.cmd.boss
+    description: Zarzadzanie bossami
+    usage: /boss <reload|spawn|setlocation>
+  chat:
+    permission: Holly.cmd.chat
+  lpc:
+    permission: Holly.cmd.lpc
+    usage: /lpc reload
+  customhit:
+    permission: Holly.cmd.customhit
+    usage: /customhit reload
+    aliases:
+      - customhits
+  krzysmcitems:
+    permission: Holly.masakra.items
+    description: Menu przedmiotów eventowych Masakra
+    usage: /krzysmcitems [reload|config|give <nick> <id>]
+  flameitems:
+    permission: Holly.flamehub.items
+    description: Otwiera menu FlameHub CustomItems
+    usage: /flameitems [reload]
+    aliases:
+      - fitems
+  flamereset:
+    permission: Holly.flamehub.reset
+    description: Resetuje cooldowny FlameHub CustomItems
+    usage: /flamereset [gracz]
+    aliases:
+      - freset
+  flamereload:
+    permission: Holly.flamehub.reload
+    description: Przeładowuje konfigurację FlameHub CustomItems
+    usage: /flamereload
+    aliases:
+      - freload
+  customitems:
+    permission: Holly.customitems.admin
+    usage: /customitems [reload|resetcooldown <nick/all>|setitem <nazwa>]
+    aliases:
+      - mcustomitems
+      - oghub-customitems
+      - aitems
+      - adminitems
+  anarchiaitems:
+    usage: /anarchiaitems [gui|editgui|reload|resetujcooldown <nick/all>|setkills <ilość>]
+    permission: Holly.eventowki.gui
+  szafka:
+    permission: Holly.szafka.use
+    aliases:
+      - garderoba
+      - kostiumy
+      - pet
+      - pety
+      - kostium
+      - papuga
+      - papugi
+  aszafka:
+    permission: Holly.szafka.admin
+  kowal:
+    permission: Holly.kowal.use
+    description: Kowal — ulepszanie zbroi
+    usage: /kowal
+  akowal:
+    permission: Holly.kowal.admin
+    description: Admin kowala (kamień kowalski)
+    usage: /akowal giveshard <nick> <ilość>
+  ksiegi:
+    permission: Holly.ksiegi.admin
+  zmianki:
+    usage: /zmianki
+  azmianki:
+    usage: /azmianki give <nick> [ilość] | setitem | set <procent> | reload
+    permission: holly.zmianki.admin
+  daily:
+    permission: Holly.cmd.daily
+    aliases:
+      - codziennanagroda
+  adaily:
+    permission: Holly.cmd.daily.admin
+  portfel:
+    usage: /portfel [nick|reload]
+  aportfel:
+    permission: Holly.cmd.aportfel
+  getback:
+    permission: Holly.cmd.getback
+    usage: /getback <nick|all> [produkt|wszystko]
+    aliases:
+      - przywroczakupy
+  lobby:
+    permission: Holly.cmd.lobby
+
+  zmiankibattle:
+    usage: /zmiankibattle global <kwota> | /zmiankibattle wyzwij <nick> <kwota> | /zmiankibattle bitwa zakceptuj <nick>
+    aliases:
+      - zmianka-battle
+      - bitwazmianki
+
+  generator:
+    permission: Holly.cmd.generator
+    usage: /generator <create|addblock|clearblocks|move|clone|renamehologram|tp|height|radius|settime|setblock|setpermission|remove|reload|list|honeyregenerate>
+    aliases:
+      - generators
+      - gene
+      - gen
+  render:
+    permission: Holly.cmd.render
+    description: Ustaw simulation i view distance dla swiata
+    usage: /render <swiat> <simulation> <view>
+  world:
+    permission: Holly.cmd.world
+    description: Zarzadzanie swiatami (zamiennik MultiverseCore)
+    usage: /world <create|delete|tp|list|info|load|unload|confirmdelete>
+    aliases:
+      - w
+  gtp:
+    permission: Holly.cmd.gtp
+    description: Grupowy teleport (teparki)
+    usage: /gtp <addlocation|list|reload>
+    aliases:
+      - groupteleport
+      - teparka
+  renderdistance:
+    aliases:
+      - rdistance
+  armorstars:
+    permission: Holly.cmd.armorstars.reload
+    usage: /armorstars reload
+    aliases:
+      - eqstars
+  coinflip:
+    permission: Holly.cmd.cf
+    usage: /coinflip [stworz <kasa/odlamki> <ilosc>|odbierz|reload]
+    aliases:
+      - cf
+  zywioly:
+    permission: Holly.cmd.zywioly
+    description: Gra w żywioły
+    usage: /zywioly [dodaj <kwota>|reload]
+    aliases:
+      - zywioły
+      - elements
+  killeffect:
+    permission: Holly.cmd.killeffect
+    usage: /killeffect reload
+    aliases:
+      - killeffects
+  ban:
+    permission: Holly.mod.ban
+    description: Permanentny ban gracza
+    usage: /ban <nick> [czas] [powod...] [-s]
+  tempban:
+    permission: Holly.mod.tempban
+    description: Tymczasowy ban gracza
+    usage: /tempban <nick> <czas> [powod...] [-s]
+  banip:
+    permission: Holly.mod.banip
+    description: Permanentny ban IP gracza
+    usage: /banip <nick|ip> [powod...] [-s]
+  tempbanip:
+    permission: Holly.mod.tempbanip
+    description: Tymczasowy ban IP gracza
+    usage: /tempbanip <nick|ip> <czas> [powod...] [-s]
+  mute:
+    permission: Holly.mod.mute
+    description: Permanentne wyciszenie gracza
+    usage: /mute <nick> [czas] [powód...]
+  tempmute:
+    permission: Holly.mod.tempmute
+    description: Tymczasowe wyciszenie gracza
+    usage: /tempmute <nick> <czas> [powód...]
+  unban:
+    permission: Holly.mod.unban
+    description: Odbanowanie gracza
+    usage: /unban <nick|ip|all>
+  unmute:
+    permission: Holly.mod.unmute
+    description: Odciszenie gracza
+    usage: /unmute <nick>
+  kick:
+    permission: Holly.mod.kick
+    description: Wyrzucenie gracza
+    usage: /kick <nick> [powód...]
+  alts:
+    permission: Holly.mod.alts
+    description: Konta powiązane IP
+    usage: /alts <nick>
+  wyczysclista:
+    permission: Holly.cmd.wyczysclista
+    description: Czysci liste zbanowanych zabojcow i bossbar
+    usage: /wyczysclista
+  zglos:
+    permission: Holly.cmd.zglos
+    description: Lista zbanowanych graczy ktorzy cie zabili
+    usage: /zglos lista
+
+permissions:
+  Holly.masakra.items:
+    default: op
+    description: Zarządzanie przedmiotami masakra-customitems
+  holly.home.use:
+    default: true
+    description: Uzywa /home /sethome /delhome
+  holly.home.1:
+    default: true
+    description: Slot home #1
+  holly.home.2:
+    default: true
+    description: Slot home #2
+  holly.home.3:
+    default: false
+    description: Slot home #3
+  holly.playeraction:
+    default: true
+    description: Klikanie nicku na chacie (TPA)
+  Holly.cmd.core.reload:
+    default: op
+  Holly.cmd.core.hardreset:
+    default: op
+  Holly.cmd.admin.loadnew:
+    default: op
+  Holly.cmd.render:
+    default: op
+  Holly.cmd.world:
+    default: op
+  Holly.cmd.gtp:
+    default: op
+  Holly.cmd.cf:
+    default: true
+  Holly.cmd.cf.admin:
+    default: op
+  Holly.cmd.zywioly:
+    default: true
+    description: Gra w żywioły
+  Holly.cmd.zywioly.admin:
+    default: op
+    description: Reload żywiołów
+  Holly.cmd.renderdistance.reload:
+    default: op
+  Holly.cmd.armorstars.reload:
+    default: op
+  Holly.cmd.renderdistance.status:
+    default: op
+  Holly.cmd.renderdistance.status.others:
+    default: op
+  Holly.cmd.generator:
+    default: op
+  holly.generators.mine.gracz:
+    default: true
+  Holly.cmd.tp:
+    default: op
+  Holly.cmd.tpa:
+    default: true
+  Holly.cmd.discord:
+    default: true
+  Holly.cmd.gracz:
+    default: true
+  Holly.cmd.gracz.reload:
+    default: op
+  Holly.cmd.discord.reload:
+    default: op
+  Holly.cmd.tphere:
+    default: op
+  Holly.cmd.tphere.instant:
+    default: op
+  Holly.cmd.s:
+    default: op
+  Holly.cmd.gm:
+    default: op
+  Holly.cmd.gm.0:
+    default: op
+  Holly.cmd.gm.1:
+    default: op
+  Holly.cmd.gm.2:
+    default: op
+  Holly.cmd.gm.3:
+    default: op
+  Holly.cmd.gm.others:
+    default: op
+  Holly.cmd.flyspeed:
+    default: op
+  Holly.cmd.fly:
+    default: op
+  Holly.cmd.bc:
+    default: op
+  Holly.cmd.bc.reload:
+    default: op
+  Holly.cmd.autotitle:
+    default: op
+  Holly.cmd.title.reload:
+    default: op
+  Holly.cmd.guis.reload:
+    default: op
+  Holly.case.admin:
+    default: op
+  Holly.cmd.ec:
+    default: true
+  Holly.cmd.itemsync.saveall:
+    default: op
+  Holly.cmd.itemsync.reload:
+    default: op
+  Holly.itemsync.loadspeed:
+    default: op
+    description: Pokazuje czas wczytywania/zapisu danych gracza na actionbarze (dev)
+  Holly.cmd.ec.others:
+    default: op
+  Holly.cmd.ec.reload:
+    description: Przeładowanie konfiguracji enderchest (/ec reload)
+    default: op
+  Holly.cmd.ec.page.2:
+    default: false
+  Holly.cmd.ec.page.3:
+    default: false
+  Holly.cmd.ec.page.4:
+    default: false
+  Holly.cmd.ec.page.5:
+    default: false
+  Holly.cmd.setspawn:
+    default: op
+  Holly.cmd.spawn:
+    default: true
+  Holly.cmd.lobby:
+    default: true
+  Holly.cmd.portfel:
+    default: false
+  Holly.cmd.aportfel:
+    default: op
+  Holly.cmd.getback:
+    default: op
+  Holly.cmd.getback.all:
+    default: op
+  Holly.cmd.spawn.instant:
+    default: op
+  Holly.cmd.spawn.other:
+    default: op
+  Holly.cmd.msg:
+    default: true
+  Holly.cmd.reply:
+    default: true
+  Holly.cmd.eco:
+    default: op
+  Holly.cmd.money:
+    default: true
+  Holly.cmd.pay:
+    default: true
+  Holly.cmd.sklep:
+    default: true
+  Holly.cmd.skup:
+    default: true
+  Holly.cmd.asklep:
+    default: op
+  Holly.cmd.ulepsz:
+    default: true
+  Holly.cmd.ulepsz.admin:
+    default: op
+  Holly.cmd.armorcreate:
+    default: op
+  Holly.cmd.usunlore:
+    default: op
+  Holly.cmd.skull:
+    default: op
+  Holly.cmd.patron:
+    default: true
+  Holly.cmd.patron.admin:
+    default: op
+  Holly.cmd.zonebox:
+    default: op
+  Holly.cmd.blockseconomy:
+    default: op
+  Holly.cmd.turbodrop:
+    default: op
+  Holly.cmd.drwal:
+    default: true
+  Holly.cmd.szaman:
+    default: true
+  Holly.cmd.szaman.admin:
+    default: op
+  Holly.cmd.sigil:
+    default: true
+  Holly.cmd.sigil.admin:
+    default: op
+  Holly.cmd.misje:
+    default: true
+  Holly.cmd.daily:
+    default: true
+  Holly.cmd.daily.admin:
+    default: op
+  Holly.cmd.itemshop:
+    default: op
+  Holly.cmd.trade:
+    default: true
+  Holly.cmd.itemstorage:
+    default: op
+  Holly.cmd.mobs:
+    default: op
+  Holly.antigrief.bypass:
+    default: op
+  Holly.combat.bypass:
+    default: op
+  Holly.cmd.odbierz:
+    default: true
+  holly.cmd.backup.give:
+    default: op
+  holly.cmd.backup.verify:
+    default: op
+    children:
+      holly.cmd.backup.give: true
+  Holly.cmd.trener:
+    default: true
+  Holly.cmd.mslf:
+    default: op
+  Holly.cmd.trener.admin:
+    default: op
+    children:
+      Holly.cmd.trener: true
+  Holly.cmd.odbierz.create:
+    default: op
+  Holly.cmd.odbierz.give:
+    default: op
+  Holly.cmd.odbierz.giveall:
+    default: op
+  Holly.cmd.odbierz.reload:
+    default: op
+  Holly.cmd.ignore:
+    default: true
+  Holly.cmd.afk.admin:
+    default: op
+  Holly.afk.basic:
+    default: true
+  Holly.afk.vip:
+    default: false
+  Holly.afk.svip:
+    default: false
+  Holly.cmd.clearlag:
+    default: op
+  Holly.cmd.ch:
+    default: op
+  holly.cmd.helpop:
+    default: true
+  holly.cmd.helpop.view:
+    default: op
+  holly.cmd.helpop.reload:
+    default: op
+  holly.cmd.helpop.bypass:
+    default: op
+  holly.cmd.adminchat:
+    default: op
+  holly.cmd.adminchat.reload:
+    default: op
+  Holly.cmd.rozdajadmin:
+    default: op
+  Holly.cmd.rozdajadmin.reload:
+    default: op
+  Holly.cmd.vanish:
+    default: op
+  Holly.vanish.see:
+    default: op
+  Holly.cmd.incognito:
+    description: Włącza /incognito
+    default: op
+  Holly.cmd.incognito.view:
+    description: Widzi prawdziwy nick gracza w incognito (TAB, nametag, czat)
+    default: op
+  Holly.cmd.klan:
+    default: true
+  Holly.cmd.klan.reload:
+    default: op
+  Holly.cmd.restartadmin:
+    default: op
+  Holly.cmd.kit:
+    default: true
+  Holly.cmd.akit:
+    default: op
+  Holly.cmd.rynek:
+    default: true
+  Holly.cmd.rynek.reload:
+    default: op
+  Holly.cmd.amarket:
+    default: op
+  Holly.shop.license:
+    default: false
+  Holly.cmd.osiagniecia:
+    default: false
+  Holly.cmd.aosiagniecia:
+    default: op
+  Holly.bypass.commandcooldown:
+    default: op
+  Holly.cmd.rangi:
+    default: true
+  Holly.cmd.media:
+    default: true
+  Holly.cmd.nadajmedia:
+    default: op
+  Holly.cmd.warp:
+    default: true
+  Holly.cmd.warp.reload:
+    default: op
+  Holly.cmd.setwarp:
+    default: op
+  Holly.cmd.delwarp:
+    default: op
+  Holly.warp.bypass.delay:
+    default: op
+  Holly.cmd.rtp:
+    default: true
+  Holly.rtp.bypass.cooldown:
+    default: op
+  Holly.cmd.losuj-zestaw:
+    default: true
+  Holly.cmd.kod:
+    default: true
+  Holly.cmd.akod:
+    default: op
+  Holly.cmd.bossbar:
+    default: op
+  Holly.cmd.tablist.reload:
+    default: op
+  Holly.cmd.timer:
+    default: op
+  Holly.cmd.serverinfo:
+    default: op
+  Holly.market.limit.3:
+    default: true
+  Holly.market.limit.5:
+    default: false
+  Holly.market.limit.10:
+    default: false
+  Holly.market.limit.15:
+    default: false
+  Holly.market.limit.20:
+    default: false
+  Holly.market.limit.30:
+    default: false
+  Holly.market.limit.50:
+    default: false
+  Holly.market.limit.100:
+    default: op
+  Holly.market.admin:
+    default: op
+    description: Admin menu rynku (shift+click usuwanie ofert)
+  Holly.cmd.repair:
+    default: op
+  Holly.cmd.repair.all:
+    default: op
+  Holly.cmd.automessage:
+    default: op
+  Holly.cmd.autocommands:
+    default: op
+  hollycore.creatormode:
+    default: op
+  Holly.cmd.atryb-tworca:
+    default: op
+  Holly.cmd.trash:
+    default: true
+  Holly.cmd.gamma:
+    default: true
+  Holly.cmd.odbierzbackup:
+    default: true
+  Holly.cmd.invsee:
+    default: op
+  Holly.cmd.ecsee:
+    default: op
+  Holly.cmd.szukaj:
+    default: op
+  Holly.cmd.lpexpire:
+    default: op
+    description: Przedluzanie czasu rang LuckPerms
+  Holly.cmd.deletstats:
+    default: op
+  Holly.cmd.adminstats:
+    default: op
+  Holly.cmd.stats.reset:
+    default: op
+    description: Reset statystyk graczy (ranking, kills, deaths) i topki klanów — bez kasy
+  Holly.cmd.resetujranking:
+    default: true
+    description: Reset rankingu do 1000 (cooldown 1h)
+  Holly.cmd.dropkeys:
+    default: op
+    description: Reload dropu kluczy z generatorow i zabojstw
+  Holly.bypass.resetujranking:
+    default: op
+    description: Pomin cooldown /resetujranking
+  Holly.cmd.nagroda:
+    default: true
+  Holly.cmd.nagroda.reload:
+    default: op
+  Holly.cmd.sprawdz:
+    default: op
+  Holly.cmd.szybkiezgloszenie:
+    default: true
+  Holly.mod.*:
+    description: Wszystkie komendy moderacji (ban/mute/kick/alts)
+    default: op
+    children:
+      Holly.mod.ban: true
+      Holly.mod.tempban: true
+      Holly.mod.banip: true
+      Holly.mod.tempbanip: true
+      Holly.mod.mute: true
+      Holly.mod.tempmute: true
+      Holly.mod.unmute: true
+      Holly.mod.unban: true
+      Holly.mod.unban.all: true
+      Holly.mod.kick: true
+      Holly.mod.alts: true
+  Holly.mod.ban:
+    description: /ban
+    default: op
+  Holly.mod.tempban:
+    description: /tempban
+    default: op
+  Holly.mod.banip:
+    description: /banip
+    default: op
+  Holly.mod.tempbanip:
+    description: /tempbanip
+    default: op
+  Holly.mod.mute:
+    description: /mute
+    default: op
+  Holly.mod.tempmute:
+    description: /tempmute
+    default: op
+  Holly.mod.unmute:
+    description: /unmute
+    default: op
+  Holly.mod.unban:
+    description: /unban
+    default: op
+  Holly.mod.unban.all:
+    description: /unban all
+    default: op
+  Holly.mod.kick:
+    description: /kick
+    default: op
+  Holly.mod.alts:
+    description: /alts
+    default: op
+  Holly.cmd.wyczysclista:
+    default: true
+  Holly.cmd.zglos:
+    default: true
+  Holly.cmd.boss:
+    default: op
+  Holly.cmd.chat:
+    default: op
+  Holly.cmd.chat.clear:
+    default: op
+  Holly.cmd.chat.toggle:
+    default: op
+  Holly.cmd.chat.reload:
+    default: op
+  Holly.cmd.lpc:
+    default: op
+  Holly.cmd.lpc.reload:
+    default: op
+
+  Holly.cmd.customhit:
+    default: op
+  Holly.cmd.customhit.reload:
+    default: op
+  Holly.flamehub.items:
+    default: op
+  Holly.flamehub.reset:
+    default: op
+  Holly.flamehub.reload:
+    default: op
+  flame.items:
+    default: op
+  flame.reset:
+    default: op
+  flame.reload:
+    default: op
+  Holly.eventowki.admin:
+    default: op
+  Holly.cmd.aitems:
+    default: op
+  Holly.cmd.adminitemsclear:
+    default: op
+  Holly.customitems.admin:
+    default: op
+  Holly.szafka.use:
+    default: true
+  Holly.szafka.admin:
+    default: op
+  Holly.mslfkostiumy.use:
+    default: true
+  Holly.mslfkostiumy.admin:
+    default: op
+  Holly.kowal.use:
+    default: true
+  Holly.kowal.admin:
+    default: op
+  Holly.ksiegi.admin:
+    default: op
+  holly.zmianki.use:
+    default: true
+  holly.zmianki.admin:
+    default: op
+  holly.zmianki.battle:
+    default: true
+
+  Holly.eventowki.gui:
+    default: op
+  Holly.daily.use:
+    default: true
+  Holly.daily.admin:
+    default: op
+
+  Holly.cmd.ustawienia:
+    default: true
+  holly.event.use:
+    default: true
+  holly.event.admin:
+    default: op
+  holly.adungeon.give:
+    default: op
+  holly.adungeon.admin:
+    default: op
+    description: Konfiguracja lokalizacji dungeona ninja
+  Holly.cmd.piniata.admin:
+    default: op
+  Holly.cmd.killeffect:
+    default: op
+  Holly.cmd.killeffect.reload:
+    default: op
+  holly.cmd.rollback:
+    default: op
+  Holly.anticheat.notify:
+    default: op
+    description: Powiadomienia AntyCheat
+  Holly.unique.bypass:
+    default: op
+    description: Pominiecie skanera unikalnych UID itemow (jak hypestyar.uuid.disable)
+  Holly.unique.view:
+    default: op
+    description: Podglad usuwania zduplikowanych itemow UUID (jak hypestar.view.duplicates)
+  Holly.death.keep50:
+    default: false
+    description: 50 procent gearu wraca po smierci zamiast 35 (jak mistic.50chance)
+  Holly.fancynpc.push.bypass:
+    default: op
+    description: Omija odpychanie od FancyNPC

@@ -1,0 +1,25 @@
+kick-ban: |-
+  &c&lZOSTAŁEŚ ZBANOWANY
+
+  &7Powód: &f%reason%
+  &7Przez: &f%staff%
+  &7Czas: &cna zawsze
+kick-tempban: |-
+  &c&lZOSTAŁEŚ ZBANOWANY TYMCZASOWO
+
+  &7Powód: &f%reason%
+  &7Przez: &f%staff%
+  &7Pozostało: &e%remaining%
+kick-kick: |-
+  &c&lWYRZUCONY
+
+  &7Powód: &f%reason%
+  &7Przez: &f%staff%
+staff-broadcast:
+  enabled: true
+  ban: '&#00E0FFℹ &8Ξ &f%staff% &7%action% gracza &c%target% &8(&e%time%&8) &7Powód: &f%reason%'
+  mute: '&#00E0FFℹ &8Ξ &f%staff% &7%action% gracza &c%target% &8(&e%time%&8) &7Powód: &f%reason%'
+silent-flag: '-s'
+kill-credit-ttl-days: 7
+victim-notify: '&#00E0FFℹ &8Ξ &7Gracz &c%killer% &7został zbanowany. &8(&f/zglos lista&8, &f/wyczysclista&8)'
+bossbar-title: '&#FF3D3D⚠ &fGracz &#FF6B6B%killer% &fzostał zbanowany &8• &#00E0FF/zglos lista'

@@ -1,0 +1,158 @@
+szafka:
+  # Regiony zablokowane dla efektów kostiumów (merge z oghub-customitems.blocked-regions).
+  blocked-regions: []
+
+  kostiumy:
+    uczen:
+      enabled: true
+      type: LEATHER_CHESTPLATE
+      color: '#0D2B5E'
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDhmNzJkOTA3NTQ1NjliOTA0MzBkMmQ5NGViYmVjOTc4MTYzNzJlMzEzYjZlYmE3NGVmMGY3YmM1NDBhODY1OSJ9fX0=
+      displayname: '&7Kostium &9ucznia &7na czas &x&1&E&9&0&F&F%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fszkolnego 2026&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &4+1 &7serce'
+        - ' &8» &c+2% &7dodatkowych obrażeń'
+        - ' &8» &ex2 &7szansy na &fklucze &7z dropu'
+        - ' &8» &9Zmiatacz pajęczyn&7, który usuwa &fpajęczyny'
+        - ' &7w promieniu &f5 &7kratek przez &f3s &8(3x shift)'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts:
+        damage: 0.0
+        damage-percent: 2.0
+        damage-reduction: 0.0
+        fall-damage-reduction: 0.0
+        hearts: 1
+        dropkeys-multiplier: 2.0
+        cobweb-clear: true
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        rob-money: 0.0
+      armor:
+        helmet: uczen-helmet
+        chestplate: uczen-chest
+        leggings: uczen-legs
+        boots: uczen-boots
+
+    ninja:
+      enabled: true
+      type: LEATHER_CHESTPLATE
+      color: '#1A1A1A'
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ4MTFlOWQxYzBlNTQyNDEwYWFiNDQ4ZDM4M2ExNDI1ZGU5NzhhOGVkNzQyYmY2ZjIyNThmZmQ5MzdjOTQ5MCJ9fX0=
+      displayname: '&7Kostium &8ninja &7na czas &f%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fninja 2026&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &4+1 &7serce'
+        - ' &8» &c+3% &7dodatkowych obrażeń'
+        - ' &8» &f+20% &7szybszego ruchu w &8pajęczynach'
+        - ' &8» &8Zamrożenie &7graczy w &f3 &7kratkach na &f2s'
+        - ' &7po &f3x shift'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts:
+        extra-hp: 1.0
+        damage-percent: 3.0
+        cobweb-speed-percent: 20.0
+        ninja-freeze: true
+      armor:
+        helmet: ninja-helmet
+        chestplate: ninja-chest
+        leggings: ninja-legs
+        boots: ninja-boots
+
+    goat:
+      enabled: true
+      type: LEATHER_CHESTPLATE
+      color: '#C41E3A'
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQxN2YzZGFiMDFiYWRmZGU3MDU2ZGJmMDhjMmYxYjRkOTJlZDIzY2ViNjEzY2FiNDViOGM3YzUyOTRmOGUwOSJ9fX0=
+      displayname: '&7Kostium &cgoata &7na czas &4%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fgoat 2026&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &bSpeed I'
+        - ' &8» &4+1.5 &7serca'
+        - ' &8» &cSzarża goatów &7— odpycha graczy'
+        - ' &7w &f3 &7kratkach po &f3x shift'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts:
+        extra-hp: 1.5
+        goat-ram: true
+        hidden-weakness: true
+        effects:
+          - SPEED:0
+      armor:
+        helmet: goat-helmet
+        chestplate: goat-chest
+        leggings: goat-legs
+        boots: goat-boots
+
+  kostium-items:
+    uczen-helmet:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDhmNzJkOTA3NTQ1NjliOTA0MzBkMmQ5NGViYmVjOTc4MTYzNzJlMzEzYjZlYmE3NGVmMGY3YmM1NDBhODY1OSJ9fX0=
+      name: ' '
+    uczen-chest:
+      material: LEATHER_CHESTPLATE
+      name: ' '
+    uczen-legs:
+      material: LEATHER_LEGGINGS
+      name: ' '
+    uczen-boots:
+      material: LEATHER_BOOTS
+      name: ' '
+    ninja-helmet:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ4MTFlOWQxYzBlNTQyNDEwYWFiNDQ4ZDM4M2ExNDI1ZGU5NzhhOGVkNzQyYmY2ZjIyNThmZmQ5MzdjOTQ5MCJ9fX0=
+      name: ' '
+    ninja-chest:
+      material: LEATHER_CHESTPLATE
+      name: ' '
+    ninja-legs:
+      material: LEATHER_LEGGINGS
+      name: ' '
+    ninja-boots:
+      material: LEATHER_BOOTS
+      name: ' '
+    goat-helmet:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQxN2YzZGFiMDFiYWRmZGU3MDU2ZGJmMDhjMmYxYjRkOTJlZDIzY2ViNjEzY2FiNDViOGM3YzUyOTRmOGUwOSJ9fX0=
+      name: ' '
+    goat-chest:
+      material: LEATHER_CHESTPLATE
+      name: ' '
+    goat-legs:
+      material: LEATHER_LEGGINGS
+      name: ' '
+    goat-boots:
+      material: LEATHER_BOOTS
+      name: ' '
+
+  zwoj-kostium:
+    name: "&e&lᴢᴡᴏᴊ ᴘʀᴢᴇᴅʟᴜᴢᴇɴɪᴀ &fᴋᴏꜱᴛɪᴜᴍᴜ"
+    type: FLOWER_BANNER_PATTERN
+    lore:
+      - ""
+      - "&8» &7Z jego pomocą możesz przedłużyć"
+      - "&8» &7swój &fKostium &7pod komendą &f/szafka"
+      - ""
+      - "&8» &7Czas Trwania &f%czas%"

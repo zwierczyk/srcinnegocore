@@ -1,0 +1,108 @@
+kamien-kowalski: '&cKamień kowalski'
+kamien-kowalski-material: REDSTONE_TORCH
+
+ulepszenia:
+  '1':
+    value: 0.5
+    chance: 80.0
+    cost: 500
+    materials:
+      - COAL:16
+  '2':
+    value: 1.0
+    chance: 70.0
+    cost: 1000
+    materials:
+      - IRON_INGOT:16
+  '3':
+    value: 1.5
+    chance: 60.0
+    cost: 1500
+    materials:
+      - IRON_INGOT:16
+  '4':
+    value: 2.0
+    chance: 50.0
+    cost: 2000
+    materials:
+      - IRON_INGOT:16
+  '5':
+    value: 2.5
+    chance: 40.0
+    cost: 2500
+    materials:
+      - IRON_INGOT:16
+  '6':
+    value: 3.0
+    chance: 30.0
+    cost: 3000
+    materials:
+      - IRON_INGOT:16
+
+gui-messages:
+  title-main: '              §8▶ &eᴋᴏᴡᴀʟ §8◀'
+  title-confirm: '        §8▶ &eᴘᴏᴛᴡɪᴇʀᴅᴢᴇɴɪᴇ §8◀'
+
+
+  cancel:
+    slot: 11
+    material: RED_DYE
+    name: §c§lᴀɴᴜʟᴜᴊ
+    lore:
+      - §7Kliknij, aby anulować.
+
+  upgrade-button:
+    slot: 15
+    material: LIME_DYE
+    material-max-level: BARRIER
+    name: §2§lᴢᴡɪᴇᴋꜱᴢ ᴘᴏᴢɪᴏᴍ
+    name-max-level: §4§lᴍᴀᴋꜱʏᴍᴀʟɴʏ ᴘᴏᴢɪᴏᴍ
+    lore-prefix-upgrade: '§7Ulepszenie: §a+<CURRENT_LEVEL> §a➜ §a+<NEXT_LEVEL>'
+    lore-prefix-requirements: '§7Wymagane ulepszacze:'
+    lore-suffix-missing: §cUzbieraj wymagane przedmioty!
+    lore-suffix-ready: §eKliknij, aby ulepszyć!
+    lore-max-level:
+      - §cPosiadasz maksymalny poziom ulepszenia przedmiotu.
+
+  toggle-stone:
+    slot: 22
+    stone-active:
+      material: REDSTONE_TORCH
+      name: §5§lᴜʟᴇᴘꜱᴢᴀꜱᴢ ᴍᴇᴛᴀʟᴇᴍ
+      lore:
+        - §7Ulepszasz przedmiot specjalnym
+        - §7metalem, który zabezpiecza przed
+        - §7obniżeniem poziomu przedmiotu.
+        - ''
+        - §dKliknij, aby przełączyć!
+    metal-active:
+      material: LEVER
+      name: §9§lᴜʟᴇᴘꜱᴢᴀɴɪᴇ ᴋᴀᴍɪᴇɴɪᴇᴍ ᴋᴏᴡᴀʟꜱᴋɪᴍ
+      lore:
+        - §7Gdy ulepszasz przedmiot Kamieniem Kowalskim
+        - §7masz pewność, że gdy ulepszenie się
+        - §7nie powiedzie poziom przedmiotu nie
+        - §7zostanie obniżony
+        - ''
+        - §aKliknij, aby przełączyć!
+    stone-not-owned: §cNie posiadasz Kamienia Kowalskiego w ekwipunku!
+    stone-level-limit: §cKamień Kowalski jest dostępny do użycia tylko od poziomu
+      ulepszenia +1!
+
+  confirm-no:
+    slot: 3
+    material: RED_DYE
+    name: §c§lɴɪᴇ
+    lore:
+      - §7Nie chcę ryzykować. Wolę zostać
+      - §7przy aktualnym poziomie ulepszenia.
+
+  confirm-yes:
+    slot: 5
+    material: LIME_DYE
+    name: §a§lᴛᴀᴋ
+    lore-chance-line: '§7Szansa na ulepszenie: §f<CHANCE>%'
+    lore-risk:
+      - §7Jestem świadomy, że przy nieudanej
+      - §7próbie §eulepszenia §7poziom przedmiotu zostanie
+      - §7obniżone o jeden.

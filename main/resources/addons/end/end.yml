@@ -1,0 +1,21 @@
+enabled: true
+worlds:
+- world_the_end
+allowed-blocks:
+- OBSIDIAN
+- COBWEB
+restrict-block-place-and-break: true
+temporary-block-lifetime-seconds: 20
+remove-placed-blocks-on-shutdown: true
+crystal-block-damage: false
+crystal-fire: false
+ops-bypass-restrictions: true
+block-ender-pearls-outside-worldborder: true
+worldborder-push-distance: 3.0
+worldborder-push-strength: 0.75
+worldborder-push-period-ticks: 5
+worldborder-pearl-denied-message: '&#FF0000✘ &8Ξ &cNie mozesz rzucac perel za worldborder.'
+place-denied-message: '&#FF0000✘ &8Ξ &cW tym świecie możesz stawiać tylko obsydian, pajęczyny
+  i end crystale!'
+break-denied-message: '&#FF0000✘ &8Ξ &cW tym świecie możesz rozwalać tylko obsydian, pajęczyny
+  i end crystale!'

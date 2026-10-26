@@ -1,0 +1,17 @@
+spawn-set: false
+spawn-on-join: true
+spawn-on-respawn: true
+world: world
+x: 0.0
+y: 64.0
+z: 0.0
+yaw: 0.0
+pitch: 0.0
+teleport-delay: 5
+countdown-title: '&x&3&C&E&4&F&3&lᴛ&x&3&A&D&2&E&0&lᴇ&x&3&9&C&0&C&C&lʟ&x&3&7&A&E&B&9&lᴇ&x&3&5&9&C&A&5&lᴘ&x&3&4&8&A&9&2&lᴏ&x&3&2&7&8&7&E&lʀ&x&3&4&8&E&9&5&lᴛ&x&3&6&A&3&A&D&lᴀ&x&3&8&B&9&C&4&lᴄ&x&3&A&C&E&D&C&lᴊ&x&3&C&E&4&F&3&lᴀ'
+countdown-subtitle: '&fzostaniesz przeteleportowany za: {time}'
+spawn-set-message: '&a» &7Punkt spawnu został ustawiony!'
+spawn-teleport-message: '&a» &7Przeteleportowano na spawn!'
+spawn-not-set-message: '&c» &7Punkt spawnu nie jest jeszcze ustawiony!'
+spawn-teleporting-message: '&fZostaniesz przeniesiony za &#77F454{TIME}'
+spawn-teleport-cancelled-message: '&c» &7Teleportacja przerwana &8(&#AAAAAAruszyłeś się&8)!'

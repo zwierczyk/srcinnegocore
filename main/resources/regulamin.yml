@@ -1,0 +1,26 @@
+regulamin-licencji:
+
+  zakres-licencji:
+    - "Licencja ma charakter niewylaczny i niezbywalny."
+    - "Licencja dozywotnia oznacza brak terminu jej wygasniecia, chyba ze zostanie cofnieta zgodnie z postanowieniami regulaminu."
+    - "Licencja jest przypisana do jednego uzytkownika lub jednego serwera, chyba ze strony ustala inaczej."
+
+  zabrania-sie:
+    - "Udostepniania, odsprzedazy lub przekazywania plikow osobom trzecim."
+    - "Publikowania plikow lub ich zmodyfikowanych wersji."
+    - "Dekompilacji, obchodzenia zabezpieczen lub podejmowania prob ich obejscia."
+    - "Podejmowania dzialan na szkode projektu lub jego wlasciciela."
+    - "Blokowania, ukrywania lub usuwania wiadomosci wlasciciela albo komunikatow licencyjnych, w tym wiadomosci widocznych przez /pl lub podobne komendy."
+
+  cofniecie-licencji:
+    powody:
+      - "Udostepnianie plikow osobom trzecim."
+      - "Proby obejscia zabezpieczen."
+      - "Dzialanie na szkode projektu."
+      - "Rozpowszechnianie nieprawdziwych informacji."
+      - "Publiczne naruszanie dobrego imienia projektu lub jego wlasciciela."
+      - "Kradziez zasobow z serwera wlasciciela, w tym miedzy innymi map, plikow konfiguracyjnych, skryptow oraz innych materialow stanowiacych wlasnosc projektu."
+      - "Blokowanie, ukrywanie lub usuwanie wiadomosci wlasciciela albo komunikatow licencyjnych."
+    skutki:
+      - "Cofniecie licencji skutkuje natychmiastowa utrata dostepu do produktu."
+      - "W przypadku naruszenia regulaminu uzytkownikowi nie przysluguje zwrot srodkow."

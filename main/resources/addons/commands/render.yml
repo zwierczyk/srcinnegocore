@@ -1,0 +1,9 @@
+# /render <swiat> <simulation> <view>
+#
+# simulation-distance: ile chunkow jest tickowanych (encje, redstone, farmy)
+# view-distance: ile chunkow widzi gracz (pakiety chunkow)
+#
+#   simulation: 4-6
+#   view: 6-8
+
+worlds: {}

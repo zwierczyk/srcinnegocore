@@ -1,0 +1,11 @@
+blacklistedItems:
+- DIAMOND
+- DIAMOND_BLOCK
+- NETHERITE_INGOT
+- NETHERITE_BLOCK
+- BEACON
+- NETHER_STAR
+- ELYTRA
+- TOTEM_OF_UNDYING
+protectNamedItems: true
+protectEnchantedItems: true

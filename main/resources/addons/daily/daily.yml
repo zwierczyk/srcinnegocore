@@ -1,0 +1,48 @@
+gui:
+  title: "&7Codzienna Nagroda"
+  rows: 5
+  reward-material: CHEST_MINECART
+  claimable-lore: "&a» Kliknij LPM lub PPM aby odebrać nagrodę!"
+  locked-lore: "&c» Nie możesz jeszcze odebrać tej nagrody!"
+  claimed-lore: "&7» Tę nagrodę odebrałeś już dzisiaj."
+  empty-reward-line: "&7Brak skonfigurowanych przedmiotów"
+  footer-lore: []
+
+messages:
+  claimed: "&#00FF3B✔ &8Ξ &#4EFA76Odebrałeś codzienną nagrodę &f#{day}&a!"
+  already-claimed: "&#FF0000✘ &8Ξ &cNie możesz jeszcze odebrać tej nagrody!"
+  no-reward: "&#FF0000✘ &8Ξ &cTa nagroda nie ma jeszcze ustawionych przedmiotów."
+  editor-saved: "&#00FF3B✔ &8Ξ &#4EFA76Zapisano nagrodę dzienną &f#{day}&a."
+  reloaded: "&#00FF3B✔ &8Ξ &#4EFA76Przeładowano konfigurację codziennych nagród!"
+  only-player: "&#FF0000✘ &8Ξ &cTa komenda jest tylko dla gracza."
+  invalid-day: "&#FF0000✘ &8Ξ &cPodaj poprawny numer dnia."
+
+days:
+  1:
+    slot: 10
+    display-name: "&bCODZIENNA NAGRODA #1"
+    items: ""
+  2:
+    slot: 11
+    display-name: "&bCODZIENNA NAGRODA #2"
+    items: ""
+  3:
+    slot: 12
+    display-name: "&bCODZIENNA NAGRODA #3"
+    items: ""
+  4:
+    slot: 13
+    display-name: "&bCODZIENNA NAGRODA #4"
+    items: ""
+  5:
+    slot: 14
+    display-name: "&bCODZIENNA NAGRODA #5"
+    items: ""
+  6:
+    slot: 15
+    display-name: "&bCODZIENNA NAGRODA #6"
+    items: ""
+  7:
+    slot: 16
+    display-name: "&bCODZIENNA NAGRODA #7"
+    items: ""

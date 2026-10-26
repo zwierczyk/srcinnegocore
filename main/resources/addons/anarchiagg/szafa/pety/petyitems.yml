@@ -1,0 +1,1157 @@
+items:
+  petaniolek:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Aniołek
+        ","italic":false,"color":"aqua"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot pospolity","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+2
+        ","italic":false,"color":"red"},{"text":"serca","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "aniolek"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: a6cb6a7c-d708-49f2-92d2-d783eb976a83
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTcyODE1NjU3MzM2MywKICAicHJvZmlsZUlkIiA6ICJjY2MxNGM2ZDUwMDE0MjBmYmMxYjkyMTM2Y2JmOWU4MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJab25lX1gwODE1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U2ODBhYjU1OTBlNzMxYzJmM2QwZTNhYzJiODJlNjRjYmNlZDE2ODVjODllMjIyNjM2Y2VjZTA1NjFlZGFjMDUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+  zwoj-pet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: FLOWER_BANNER_PATTERN
+  petreniferek:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Reniferek
+        ","italic":false,"color":"gold"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot eventowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt potki ","italic":false,"color":"gray"},{"text":"szybkość I","italic":false,"color":"red"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Nigdy
+        ","italic":false,"color":"red"},{"text":"nie stajesz się głodny","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"-50%
+        ","italic":false,"color":"red"},{"text":"obrażeń od dripstone","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+1
+        ","italic":false,"color":"red"},{"text":"serce","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "reniferek"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: da8ee512-4413-4fe9-bde2-7bd251fd4941
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTYyMTMzODI5NDU0OCwKICAicHJvZmlsZUlkIiA6ICIwNWQ0NTNiZWE0N2Y0MThiOWI2ZDUzODg0MWQxMDY2MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJFY2hvcnJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JjNjAzZmU3MDRhOWQwNDk4ZTllYmQ5ZDJhNzdiZTYwMWE3ZTg1ZWJhNjZmNjUwZGI5NDE5OWViZTdmNzViNTUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+  petbalwanek:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Bałwanek
+        ","italic":false,"color":"aqua"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot eventowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+10%
+        ","italic":false,"color":"red"},{"text":"obrony od wszystkich obrażeń","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Podwaja
+        ","italic":false,"color":"red"},{"text":"drop z surowców i farm","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt potki ","italic":false,"color":"gray"},{"text":"szybkość II","italic":false,"color":"red"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+2
+        ","italic":false,"color":"red"},{"text":"dodatkowych obrażeń","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "balwanek"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 0b9ddd5c-763f-4d00-87a9-abddc2cb0dee
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTcwNjY5OTU3NzA2NywKICAicHJvZmlsZUlkIiA6ICI0MWZlYzZlMWQzNWM0ZDIyOWYxOGQ3OGRkZjk3ZGQzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSaWJva2luZ190dyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMzgyMzA4NDY0MGVmN2YwMDY4MzY1ODdiN2YyMWNhMDc5M2VkNTk3ZjBmZGQ2MGE5ZmRlNzJjMjllNTNkYTFhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+  petgolemik:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Golemik
+        ","italic":false,"color":"white"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot unikatowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+10%
+        ","italic":false,"color":"red"},{"text":"obrony od wszystkich obrażeń","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"-50%
+        ","italic":false,"color":"red"},{"text":"obrażeń od dripstone","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+1
+        ","italic":false,"color":"red"},{"text":"serce","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "golemik"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 8a828472-902c-4354-a64c-eab9d5acb830
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTYyMDgwNTM2MTI1MiwKICAicHJvZmlsZUlkIiA6ICI2MWVhMDkyM2FhNDQ0OTEwYmNlZjViZmQ2ZDNjMGQ1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVEYXJ0aEZhdGhlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kN2JmNTUwMWM3ZWIyYmVhYWFlNmI4ZDNjOGQ1MjUxNWI5OTc4ZmY1YjgzMzk2MTQ0MGQwYTM4M2E0MjQ5NGVlIgogICAgfQogIH0KfQ==
+  peteustachy:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Eustachy
+        ","italic":false,"color":"dark_green"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot unikatowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt potki ","italic":false,"color":"gray"},{"text":"szybkość II","italic":false,"color":"red"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Podwaja
+        ","italic":false,"color":"red"},{"text":"drop z surowców i farm","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "eustachy"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 13fa4491-3d9b-4e37-b112-5b1ae485f822
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTY4MTkwOTQ5ODM1OCwKICAicHJvZmlsZUlkIiA6ICJiMDU4MTFjYTdmNDk0YTM5OTZiNDU4ZjcwMmQ2MzJiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJVeWlsIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQwNzE0OGE0N2ZhYTQ3MDgzZGNjYTU0MjlkNTVhYWVhYWZjZmQxZDc5NWRkMGJkYmY4ZjY3MTBhNzMyNzM2ZTkiCiAgICB9CiAgfQp9
+  petenderman:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Enderman
+        ","italic":false,"color":"dark_purple"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot rzadki","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Zwiększony
+        drop pereł w ","italic":false,"color":"gray"},{"text":"endzie","italic":false,"color":"light_purple"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+3
+        ","italic":false,"color":"red"},{"text":"dodatkowych obrażeń","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "enderman"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: aa76fd7f-6f2d-41cd-9dbf-31111643dec1
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTcxMTc1NzY4NzUzNSwKICAicHJvZmlsZUlkIiA6ICJhYzA2Yjc3ZTY3YmE0NzFkYTQwNDllNmE5NGY3Nzg4YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaWRpdm9jYXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZkZjhkODQ2MzJmNDMzZTgwYjhkMjI1YjlhNjlmZjRjNjdiNGRkODllNjEwN2Y1ZjZiMGFkOWUwNzdlYTYxYiIKICAgIH0KICB9Cn0=
+  petzajaczek:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Zajączek
+        ","italic":false,"color":"white"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot eventowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt potki ","italic":false,"color":"gray"},{"text":"wysoki skok II","italic":false,"color":"red"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+4
+        ","italic":false,"color":"red"},{"text":"dodatkowe obrażenia","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt potki ","italic":false,"color":"gray"},{"text":"szybkość I","italic":false,"color":"red"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"-50%
+        ","italic":false,"color":"red"},{"text":"obrażeń od upadku","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "zajaczek"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: b0990b48-6203-4b2a-8565-c2c1e101e818
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTY1MjIyNTQ1NDI5NywKICAicHJvZmlsZUlkIiA6ICIwNTVhOTk2NTk2M2E0YjRmOGMwMjRmMTJmNDFkMmNmMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVWb3hlbGxlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMzM2VhYjU2MDI0NmFkMWEzNGQ1NTI3NjgwZjczZDRmNjBjMDQ4YzU1ZDExZDE5MTkwN2FiMmMwZDI5MWI2MTAiCiAgICB9CiAgfQp9
+  petrozdymek:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Rozdymek
+        ","italic":false,"color":"yellow"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot eventowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Oddychanie
+        ","italic":false,"color":"aqua"},{"text":"pod woda","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Zwiększony
+        drop z łowienia","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"50%
+        ","italic":false,"color":"green"},{"text":"mniej czasu negatywnych efektów","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt potki ","italic":false,"color":"gray"},{"text":"szybkości II","italic":false,"color":"aqua"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "rozdymek"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 352650fe-a9a6-401d-8946-ab0588850534
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTc0Nzg2MTk5MDgxNiwKICAicHJvZmlsZUlkIiA6ICIwNDg0N2ZjNWM5YjY0NTQ1YjI1ZWJkYmJiNzdjNjg2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYXFsdWEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDNlNmY2ZmFjMzc5ZTc2ZjIzOGY2ZDBmYTMyZDQwZWU4OTAyYzkzOThjNGQzOTNmOGQ4MTViODM0ODdhNTM3MiIKICAgIH0KICB9Cn0=
+  petpajak:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Pająk
+        ","italic":false,"color":"red"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot eventowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Odporność
+        na ","italic":false,"color":"gray"},{"text":"negatywne efekty","italic":false,"color":"light_purple"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt potki ","italic":false,"color":"gray"},{"text":"wysoki skok II","italic":false,"color":"red"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt potki ","italic":false,"color":"gray"},{"text":"szybkości II","italic":false,"color":"aqua"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"-100%
+        ","italic":false,"color":"red"},{"text":"obrażeń od upadku","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "pajak"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 84d23a28-e870-4829-96e3-cfa6a2b21b70
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTY2Njk3NDgyMTIxOSwKICAicHJvZmlsZUlkIiA6ICJhMjk1ODZmYmU1ZDk0Nzk2OWZjOGQ4ZGE0NzlhNDNlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZXZlMjMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzFmNjc4MTlmMTY0MmJlMTNlY2ZjNDdjNDZhZmZmNWE1OTZiMjA2Y2Q4Y2QzZjRjMTg4ZDZkZTI3ZmFlMGU2NiIKICAgIH0KICB9Cn0=
+  petsowa:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Sowa
+        ","italic":false,"color":"gold"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot eventowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+3
+        ","italic":false,"color":"red"},{"text":"dodatkowych obrażeń","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Nigdy
+        ","italic":false,"color":"red"},{"text":"nie stajesz się głodny","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Podgląd
+        ","italic":false,"color":"gray"},{"text":"życia ","italic":false,"color":"dark_red"},{"text":"przeciwnika","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt potki ","italic":false,"color":"gray"},{"text":"szybkości I","italic":false,"color":"aqua"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "sowa"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: e7d9ba3f-46e5-3324-bd21-18d7d667e453
+        name: XSeries
+        properties:
+          - name: XSeries
+            value: 13.0.0
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg2OWY2Nzk2MWYzZWU1YjY4ZTM4Zjc5ODU3MDY4ZWQxNmNiZGYwZjhjOWNlYTJkNzUwNGZjOGRmODcxZDFkNyJ9fX0=
+  petdrakula:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Drakula
+        ","italic":false,"color":"red"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot eventowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Wytrzymałość
+        uzbrojenia ","italic":false,"color":"gray"},{"text":"+20%","italic":false,"color":"white"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"10%
+        ","italic":false,"color":"red"},{"text":"na kradzież życia","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+2
+        ","italic":false,"color":"red"},{"text":"serca","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt potki ","italic":false,"color":"gray"},{"text":"szybkości II","italic":false,"color":"aqua"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "drakula"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 9a340c75-2ba6-445d-8fd9-8e5868e5d150
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTYyMzc4MDc1OTExMywKICAicHJvZmlsZUlkIiA6ICJmOTJiZDcxNGE0NmE0MmQ0OTQ1ZjdiMGNmNzExMDllNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJzaGlrb2xpbmsiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmU5YWMwY2MwNWY1MjgwNTEwZjkxNjcyMWQ3ODgyOTU1YzY4MzE0Yzg5MTcwZGU4MzVkM2QzMTY0MDYwM2U5YiIKICAgIH0KICB9Cn0=
+  petelfik:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Elfik
+        ","italic":false,"color":"dark_green"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot eventowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+20%
+        ","italic":false,"color":"red"},{"text":"obrony od wszystkich obrażeń","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"-50%
+        ","italic":false,"color":"red"},{"text":"obrażeń od dripstone","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+3
+        ","italic":false,"color":"red"},{"text":"dodatkowych obrażeń","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Nigdy
+        ","italic":false,"color":"red"},{"text":"nie stajesz się głodny","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "elfik"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 99630f3e-2206-4b1b-9a87-490731995025
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTc0Nzg2MzI0ODQ2MSwKICAicHJvZmlsZUlkIiA6ICJjYmNkNDQzZGE1NTI0OGU3ODM3NWNmZjYwMmQzZWI0NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJPX1JlaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kYWQzM2FiNjRjODFiNDNiZjRiZjUyNjFkZmRkODRiODEyOTE1MmRkN2IxMjI2MWY1ZGFjYjc3MzYyOTIyYTVkIgogICAgfQogIH0KfQ==
+  petpierniczek:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Pierniczek
+        ","italic":false,"color":"gold"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot eventowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Podwaja
+        ","italic":false,"color":"red"},{"text":"drop z surowców i farm","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt potki ","italic":false,"color":"gray"},{"text":"szybkość II","italic":false,"color":"red"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+2
+        ","italic":false,"color":"red"},{"text":"serca","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Większe
+        ","italic":false,"color":"gray"},{"text":"doświadczenie ","italic":false,"color":"green"},{"text":"z
+        kamienia","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "pierniczek"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: b0df3f85-cae4-4d8f-a9cc-e0ee09b7cc8c
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTc0Nzg2MzczNzcxMCwKICAicHJvZmlsZUlkIiA6ICJkNDAwODgyZmY3OGQ0ZGVhYjliMGNlMTc2YmQ1ZTQyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQcmF4aWJldGwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzgyZTlhYzhjNjdlYzM2NmFhYTFmZDhjOTQyMTIxNjg4ODAyNGNlZjY0MzUzNzdmM2I3MWRlZWI2YzdlOTA4NiIKICAgIH0KICB9Cn0=
+  petpaczus:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Pączuś
+        ","italic":false,"color":"gold"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot eventowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Nigdy
+        ","italic":false,"color":"red"},{"text":"nie stajesz się głodny","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt potki ","italic":false,"color":"gray"},{"text":"odporności II","italic":false,"color":"red"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt ","italic":false,"color":"gray"},{"text":"spowolnienia I","italic":false,"color":"dark_red"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt potki ","italic":false,"color":"gray"},{"text":"regeneracji I","italic":false,"color":"light_purple"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "paczus"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: e3716875-672e-452a-b951-3535443440c5
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTc0NzQ5OTc0NTU5MywKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTgxNzE3M2ZiMTJmMjYwZjc2NzAxNGMxMmQ4NWFhZTVlMjIyMmEwZTU0M2UzYTZmNjdkMTI0YmI1N2IzN2U2ZiIKICAgIH0KICB9Cn0=
+  petbobas:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Bobas
+        ","italic":false,"color":"aqua"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot eventowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+2
+        ","italic":false,"color":"red"},{"text":"dodatkowych obrażeń","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"10%
+        ","italic":false,"color":"red"},{"text":"odporności na miecz","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Odporność
+        na ","italic":false,"color":"gray"},{"text":"ogień","italic":false,"color":"yellow"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+2
+        ","italic":false,"color":"red"},{"text":"serca","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "bobas"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 031a6c0d-422e-4997-96b7-687677c303ee
+        properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ2N2IyYThmY2E4YmQxNTljMmUxOTQ3OTQ3YmQxZDU2MmZiYzI3MTZlZmVlNDhkNTU3OTRmZTUzNWVmYmEifX19
+  petbiznesmenik:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Biznesmenik
+        ","italic":false,"color":"aqua"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot pospolity","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Podwaja
+        ","italic":false,"color":"red"},{"text":"drop z surowców i farm","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "biznesmenik"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 5884e07b-5716-4573-89a4-9bb5fb52ce3d
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTY5MjM0NTkwMTU2NSwKICAicHJvZmlsZUlkIiA6ICJmZTE0M2FhZTVmNGE0YTdiYjM4MzcxM2U1Mjg0YmIxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZWZveHk0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQwMzI4OTc3MTUyNjBkNzZlYzY3ODhiYjQxNTE0ZTQxNGQ3M2U5NWU4OTdjOTg2NTgxNzM3OWE5NTU2N2NjNGQiCiAgICB9CiAgfQp9
+  petskalniczek:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Skalniaczek
+        ","italic":false,"color":"aqua"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot pospolity","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"-50%
+        ","italic":false,"color":"red"},{"text":"obrażeń od dripstone","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "skalniaczek"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: b0d01331-c18f-48d7-8fe3-c4c28f5d1c8e
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTY0Njc4NzA3MDcxNCwKICAicHJvZmlsZUlkIiA6ICIzYTNmNzhkZmExZjQ0OTllYjE5NjlmYzlkOTEwZGYwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb19jcmVyYXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk4NWY3MGI1YWM0M2RlNzJhYTgwNzcyZTE0MWU0ZjUzOGIyMzIwYzdhM2IyZWFmM2Q5NGMwOWEzMzI0MTNmMiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+  petduszek:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Duszek
+        ","italic":false,"color":"white"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot eventowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt potki ","italic":false,"color":"gray"},{"text":"szybkość II","italic":false,"color":"red"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Nigdy
+        ","italic":false,"color":"red"},{"text":"nie stajesz się głodny","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"-50%
+        ","italic":false,"color":"red"},{"text":"obrażeń od dripstone","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+1
+        ","italic":false,"color":"red"},{"text":"serce","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "duszek"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: ebfab3b7-aeda-46e0-854e-d92d089489dc
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTY5NjY1ODU4MDkyMSwKICAicHJvZmlsZUlkIiA6ICIyNjRkYzBlYjVlZGI0ZmI3OTgxNWIyZGY1NGY0OTgyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb2phbmdIYXNBU3R1ZGlvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VhYTFhNjE5OTYwYWM2ODYwY2I1YzliNmQzYzg4NzQ1ZDZlZjY0MDMwMDlhZjViYTBkMDgzOGI4N2IxMmRmMDQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+  petdiscordzik:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Discordzik
+        ","italic":false,"color":"aqua"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot unikatowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+1
+        ","italic":false,"color":"red"},{"text":"dodatkowych obrażeń","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+1
+        ","italic":false,"color":"red"},{"text":"serce","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "discordzik"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 305727c9-cfa9-429f-a923-2b96aa5dc552
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTYzNzU0MjMwOTQwOSwKICAicHJvZmlsZUlkIiA6ICIzZmM3ZmRmOTM5NjM0YzQxOTExOTliYTNmN2NjM2ZlZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJZZWxlaGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FlYzA4OTdjZjVhYWE5MDFlODcyYzlhNTdiYjEyZWEyZThiYThkZDMzMzIzOGExOTg2OWNjYzIxN2RjMzNkZSIKICAgIH0KICB9Cn0=
+  petglodomorek:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Głodomorek
+        ","italic":false,"color":"aqua"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot pospolity","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Nigdy
+        ","italic":false,"color":"red"},{"text":"nie stajesz się głodny","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "glodomorek"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 0ae73f41-63a2-4321-83d9-d29bc830605d
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTYxNDUzMzE4NTkyNiwKICAicHJvZmlsZUlkIiA6ICIzZmM3ZmRmOTM5NjM0YzQxOTExOTliYTNmN2NjM2ZlZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJZZWxlaGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmOGMyYzUwMWRiMzI0NzM3MzU1MjM2NWY2MGU0N2I2MjcyZGEwMzdmODQ5M2NiNzNlZDg4ODFmNzcyMmYxIgogICAgfQogIH0KfQ==
+  petpedziwiatr:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Pędziwiatr
+        ","italic":false,"color":"aqua"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot pospolity","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt potki ","italic":false,"color":"gray"},{"text":"szybkość II","italic":false,"color":"red"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "pedziwiatr"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 5947787a-2f00-4be0-9293-acae4f4cdb49
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTYxNzg4NTgwOTYzNywKICAicHJvZmlsZUlkIiA6ICIwYTUzMDU0MTM4YWI0YjIyOTVhMGNlZmJiMGU4MmFkYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQX0hpc2lybyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zNjI2YjFmZjVmZDJjYjBjMWFlYjUzNjEzMjMyZmZlOGFiODFiZDMzZDU1YmUxZjNhOTJlN2Q2ZmM3ZmQ2M2EwIgogICAgfQogIH0KfQ==
+  petpudzianek:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Pudzianek
+        ","italic":false,"color":"aqua"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot pospolity","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+2
+        ","italic":false,"color":"red"},{"text":"dodatkowych obrażeń","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "pudzianek"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 7fed8a43-b29e-46ad-95c9-2baacb6e4985
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTcyOTg2OTc1MDk1MywKICAicHJvZmlsZUlkIiA6ICJjYzU2NjAzYmZiZjg0OGJmOTM3MzY1N2VjYzUyNGI4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJpc2FhYWFhYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE4NzlkZjUxYTFlYmY4NTZlYzk2MTJhYWNiMzlhNWVmMDhmZjE2MzE0N2E0MjVlYjUzNWY1ZWQ0ZDFmYTM5MCIKICAgIH0KICB9Cn0=
+  petpancernik:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Pancernik
+        ","italic":false,"color":"aqua"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot pospolity","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+10%
+        ","italic":false,"color":"red"},{"text":"obrony od wszystkich obrażeń","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "pancernik"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 38e0f261-4213-47c9-a300-3b6cf193438a
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTYzMjUyMTY5MTI0MiwKICAicHJvZmlsZUlkIiA6ICIzOWEzOTMzZWE4MjU0OGU3ODQwNzQ1YzBjNGY3MjU2ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZW1pbmVjcmFmdGVybG9sIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc3MDE4YTBkZjM2MjYzY2U0NzYyMDZjYTNiZjBkODk0ZTcyZmQwZTY1NWE1NzUzYTc3YTczZjE0MjQ1YjdkYSIKICAgIH0KICB9Cn0=
+  petnietoperek:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Nietoperek
+        ","italic":false,"color":"yellow"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot eventowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+10%
+        ","italic":false,"color":"red"},{"text":"obrony od wszystkich obrażeń","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Podwaja
+        ","italic":false,"color":"red"},{"text":"drop z surowców i farm","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Stały
+        efekt potki ","italic":false,"color":"gray"},{"text":"szybkość II","italic":false,"color":"red"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+2
+        ","italic":false,"color":"red"},{"text":"dodatkowych obrażeń","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "nietoperek"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 57abc454-052c-4d85-8321-727df17ad462
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTcxMjMwNjE4NTc3OSwKICAicHJvZmlsZUlkIiA6ICIxODA1Y2E2MmM0ZDI0M2NiOWQxYmY4YmM5N2E1YjgyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdWxsZWQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM1ODNhODdlYzI3NDdkMGEwZTZhY2M2ODM2YjYzOWMwNjMyZGNmOTRiYzMwZDJlNWQwNDgwNmM1ZTc5MTZhZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+  pettelekrolik:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Telekrólik
+        ","italic":false,"color":"dark_aqua"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"365dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot eventowy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Podgląd
+        ","italic":false,"color":"gray"},{"text":"życia ","italic":false,"color":"dark_red"},{"text":"przeciwnika","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+3
+        ","italic":false,"color":"red"},{"text":"dodatkowych obrażeń","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"+10%
+        ","italic":false,"color":"red"},{"text":"obrony od wszystkich obrażeń","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 31536000000L,
+            "ocode-anarchialocker:pet-name": "telekrolik"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 1c06c733-a608-47f9-a75e-f7e76608918a
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTc0Nzg2NDg2OTcwMSwKICAicHJvZmlsZUlkIiA6ICJmYjZkM2E5Zjk3MWY0ZTdlYmQ0MjE2Yjk0MjE5NDA3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkZW5BcHBsZUdIRyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MWRiZGY0ZDZiZDBjOWMyZTk0ZDMwZTYzMjJiZDUzZjBiZWFkODI2OTAzZmViZmY0NGQ4Y2QzZDJiZDVhZGM5IgogICAgfQogIH0KfQ==
+  skalniaczek:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Skalniaczek
+        ","italic":false,"color":"aqua"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot pospolity","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"-50%
+        ","italic":false,"color":"red"},{"text":"obrażeń od dripstone","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "skalniaczek"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: b0d01331-c18f-48d7-8fe3-c4c28f5d1c8e
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTY0Njc4NzA3MDcxNCwKICAicHJvZmlsZUlkIiA6ICIzYTNmNzhkZmExZjQ0OTllYjE5NjlmYzlkOTEwZGYwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb19jcmVyYXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk4NWY3MGI1YWM0M2RlNzJhYTgwNzcyZTE0MWU0ZjUzOGIyMzIwYzdhM2IyZWFmM2Q5NGMwOWEzMzI0MTNmMiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+  petskalniaczek:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Pet ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Skalniaczek
+        ","italic":false,"color":"aqua"},{"text":"na czas ","italic":false,"color":"gray"},{"text":"1dni","italic":false,"color":"dark_aqua"}]}'
+      lore:
+        - '{"text":"","extra":[{"text":"Przedmiot pospolity","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Otrzymasz następujące bonusy:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"-50%
+        ","italic":false,"color":"red"},{"text":"obrażeń od dripstone","italic":false,"color":"gray"}]}'
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+      PublicBukkitValues: |-
+        {
+            "ocode-anarchialocker:pet-duration": 86400000L,
+            "ocode-anarchialocker:pet-name": "skalniaczek"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: b0d01331-c18f-48d7-8fe3-c4c28f5d1c8e
+        properties:
+          - name: textures
+            value: ewogICJ0aW1lc3RhbXAiIDogMTY0Njc4NzA3MDcxNCwKICAicHJvZmlsZUlkIiA6ICIzYTNmNzhkZmExZjQ0OTllYjE5NjlmYzlkOTEwZGYwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb19jcmVyYXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk4NWY3MGI1YWM0M2RlNzJhYTgwNzcyZTE0MWU0ZjUzOGIyMzIwYzdhM2IyZWFmM2Q5NGMwOWEzMzI0MTNmMiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+  drakula:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"color":"gray","underlined":false,"text":"Pet ","bold":false,"strikethrough":false,"obfuscated":false,"italic":false},{"color":"red","text":"Drakula
+        ","italic":false},{"color":"gray","text":"na czas ","italic":false},{"color":"dark_aqua","text":"30
+        dni","italic":false}],"text":""}'
+      lore:
+        - '{"extra":[{"color":"dark_gray","underlined":false,"text":"Przedmiot eventowy","bold":false,"strikethrough":false,"obfuscated":false,"italic":false}],"text":""}'
+        - '""'
+        - '{"extra":[{"color":"white","underlined":false,"text":"Otrzymasz następujące
+        bonusy:","bold":false,"strikethrough":false,"obfuscated":false,"italic":false}],"text":""}'
+        - '{"extra":[" ",{"color":"dark_gray","underlined":false,"text":"» ","bold":false,"strikethrough":false,"obfuscated":false,"italic":false},{"color":"gray","text":"Wytrzymałość
+        uzbrojenia ","italic":false},{"color":"white","text":"+20%","italic":false}],"text":""}'
+        - '{"extra":[" ",{"color":"dark_gray","underlined":false,"text":"» ","bold":false,"strikethrough":false,"obfuscated":false,"italic":false},{"color":"red","text":"10%
+        ","italic":false},{"color":"gray","text":"na kradzież życia","italic":false}],"text":""}'
+        - '{"extra":[" ",{"color":"dark_gray","underlined":false,"text":"» ","bold":false,"strikethrough":false,"obfuscated":false,"italic":false},{"color":"red","text":"+2
+        ","italic":false},{"color":"gray","text":"serca","italic":false}],"text":""}'
+        - '{"extra":[" ",{"color":"dark_gray","underlined":false,"text":"» ","bold":false,"strikethrough":false,"obfuscated":false,"italic":false},{"color":"gray","text":"Stały
+        efekt potki ","italic":false},{"color":"aqua","text":"szybkości II","italic":false}],"text":""}'
+        - '""'
+        - '{"extra":[{"color":"gray","underlined":false,"text":"Pet wygaśnie: ","bold":false,"strikethrough":false,"obfuscated":false,"italic":false},{"color":"white","text":"22-12-2025,
+        11:03:24","italic":false}],"text":""}'
+        - '{"extra":[{"color":"gray","underlined":false,"text":"Wygenerowany unikalny
+        szyfr:","bold":false,"strikethrough":false,"obfuscated":false,"italic":false}],"text":""}'
+        - '{"extra":[{"color":"yellow","underlined":false,"text":"d254d775-ff47-47de-bc3f-c896dd798d48","bold":false,"strikethrough":false,"obfuscated":false,"italic":false}],"text":""}'
+        - '{"extra":[{"color":"green","underlined":false,"text":"Kliknij prawym, aby
+        aktywować!","bold":false,"strikethrough":false,"obfuscated":false,"italic":false}],"text":""}'
+        - '""'
+        - '{"extra":[" ",{"color":"dark_gray","underlined":false,"text":"» ","bold":false,"strikethrough":false,"obfuscated":false,"italic":false},{"color":"gray","text":"Wystawił
+        ","italic":false},{"color":"white","text":"Nelcia272","italic":false}],"text":""}'
+        - '{"extra":[" ",{"color":"dark_gray","underlined":false,"text":"» ","bold":false,"strikethrough":false,"obfuscated":false,"italic":false},{"color":"gray","text":"Koszt
+        ","italic":false},{"color":"white","text":"$75k ","italic":false},{"color":"dark_gray","text":"($75,000)","italic":false}],"text":""}'
+        - '{"color":"dark_gray","extra":[{"color":"gray","text":"Wygaśnie za "},{"color":"white","text":"23h
+        25m 40s"}],"text":" » ","italic":false}'
+        - '""'
+        - '{"extra":[" ",{"color":"dark_gray","underlined":false,"text":"» ","bold":false,"strikethrough":false,"obfuscated":false,"italic":false},{"color":"green","text":"Kliknij
+        ","italic":false},{"color":"dark_green","text":"LEWYM","italic":false},{"color":"green","text":",
+        aby zakupić przedmiot!","italic":false}],"text":""}'
+      enchants:
+        LOYALTY: 1
+      attribute-modifiers:
+        GENERIC_LUCK:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 0.0
+            name: gg-sectors:dummy
+            uuid: 4e7a47c5-ab2a-4d66-912a-761f5e593df2
+            operation: 0
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/9VXy28bRRifPGhsUx4qJ05sl1aC1EbrtR0nlioRcNo6jZ3mZcdGNBrvju3xzu6Y2dmY2aaXSKgHThxRD1yQQEJCHLggekLxv9D/gAsXEGeEGL+SuHW3pMJS8MVe7/f4fb/5HvNFAJgCrxaLB4bncmrvmZDDqQh4s/jBwR1GOTUoie/p2l5qm/a+E2FwccUxGtDhNnK4GwHSQAhMYxPMESog4WIazJB9Is1GwPyomfjASOoAOwZ19hHjuEpQz2kYvAE5Z7jqcbRnUxPXMGJuqGsevF6vx1xkcMrcjOnZthiDeQaEb2ET3SCw7kqltyNgzsRui0ARArMFaKOpK/dU9ClnUM18dE+VgChTM2qdQaFGVc8xESPYQaaaqUHioqjKpbAUuIO4IgWqlJy8ciVOC/EGo169cfwvrdY814D8lA3MIcHG4PF+9MQtk0LHLrIMWh6BXTfPVBjgHGg4UDF86AZqmJBZe/ATD56oJTTFdPBTSh8fC6j3w2B2jTLU5f0S+GocYz27z6eN+ci0MeUK2pd5QtviPyLxNFgwrarg23Eg2w3MUSDAdc58YUPXVxzo8qMvW17z6DMDKVXqeK7ITADtVOgEqSqP7qyU/vLzBBJxNK9Kos9K55B2Hh49UDy/ymgTOTg4OYdsD6xc07WrgUkG/j6HTIyUZFy7erZytBg0fYw6j5TOI2FgGBz/7+c9/mv6GcJ3ETOCA/4fpP4Wl1kvFFRDFldalFs4kIHRxur6omrJkjGwkssFH323ZT1+4UnUFnXYeehglJkAIU+Usa7H4npM1/RUVInHM1oioyeDY/v6heIqiTpyEKNt6AjFc7AFifwhKa2xSbRh8P04lAIRQtuBOE09lTTT6VSsVkumY8m0iWJVI1GLGYtLC6aZXlo0k4uTwDt2wNUZQk4g3NsEWw5uKi0G28KOKrAqFGhx0ZZEHz24PKlx/Ne5r/SScDls487hWWZaARHZ1fW0Htznouc++tvU9flZIr+STlnPv2iOOnlHKkU1TXs3uF98Pt7IM3vIScPoN0HFl/eSoA6WaCh6ylaSmque8qz0aR4F1k3eqffP5fH1K/2Jsv4XJzKit7ZSKueDZ/qIfL9h+HIzaWF5E2wN7/OXg480DC4tD9e4/HCLGyyJvTXs6WVObm7rLcQgx9SRguBlMLuzk8vKX7MF/2bnu/l87Yv5/bfulq//GQKvHFvvGbvYGx3YeI94hnUBXFi2qedwMPxEQGRLrlZkvS2lhgCkg+mc2TX/x8xvr82JVOFQu/vTD/O/fiPF5bba6q6lyA2DUDcsj6Eh/peKkHgI/IjEqlbZbWjm7ioxRG5BPm9vaWQ912ylc05RVD/MLeRs+f7W8sKaWDolm+KwlCLlxGqj4mx4VbuorSU2Cbq1GTfsnf389qZVyK6ISrbRKNi5VMEuWAX9RqO8XffzzVVSaRrxil2OV5obWtk3kuvZRrPSzIt8c6NdLm0ky74l8vpKfP1mgZS3DS2fNRsFvLpU29Wu99mY2D4O/gG9fsVtSBAAAA==
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: f003ea0f-0779-354e-8230-5eb9b02ae5a7
+        properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTRkNDEyZDhhNmI5NmNkN2FhYTgzMjJlZjc1ZmY1ZjQ0Yzc4ODhjZjMyMjQwYWQ4YzkyM2E1OGNlYTc0MDdhNiJ9fX0=
+  pedziwiatr:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"color":"gray","underlined":false,"text":"Pet ","bold":false,"strikethrough":false,"obfuscated":false,"italic":false},{"color":"aqua","text":"Pędziwiatr
+        ","italic":false},{"color":"gray","text":"na czas ","italic":false},{"color":"dark_aqua","text":"30
+        dni","italic":false}],"text":""}'
+      lore:
+        - '{"extra":[{"color":"dark_gray","underlined":false,"text":"Przedmiot pospolity","bold":false,"strikethrough":false,"obfuscated":false,"italic":false}],"text":""}'
+        - '""'
+        - '{"extra":[{"color":"white","underlined":false,"text":"Otrzymasz następujące
+        bonusy:","bold":false,"strikethrough":false,"obfuscated":false,"italic":false}],"text":""}'
+        - '{"extra":[" ",{"color":"dark_gray","underlined":false,"text":"» ","bold":false,"strikethrough":false,"obfuscated":false,"italic":false},{"color":"gray","text":"Stały
+        efekt potki ","italic":false},{"color":"red","text":"szybkości II","italic":false}],"text":""}'
+        - '""'
+        - '{"extra":[{"color":"gray","underlined":false,"text":"Pet wygaśnie: ","bold":false,"strikethrough":false,"obfuscated":false,"italic":false},{"color":"white","text":"04-01-2026,
+        20:27:47","italic":false}],"text":""}'
+        - '{"extra":[{"color":"gray","underlined":false,"text":"Wygenerowany unikalny
+        szyfr:","bold":false,"strikethrough":false,"obfuscated":false,"italic":false}],"text":""}'
+        - '{"extra":[{"color":"yellow","underlined":false,"text":"f6a900aa-3066-43e5-aeb1-77e8cd42faa5","bold":false,"strikethrough":false,"obfuscated":false,"italic":false}],"text":""}'
+        - '{"extra":[{"color":"green","underlined":false,"text":"Kliknij prawym, aby
+        aktywować!","bold":false,"strikethrough":false,"obfuscated":false,"italic":false}],"text":""}'
+        - '""'
+        - '{"extra":[" ",{"color":"dark_gray","underlined":false,"text":"» ","bold":false,"strikethrough":false,"obfuscated":false,"italic":false},{"color":"gray","text":"Wystawił
+        ","italic":false},{"color":"white","text":"jestemzielony402","italic":false}],"text":""}'
+        - '{"extra":[" ",{"color":"dark_gray","underlined":false,"text":"» ","bold":false,"strikethrough":false,"obfuscated":false,"italic":false},{"color":"gray","text":"Koszt
+        ","italic":false},{"color":"white","text":"$59.99k ","italic":false},{"color":"dark_gray","text":"($59,999)","italic":false}],"text":""}'
+        - '{"extra":[" ",{"color":"dark_gray","underlined":false,"text":"» ","bold":false,"strikethrough":false,"obfuscated":false,"italic":false},{"color":"gray","text":"Wystawiono
+        ","italic":false},{"color":"white","text":"21-12-2025, 00:14:24","italic":false}],"text":""}'
+        - '""'
+        - '{"extra":[" ",{"color":"dark_gray","underlined":false,"text":"» ","bold":false,"strikethrough":false,"obfuscated":false,"italic":false},{"color":"green","text":"Kliknij
+        ","italic":false},{"color":"dark_green","text":"LEWYM","italic":false},{"color":"green","text":",
+        aby zakupić przedmiot!","italic":false}],"text":""}'
+      enchants:
+        ARROW_FIRE: 1
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+      internal: H4sIAAAAAAAA/+NiYOBiEAwLq3FJLEl0zs8tyM9LzSspZmbgy02siC8uSUzOji/OrEplYGBgZGAAAF3Q4iguAAAA
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 1cbe53a5-1f57-3e76-9055-0846f4bfaa07
+        properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzYyNmIxZmY1ZmQyY2IwYzFhZWI1MzYxMzIzMmZmZThhYjgxYmQzM2Q1NWJlMWYzYTkyZTdkNmZjN2ZkNjNhMCJ9fX0=

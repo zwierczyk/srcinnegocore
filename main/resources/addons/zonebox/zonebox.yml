@@ -1,0 +1,14 @@
+allowed-blocks:
+  - EMERALD_BLOCK
+  - COBWEB
+
+allowed-place-regions:
+  - bezelek
+
+messages:
+  blocked: '&#FF5C5C✘ &8• &#FF5C5CTego bloku nie możesz tutaj wykopać.'
+  place-blocked: '&#FF5C5C✘ &8• &#FF5C5CTego bloku nie możesz tutaj postawić.'
+  economy-place-blocked: '&#FF5C5C✘ &8• &#FF5C5CBloków z ekonomii nie można stawiać.'
+  economy-break-outside-generator: '&#FF5C5C✘ &8• &#FF5C5CBloki z ekonomii możesz kopać tylko w generatorze.'
+  craft-blocked: '&#FF5C5C✘ &8• &#FF5C5CCrafting jest wyłączony na tym trybie.'
+place-deny-cooldown-seconds: 2

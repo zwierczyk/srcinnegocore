@@ -1,0 +1,258 @@
+# Edytowalny config: plugins/HollyCore/masakra-szafka.yml
+# /szafka — szafka gracza (kostiumy i talizmany).
+# /aszafka give <kostium|talizman> <nick> <id> [czas] [ilość] — wydaje bon (PPM = aktywacja).
+# /aszafka zabierz <nick> <id> — zabiera kostium/talizman graczowi online.
+# /aszafka reload — wczytuje zmiany z tego pliku. Istniejący plik nie jest nadpisywany.
+# Czas: 30m, 12h, 7d, 2w, 1msc, 1d12h albo perm. Bez czasu bon dostaje default-duration.
+# Kostiumy są wyłącznie wizualne: inni gracze widzą skórzany zestaw, prawdziwy pancerz się nie zmienia.
+# Talizmany nie mają wyglądu — jedynie symbol przy nicku (nametag.enabled).
+# Perki: mining-percent, damage-percent, damage-reduction-percent, lifesteal-chance, lifesteal-hearts,
+# no-hunger, effects (np. HASTE:0, SPEED:1).
+# mining-percent działa na bloki z generatorów oraz bloki z settings.mining-blocks, których drop różni się
+# od samego bloku (ruda -> surowiec). Nie dodawaj tu bloków odzyskiwalnych z dropu (np. STONE: bruk -> piec -> kamień),
+# bo postawienie i wykopanie ich w kółko pozwalałoby dupić drop.
+# effects-blocked-regions/worlds wyłączają perki (wygląd kostiumu zostaje).
+settings:
+  max-talismans: 3
+  keep-elytra-visible: true
+  hide-costume-when-invisible: true
+  gui-click-cooldown-ms: 200
+  date-format: 'dd.MM.yyyy HH:mm:ss'
+  effects-blocked-regions: []
+  effects-blocked-worlds: []
+  mining-blocks:
+    - '*_ORE'
+    - AMETHYST_CLUSTER
+time:
+  permanent: 'na zawsze'
+  never: 'nigdy'
+nametag:
+  enabled: true
+  format: ' {SYMBOLS}'
+  separator: ' '
+sounds:
+  open: BLOCK_CHEST_OPEN:0.6:1.2
+  click: UI_BUTTON_CLICK:0.5:1.4
+  equip: ITEM_ARMOR_EQUIP_LEATHER:0.9:1.0
+  unequip: ITEM_ARMOR_EQUIP_GENERIC:0.9:0.8
+  talisman-equip: BLOCK_AMETHYST_BLOCK_CHIME:1.0:1.2
+  talisman-unequip: BLOCK_AMETHYST_BLOCK_HIT:1.0:0.8
+  redeem: UI_TOAST_CHALLENGE_COMPLETE:0.7:1.2
+  expire: BLOCK_BEACON_DEACTIVATE:0.8:1.0
+  error: ENTITY_VILLAGER_NO:0.7:1.0
+titles:
+  redeem-title: '&6&lAKTYWOWANO'
+  redeem-subtitle: '{NAME} &8• &f{DURATION}'
+messages:
+  no-permission: '&c✘ &7Nie masz uprawnień do tej komendy.'
+  only-player: '&c✘ &7Ta komenda jest dostępna tylko w grze.'
+  usage: '&cUżycie: /aszafka give <kostium|talizman> <nick> <id> [czas] [ilość] &8| &c/aszafka zabierz <nick> <id> &8| &c/aszafka reload'
+  reloaded: '&a✔ &7Przeładowano &fmasakra-szafka&7.'
+  reload-failed: '&c✘ &7Błąd w &f{FILE}&7. Popraw YAML — obecne ustawienia zostały zachowane.'
+  player-offline: '&c✘ &7Gracz &f{PLAYER} &7nie jest online.'
+  unknown-item: '&c✘ &7Nie ma takiego przedmiotu: &f{ID}&7.'
+  invalid-duration: '&c✘ &7Nieprawidłowy czas: &f{VALUE}&7. Przykłady: &f30m&7, &f12h&7, &f7d&7, &fperm&7.'
+  invalid-amount: '&c✘ &7Nieprawidłowa ilość: &f{VALUE}&7.'
+  given: '&a✔ &7Wydano &f{AMOUNT}x {NAME} &8(&f{DURATION}&8) &7graczowi &f{PLAYER}&7.'
+  removed: '&a✔ &7Zabrano {NAME} &7graczowi &f{PLAYER}&7.'
+  target-not-owned: '&c✘ &7Gracz &f{PLAYER} &7nie posiada {NAME}&7.'
+  target-not-loaded: '&c✘ &7Szafka gracza &f{PLAYER} &7jeszcze się wczytuje.'
+  not-loaded: '&c✘ &7Twoja szafka jeszcze się wczytuje. Spróbuj za chwilę.'
+  storage-error: '&c✘ &7Nie udało się połączyć z bazą danych. Bon wrócił do ekwipunku.'
+  voucher-used: '&c✘ &7Ten bon został już wykorzystany i przepadł.'
+  voucher-unknown: '&c✘ &7Ten bon jest nieaktualny — zgłoś to administracji.'
+  redeemed: '&a✔ &7Aktywowano {NAME} &7na &f{DURATION}&7. Wygasa: &f{EXPIRES}&7.'
+  costume-equipped: '&a✔ &7Założono {NAME}&7.'
+  costume-unequipped: '&e✔ &7Zdjęto {NAME}&7.'
+  talisman-equipped: '&a✔ &7Założono {NAME}&7.'
+  talisman-unequipped: '&e✔ &7Zdjęto {NAME}&7.'
+  talisman-slots-full: '&c✘ &7Wszystkie sloty talizmanów są zajęte (&f{MAX}&7). Zdejmij jeden z nich.'
+  not-owned: '&c✘ &7Nie posiadasz {NAME}&7.'
+  expired: '&c⌛ &7{NAME} &7wygasł.'
+vouchers:
+  costume-material: LEATHER_HORSE_ARMOR
+  name: '{NAME} &8• &7Bon'
+  lore:
+    - ''
+    - '&f≡ Właściwości:'
+    - '{PROPERTIES}'
+    - ''
+    - '&8× &7Czas trwania: &e{DURATION}'
+    - '&8× &7Czas liczy się od aktywacji.'
+    - ''
+    - '&aKliknij PPM, aby aktywować.'
+    - ''
+    - '{RARITY}'
+gui:
+  title: '&8✦ &6&lSZAFKA &8✦'
+  filler: BLACK_STAINED_GLASS_PANE
+  separator: GRAY_STAINED_GLASS_PANE
+  separator-slots: [18, 19, 20, 21, 22, 23, 24, 25, 26]
+  header-slot: 4
+  costume-slot: 11
+  talisman-slots: [14, 15, 16]
+  list-slots: [28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+  filter-slot: 45
+  previous-slot: 48
+  close-slot: 49
+  next-slot: 50
+  info-slot: 53
+  property-line: '&8↪ &7{LINE}'
+  entry-lore:
+    - ''
+    - '&f≡ Właściwości:'
+    - '{PROPERTIES}'
+    - ''
+    - '{STATE}'
+    - ''
+    - '{ACTION}'
+    - ''
+    - '{RARITY}'
+  state-owned:
+    - '&8× &7Wygasa: &e{EXPIRES}'
+    - '&8× &7Pozostało: &e{REMAINING}'
+  state-locked:
+    - '&c✘ Nie posiadasz tego przedmiotu.'
+    - '&7Zdobędziesz go w &6sklepie serwera&7.'
+  equipped-prefix: '&a✔ '
+  actions:
+    costume-equip: '&aKliknij, aby założyć kostium.'
+    costume-unequip: '&cKliknij, aby zdjąć kostium.'
+    talisman-equip: '&aKliknij, aby założyć talizman.'
+    talisman-unequip: '&cKliknij, aby zdjąć talizman.'
+    talisman-full: '&cZdejmij inny talizman, aby założyć ten.'
+    locked: ''
+  filters:
+    all: 'Wszystko'
+    costumes: 'Kostiumy'
+    talismans: 'Talizmany'
+  items:
+    header:
+      name: '&6&lᴛᴡᴏᴊᴀ ꜱᴢᴀꜰᴋᴀ'
+      lore:
+        - ''
+        - '&8× &7Kostium: {COSTUME}'
+        - '&8× &7Talizmany: &f{TALISMANS}&7/&f{MAX_TALISMANS}'
+        - ''
+        - '&8× &7Posiadane kostiumy: &f{OWNED_COSTUMES}'
+        - '&8× &7Posiadane talizmany: &f{OWNED_TALISMANS}'
+      no-costume: '&cbrak'
+    costume-empty:
+      material: ARMOR_STAND
+      name: '&7Slot kostiumu'
+      lore:
+        - ''
+        - '&8» &7Nie masz założonego kostiumu.'
+        - '&8» &7Wybierz kostium z listy poniżej.'
+    talisman-empty:
+      material: LIGHT_GRAY_STAINED_GLASS_PANE
+      name: '&7Slot talizmanu &8#{SLOT}'
+      lore:
+        - ''
+        - '&8» &7Wolny slot.'
+        - '&8» &7Wybierz talizman z listy poniżej.'
+    talisman-locked:
+      material: RED_STAINED_GLASS_PANE
+      name: '&cZablokowany slot talizmanu'
+      lore: []
+    empty-list:
+      material: COBWEB
+      name: '&7Pusto'
+      lore:
+        - '&8» &7Brak przedmiotów w tej kategorii.'
+    filter:
+      material: HOPPER
+      name: '&eFiltr: &f{FILTER}'
+      lore:
+        - ''
+        - '&8» &7Kliknij, aby przełączyć kategorię.'
+    previous:
+      material: ARROW
+      name: '&e« Poprzednia strona &8({PAGE}/{PAGES})'
+      lore: []
+    next:
+      material: ARROW
+      name: '&eNastępna strona » &8({PAGE}/{PAGES})'
+      lore: []
+    close:
+      material: BARRIER
+      name: '&cZamknij'
+      lore: []
+    info:
+      material: BOOK
+      name: '&6Jak to działa?'
+      lore:
+        - ''
+        - '&8» &fKostiumy &7są w pełni wizualne — inni gracze'
+        - '&8  &7widzą Twój kostium zamiast pancerza.'
+        - '&8» &7Twój prawdziwy pancerz &fdziała bez zmian&7.'
+        - '&8» &fTalizmany &7działają w tle, przy nicku'
+        - '&8  &7widać jedynie ich symbol.'
+        - '&8» &7Czas liczy się od aktywacji bonu.'
+costumes:
+  cole:
+    name: '&7Kostium &#E0E0E0&lᴄ&#BDBDBD&lᴏ&#9E9E9E&lʟ&#808080&lᴇ'
+    rarity: '&6&lLEGENDARNY'
+    color: '#1D1D21'
+    helmet-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE0MDQxM2Q4NzQ4NGZkZTU0NTJkZDBiNTIyZDhhNTNmNjM5ZmViN2M1OWEwNjVkNzdlM2U2NWQxNmVjMjI0NyJ9fX0=
+    icon: LEATHER_CHESTPLATE
+    default-duration: 7d
+    properties:
+      - '&a+25% &7do &awydobycia &7z kopania'
+    perks:
+      mining-percent: 25
+talismans:
+  sila:
+    name: '&#FF5555&lᴛᴀʟɪᴢᴍᴀɴ ꜱɪʟʏ'
+    rarity: '&9&lRZADKI'
+    icon: BLAZE_POWDER
+    symbol: '&c⚔'
+    default-duration: 7d
+    properties:
+      - '&c+5% &7do zadawanych &cobrażeń'
+    perks:
+      damage-percent: 5
+  obrona:
+    name: '&#55AAFF&lᴛᴀʟɪᴢᴍᴀɴ ᴏʙʀᴏɴʏ'
+    rarity: '&9&lRZADKI'
+    icon: PRISMARINE_SHARD
+    symbol: '&9⛨'
+    default-duration: 7d
+    properties:
+      - '&9-5% &7otrzymywanych &9obrażeń'
+    perks:
+      damage-reduction-percent: 5
+  gornik:
+    name: '&#FFD54F&lᴛᴀʟɪᴢᴍᴀɴ ɢᴏʀɴɪᴋᴀ'
+    rarity: '&5&lEPICKI'
+    icon: RAW_GOLD
+    symbol: '&e⛏'
+    default-duration: 7d
+    properties:
+      - '&e+10% &7do &ewydobycia &7z kopania'
+      - '&7Stały efekt &eSzybkie kopanie I'
+    perks:
+      mining-percent: 10
+      effects:
+        - HASTE:0
+  wampir:
+    name: '&#B71C1C&lᴛᴀʟɪᴢᴍᴀɴ ᴡᴀᴍᴘɪʀᴀ'
+    rarity: '&5&lEPICKI'
+    icon: FERMENTED_SPIDER_EYE
+    symbol: '&4❤'
+    default-duration: 7d
+    properties:
+      - '&410% &7szansy na &4+1❤ &7przy trafieniu gracza'
+    perks:
+      lifesteal-chance: 10
+      lifesteal-hearts: 1
+  sytosc:
+    name: '&#8BC34A&lᴛᴀʟɪᴢᴍᴀɴ ꜱʏᴛᴏꜱᴄɪ'
+    rarity: '&a&lZWYKŁY'
+    icon: GOLDEN_CARROT
+    symbol: '&a☘'
+    default-duration: 7d
+    properties:
+      - '&7Nigdy nie stajesz się &agłodny'
+    perks:
+      no-hunger: true

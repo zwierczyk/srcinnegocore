@@ -1,0 +1,129 @@
+#
+#   /itemshop <ranga|pakiet-bundel> <gracz>
+#   /itemshop <pakiet> <ilosc> <gracz>
+#   /itemshop losowan <gracz> <ilosc>
+#   /itemshop dungeon <gracz> <ilosc>
+#
+
+lp-server: ''
+
+ranks:
+  vip:
+    group: vip
+    duration: 30d
+    broadcast: '&aVIP'
+  svip:
+    group: svip
+    duration: 30d
+    broadcast: '&eSVIP'
+  range:
+    group: range
+    duration: 30d
+    broadcast: '&b&lRANGE'
+  peak:
+    group: peak
+    duration: 30d
+    broadcast: '&d&lPEAK'
+  legenda:
+    group: legenda
+    duration: 30d
+    broadcast: '&6LEGENDA'
+  og:
+    group: og
+    duration: 30d
+    broadcast: '&6&lOG'
+  ninja:
+    group: ninja
+    duration: 30d
+    broadcast: '&a&lNINJA'
+  boss:
+    group: boss
+    duration: 30d
+    broadcast: '&c&lBOSS'
+  goat:
+    group: goat
+    duration: 30d
+    broadcast: '&f&lGOAT'
+
+packages:
+  ogbox:
+    pickup-package: KEY_HYPEBOX
+    broadcast: '&fx{AMOUNT} &6&lOGBOX'
+  skarbowa:
+    pickup-package: KEY_LEGENDARNA
+    broadcast: '&fx{AMOUNT} &6KLUCZ SKARBOWY'
+  shard:
+    pickup-package: SHARD
+    broadcast: '&fx{AMOUNT} {ITEM_NAME}'
+    use-item-name: true
+  monetyklanowe:
+    pickup-package: CLAN_COIN
+    broadcast: '&fx{AMOUNT} {ITEM_NAME}'
+    use-item-name: true
+    aliases:
+    - monety
+    - klanowe
+    - clancoins
+
+# Bundles: /itemshop <id> <gracz>  (bez ilosci — zawartosc stala)
+# /itemshop losowan <nick> <ilosc> = dowolna ilosc zmianek (nie bundel).
+bundles:
+  pakietlosowan:
+    aliases:
+    - pakiet-losowan
+    broadcast: '&bx20 &fLosowań zmianki'
+    rewards:
+    - type: zmianki
+      amount: 20
+  pakietninja:
+    aliases:
+    - ninja-pakiet
+    - pakiet-ninja
+    broadcast: '&a&lPAKIET NINJA'
+    rewards:
+    - type: rank
+      rank: ninja
+    - type: tickets
+      amount: 10
+    - type: pickup
+      package: SHARD
+      amount: 250
+  pakietboss:
+    aliases:
+    - boss-pakiet
+    - pakiet-boss
+    broadcast: '&c&lPAKIET BOSS'
+    rewards:
+    - type: rank
+      rank: boss
+    - type: tickets
+      amount: 25
+    - type: pickup
+      package: SHARD
+      amount: 500
+    - type: zmianki
+      amount: 7
+  pakietgoat:
+    aliases:
+    - goat-pakiet
+    - pakiet-goat
+    broadcast: '&f&lPAKIET GOAT'
+    rewards:
+    - type: rank
+      rank: goat
+    - type: tickets
+      amount: 50
+    - type: pickup
+      package: SHARD
+      amount: 1000
+    - type: zmianki
+      amount: 15
+
+broadcast:
+- '&f'
+- '         &8⌞&#F2F454★&8⌝ &#FFBA00&lɴ&#FCC611&lᴏ&#FAD122&lᴡ&#F7DD32&lʏ &#F2F454&lᴢ&#F5E63F&lᴀ&#F9D72A&lᴋ&#FCC915&lᴜ&#FFBA00&lᴘ  &8⌞&#F2F454★&8⌝'
+- '    &fGracz &#F2F454{PLAYER} &fzakupił &#F2F454{SERVICE}'
+- '  &#FF005D❤ &#83FF86Dziękujemy za wsparcie! &#FF005D❤'
+- '     &fSklep: &#F883FFhttps://oghub.pl/'
+- '       &8⌞&#F2F454★&8⌝ &#FFBA00&lɴ&#FCC611&lᴏ&#FAD122&lᴡ&#F7DD32&lʏ &#F2F454&lᴢ&#F5E63F&lᴀ&#F9D72A&lᴋ&#FCC915&lᴜ&#FFBA00&lᴘ  &8⌞&#F2F454★&8⌝'
+- '&f'

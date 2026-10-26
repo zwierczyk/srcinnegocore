@@ -1,0 +1,106 @@
+gui:
+  szafa-title: "&8ꜱᴢᴀꜰᴋᴀ &7» &fᴍꜱʟꜰ"
+  size: 45
+  use-template: true
+
+  zdejmij-button:
+    kostium:
+      slot: 11
+      type: RED_DYE
+      name: '&cᴢᴅᴇᴊᴍɪᴊ ᴋᴏꜱᴛɪᴜᴍ'
+      lore:
+        - ''
+        - '&8» &7Kliknij, aby zdjąć kostium'
+        - ''
+    pet:
+      slot: 15
+      type: RED_DYE
+      name: '&cᴢᴅᴇᴊᴍɪᴊ ᴘᴇᴛᴀ'
+      lore:
+        - ''
+        - '&8» &7Kliknij, aby zdjąć peta'
+        - ''
+
+  kostium-slot:
+    brak-kostiumu:
+      slot: 20
+      type: CHAINMAIL_CHESTPLATE
+      name: '&cʙʀᴀᴋ ᴋᴏꜱᴛɪᴜᴍᴜ'
+      lore:
+        - '&8» &7Załóż kostium PPM z ekwipunku'
+    kostium:
+      slot: 20
+
+  pet-slot:
+    brak-peta:
+      slot: 24
+      type: PLAYER_HEAD
+      name: '&cʙʀᴀᴋ ᴘᴇᴛᴀ'
+      lore:
+        - '&8» &7Załóż peta PPM z ekwipunku'
+    pet:
+      slot: 24
+
+  zwoj-button:
+    kostium:
+      slot: 29
+      type: LIME_DYE
+      name: '&aᴘʀᴢᴇᴅʟᴜᴢ ᴋᴏꜱᴛɪᴜᴍ'
+      lore:
+        - ''
+        - '&8» &7Kliknij, aby przedłużyć kostium'
+        - ''
+    pet:
+      slot: 33
+      type: LIME_DYE
+      name: '&aᴘʀᴢᴇᴅʟᴜᴢ ᴘᴇᴛᴀ'
+      lore:
+        - ''
+        - '&8» &7Kliknij, aby przedłużyć peta'
+        - ''
+
+  close-button:
+    slot: 40
+    type: BARRIER
+    name: '&cᴢᴀᴍᴋɴɪᴊ'
+    lore: []
+
+  dekoracje:
+    'header-k':
+      slot: 3
+      type: ORANGE_STAINED_GLASS_PANE
+      name: '&6&lᴋᴏꜱᴛɪᴜᴍʏ'
+      lore:
+        - '&8» &7Lewa strona szafki'
+    'header-p':
+      slot: 5
+      type: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: '&b&lᴘᴇᴛʏ'
+      lore:
+        - '&8» &7Prawa strona szafki'
+    '4':
+      slot: 39
+      type: ARMOR_STAND
+      name: '&6ʟɪꜱᴛᴀ ᴋᴏꜱᴛɪᴜᴍᴏᴡ'
+      lore:
+        - ' &8» &7Pełna lista dostępnych kostiumów'
+        - ' &8» &7wraz z ich efektami'
+        - ''
+        - ' &8» &aKliknij LEWYM, aby otworzyć'
+    '6':
+      slot: 41
+      type: EGG
+      name: '&bʟɪꜱᴛᴀ ᴘᴇᴛᴏᴡ'
+      lore:
+        - ' &8» &7Pełna lista dostępnych zwierzaków'
+        - ' &8» &7wraz z ich efektami'
+        - ''
+        - ' &8» &aKliknij LEWYM, aby otworzyć'
+    '5':
+      slot: 22
+      type: REDSTONE_TORCH
+      name: '&aᴡɪᴅᴏᴄᴢɴᴏꜱᴄ ᴘᴇᴛᴀ'
+      lore:
+        - ' &8» &7Ukryj / pokaż wizualnego peta'
+        - ''
+        - ' &8» &aKliknij, aby przełączyć'

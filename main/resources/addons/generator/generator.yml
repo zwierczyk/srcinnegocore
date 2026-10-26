@@ -1,0 +1,587 @@
+# time: milisekundy (renew-seconds * 1000)
+
+continuous-regeneration:
+  enabled: false
+  check-interval-ticks: 20
+  replace-all-blocks: true
+settings:
+  animation-last-seconds: 4
+hologram:
+  enabled: true
+  height-offset: 1.45
+  update-interval-ticks: 5
+  icon-offset: 0.85
+  text-offset: -0.35
+  background: true
+  shadow: true
+  icon-enabled: true
+regeneration:
+  seconds-per-layer: 1.5
+  blocks-per-tick: 4
+  ticks-between-batches: 3
+  effects: true
+hologramLines:
+  - "#ICON:{TYPE}"
+  - "&f⛏ &8| &7Regeneracja za &f&n{TIME}&8 | ⛏"
+messages:
+  prefix: ""
+  created: "&#60FF8B✔ Stworzono generator!"
+  updated: "&#60FF8B✔ Zaaktualizowano generator!"
+  deleted: "&#60FF8B✔ Usunięto generator!"
+  exists: "&#FF5C5C✖ Generator o tej nazwie już istnieje!"
+  not-found: "&#FF5C5C✖ Nie znaleziono generatora!"
+  invalid-size: "&#FF5C5C✖ Argument musi być w przedziale 1-30."
+  invalid-time: "&#FF5C5C✖ Czas musi być większy niż 1 sekunda."
+  invalid-material: "&#FF5C5C✖ Nieprawidłowy materiał."
+  teleported: "&#60FF8B✔ Przeteleportowano do generatora!"
+  reloaded: "&#60FF8B✔ Przeładowano konfigurację generatorów!"
+  wool-shears-only: "&#FF5C5C✖ Ten generator możesz kopać tylko nożyczkami z ulepsz!"
+generators:
+  "1":
+    center: world;759.5;101;-92.5;0.0;0.0
+    hologram:
+      name: "1"
+      location: world;759.5;102.45;-92.5;0.0;0.0
+    radius: 5
+    height: 4
+    time: 30000
+    default-block: EMERALD_BLOCK
+    permission: holly.generators.mine.vip
+    blocks:
+      - chance: 100
+        material: EMERALD_BLOCK
+      - chance: 50
+        material: EMERALD_ORE
+  "2":
+    center: world;743.5;101;-110.5;0.0;0.0
+    hologram:
+      name: "2"
+      location: world;743.5;102.45;-110.5;0.0;0.0
+    radius: 5
+    height: 4
+    time: 30000
+    default-block: NETHERITE_BLOCK
+    permission: holly.generators.mine.vip
+    blocks:
+      - chance: 100
+        material: NETHERITE_BLOCK
+      - chance: 50
+        material: ANCIENT_DEBRIS
+  "3":
+    center: world;759.5;101;-110.5;0.0;0.0
+    hologram:
+      name: "3"
+      location: world;759.5;102.45;-110.5;0.0;0.0
+    radius: 5
+    height: 4
+    time: 30000
+    default-block: DIAMOND_BLOCK
+    permission: holly.generators.mine.vip
+    blocks:
+      - chance: 100
+        material: DIAMOND_BLOCK
+      - chance: 50
+        material: DIAMOND_ORE
+  "4":
+    center: world;775.5;101;-110.5;0.0;0.0
+    hologram:
+      name: "4"
+      location: world;775.5;102.45;-110.5;0.0;0.0
+    radius: 5
+    height: 4
+    time: 30000
+    default-block: DIAMOND_BLOCK
+    permission: holly.generators.mine.vip
+    blocks:
+      - chance: 100
+        material: DIAMOND_BLOCK
+      - chance: 50
+        material: DIAMOND_ORE
+  "5":
+    center: world;775.5;101;-92.5;0.0;0.0
+    hologram:
+      name: "5"
+      location: world;775.5;102.45;-92.5;0.0;0.0
+    radius: 5
+    height: 4
+    time: 30000
+    default-block: EMERALD_BLOCK
+    permission: holly.generators.mine.vip
+    blocks:
+      - chance: 100
+        material: EMERALD_BLOCK
+      - chance: 50
+        material: EMERALD_ORE
+  "6":
+    center: world;775.5;101;-61.5;0.0;0.0
+    hologram:
+      name: "6"
+      location: world;775.5;102.45;-61.5;0.0;0.0
+    radius: 5
+    height: 4
+    time: 30000
+    default-block: EMERALD_BLOCK
+    permission: holly.generators.mine.svip
+    blocks:
+      - chance: 100
+        material: EMERALD_BLOCK
+      - chance: 50
+        material: EMERALD_ORE
+  "7":
+    center: world;775.5;101;-45.5;0.0;0.0
+    hologram:
+      name: "7"
+      location: world;775.5;102.45;-45.5;0.0;0.0
+    radius: 5
+    height: 4
+    time: 30000
+    default-block: EMERALD_BLOCK
+    permission: holly.generators.mine.svip
+    blocks:
+      - chance: 100
+        material: EMERALD_BLOCK
+      - chance: 50
+        material: EMERALD_ORE
+  "8":
+    center: world;759.5;101;-45.5;0.0;0.0
+    hologram:
+      name: "8"
+      location: world;759.5;102.45;-45.5;0.0;0.0
+    radius: 5
+    height: 4
+    time: 30000
+    default-block: EMERALD_BLOCK
+    permission: holly.generators.mine.svip
+    blocks:
+      - chance: 100
+        material: EMERALD_BLOCK
+      - chance: 50
+        material: EMERALD_ORE
+  "9":
+    center: world;759.5;101;-61.5;0.0;0.0
+    hologram:
+      name: "9"
+      location: world;759.5;102.45;-61.5;0.0;0.0
+    radius: 5
+    height: 4
+    time: 30000
+    default-block: DIAMOND_ORE
+    permission: holly.generators.mine.svip
+    blocks:
+      - chance: 100
+        material: DIAMOND_ORE
+      - chance: 50
+        material: EMERALD_ORE
+      - chance: 50
+        material: EMERALD_BLOCK
+  "10":
+    center: world;743.5;101;-45.5;0.0;0.0
+    hologram:
+      name: "10"
+      location: world;743.5;102.45;-45.5;0.0;0.0
+    radius: 5
+    height: 4
+    time: 30000
+    default-block: COAL_BLOCK
+    permission: holly.generators.mine.svip
+    blocks:
+      - chance: 100
+        material: COAL_BLOCK
+      - chance: 50
+        material: COAL_ORE
+  "11":
+    center: world;794.5;101;-82.5;0.0;0.0
+    hologram:
+      name: "11"
+      location: world;794.5;102.45;-82.5;0.0;0.0
+    radius: 2
+    height: 3
+    time: 60000
+    default-block: LIME_WOOL
+    permission: holly.generators.mine.mvip
+    blocks:
+      - chance: 100
+        material: LIME_WOOL
+  "13":
+    center: world;794.5;101;-68.5;0.0;0.0
+    hologram:
+      name: "13"
+      location: world;794.5;102.45;-68.5;0.0;0.0
+    radius: 2
+    height: 3
+    time: 60000
+    default-block: RED_WOOL
+    permission: holly.generators.mine.mvip
+    blocks:
+      - chance: 100
+        material: RED_WOOL
+  "14":
+    center: world;838.5;101;-80.5;0.0;0.0
+    hologram:
+      name: "14"
+      location: world;838.5;102.45;-80.5;0.0;0.0
+    radius: 2
+    height: 3
+    time: 60000
+    default-block: RED_WOOL
+    permission: holly.generators.mine.og
+    blocks:
+      - chance: 100
+        material: RED_WOOL
+  "15":
+    center: world;838.5;101;-70.5;0.0;0.0
+    hologram:
+      name: "15"
+      location: world;838.5;102.45;-70.5;0.0;0.0
+    radius: 2
+    height: 3
+    time: 60000
+    default-block: RED_WOOL
+    permission: holly.generators.mine.og
+    blocks:
+      - chance: 100
+        material: RED_WOOL
+  bezpieczna2:
+    center: world;685.5;101;-51.5;0.0;0.0
+    hologram:
+      name: bezpieczna2
+      location: world;685.5;102.45;-51.5;0.0;0.0
+    radius: 5
+    height: 3
+    time: 60000
+    default-block: EMERALD_ORE
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 40
+        material: EMERALD_ORE
+      - chance: 60
+        material: EMERALD_BLOCK
+  bezpieczna3:
+    center: world;667.5;101;-63.5;0.0;0.0
+    hologram:
+      name: bezpieczna3
+      location: world;667.5;102.45;-63.5;0.0;0.0
+    radius: 5
+    height: 3
+    time: 60000
+    default-block: STRIPPED_OAK_WOOD
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: STRIPPED_OAK_WOOD
+  bezpieczna4:
+    center: world;672.5;101;-92.5;0.0;0.0
+    hologram:
+      name: bezpieczna4
+      location: world;672.5;102.45;-92.5;0.0;0.0
+    radius: 5
+    height: 3
+    time: 60000
+    default-block: EMERALD_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: EMERALD_BLOCK
+      - chance: 60
+        material: EMERALD_ORE
+  bezpieczna5:
+    center: world;691.5;101;-108.5;0.0;0.0
+    hologram:
+      name: bezpieczna5
+      location: world;691.5;102.45;-108.5;0.0;0.0
+    radius: 5
+    height: 3
+    time: 60000
+    default-block: EMERALD_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: EMERALD_BLOCK
+      - chance: 40
+        material: EMERALD_ORE
+  bezpieczna6:
+    center: world;703.5;101;-49.5;0.0;0.0
+    hologram:
+      name: bezpieczna6
+      location: world;703.5;102.45;-49.5;0.0;0.0
+    radius: 5
+    height: 3
+    time: 60000
+    default-block: DIAMOND_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: DIAMOND_BLOCK
+      - chance: 60
+        material: EMERALD_BLOCK
+  bezpieczna7:
+    center: world;709.5;101;-93.5;0.0;0.0
+    hologram:
+      name: bezpieczna7
+      location: world;709.5;102.45;-93.5;0.0;0.0
+    radius: 2
+    height: 4
+    time: 60000
+    default-block: QUARTZ_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 50
+        material: QUARTZ_BLOCK
+      - chance: 60
+        material: QUARTZ_BRICKS
+  q1:
+    center: pvp;-175.5;-18;111.5;0.0;0.0
+    hologram:
+      name: q1
+      location: pvp;-175.5;-16.55;111.5;0.0;0.0
+    radius: 8
+    height: 4
+    time: 60000
+    default-block: EMERALD_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: EMERALD_BLOCK
+      - chance: 50
+        material: EMERALD_ORE
+  q2:
+    center: pvp;-129.5;-18;158.5;0.0;0.0
+    hologram:
+      name: q2
+      location: pvp;-129.5;-16.55;158.5;0.0;0.0
+    radius: 8
+    height: 4
+    time: 60000
+    default-block: DIAMOND_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: DIAMOND_BLOCK
+      - chance: 50
+        material: DIAMOND_ORE
+  q3:
+    center: pvp;-175.5;-18;204.5;0.0;0.0
+    hologram:
+      name: q3
+      location: pvp;-175.5;-16.55;204.5;0.0;0.0
+    radius: 8
+    height: 4
+    time: 60000
+    default-block: ANCIENT_DEBRIS
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 50
+        material: ANCIENT_DEBRIS
+  q4:
+    center: pvp;-221.5;-18;157.5;0.0;0.0
+    hologram:
+      name: q4
+      location: pvp;-221.5;-16.55;157.5;0.0;0.0
+    radius: 8
+    height: 4
+    time: 60000
+    default-block: DIAMOND_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: DIAMOND_BLOCK
+      - chance: 50
+        material: DIAMOND_ORE
+  q5:
+    center: pvp;-175.5;-18;296.5;0.0;0.0
+    hologram:
+      name: q5
+      location: pvp;-175.5;-16.55;296.5;0.0;0.0
+    radius: 8
+    height: 4
+    time: 60000
+    default-block: EMERALD_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: EMERALD_BLOCK
+      - chance: 70
+        material: EMERALD_ORE
+  q6:
+    center: pvp;-129.5;-18;250.5;0.0;0.0
+    hologram:
+      name: q6
+      location: pvp;-129.5;-16.55;250.5;0.0;0.0
+    radius: 8
+    height: 4
+    time: 60000
+    default-block: EMERALD_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: EMERALD_BLOCK
+      - chance: 70
+        material: EMERALD_ORE
+  q7:
+    center: pvp;-82.5;-18;301.5;0.0;0.0
+    hologram:
+      name: q7
+      location: pvp;-82.5;-16.55;301.5;0.0;0.0
+    radius: 8
+    height: 4
+    time: 60000
+    default-block: EMERALD_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: EMERALD_BLOCK
+      - chance: 70
+        material: EMERALD_ORE
+  q8:
+    center: pvp;-82.5;-18;111.5;0.0;0.0
+    hologram:
+      name: q8
+      location: pvp;-82.5;-16.55;111.5;0.0;0.0
+    radius: 8
+    height: 4
+    time: 60000
+    default-block: DIAMOND_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: DIAMOND_BLOCK
+      - chance: 70
+        material: DIAMOND_ORE
+  q9:
+    center: pvp;-268.5;-18;111.5;0.0;0.0
+    hologram:
+      name: q9
+      location: pvp;-268.5;-16.55;111.5;0.0;0.0
+    radius: 8
+    height: 4
+    time: 60000
+    default-block: DIAMOND_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: DIAMOND_BLOCK
+      - chance: 70
+        material: DIAMOND_ORE
+  q10:
+    center: pvp;-268.5;-18;203.5;0.0;0.0
+    hologram:
+      name: q10
+      location: pvp;-268.5;-16.55;203.5;0.0;0.0
+    radius: 8
+    height: 4
+    time: 60000
+    default-block: DIAMOND_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: DIAMOND_BLOCK
+      - chance: 70
+        material: DIAMOND_ORE
+  q11:
+    center: pvp;-269.5;-13;297.5;0.0;0.0
+    hologram:
+      name: q11
+      location: pvp;-269.5;-11.55;297.5;0.0;0.0
+    radius: 8
+    height: 4
+    time: 60000
+    default-block: DIAMOND_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: DIAMOND_BLOCK
+      - chance: 70
+        material: DIAMOND_ORE
+  q12:
+    center: pvp;-220.5;-18;250.5;0.0;0.0
+    hologram:
+      name: q12
+      location: pvp;-220.5;-16.55;250.5;0.0;0.0
+    radius: 8
+    height: 4
+    time: 60000
+    default-block: EMERALD_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: EMERALD_BLOCK
+      - chance: 70
+        material: EMERALD_ORE
+  q13:
+    center: pvp;-308.5;32;158.5;0.0;0.0
+    hologram:
+      name: q13
+      location: pvp;-308.5;33.45;158.5;0.0;0.0
+    radius: 2
+    height: 3
+    time: 60000
+    default-block: NETHER_QUARTZ_ORE
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: NETHER_QUARTZ_ORE
+  q14:
+    center: pvp;-38.5;32;158.5;0.0;0.0
+    hologram:
+      name: q14
+      location: pvp;-38.5;33.45;158.5;0.0;0.0
+    radius: 2
+    height: 3
+    time: 60000
+    default-block: NETHER_QUARTZ_ORE
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: NETHER_QUARTZ_ORE
+  q15:
+    center: pvp;-38.5;31;251.5;0.0;0.0
+    hologram:
+      name: q15
+      location: pvp;-38.5;32.45;251.5;0.0;0.0
+    radius: 2
+    height: 3
+    time: 60000
+    default-block: NETHER_QUARTZ_ORE
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: NETHER_QUARTZ_ORE
+  q16:
+    center: pvp;-308.5;32;251.5;0.0;0.0
+    hologram:
+      name: q16
+      location: pvp;-308.5;33.45;251.5;0.0;0.0
+    radius: 2
+    height: 3
+    time: 60000
+    default-block: NETHER_QUARTZ_ORE
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: NETHER_QUARTZ_ORE
+  q17:
+    center: pvp;-111.5;-13;368.5;0.0;0.0
+    hologram:
+      name: q17
+      location: pvp;-111.5;-11.55;368.5;0.0;0.0
+    radius: 2
+    height: 3
+    time: 60000
+    default-block: HONEYCOMB_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: HONEYCOMB_BLOCK
+  q18:
+    center: pvp;-135.5;-13;396.5;0.0;0.0
+    hologram:
+      name: q18
+      location: pvp;-135.5;-11.55;396.5;0.0;0.0
+    radius: 2
+    height: 3
+    time: 60000
+    default-block: HONEYCOMB_BLOCK
+    permission: holly.generators.mine.gracz
+    blocks:
+      - chance: 100
+        material: HONEYCOMB_BLOCK

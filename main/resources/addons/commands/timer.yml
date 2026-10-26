@@ -1,0 +1,53 @@
+messages:
+  usage: |-
+    &#FF0000✘ &8Ξ &cPoprawne użycie: &#FF0000
+     &8• &4/timer key <maly|sredni|duzy|ogromny> [czas]
+     &8• &4/timer cancel
+     &8• &4/timer reload
+  no-permission: "&#FF0000✘ &8Ξ &cNie posiadasz dostępu do &#FF0000/timer &8(&4Holly.cmd.timer&8)"
+  reloaded: "&#00FF3B✔ &8Ξ &#4EFA76Przeladowano konfiguracje timera."
+  key-not-found: "&#FF0000✘ &8Ξ &cNie znaleziono takiego timera kluczy: &4{KEY}"
+  invalid-time: "&#FF0000✘ &8Ξ &cPodaj poprawny czas, np. &430s&c, &41m&c, &45m30s&c."
+  already-running: "&#FF0000✘ &8Ξ &cTimer &4{KEY} &cjest juz uruchomiony."
+  started: "&#00FF3B✔ &8Ξ &#4EFA76Uruchomiono timer &f{KEY} &ana &f{TIME}&a."
+  finished: "&#00FF3B✔ &8Ξ &#4EFA76Rozdano klucze &f{KEY}&a!"
+  cancelled: "&#00FF3B✔ &8Ξ &#4EFA76Anulowano aktywne timery: &f{COUNT}&a."
+  nothing-to-cancel: "&#FF0000✘ &8Ξ &cNie ma aktywnego timera do anulowania."
+
+bossbar:
+  title: "&8» &fᴀᴜᴛᴏᴍᴀᴛʏᴄᴢɴᴇ ʀᴏᴢᴅᴀɴɪᴇ &7{KEY} &8| &fza: &7{TIME}"
+  color: WHITE
+  style: SOLID
+
+countdown-sound:
+  enabled: true
+  from-seconds: 10
+  sound: BLOCK_NOTE_BLOCK_PLING
+  volume: 1.0
+  pitch: 1.0
+
+keys:
+  maly:
+    enabled: true
+    display-name: "&x&F&F&A&5&0&0ᴍ&x&F&F&B&0&1&Fᴀ&x&F&F&B&B&3&Eʟ&x&F&F&C&6&5&Dʏ &x&F&F&D&C&9&Bᴘ&x&F&F&D&7&8&Eᴀ&x&F&F&D&3&8&1ᴋ&x&F&F&C&E&7&4ɪ&x&F&F&C&A&6&7ᴇ&x&F&F&C&5&5&Aᴛ &x&F&F&B&C&4&1ᴋ&x&F&F&B&7&3&4ʟ&x&F&F&B&3&2&7ᴜ&x&F&F&A&E&1&Aᴄ&x&F&F&A&A&0&Dᴢ&x&F&F&A&5&0&0ʏ"
+    time: 60
+    commands:
+      - "crate key give {PLAYER} maly 1"
+  sredni:
+    enabled: true
+    display-name: "&x&F&F&A&5&0&0ꜱ&x&F&F&B&0&1&Fʀ&x&F&F&B&B&3&Eᴇ&x&F&F&C&6&5&Dᴅ&x&F&F&D&1&7&Cɴ&x&F&F&D&C&9&Bɪ &x&F&F&D&4&8&5ᴘ&x&F&F&D&0&7&Aᴀ&x&F&F&C&C&6&Fᴋ&x&F&F&C&8&6&4ɪ&x&F&F&C&4&5&9ᴇ&x&F&F&C&1&4&Eᴛ &x&F&F&B&9&3&7ᴋ&x&F&F&B&5&2&Cʟ&x&F&F&B&1&2&1ᴜ&x&F&F&A&D&1&6ᴄ&x&F&F&A&9&0&Bᴢ&x&F&F&A&5&0&0ʏ"
+    time: 120
+    commands:
+      - "crate key give {PLAYER} sredni 1"
+  duzy:
+    enabled: true
+    display-name: "&x&F&F&A&5&0&0ᴅ&x&F&F&B&0&1&Fᴜ&x&F&F&B&B&3&Eᴢ&x&F&F&C&6&5&Dʏ &x&F&F&D&C&9&Bᴘ&x&F&F&D&7&8&Eᴀ&x&F&F&D&3&8&1ᴋ&x&F&F&C&E&7&4ɪ&x&F&F&C&A&6&7ᴇ&x&F&F&C&5&5&Aᴛ &x&F&F&B&C&4&1ᴋ&x&F&F&B&7&3&4ʟ&x&F&F&B&3&2&7ᴜ&x&F&F&A&E&1&Aᴄ&x&F&F&A&A&0&Dᴢ&x&F&F&A&5&0&0ʏ"
+    time: 180
+    commands:
+      - "crate key give {PLAYER} duzy 1"
+  ogromny:
+    enabled: true
+    display-name: "&x&F&F&A&5&0&0ᴏ&x&F&F&B&0&1&Fɢ&x&F&F&B&B&3&Eʀ&x&F&F&C&6&5&Dᴏ&x&F&F&D&1&7&Cᴍ&x&F&F&D&C&9&Bɴ&x&F&F&D&8&9&1ʏ &x&F&F&D&1&7&Cᴘ&x&F&F&C&D&7&2ᴀ&x&F&F&C&A&6&7ᴋ&x&F&F&C&6&5&Dɪ&x&F&F&C&2&5&3ᴇ&x&F&F&B&F&4&8ᴛ &x&F&F&B&7&3&4ᴋ&x&F&F&B&4&2&9ʟ&x&F&F&B&0&1&Fᴜ&x&F&F&A&C&1&5ᴄ&x&F&F&A&9&0&Aᴢ&x&F&F&A&5&0&0ʏ"
+    time: 300
+    commands:
+      - "crate key give {PLAYER} ogromny 1"

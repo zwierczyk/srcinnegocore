@@ -1,0 +1,18 @@
+permissions:
+  use: holly.cmd.adminchat
+  reload: holly.cmd.adminchat.reload
+
+console-name: Konsola
+
+format: '&8[&#FF7A18&lADMINCHAT&8] &#FFD166{player} &8> &f{message}'
+
+sound:
+  enabled: false
+  name: UI_BUTTON_CLICK
+  volume: 0.4
+  pitch: 1.4
+
+messages:
+  no-permission: '&#FF0000✘ &8Ξ &cNie posiadasz dostępu do &#FF0000/adminchat &8(&4holly.cmd.adminchat&8)'
+  no-admins-online: '&8[&#FF7A18&lADMINCHAT&8] &cNie ma nikogo online na admin chacie.'
+  reload: '&8[&#FF7A18&lADMINCHAT&8] &aPrzeladowano adminchat.yml.'

@@ -1,0 +1,125 @@
+enabled: true
+min-bet: 100.0
+max-balance-percent: 50.0
+gui-rows: 5
+gui-refresh-seconds: 2
+# Na tych światach nie otwieraj GUI losowania (gracze się biją).
+no-gui-worlds:
+  - pvp
+
+# Layout dla głównego GUI gdy gui-rows: 3 (27 slotów)
+gui-3:
+  create-slots: [21, 22, 23]
+  game-slots: [10, 11, 12, 13, 14, 15, 16]
+  previous-slot: 18
+  next-slot: 26
+
+gui:
+  main-title: "&7Żywioły"
+  pick-title: "&7Wybierz żywioł"
+  roll-title: "&7Losowanie żywiołu"
+  create-slots: [39, 40, 41]
+  game-slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34]
+  previous-slot: 37
+  next-slot: 43
+  create-item:
+    material: LIME_DYE
+    name: "&#00FF26&lꜱ&#13FD36&lᴛ&#26FA46&lᴡ&#39F855&ló&#4CF565&lʀ&#5FF375&lᴢ &#87F898&lɢ&#9AFBA9&lʀ&#AEFDBA&lę"
+    lore:
+      - "&8x &fWpisz na czacie: &#FFEC7E/zywioly dodaj <kwota>"
+      - "&8x &fLub kliknij na ten przedmiot!"
+      - " "
+      - "&#00FF26K&#08FE2Dl&#10FD33i&#18FC3Ak&#20FB40n&#28FA47i&#30F94Ej &#3FF75Ba&#47F661b&#4FF568y &#5FF375u&#66F47Bt&#6CF581w&#73F686o&#79F68Cr&#80F792z&#87F898y&#8DF99Dc &#9AFBA9g&#A1FBAFr&#A7FCB4ę&#AEFDBA!"
+  game-item:
+    material: PLAYER_HEAD
+    name: "&#00FF26&lɢ&#26FA46&lʀ&#4CF565&lᴀ &#5FF375&l%nick%"
+    lore:
+      - "&8x &fGracz&8: &#F6FFBA%nick%"
+      - "&8x &fStawka&8: &#BEFFBA$%kwota%"
+      - " "
+      - "&aKliknij, aby dołączyć!"
+  own-game-item:
+    material: PLAYER_HEAD
+    name: "&#FF6E35&lɢ&#FF5235&lʀ&#FF3535&lᴀ &#FF3535&l%nick%"
+    lore:
+      - "&8x &fGracz&8: &#F6FFBA%nick%"
+      - "&8x &fStawka&8: &#BEFFBA$%kwota%"
+      - " "
+      - "&cKliknij, aby anulować i odzyskać stawkę!"
+  back-item:
+    material: ARROW
+    name: "&cPowrót"
+    lore:
+      - "&7Anuluj wybór żywiołu"
+  previous-item:
+    material: SPECTRAL_ARROW
+    name: "&aPoprzednia strona"
+    lore: []
+  next-item:
+    material: SPECTRAL_ARROW
+    name: "&aNastępna strona"
+    lore: []
+  roll-spinning-lore:
+    - "&8x &eTrwa losowanie żywiołu..."
+    - "&8x &fAktualnie: %element%"
+    - " "
+    - "&7Poczekaj na wynik!"
+  roll-winner-lore:
+    - "&a&l✔ Wylosowano!"
+    - "&8x &fŻywioł: %element%"
+    - "&8x &fStawka: &#BEFFBA$%kwota%"
+  roll-choice-lore:
+    - "&8x &fGracz: &#BEFFBA%nick%"
+    - "&8x &fWybrany żywioł: %element%"
+    - "&8x &fStawka: &#BEFFBA$%kwota%"
+
+elements:
+  ogien:
+    slot: 11
+    material: PAPER
+    custom-model-data: 8
+    name: "&#FF3535&lᴏ&#FF4335&lɢ&#FF5235&lɪ&#FF6035&lᴇ&#FF6E35&lɴ"
+    display: "&#FF3535Ogień"
+    lore:
+      - "&8x &fWybierz żywioł: &#FF3535Ogień"
+  natura:
+    slot: 13
+    material: PAPER
+    custom-model-data: 9
+    name: "&#58FF35&lɴ&#72FF54&lᴀ&#8CFF74&lᴛ&#A6FF93&lᴜ&#B8FFA9&lʀ&#CBFFC0&lᴀ"
+    display: "&#58FF35Natura"
+    lore:
+      - "&8x &fWybierz żywioł: &#58FF35Natura"
+  woda:
+    slot: 15
+    material: PAPER
+    custom-model-data: 10
+    name: "&#35BDFF&lᴡ&#47CFFF&lᴏ&#5AE1FF&lᴅ&#6CF3FF&lᴀ"
+    display: "&#35BDFFWoda"
+    lore:
+      - "&8x &fWybierz żywioł: &#35BDFFWoda"
+
+sign:
+  line-1: "------------"
+  line-2: "Wpisz kwotę"
+  line-3: "gry w żywioły"
+
+messages:
+  no-economy: "&#FF0000✘ &8Ξ &cEkonomia jest wyłączona."
+  not-enough: "&#FF0000✘ &8Ξ &cNie masz wystarczająco pieniędzy."
+  min-bet: "&#FF0000✘ &8Ξ &cMinimalna stawka to &f$%min%&c."
+  max-percent: "&#FF0000✘ &8Ξ &cMożesz postawić maksymalnie &f%percent%% &cswojej kasy &8(&f$%max%&8)&c."
+  invalid-amount: "&#FF0000✘ &8Ξ &cPodaj poprawną kwotę."
+  need-more-for-min: "&#FF0000✘ &8Ξ &cPotrzebujesz minimum &f$%need%&c, żeby zagrać."
+  created-self: "&#00FF3B✔ &8Ξ &#4EFA76Utworzono pojedynek za &f$%kwota%&a. Czekasz na przeciwnika."
+  cancelled: "&#00FF3B✔ &8Ξ &#4EFA76Anulowano pojedynek i zwrócono &f$%kwota%&a."
+  unavailable: "&#FF0000✘ &8Ξ &cTa gra nie jest już dostępna."
+  own-game: "&#FF0000✘ &8Ξ &cNie możesz dołączyć do swojej gry."
+  already-in-game: "&#FF0000✘ &8Ξ &cMasz już aktywną grę."
+  pick-cancelled: "&#FF8300⚠ &8Ξ &eAnulowano wybór żywiołu."
+  draw: "&#FF9A7A&lż&#D8BC84&lʏ&#B2DD8E&lᴡ&#8BFF98&lɪ&#85FDBA&lᴏ&#80FCDD&lʟ&#7AFAFF&lʏ &8⁝⁝⁝ &fGracz &#BEFFBA%nick%&f zremisował z &#BEFFBA%opponent%&f o kwotę &#BEFFBA$%kwota%&f!"
+  created-broadcast: "&#FF9A7A&lż&#D8BC84&lʏ&#B2DD8E&lᴡ&#8BFF98&lɪ&#85FDBA&lᴏ&#80FCDD&lʟ&#7AFAFF&lʏ &8⁝⁝⁝ &fGracz &#BEFFBA%nick%&f utworzył pojedynek za &#BEFFBA$%kwota%"
+  winner-broadcast: "&#FF9A7A&lż&#D8BC84&lʏ&#B2DD8E&lᴡ&#8BFF98&lɪ&#85FDBA&lᴏ&#80FCDD&lʟ&#7AFAFF&lʏ &8⁝⁝⁝ &fGracz &#BEFFBA%nick%&f wygrał pojedynek o &#BEFFBA$%kwota% &fz &#BEFFBA%loser%"
+  you-won: "&#00FF3B✔ &8Ξ &#4EFA76Wygrałeś pojedynek i otrzymujesz &f$%payout%&a."
+  you-lost: "&#FF0000✘ &8Ξ &cPrzegrałeś pojedynek z &f%nick%&c."
+  reloaded: "&#00FF3B✔ &8Ξ &#4EFA76Przeładowano żywioły."

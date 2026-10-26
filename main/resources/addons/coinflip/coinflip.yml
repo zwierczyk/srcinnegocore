@@ -1,0 +1,191 @@
+
+settings:
+  mongo-collection: "coinflip_rewards"
+  games-mongo-collection: "coinflip_games"
+  min-money-bet: 100.0
+  max-money-bet: 1.0E9
+  min-shards-bet: 1
+  max-shards-bet: 256
+  animation-ticks: 80
+  animation-step-ticks: 4
+  # Opoznienia (w tickach) miedzy kolejnymi krokami przewijania — jak w skrzynkach.
+  animation-delay-ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 3
+    - 3
+    - 3
+    - 4
+    - 4
+    - 5
+    - 6
+    - 8
+    - 10
+    - 13
+    - 16
+    - 20
+    - 5
+    - 30
+  animation-sound: "block.note_block.pling"
+  animation-volume: 1.0
+  animation-pitch: 1.2
+  gui-refresh-seconds: 2
+  money-display-name: "pieniadze"
+  shards-display-name: "odlamki"
+
+gui:
+  main-title: "&7Coinflip"
+  claim-title: "&7Coinflip"
+  duel-title: "&8Coinflip &7- &f%creator% &8vs &f%opponent%"
+  info-item:
+    material: BOOK
+    name: "&#6EF3B8&lCOINFLIP"
+    lore:
+      - ""
+      - "&#FF0048* &aTworz zaklady z innymi graczami"
+      - "&#70F36ERywalizuj o to, co najlepsze!"
+      - ""
+      - "&fJak zrobic coinflip?"
+      - "&8>> &f/coinflip &dstworz &fkasa/odlamki ilosc"
+  close-item:
+    material: BARRIER
+    name: "&cZamknij"
+    lore: []
+  next-page-item:
+    material: SPECTRAL_ARROW
+    name: "&aNastepna strona"
+    lore: []
+  previous-page-item:
+    material: SPECTRAL_ARROW
+    name: "&cPoprzednia strona"
+    lore: []
+  sort-item:
+    material: REPEATER
+    name: "&fSortowanie"
+    lore:
+      - ""
+      - "&8>> %all_line%"
+      - "&8>> %shards_line%"
+      - "&8>> %money_line%"
+      - ""
+      - "&aKliknij, aby przelaczyc!"
+  game-head:
+    material: PLAYER_HEAD
+    name: "&aCoinflip &8- &f%creator%"
+    lore:
+      - " &7⏩ &7Utworzona przez: &6%creator%"
+      - " &7⏩ &7Stawka: &a%amount%$"
+      - ""
+      - "&cKliknij tutaj, aby zagrać!"
+  game-head-money:
+    material: PLAYER_HEAD
+    name: "&aCoinflip &8- &f%creator%"
+    lore:
+      - " &7⏩ &7Utworzona przez: &6%creator%"
+      - " &7⏩ &7Ilość: &a%amount%$"
+      - ""
+      - "&cKliknij tutaj, aby zagrać!"
+  game-head-shards:
+    material: PLAYER_HEAD
+    name: "&dCoinflip &8- &f%creator%"
+    lore:
+      - " &7⏩ &7Utworzona przez: &6%creator%"
+      - " &7⏩ &7Ilość&7: &fx%amount% &x&8&A&4&B&B&8&lS&x&9&1&4&D&C&2&lm&x&9&7&4&E&C&C&lo&x&9&E&5&0&D&6&lc&x&A&4&5&2&E&1&lz&x&A&B&5&4&E&B&ly&x&B&1&5&5&F&5&lc&x&B&8&5&7&F&F&lh &lo&ld&lł&la&lm&lk&ló&lw"
+      - ""
+      - "&cKliknij tutaj, wylosować wygranego!"
+  own-game-head:
+    material: PLAYER_HEAD
+    name: "&cCoinflip &8- &f%creator%"
+    lore:
+      - " &7⏩ &7Utworzona przez: &6%creator%"
+      - " &7⏩ &7Stawka: &a%amount%$"
+      - ""
+      - "&cKliknij, aby usunac i odzyskac stawke!"
+  own-game-head-money:
+    material: PLAYER_HEAD
+    name: "&cCoinflip &8- &f%creator%"
+    lore:
+      - " &7⏩ &7Utworzona przez: &6%creator%"
+      - " &7⏩ &7Ilość: &a%amount%$"
+      - ""
+      - "&cKliknij, aby usunac i odzyskac stawke!"
+  own-game-head-shards:
+    material: PLAYER_HEAD
+    name: "&cCoinflip &8- &f%creator%"
+    lore:
+      - " &7⏩ &7Utworzona przez: &6%creator%"
+      - " &7⏩ &7Ilość&7: &fx%amount% &x&8&A&4&B&B&8&lS&x&9&1&4&D&C&2&lm&x&9&7&4&E&C&C&lo&x&9&E&5&0&D&6&lc&x&A&4&5&2&E&1&lz&x&A&B&5&4&E&B&ly&x&B&1&5&5&F&5&lc&x&B&8&5&7&F&F&lh &lo&ld&lł&la&lm&lk&ló&lw"
+      - ""
+      - "&cKliknij, aby usunac i odzyskac stawke!"
+  money-claim-item:
+    material: EMERALD
+    name: "&a&lKASA DO ODEBRANIA"
+    lore:
+      - ""
+      - " &8> &7Kwota: &a%amount%$"
+      - ""
+      - " &aKliknij, aby odebrac."
+  shards-claim-item:
+    material: AMETHYST_SHARD
+    name: "&d&lODLAMKI DO ODEBRANIA"
+    lore:
+      - ""
+      - " &8> &7Ilosc: &d%amount%"
+      - ""
+      - " &aKliknij, aby odebrac."
+  empty-claim-item:
+    material: HOPPER
+    name: "&cBrak nagrod"
+    lore:
+      - ""
+      - " &7Nie masz aktualnie nic do odebrania."
+  selected-sort-line: "&a&n%name%"
+  unselected-sort-line: "&f%name%"
+  all-sort-name: "WSZYSTKIE"
+  shards-sort-name: "ODLAMKI"
+  money-sort-name: "PIENIADZE"
+
+messages:
+  type: CHAT
+  disabled: "&cCoinflip jest aktualnie wylaczony."
+  invalid-currency: "&cUzycie: &f/coinflip stworz <odlamki/kasa> <ilosc>"
+  invalid-amount: "&cStawka musi byc wieksza od zera."
+  only-whole-shards: "&cOdlamki musza byc liczba calkowita."
+  amount-too-low: "&cMinimalna stawka dla tej waluty to &f%amount%&c."
+  amount-too-high: "&cMaksymalna stawka dla tej waluty to &f%amount%&c."
+  not-enough-money: "&cNie masz wystarczajaco pieniedzy."
+  not-enough-shards: "&cNie masz wystarczajaco odlamkow."
+  game-created: "&aUtworzono coinflip za &f%amount% &a(%currency%)."
+  game-created-subtitle: "&aStworzono coinflipa!"
+  game-cancelled: "&aUsunieto coinflip za &f%amount% &a(%currency%) i zwrocono stawke."
+  game-unavailable: "&cTa rozgrywka nie jest juz dostepna."
+  own-game: "&cNie mozesz dolaczyc do swojej rozgrywki."
+  duel-started: "&aDolaczyles do rozgrywki gracza &f%creator%&a."
+  winner: "&aWygrales coinflip z &f%opponent% &ai otrzymujesz &f%amount% &a(%currency%)."
+  loser: "&cPrzegrales coinflip z &f%opponent%&c."
+  # Czat serwera po walce. %winner% %loser% %opponent% %amount% %amount_formatted% %currency% %bet%
+  broadcast-enabled: true
+  broadcast: "&#6EF3B8✔ &8Ξ &#6EF3B8Coinflip &8〢 &f%winner% &7wygrał z &f%loser% &8• &#00FF4F%amount_formatted%"
+  broadcast-money: "&#6EF3B8✔ &8Ξ &#6EF3B8Coinflip &8〢 &f%winner% &7wygrał z &f%loser% &8• &#00FF4F%amount%$"
+  broadcast-shards: "&#6EF3B8✔ &8Ξ &#6EF3B8Coinflip &8〢 &f%winner% &7wygrał z &f%loser% &8• &#B857FF%amount% odłamków"
+  reward-saved: "&aNagroda zostala zapisana."
+  money-reward-paid: "&aWygrana zostala dodana na konto."
+  shards-reward-saved: "&aOdlamki zostaly zapisane. Odbierz je komenda &f/coinflip claim&a."
+  claim-nothing: "&cNie masz nic do odebrania."
+  claim-money: "&aOdebrano &f%amount%$ &ana konto."
+  claim-shards: "&aOdebrano &f%amount% &aodlamkow."
+  claim-error: "&cWystapil blad podczas obslugi nagrody."

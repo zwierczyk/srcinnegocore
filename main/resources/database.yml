@@ -1,0 +1,14 @@
+db-prefix: hollycore #<-- tutaj wpisujesz np IPSERWERA-NAZWAATRYBU01 baza to mongodb
+name: admin
+pass: password
+auth-source: admin
+ip: localhost
+port: 27017
+nats:
+  ip: localhost
+  port: 4222
+  market-sync: true
+  # Port Bukkit sektora-master — TEN SAM wpis na KAZDYM sektorze (np. 25565).
+  # Alternatywa: market-master-port: 0 + market-master: true tylko na masterze.
+  market-master-port: 25565
+  market-master: false

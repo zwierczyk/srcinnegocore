@@ -1,0 +1,54 @@
+enabled: true
+
+defaults:
+  fade-in: 5
+  stay: 45
+  fade-out: 10
+
+join:
+  enabled: true
+  # 80 ticków = 4 sekundy. Title pokazuje się po joinie dopiero po załadowaniu txt/zasobów.
+  delay-ticks: 80
+  title: "&8⏺ &#19DB05Darmowe nagrody! &8⏺"
+  subtitle: "&fOdbierz &7darmowe &n&#18FF00nagrody&7 pod &f/nagrody"
+  fade-in: 10
+  stay: 70
+  fade-out: 20
+
+world-change:
+  enabled: true
+  fallback:
+    enabled: false
+    title: "&8⏺ &#18FF00&lꜱ&#3DFF2E&lᴇ&#52FF42&lᴋ&#62FF52&lᴛ&#52FF42&lᴏ&#3DFF2E&lʀ&#18FF00&lʏ &8⏺"
+    subtitle: "&7Zostałeś&f połączony &7z sektorem &f{sector}!"
+  sectors:
+    rtp:
+      title: "&8⏺  &#18FF00&lꜱ&#3DFF2E&lᴇ&#52FF42&lᴋ&#62FF52&lᴛ&#52FF42&lᴏ&#3DFF2E&lʀ&#18FF00&lʏ &8⏺"
+      subtitle: "&7Zostałeś&f połączony &7z sektorem &frtp!"
+      fade-in: 5
+      stay: 50
+      fade-out: 10
+
+rtp:
+  enabled: true
+  title: "&8⏺  &#18FF00&lꜱ&#3DFF2E&lᴇ&#52FF42&lᴋ&#62FF52&lᴛ&#52FF42&lᴏ&#3DFF2E&lʀ&#18FF00&lʏ &8⏺"
+  subtitle: "&7Zostałeś&f połączony &7z sektorem &frtp!"
+  fade-in: 5
+  stay: 50
+  fade-out: 10
+
+teleport-countdown:
+  enabled: true
+  title: "&8⏺ &#18FF00&lTELEPORTACJA &8⏺"
+  subtitle: "&fZostaniesz &7przeteleportowany za: &f{time}"
+  fade-in: 0
+  stay: 25
+  fade-out: 5
+
+teleport-success:
+  enabled: true
+  title: "&#77F454☺"
+  subtitle: "&aPomyślnie zostałeś przeniesiony"
+  fade-in: 2
+  stay: 36
+  fade-out: 6

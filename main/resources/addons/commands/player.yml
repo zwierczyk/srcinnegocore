@@ -1,0 +1,21 @@
+# {name} {clan} {deaths} {kills} {points} {playtime} {killstreak} {highstreak}
+
+player-not-found: '&#FF0000✘ &8Ξ &cNie znaleziono gracza &4{player}&c.'
+reload-message: '&#00FF3B✔ &8Ξ &#4EFA76Przeładowano konfigurację komendy /gracz!'
+
+clan-format: ' &#12BF00{clan}'
+no-clan: ''
+
+message:
+  - '                             < 🔥 >                          '
+  - '  &8» &7Nazwa: &#18FF00{name}{clan}'
+  - ''
+  - ' &8» &7Smierci: &#18FF00{deaths}'
+  - ' &8» &7Zabójstwa: &#18FF00{kills}'
+  - ' &8» &7Punkty: &#18FF00{points}'
+  - ' &8» &7Spędzony Czas: &#18FF00{playtime}'
+  - ''
+  - ' &8» &7Kill Streak: &#18FF00{killstreak}'
+  - ' &8» &7High Streak: &#18FF00{highstreak}'
+  - ''
+  - '                           < 🔥 >'

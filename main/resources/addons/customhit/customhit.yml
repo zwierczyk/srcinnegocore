@@ -1,0 +1,43 @@
+multiplierdmg: 1.10
+multiplierarmor: 1.15
+# Zużycie dury zbroi: >1 wolniej, <1 szybciej, 0 = nie bije się, 1 = vanilla
+armorthoughnes: 0.0
+
+mace-multiplierdmg: 1.0
+mace-smash-multiplierdmg: 1.0
+
+sharpness-multiplier: 1.15
+sharpness-lvl: 0.20
+protection-lvl: 0.05
+
+dmgoddripstone: 1.0
+dmgodcrystal: 1.0
+dmgoddvoida: 1.0
+
+max-damage-by-armor-pieces:
+  pieces4: 6.0
+  pieces3: 7.0
+  pieces2: 8.0
+  pieces1: 9.0
+  pieces0: 120.0
+
+absorption-multiplier: 1.1
+
+effect-modifiers:
+  strength: 2.0
+  weakness: -3.0
+  resistance: 0.0
+
+# Elytra: ile max HP ma spaść przy uderzeniu (PvP) oraz mnożnik obrażeń
+elytra-maxdamage: 6.5
+elytra-damagemultiplayer: 1.4
+# Ile elytra ma się bić (dura): >1 wolniej, <1 szybciej, 0 = nie bije się, 1 = vanilla
+elytra-toughness: 1.0
+
+critical-multiplier: 1.20
+no-crit-multiplier: 1.0
+levitation-knockback-multiplier: 0.50
+diamond-armor-knockback-multiplier: 0.50
+# Diax Sharp 5 lekko gorszy od neth Sharp 6; diax set bierze ~12% wiecej.
+diamond-sword-multiplier: 0.90
+diamond-armor-taken-multiplier: 1.12

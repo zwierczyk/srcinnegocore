@@ -1,0 +1,6 @@
+sword-symbol: "\uE004"
+armor-symbol: "\uE012"
+sword-format: "&#6CC9FF{symbol}{level}"
+armor-format: "&#98FF6C{symbol}{level}"
+icon-format: "{sword} {armor}"
+armor-piece-factor: 0.25

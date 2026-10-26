@@ -1,0 +1,104 @@
+teleport-start:
+  sound: BLOCK_NOTE_BLOCK_PLING
+  volume: 1.0
+  pitch: 1.0
+teleport-end:
+  sound: ENTITY_ENDERMAN_TELEPORT
+  volume: 1.0
+  pitch: 1.0
+teleport-cancelled:
+  sound: ENTITY_VILLAGER_NO
+  volume: 1.0
+  pitch: 1.0
+gamemode-change:
+  sound: BLOCK_NOTE_BLOCK_CHIME
+  volume: 1.0
+  pitch: 1.2
+fly-enable:
+  sound: ENTITY_BAT_TAKEOFF
+  volume: 1.0
+  pitch: 1.0
+fly-disable:
+  sound: ENTITY_BAT_DEATH
+  volume: 1.0
+  pitch: 1.0
+purchase-success:
+  sound: ENTITY_PLAYER_LEVELUP
+  volume: 1.0
+  pitch: 1.5
+purchase-fail:
+  sound: ENTITY_VILLAGER_NO
+  volume: 1.0
+  pitch: 1.0
+wallet-recharge:
+  sound: UI_TOAST_CHALLENGE_COMPLETE
+  volume: 1.0
+  pitch: 1.0
+wallet-recharge-global:
+  sound: ENTITY_FIREWORK_ROCKET_LAUNCH
+  volume: 1.0
+  pitch: 1.0
+clearlag-tick:
+  sound: BLOCK_NOTE_BLOCK_HAT
+  volume: 0.5
+  pitch: 1.0
+clearlag-clear:
+  sound: ENTITY_GENERIC_EXPLODE
+  volume: 0.3
+  pitch: 1.5
+afk-reward:
+  sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  volume: 1.0
+  pitch: 1.2
+clan-invite:
+  sound: BLOCK_NOTE_BLOCK_BELL
+  volume: 1.0
+  pitch: 1.0
+clan-announcement:
+  sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE
+  volume: 1.0
+  pitch: 1.0
+clan-join:
+  sound: ENTITY_PLAYER_LEVELUP
+  volume: 1.0
+  pitch: 1.0
+clan-leave:
+  sound: ENTITY_VILLAGER_HURT
+  volume: 1.0
+  pitch: 1.0
+vanish-enable:
+  sound: ENTITY_ILLUSIONER_MIRROR_MOVE
+  volume: 1.0
+  pitch: 1.0
+vanish-disable:
+  sound: ENTITY_ILLUSIONER_PREPARE_BLINDNESS
+  volume: 1.0
+  pitch: 1.0
+gui-open:
+  sound: BLOCK_CHEST_OPEN
+  volume: 0.5
+  pitch: 1.0
+gui-click:
+  sound: UI_BUTTON_CLICK
+  volume: 0.5
+  pitch: 1.0
+gui-close:
+  sound: BLOCK_CHEST_CLOSE
+  volume: 0.5
+  pitch: 1.0
+success:
+  sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  volume: 1.0
+  pitch: 1.0
+error:
+  sound: ENTITY_VILLAGER_NO
+  volume: 1.0
+  pitch: 1.0
+pickup-receive:
+  sound: ENTITY_ITEM_PICKUP
+  volume: 1.0
+  pitch: 1.0
+pickup-available:
+  sound: BLOCK_NOTE_BLOCK_CHIME
+  volume: 1.0
+  pitch: 1.5

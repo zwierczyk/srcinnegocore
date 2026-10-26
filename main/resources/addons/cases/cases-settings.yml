@@ -1,0 +1,276 @@
+settings:
+  # Wspólny limit dla całego serwera: wszystkie skrzynki i tryby otwarcia razem.
+  # Liczymy każde ostatnie 15 sekund. Podgląd skrzynki nie zużywa limitu.
+  global-open-limit:
+    max-openings: 20
+    window-seconds: 15
+  openCooldownMillis: 200
+  cooldown-version: 1
+  consumeKey: true
+  luckyBlockOpenType: ANIMATION
+
+chance-lore:
+  - ''
+  - '&8> &7Szansa: &f{chance}%'
+
+reward-rotations:
+  luckyblock:
+    enabled: true
+    interval-minutes: 90
+    source-item-id: hak
+    item-ids:
+      - hak
+      - rozdzka-harrego-pottera
+      - smocza-fajerwerka
+      - granat-odepchniecia
+      - sniezka-teleportacji
+      - granat-uwiezienia
+
+sounds:
+  open-gui:
+    enabled: true
+    sound: UI_BUTTON_CLICK
+    volume: 1.0
+    pitch: 1.0
+
+messages:
+  global-open-limit: '&cLimit otwierania skrzynek na serwerze został osiągnięty. Spróbuj ponownie za &f{time}s&c.'
+  global:
+    enabled: false
+    text: '&#00FF3B✔ &8Ξ &#4EFA76Gracz &f{player} &aotworzył skrzynkę &f{case} &ai wylosował
+      &f{item} &az szansą &e%szansa%%&a!'
+  only-player: '&#FF0000✘ &8Ξ &cTa komenda jest tylko dla gracza.'
+  case-created: '&#00FF3B✔ &8Ξ &#4EFA76Utworzono skrzynkę &f{case}&a.'
+  case-exists: '&#FF0000✘ &8Ξ &cSkrzynka &f{case} &cjuż istnieje.'
+  case-not-found: '&#FF0000✘ &8Ξ &cSkrzynka &f{case} &cnie istnieje.'
+  location-set: '&#00FF3B✔ &8Ξ &#4EFA76Ustawiono lokalizację skrzynki &f{case}&a.'
+  no-target-block: '&#FF0000✘ &8Ξ &cMusisz patrzeć na blok.'
+  enabled: '&#00FF3B✔ &8Ξ &#4EFA76Włączono skrzynkę &f{case}&a.'
+  disabled: '&#00FF3B✔ &8Ξ &#4EFA76Wyłączono skrzynkę &f{case}&a.'
+  message-enabled: '&#00FF3B✔ &8Ξ &#4EFA76Włączono powiadomienie o otwarciu skrzynki &f{case}&a.'
+  message-disabled: '&#00FF3B✔ &8Ξ &#4EFA76Wyłączono powiadomienie o otwarciu skrzynki &f{case}&a.'
+  key-set: '&#00FF3B✔ &8Ξ &#4EFA76Ustawiono klucz do skrzynki &f{case}&a.'
+  key-given: '&#00FF3B✔ &8Ξ &#4EFA76Nadano &fx{amount} &akluczy do skrzynki &f{case} &adla
+    &f{player}&a.'
+  key-given-all: '&#00FF3B✔ &8Ξ &#4EFA76Nadano &fx{amount} &akluczy do skrzynki &f{case} &adla
+    wszystkich online.'
+  invalid-amount: '&#FF0000✘ &8Ξ &cPodaj poprawną ilość większą od 0.'
+  player-not-found: '&#FF0000✘ &8Ξ &cGracz &f{player} &cnie jest online.'
+  no-key-in-hand: '&#FF0000✘ &8Ξ &cMusisz trzymać klucz w głównej ręce.'
+  need-key: '&#FF0000✘ &8Ξ &cMusisz mieć klucz do tej skrzynki w ekwipunku.'
+  key-not-configured: '&#FF0000✘ &8Ξ &cTa skrzynka nie ma ustawionego klucza.'
+  case-disabled: '&#FF0000✘ &8Ξ &cTa skrzynka jest aktualnie wyłączona.'
+  empty-case: '&#FF0000✘ &8Ξ &cTa skrzynka nie ma jeszcze przedmiotów.'
+  cooldown: '&#FF0000✘ &8Ξ &cOdczekaj chwilę przed kolejnym otwarciem.'
+  already-opening: '&#FF0000✘ &8Ξ &cJuż otwierasz skrzynkę.'
+  ninjabox-busy: '&#FF0000✘ &8Ξ &cJuż otwierasz Ninja Box — poczekaj na koniec animacji.'
+  inventory-full: '&#FF0000✘ &8Ξ &cNie możesz otworzyć skrzynki z pełnym ekwipunkiem.'
+  editor-saved: '&#00FF3B✔ &8Ξ &#4EFA76Zapisano przedmioty skrzynki &f{case}&a.'
+  invalid-chance: '&#FF0000✘ &8Ξ &cPodaj poprawną szansę od 0 do 100.'
+  chance-set: '&#00FF3B✔ &8Ξ &#4EFA76Ustawiono szansę &f{chance}% &adla itemu w skrzynce &f{case}&a.'
+  chance-input-start: '&#FFB800⚠ &8Ξ &7Wpisz na czacie szansę od &f0 &7do &f100 &7dla itemu w skrzynce &f{case}&7. Wpisz &canuluj &7aby anulować.'
+  chance-input-cancelled: '&#FF0000✘ &8Ξ &cAnulowano ustawianie szansy w skrzynce &f{case}&c.'
+  rotation-forced: '&#00FF3B✔ &8Ξ &#4EFA76Wymuszono rotację custom itemu w skrzynce &f{case}&a. Aktualny item: &f{item}&a. Następna zmiana za: &e{time}&a.'
+  rotation-not-available: '&#FF0000✘ &8Ξ &cRotacja custom itemu dla skrzynki &f{case} &cnie jest dostępna.'
+  reloaded: '&#00FF3B✔ &8Ξ &#4EFA76Przeładowano skrzynki.'
+  location-removed: '&#00FF3B✔ &8Ξ &#4EFA76Usunięto lokalizację skrzynki &f{case}&a.'
+  location-not-set: '&#FF0000✘ &8Ξ &cSkrzynka &f{case} &cnie ma ustawionej lokalizacji.'
+
+caseBattleSlots: 4
+caseBattle:
+  disabledTitle: '&cBitwy na skrzynki'
+  disabledSubtitle: '&7są aktualnie wyłączone'
+  titleFadeIn: 10
+  titleStay: 40
+  titleFadeOut: 10
+caseBattleItem:
+  material: LECTERN
+  displayName: '&6&lBitwa na skrzynki'
+  lore:
+    - '&8> &7Kliknij, aby rozpocząć bitwę!'
+
+caseKeyTypeInventory:
+  inventoryName: '&8Podgląd skrzynki!'
+  inventoryRows: 6
+  decoration:
+    - slot:
+        - 0
+        - 8
+        - 45
+        - 53
+      item:
+        material: LIME_STAINED_GLASS_PANE
+    - slot:
+        - 1
+        - 9
+        - 7
+        - 17
+        - 52
+        - 44
+        - 36
+        - 46
+      item:
+        material: GREEN_STAINED_GLASS_PANE
+    - slot:
+        - 2
+        - 6
+        - 18
+        - 26
+        - 3
+        - 49
+        - 5
+        - 48
+        - 50
+        - 35
+        - 27
+        - 47
+        - 51
+      item:
+        material: WHITE_STAINED_GLASS_PANE
+  caseInventoryItems:
+    - name: OpenWithAnimation
+      caseInventoryType: ANIMATION
+      slot:
+        - 46
+        - 47
+        - 48
+      itemStack:
+        material: LIME_DYE
+        displayName: '&aOtwieranie z animacją'
+        lore:
+          - '&8> &7test!'
+    - name: OpenWithOutAnimation
+      caseInventoryType: NO_ANIMATION
+      slot:
+        - 50
+        - 51
+        - 52
+      itemStack:
+        material: RED_DYE
+        displayName: '&cOtwieranie bez animacji'
+        lore:
+          - '&8> &7test!'
+
+itemSlot: 13
+
+caseWithOutAnimation:
+  inventoryName: '&7Losowanko....'
+  inventoryRows: 3
+  decoration:
+    - slot:
+        - 0
+        - 9
+        - 18
+        - 26
+      item:
+        material: LIME_STAINED_GLASS_PANE
+    - slot:
+        - 1
+        - 2
+        - 6
+        - 7
+        - 17
+        - 19
+        - 20
+        - 24
+        - 25
+      item:
+        material: GREEN_STAINED_GLASS_PANE
+    - slot:
+        - 3
+        - 5
+        - 21
+        - 22
+        - 23
+      item:
+        material: WHITE_STAINED_GLASS_PANE
+    - slot:
+        - 4
+      item:
+        material: IRON_BARS
+  caseInventoryItems:
+    - name: Close
+      caseInventoryType: CLOSE
+      slot:
+        - 11
+      itemStack:
+        material: LIME_DYE
+        displayName: '&cPowrót'
+    - name: OpenAgain
+      caseInventoryType: OPEN_AGAIN
+      slot:
+        - 15
+      itemStack:
+        material: LIME_DYE
+        displayName: '&aOtwórz ponownie'
+
+caseWithAnimation:
+  inventoryName: '&7Losowanko....'
+  inventoryRows: 3
+  animationTicks: 35
+  framePeriodTicks: 1
+  rollSlots:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+  finalSlot: 13
+  sounds:
+    tick:
+      sound: UI_BUTTON_CLICK
+      volume: 0.6
+      pitch: 1.5
+    finish:
+      sound: ENTITY_PLAYER_LEVELUP
+      volume: 1.0
+      pitch: 1.2
+  decoration:
+    - slot:
+        - 0
+        - 9
+        - 18
+        - 26
+      item:
+        material: LIME_STAINED_GLASS_PANE
+    - slot:
+        - 1
+        - 2
+        - 6
+        - 7
+        - 17
+        - 19
+        - 20
+        - 24
+        - 25
+      item:
+        material: GREEN_STAINED_GLASS_PANE
+    - slot:
+        - 3
+        - 5
+        - 21
+        - 22
+        - 23
+      item:
+        material: WHITE_STAINED_GLASS_PANE
+    - slot:
+        - 4
+      item:
+        material: IRON_BARS
+
+editorInventory:
+  inventoryName: '&8Edycja skrzynki: {case}'
+  inventoryRows: 6
+  caseInventoryItems:
+    - name: Save
+      caseInventoryType: SAVE
+      slot:
+        - 53
+      itemStack:
+        material: LIME_DYE
+        displayName: '&aZapisz przedmioty'
+        lore:
+          - '&7Kliknij, aby zapisac itemy.'
+          - '&7Shift + PPM na item ustawia szansę.'

@@ -1,0 +1,8 @@
+vanish-enabled: '&#00FF3B✔ &8Ξ &#4EFA76Jesteś teraz niewidzialny!'
+vanish-disabled: '&#00FF3B✔ &8Ξ &#4EFA76Jesteś teraz widzialny!'
+vanish-join-message: '&#00E0FFℹ &8Ξ &f{player} &7dołączył w trybie vanish.'
+vanish-quit-message: '&#00E0FFℹ &8Ξ &f{player} &7opuścił serwer (vanish).'
+actionbar-enabled: true
+actionbar-message: '&7&l[&c&lVANISH&7&l] &fJesteś niewidzialny!'
+actionbar-interval: 20
+vanish-placeholder: '&7[V]'

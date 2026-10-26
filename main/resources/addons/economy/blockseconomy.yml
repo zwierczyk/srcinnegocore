@@ -1,0 +1,36 @@
+enabled: true
+pay-in-creative: false
+
+fortune:
+  enabled: true
+  percent-per-level: 3.0
+  levels-per-step: 1
+  percent-per-step: 3.0
+
+blocks:
+  OAK_WOOD: 562800
+  DARK_OAK_WOOD: 1125600
+  SPRUCE_WOOD: 2814000
+  ACACIA_WOOD: 4502400
+  BIRCH_WOOD: 6753600
+  WARPED_HYPHAE: 9004800
+  CRIMSON_HYPHAE: 13507200
+  CHERRY_WOOD: 20260800
+messages:
+  payout-enabled: false
+  payout: '&a+{MONEY}$'
+gui:
+  title: '&8Block Economy'
+  rows: 6
+editor-step-values:
+- '1000'
+- '100'
+- '10'
+- '1'
+- '0.1'
+- '0.01'
+actionbar:
+  enabled: true
+  duration-ticks: 40
+  channel: blockeconomy
+  message: '&2$ &fWykopałeś: &#92FF74+<money>$&8, &7Oraz &8⛃ &fZarobek na minutę wynosi: &#92FF74<per_minute>$'

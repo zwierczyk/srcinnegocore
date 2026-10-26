@@ -1,0 +1,43 @@
+# Mechanika: 2 gracze na pressure plate + button na SPONGE w regionie spawn
+
+end-time: "2m"
+
+titles:
+  active: "&cTeparka bedzie trwala jeszcze: &4{TIME}"
+  active-color: RED
+  end: "&cKoniec teparki za: &4{TIME}"
+  end-color: RED
+
+worlds:
+  teleport: "teparki"
+  pvp: "pvp"
+
+interaction:
+  require-region: true
+  required-region: "spawn"
+  button-material: OAK_BUTTON
+  backing-material: SPONGE
+  plate-material: OAK_PRESSURE_PLATE
+  plate-radius: 5.0
+
+arena:
+  border-radius: 10.0
+  pvp-countdown-seconds: 3
+  block-elytra: true
+
+messages:
+  alone: "&cNie mozesz przeteleportowac sie sam!"
+  spawn-blocked: "&cNie mozesz użyć &4/spawn &cpodczas teparki!"
+  spawn-blocked-other: "&cGracz &4{player} &cjest na teparce i nie może zostać przeniesiony!"
+  elytra-blocked: "&cNie możesz używać elytry na teparce!"
+
+# {PLAYER} = teleportalny gracz, {KILLER} = zabojca, {VICTIM} = ofiara, {TIME} = czas do teleportu
+actionbar:
+  enabled: true
+  duration-ticks: 80
+  victim-teleport: "&#FF5555☠ &fPrzegrałeś teparę! &7Za chwilę zostaniesz przeniesiony na spawn..."
+  killer-wait: "&#55FF55✔ &fWygrałeś teparę! &7Teleport na spawn za &e{TIME}"
+  killer-teleport: "&#55FF55✔ &fTeparka zakończona! &7Witaj na spawnie."
+
+# format: world;x;y;z;yaw;pitch
+teleport-locations: []

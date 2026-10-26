@@ -1,0 +1,41 @@
+check-location-set: false
+check-world: world
+checkx: 0.0
+checky: 100.0
+checkz: 0.0
+check-yaw: 0.0
+check-pitch: 0.0
+allowed-commands:
+- helpop
+- msg
+- r
+- reply
+clean-ban-command: ''
+clean-ban-duration: 0
+no-cooperation-ban-command: ban {player} 7d Brak współpracy podczas sprawdzania
+no-cooperation-ban-duration: 7
+cheater-ban-command: ban {player} 30d Cheaty
+cheater-ban-duration: 30
+admitted-ban-command: ban {player} 14d Przyznanie się do cheatów
+admitted-ban-duration: 14
+logout-ban-command: ban {player} 7d Wylogowanie podczas sprawdzania
+logout-ban-duration: 7
+message-being-checked: '&#FFB800⚠ &8Ξ &eJesteś sprawdzany! Nie możesz używać tej komendy.'
+message-check-started: '&#FFB800⚠ &8Ξ &eZostałeś wezwany na sprawdzenie przez &e{admin}&c!'
+message-check-ended: '&#00FF3B✔ &8Ξ &#4EFA76Sprawdzenie zakończone. Jesteś czysty!'
+message-admin-check-started: '&#00FF3B✔ &8Ξ &#4EFA76Rozpoczęto sprawdzanie gracza &e{player}&a!'
+message-admin-check-ended: '&#00FF3B✔ &8Ξ &#4EFA76Zakończono sprawdzanie gracza &e{player}&a!'
+message-player-offline: '&#FF0000✘ &8Ξ &cGracz nie jest online!'
+message-not-checking: '&#FF0000✘ &8Ξ &cNie sprawdzasz żadnego gracza!'
+message-already-being-checked: '&#FF0000✘ &8Ξ &cTen gracz jest już sprawdzany!'
+message-check-location-set: '&#00FF3B✔ &8Ξ &#4EFA76Ustawiono lokalizację sprawdzania!'
+message-check-location-not-set: '&#FF0000✘ &8Ξ &cLokalizacja sprawdzania nie została ustawiona!'
+gui-title: '&7Sprawdzanie: &c{player}'
+gui-clean-name: '&a&lCZYSTY'
+gui-clean-lore: '&7Gracz jest czysty, teleportuj na spawn.'
+gui-no-cooperation-name: '&6&lBRAK WSPÓŁPRACY'
+gui-no-cooperation-lore: '&7Gracz nie współpracuje.'
+gui-cheater-name: '&c&lCHEATER'
+gui-cheater-lore: '&7Gracz używa cheatów.'
+gui-admitted-name: '&e&lPRZYZNANIE SIĘ'
+gui-admitted-lore: '&7Gracz przyznał się do cheatów.'

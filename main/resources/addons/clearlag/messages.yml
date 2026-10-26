@@ -1,0 +1,11 @@
+warningTimes:
+  - 60
+  - 30
+  - 10
+  - 5
+  - 3
+  - 2
+  - 1
+warningMessage: ''
+clearMessage: ''
+noItemsMessage: ''

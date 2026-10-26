@@ -1,0 +1,167 @@
+gui:
+  szafa-title: "&7Szafka"
+
+  zwoj-button:
+    kostium:
+      slot: 23
+      type: LIME_DYE
+      name: '&2&lᴘʀᴢᴇᴅʟᴜᴢ ᴋᴏꜱᴛɪᴜᴍ'
+      lore:
+        - ''
+        - '&8 » &aKliknij aby przedłużyć kostium!'
+        - ''
+
+  zdejmij-button:
+    kostium:
+      slot: 21
+      type: RED_DYE
+      name: '&4&lᴢᴅᴇᴊᴍɪᴊ ᴋᴏꜱᴛɪᴜᴍ'
+      lore:
+        - ''
+        - '&8 » &cKliknij aby zdjąć kostium!'
+        - ''
+
+  kostium-slot:
+    brak-kostiumu:
+      slot: 22
+      type: CHAINMAIL_CHESTPLATE
+      name: '&cBrak kostiumu'
+      lore: []
+    kostium:
+      slot: 22
+
+  close-button:
+    slot: 40
+    type: BARRIER
+    name: ' '
+    lore: []
+
+  dekoracje:
+    '1':
+      slot: 13
+      type: RED_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '&cKostiumy możesz zdobyć poprzez zakup'
+        - '&cspecjalnych pakietów okazyjnych na naszej'
+        - '&cstronie!'
+    '4':
+      slot: 36
+      type: ARMOR_STAND
+      name: '&6Kostiumy'
+      lore:
+        - ' &8» &7W tym miejscu odnajdziesz pełna listę'
+        - ' &8» &7wszystkich dostępnych &ekostiumów'
+        - ' &8» &7wraz z ich efektami dodatkowymi!'
+        - ''
+        - ' &8» &aKliknij LEWYM, aby przejść!'
+    '10':
+      slot: 0
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '11':
+      slot: 1
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '12':
+      slot: 2
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '13':
+      slot: 3
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '14':
+      slot: 4
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '15':
+      slot: 5
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '16':
+      slot: 6
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '17':
+      slot: 7
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '18':
+      slot: 8
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '19':
+      slot: 9
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '20':
+      slot: 17
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '21':
+      slot: 18
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '22':
+      slot: 26
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '23':
+      slot: 27
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '24':
+      slot: 35
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '25':
+      slot: 37
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '26':
+      slot: 38
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '27':
+      slot: 39
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '28':
+      slot: 41
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '29':
+      slot: 42
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '30':
+      slot: 43
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []
+    '31':
+      slot: 44
+      type: BLACK_STAINED_GLASS_PANE
+      name: ' '
+      lore: []

@@ -1,0 +1,33 @@
+combatTime: 30
+notificationType: BOSSBAR
+combatMessage: '&cNie logaj! &7Jesteś podzcas walki &8- &f{time}s'
+combatLogoutMessage: '&#FF0000✘ &8Ξ &cGracz &4{player} &cwylogował się podczas walki!'
+combatEndMessage: '&#00FF3B✔ &8Ξ &#4EFA76Nie jesteś już w walce!'
+regionBlockedMessage: '&#FF0000✘ &8Ξ &cNie możesz wejść na ten region podczas walki!'
+safeRegions:
+- spawn
+- safe_zone
+- pvp_off
+knockbackStrength: 5.0
+bossBarColor: RED
+bossBarStyle: SOLID
+blockCommandsInCombat: true
+allowedCommandsInCombat:
+- msg
+- r
+- reply
+- klan
+- clan
+- helpop
+- szybkiezgloszenie
+- fastreport
+commandBlockedMessage: '&#FF0000✘ &8Ξ &cNie możesz używać tej komendy podczas walki!'
+blockEnderchestInCombat: true
+enderchestBlockedMessage: '&#FF0000✘ &8Ξ &cNie możesz otworzyć enderchesta podczas walki!'
+killSoundEnabled: false
+killSound: none
+combat-action-bar-enabled: true
+combat-action-bar-channel: combat
+combat-action-bar-duration-ticks: 60
+combat-action-bar-show-to-victim: false
+combat-action-bar-template: '&f{nick} &#FD7A7A❤{hearts}{golden}'

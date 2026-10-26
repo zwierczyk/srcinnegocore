@@ -1,0 +1,511 @@
+szafka:
+  blocked-regions: []
+
+  kostiumy:
+    stivka:
+      enabled: true
+      type: LEATHER_CHESTPLATE
+      color: '#2ECC71'
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc1YmMxYzQ0MGNmY2I2ODNkNzM4NmJhZWMwOWQxZmM3NGNhMzUwMTBlZjY1OGEyOTdlZWEzZmQ0MDkyNWNkZSJ9fX0=
+      displayname: '&7Kostium &#2ECC71Stivki &7na czas &#2ECC71%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fMSLF&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &#2ECC71+1.0 &7obrażeń'
+        - ' &8» &#2ECC71+1 &7serce'
+        - ' &8» &#2ECC7110% &7szansy na &fpodwójny drop &7z farmy'
+        - ' &8» &#2ECC71+1 &7głównego dropu z &frud'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts:
+        damage: 1.0
+        hearts: 1
+      armor:
+        helmet: stivka-helmet
+        chestplate: stivka-chest
+        leggings: stivka-legs
+        boots: stivka-boots
+
+    plazowicz:
+      enabled: true
+      type: LEATHER_CHESTPLATE
+      color: '#3498DB'
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzliNjBmNGM1N2JmZTFhZTkyNGE2NjEyNTQ4ZmYxZGEyMzBkNTZmNTllOWQ2OWRlMzMxMjliMzJkZTc0N2Q0YyJ9fX0=
+      displayname: '&7Kostium &#3498DBPłażowicza &7na czas &#3498DB%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fMSLF&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &#3498DBOdporność &7na negatywne efekty'
+        - ' &8» &#3498DBBrak &7głodu'
+        - ' &8» &#3498DB+30% &7obrażeń w &fwodzie'
+        - ' &8» &#3498DBPomniejszenie &7do &f0.6 &7na &f10s &8(3x shift)'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts:
+        negative-effects-disable: true
+        no-hunger: true
+      armor:
+        helmet: plazowicz-helmet
+        chestplate: plazowicz-chest
+        leggings: plazowicz-legs
+        boots: plazowicz-boots
+
+    kostka:
+      enabled: true
+      type: LEATHER_CHESTPLATE
+      color: '#BDC3C7'
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM3ODEwMGI3NDgzNmNiMzUxZjlmYzdkYWRmYTg4MTQxMzU0MDM4YTliZTA4NjQyMWVmZTlkNjllN2U2MjMxZSJ9fX0=
+      displayname: '&7Kostium &#BDC3C7Kostki &7na czas &#BDC3C7%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fMSLF&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &#BDC3C7+4 &7serca'
+        - ' &8» &#BDC3C7-15% &7obrażeń od &fwybuchów'
+        - ' &8» &#BDC3C75% &7szansy na &fSlow Falling &7dla atakującego'
+        - ' &8» &#BDC3C7Nudności &7w &f5 &7kratkach na &f4s &8(3x shift)'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts:
+        hearts: 4
+      armor:
+        helmet: kostka-helmet
+        chestplate: kostka-chest
+        leggings: kostka-legs
+        boots: kostka-boots
+
+    diabelek:
+      enabled: true
+      type: LEATHER_CHESTPLATE
+      color: '#C0392B'
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGJiNjdkYzc3YzYxOWJhMTE4MWMwOWMzYTk1MmRmZDcxYTJmOWJkNjNhZjBkNjg0ZTg1N2ZkNmUxY2EwYTQxNyJ9fX0=
+      displayname: '&7Kostium &#C0392BDiabelka &7na czas &#C0392B%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fMSLF&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &#C0392B+1.0 &7obrażeń'
+        - ' &8» &#C0392B+2 &7serca'
+        - ' &8» &#C0392BCzyszczenie pajęczyn &7w &f5 &7kratkach przez &f3s'
+        - ' &8» &#C0392BBlokada &7stawiania pajęczyn &f5s &7w &f8 &7kratkach'
+        - ' &7&8(3x shift)'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts:
+        damage: 1.0
+        hearts: 2
+      armor:
+        helmet: diabelek-helmet
+        chestplate: diabelek-chest
+        leggings: diabelek-legs
+        boots: diabelek-boots
+
+  kostium-items:
+    stivka-helmet:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc1YmMxYzQ0MGNmY2I2ODNkNzM4NmJhZWMwOWQxZmM3NGNhMzUwMTBlZjY1OGEyOTdlZWEzZmQ0MDkyNWNkZSJ9fX0=
+      name: ' '
+    stivka-chest:
+      material: LEATHER_CHESTPLATE
+      color: '#2ECC71'
+      name: ' '
+    stivka-legs:
+      material: LEATHER_LEGGINGS
+      color: '#2ECC71'
+      name: ' '
+    stivka-boots:
+      material: LEATHER_BOOTS
+      color: '#2ECC71'
+      name: ' '
+    plazowicz-helmet:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzliNjBmNGM1N2JmZTFhZTkyNGE2NjEyNTQ4ZmYxZGEyMzBkNTZmNTllOWQ2OWRlMzMxMjliMzJkZTc0N2Q0YyJ9fX0=
+      name: ' '
+    plazowicz-chest:
+      material: LEATHER_CHESTPLATE
+      color: '#3498DB'
+      name: ' '
+    plazowicz-legs:
+      material: LEATHER_LEGGINGS
+      color: '#3498DB'
+      name: ' '
+    plazowicz-boots:
+      material: LEATHER_BOOTS
+      color: '#3498DB'
+      name: ' '
+    kostka-helmet:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM3ODEwMGI3NDgzNmNiMzUxZjlmYzdkYWRmYTg4MTQxMzU0MDM4YTliZTA4NjQyMWVmZTlkNjllN2U2MjMxZSJ9fX0=
+      name: ' '
+    kostka-chest:
+      material: LEATHER_CHESTPLATE
+      color: '#BDC3C7'
+      name: ' '
+    kostka-legs:
+      material: LEATHER_LEGGINGS
+      color: '#BDC3C7'
+      name: ' '
+    kostka-boots:
+      material: LEATHER_BOOTS
+      color: '#BDC3C7'
+      name: ' '
+    diabelek-helmet:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGJiNjdkYzc3YzYxOWJhMTE4MWMwOWMzYTk1MmRmZDcxYTJmOWJkNjNhZjBkNjg0ZTg1N2ZkNmUxY2EwYTQxNyJ9fX0=
+      name: ' '
+    diabelek-chest:
+      material: LEATHER_CHESTPLATE
+      color: '#C0392B'
+      name: ' '
+    diabelek-legs:
+      material: LEATHER_LEGGINGS
+      color: '#C0392B'
+      name: ' '
+    diabelek-boots:
+      material: LEATHER_BOOTS
+      color: '#C0392B'
+      name: ' '
+
+  zwoj-kostium:
+    name: "&e&lᴢᴡᴏᴊ ᴘʀᴢᴇᴅʟᴜᴢᴇɴɪᴀ &fᴋᴏꜱᴛɪᴜᴍᴜ"
+    type: FLOWER_BANNER_PATTERN
+    lore:
+      - ""
+      - "&8» &7Z jego pomocą możesz przedłużyć"
+      - "&8» &7swój &fKostium &7pod komendą &f/kostium"
+      - ""
+      - "&8» &7Czas Trwania &f%czas%"
+
+  default-hp: 20.0
+
+  pety:
+    endermanek:
+      enabled: true
+      type: endermanek
+      displayname: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#5A5A5Aᴇɴᴅᴇʀᴍᴀɴᴇᴋ &7ɴᴀ ᴄᴢᴀꜱ &#5A5A5A%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fMSLF&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowego &7zwierzaka oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &#5A5A5A+2⚔ &7obrażeń &8(+3⚔ w Endzie)'
+        - ' &8» &#5A5A5Ax2 &7drop pereł z &fendermanów'
+        - ' &8» &#5A5A5ASzansa &7na zwrot rzuconej &fperły'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts:
+        damage: 2.0
+        double-ender-pearl-drop: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0=
+        name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#5A5A5Aᴇɴᴅᴇʀᴍᴀɴᴇᴋ &7ɴᴀ ᴄᴢᴀꜱ &#5A5A5A%czas%'
+
+    magmus:
+      enabled: true
+      type: magmus
+      displayname: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FF8C00ᴍᴀɢᴍᴜꜱ &7ɴᴀ ᴄᴢᴀꜱ &#FF8C00%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fMSLF&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowego &7zwierzaka oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &#FF8C00-40% &7obrażeń od &fdripstone'
+        - ' &8» &#FF8C00+2 &7serca'
+        - ' &8» &#FF8C00Większy drop &7z farm w &fNetherze'
+        - ' &8» &#FF8C00Stała odporność &7na &fogień'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts:
+        dripstone-damage-reduction: 0.4
+        hearts: 2
+        effects:
+          - fire_resistance:0
+      display-item:
+        material: PLAYER_HEAD
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NTdkNTAyM2M5MzdjNGM0MWFhMjQxMmQ0MzQxMGJkYTIzY2Y3OWE5ZjZhYjM2Yjc2ZmVmMmQ3YzQyOSJ9fX0=
+        name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FF8C00ᴍᴀɢᴍᴜꜱ &7ɴᴀ ᴄᴢᴀꜱ &#FF8C00%czas%'
+
+    brutalek:
+      enabled: true
+      type: brutalek
+      displayname: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FFFF55ʙʀᴜᴛᴀʟᴇᴋ &7ɴᴀ ᴄᴢᴀꜱ &#FFFF55%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fMSLF&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowego &7zwierzaka oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &#FFFF55+1⚔ &7obrażeń'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts:
+        damage: 1.0
+      display-item:
+        material: PLAYER_HEAD
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzMDBlOTAyNzM0OWM0OTA3NDk3NDM4YmFjMjllM2E0Yzg3YTg0OGM1MGIzNGMyMTI0MjcyN2I1N2Y0ZTFjZiJ9fX0=
+        name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FFFF55ʙʀᴜᴛᴀʟᴇᴋ &7ɴᴀ ᴄᴢᴀꜱ &#FFFF55%czas%'
+
+    pancernik:
+      enabled: true
+      type: pancernik
+      displayname: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#C39BD3ᴘᴀɴᴄᴇʀɴɪᴋ &7ɴᴀ ᴄᴢᴀꜱ &#C39BD3%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fMSLF&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowego &7zwierzaka oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &#C39BD3-50% &7obrażeń od &fdripstone'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts:
+        dripstone-damage-reduction: 0.5
+      display-item:
+        material: PLAYER_HEAD
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNmNzdhY2ExNThjMjA1Y2FmY2RhOGNhYzU1ODVlZTIxZWRiNzhkNzI4YjhlMTUyYjhiODJhNjVmY2UxMmUifX19
+        name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#C39BD3ᴘᴀɴᴄᴇʀɴɪᴋ &7ɴᴀ ᴄᴢᴀꜱ &#C39BD3%czas%'
+
+    koziotek:
+      enabled: true
+      type: koziotek
+      displayname: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#D5D8DCᴋᴏᴢɪᴏʟᴇᴋ &7ɴᴀ ᴄᴢᴀꜱ &#D5D8DC%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fMSLF&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowego &7zwierzaka oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &#D5D8DC+2 &7serca'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts:
+        hearts: 2
+      display-item:
+        material: PLAYER_HEAD
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJjNDM4ZmMxZmJiYWVhMjI4OWFhYmVjZWRkM2ZkZjI2OWRkYzk3OWJmOGI1YzZhOGZjNGJiOGRjZDRlMWZlIn19fQ==
+        name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#D5D8DCᴋᴏᴢɪᴏʟᴇᴋ &7ɴᴀ ᴄᴢᴀꜱ &#D5D8DC%czas%'
+
+    wiesniaczek:
+      enabled: true
+      type: wiesniaczek
+      displayname: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FFFF55ᴡɪᴇꜱɴɪᴀᴄᴢᴇᴋ &7ɴᴀ ᴄᴢᴀꜱ &#FFFF55%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fMSLF&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowego &7zwierzaka oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &#FFFF55Podwójny drop &7z &ffarm &7i &fsurowców'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts:
+        double-drop: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIyZDhlNzUxYzhmMmZkNGM4OTQyYzQ0YmRiMmY1Y2E0ZDhhZThlNTc1ZWQzZWIzNGMxOGE4NmU5M2IifX19
+        name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FFFF55ᴡɪᴇꜱɴɪᴀᴄᴢᴇᴋ &7ɴᴀ ᴄᴢᴀꜱ &#FFFF55%czas%'
+
+    golemik:
+      enabled: true
+      type: golemik
+      displayname: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#AED6F1ɢᴏʟᴇᴍɪᴋ &7ɴᴀ ᴄᴢᴀꜱ &#AED6F1%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fMSLF&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowego &7zwierzaka oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &#AED6F1+20% &7wytrzymałości &fuzbrojenia'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts: {}
+      display-item:
+        material: PLAYER_HEAD
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkwOTFkNzllYTBmNTllZjdlZjk0ZDdiYmE2ZTVmMTdmMmY3ZDQ1NzJjNDRmOTBmNzZjNDgxOWE3MTQifX19
+        name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#AED6F1ɢᴏʟᴇᴍɪᴋ &7ɴᴀ ᴄᴢᴀꜱ &#AED6F1%czas%'
+
+    swinka:
+      enabled: true
+      type: swinka
+      displayname: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FF69B4ꜱᴡɪɴᴋᴀ &7ɴᴀ ᴄᴢᴀꜱ &#FF69B4%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fMSLF&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowego &7zwierzaka oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &#FF69B4Brak &7głodu'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts:
+        no-hunger: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRiZDg0OGJjMzg5MWFjMzI5OTVjNTdmMjcxZjIzN2ExODEwYmNmNWJjNWZlNmFhYzkxNTlmNWIxZDIzOSJ9fX0=
+        name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FF69B4ꜱᴡɪɴᴋᴀ &7ɴᴀ ᴄᴢᴀꜱ &#FF69B4%czas%'
+
+    szybciorek:
+      enabled: true
+      type: szybciorek
+      displayname: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FF6B4Aꜱᴢʏʙᴄɪᴏʀᴇᴋ &7ɴᴀ ᴄᴢᴀꜱ &#FF6B4A%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fMSLF&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowego &7zwierzaka oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &#FF6B4ACzas AFK &7upływa &fx2 &7szybciej'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts: {}
+      display-item:
+        material: PLAYER_HEAD
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2VjMjQyZTY2N2FlZTQ0NDkyNDEzZWY0NjFiODEwY2FjMzU2Yjc0ZDg3MThlNWNlYzFmODkyYTZiNDNlNWUxIn19fQ==
+        name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FF6B4Aꜱᴢʏʙᴄɪᴏʀᴇᴋ &7ɴᴀ ᴄᴢᴀꜱ &#FF6B4A%czas%'
+
+    kostek:
+      enabled: true
+      type: kostek
+      displayname: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#ECF0F1ᴋᴏꜱᴛᴇᴋ &7ɴᴀ ᴄᴢᴀꜱ &#ECF0F1%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fMSLF&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowego &7zwierzaka oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &#ECF0F1+2 &7serca'
+        - ' &8» &#ECF0F1Szansa &7na naprawę &fzbroi &7przy uderzeniu'
+        - ' &8» &#ECF0F1Szansa &7na blokadę niszczenia &fbloków'
+        - ' &8» &#ECF0F1Dłuższe potki &7(mnożnik &fx1.1–x2.0&7)'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts:
+        hearts: 2
+      display-item:
+        material: PLAYER_HEAD
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDE0MTlkOGM5ZGVjNDM5Zjc5MzYzN2U2MTA2Y2Q4YmRlMWVkYTk4YWJmMzdjMWRlM2M3MjJiNTYyZWYxYyJ9fX0=
+        name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#ECF0F1ᴋᴏꜱᴛᴇᴋ &7ɴᴀ ᴄᴢᴀꜱ &#ECF0F1%czas%'
+
+    plazowicz-pet:
+      enabled: true
+      type: plazowicz-pet
+      displayname: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FFFF55Płażowicza &7ɴᴀ ᴄᴢᴀꜱ &#FFFF55%czas%'
+      lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fMSLF&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowego &7zwierzaka oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &#FFFF55+2⚔ &7obrażeń'
+        - ' &8» &#FFFF55+20% &7wytrzymałości &fuzbrojenia'
+        - ' &8» &#FFFF55Efekt szybkości I'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      boosts:
+        damage: 2.0
+        effects:
+          - speed:0
+      display-item:
+        material: PLAYER_HEAD
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE1YWIwNWVhMjU0YzMyZTNjNDhmM2ZkY2Y5ZmQ5ZDc3ZDNjYmEwNGU2YjVlYzJlNjhiM2NiZGNmYWMzZmQifX19
+        name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FFFF55Płażowicza &7ɴᴀ ᴄᴢᴀꜱ &#FFFF55%czas%'
+
+  pet-items:
+    endermanek:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0=
+      name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#5A5A5Aᴇɴᴅᴇʀᴍᴀɴᴇᴋ'
+    magmus:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NTdkNTAyM2M5MzdjNGM0MWFhMjQxMmQ0MzQxMGJkYTIzY2Y3OWE5ZjZhYjM2Yjc2ZmVmMmQ3YzQyOSJ9fX0=
+      name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FF8C00ᴍᴀɢᴍᴜꜱ'
+    brutalek:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzMDBlOTAyNzM0OWM0OTA3NDk3NDM4YmFjMjllM2E0Yzg3YTg0OGM1MGIzNGMyMTI0MjcyN2I1N2Y0ZTFjZiJ9fX0=
+      name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FFFF55ʙʀᴜᴛᴀʟᴇᴋ'
+    pancernik:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNmNzdhY2ExNThjMjA1Y2FmY2RhOGNhYzU1ODVlZTIxZWRiNzhkNzI4YjhlMTUyYjhiODJhNjVmY2UxMmUifX19
+      name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#C39BD3ᴘᴀɴᴄᴇʀɴɪᴋ'
+    koziotek:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJjNDM4ZmMxZmJiYWVhMjI4OWFhYmVjZWRkM2ZkZjI2OWRkYzk3OWJmOGI1YzZhOGZjNGJiOGRjZDRlMWZlIn19fQ==
+      name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#D5D8DCᴋᴏᴢɪᴏʟᴇᴋ'
+    wiesniaczek:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIyZDhlNzUxYzhmMmZkNGM4OTQyYzQ0YmRiMmY1Y2E0ZDhhZThlNTc1ZWQzZWIzNGMxOGE4NmU5M2IifX19
+      name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FFFF55ᴡɪᴇꜱɴɪᴀᴄᴢᴇᴋ'
+    golemik:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkwOTFkNzllYTBmNTllZjdlZjk0ZDdiYmE2ZTVmMTdmMmY3ZDQ1NzJjNDRmOTBmNzZjNDgxOWE3MTQifX19
+      name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#AED6F1ɢᴏʟᴇᴍɪᴋ'
+    swinka:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRiZDg0OGJjMzg5MWFjMzI5OTVjNTdmMjcxZjIzN2ExODEwYmNmNWJjNWZlNmFhYzkxNTlmNWIxZDIzOSJ9fX0=
+      name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FF69B4ꜱᴡɪɴᴋᴀ'
+    szybciorek:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2VjMjQyZTY2N2FlZTQ0NDkyNDEzZWY0NjFiODEwY2FjMzU2Yjc0ZDg3MThlNWNlYzFmODkyYTZiNDNlNWUxIn19fQ==
+      name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FF6B4Aꜱᴢʏʙᴄɪᴏʀᴇᴋ'
+    kostek:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDE0MTlkOGM5ZGVjNDM5Zjc5MzYzN2U2MTA2Y2Q4YmRlMWVkYTk4YWJmMzdjMWRlM2M3MjJiNTYyZWYxYyJ9fX0=
+      name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#ECF0F1ᴋᴏꜱᴛᴇᴋ'
+    plazowicz-pet:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE1YWIwNWVhMjU0YzMyZTNjNDhmM2ZkY2Y5ZmQ5ZDc3ZDNjYmEwNGU2YjVlYzJlNjhiM2NiZGNmYWMzZmQifX19
+      name: '&fᴢᴡɪᴇʀᴢᴀᴛᴋᴏ &#FFFF55Płażowicza'
+
+
+  zwoj-pet:
+    name: "&e&lᴢᴡᴏᴊ ᴘʀᴢᴇᴅʟᴜᴢᴇɴɪᴀ &fᴘᴇᴛᴀ"
+    type: FLOWER_BANNER_PATTERN
+    lore:
+      - ""
+      - "&8» &7Z jego pomocą możesz przedłużyć"
+      - "&8» &7swój &fPet &7pod komendą &f/kostium"
+      - ""
+      - "&8» &7Czas Trwania &f%czas%"

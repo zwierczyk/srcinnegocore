@@ -1,0 +1,14 @@
+enabled: true
+
+totem:
+  enabled: false
+
+beehc:
+  enabled: true
+  sounds:
+    - sound: "entity.ender_dragon.shoot"
+      volume: 10000000.0
+      pitch: 0.75
+    - sound: "entity.ender_dragon.ambient"
+      volume: 10000000.0
+      pitch: 2.0

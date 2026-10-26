@@ -1,0 +1,23 @@
+# quick: zwykła diagnoza, deep: dłuższa i dokładniejsza próbka.
+profiles:
+  quick:
+    samples: 60
+    interval-millis: 50
+    result-limit: 6
+  deep:
+    samples: 160
+    interval-millis: 50
+    result-limit: 9
+
+analysis:
+  max-recommendations: 5
+
+thresholds:
+  mspt-warning: 40.0
+  mspt-critical: 50.0
+  ram-warning-percent: 82.0
+  cpu-warning-percent: 85.0
+  entities-per-player-warning: 160
+  chunks-per-player-warning: 180
+  pending-tasks-warning: 120
+  category-sample-warning-percent: 12.0

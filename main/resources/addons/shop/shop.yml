@@ -1,0 +1,245 @@
+shop-title: '&8Lista Sklepów'
+disabled-category-message: '&#FF0000✘ &8Ξ &cTa kategoria sklepu jest wyłączona.'
+all-categories-disabled-message: '&#FF0000✘ &8Ξ &cWszystkie kategorie sklepu są obecnie
+  wyłączone.'
+money-shop-enabled: true
+time-shop-enabled: true
+sell-shop-enabled: true
+kills-shop-enabled: true
+wallet-shop-enabled: true
+license-shop-enabled: true
+license-shop-permission: Holly.shop.license
+license-shop-required-license: CLWGJ-GCXRW-COSUO-M3AER-GX9G1
+money-shop-title: '&8Sklep za hajs'
+time-shop-title: '&8Sklep za czas gry'
+kills-shop-title: '&8Sklep za zabójstwa'
+wallet-shop-title: '&8Sklep za wPLN'
+license-shop-title: '&8Sklep licencyjny'
+shop-rows: 5
+money-items: {}
+time-items: {}
+kills-items: {}
+wallet-items: {}
+license-items: {}
+sell-items: {}
+sell-shop-title: '&8Skup przedmiotów'
+item-bought-message: '&#00FF3B✔ &8Ξ &#4EFA76Pomyślnie zakupiono przedmiot.'
+item-sold-message: '&#00FF3B✔ &8Ξ &#4EFA76Sprzedano przedmiot za &#FFDD57{price}$&#4EFA76.'
+item-sold-all-message: '&#00FF3B✔ &8Ξ &#4EFA76Sprzedano &#FFDD57{amount} szt. &#4EFA76za
+  &#FFDD57{price}$&#4EFA76.'
+not-enough-items-message: '&#FF0000✘ &8Ξ &cNie masz wystarczającej liczby przedmiotów.'
+not-enough-money-message: '&#FF0000✘ &8Ξ &cNie masz wystarczająco pieniędzy.'
+not-enough-playtime-message: '&#FF0000✘ &8Ξ &cNie masz wystarczająco dużo czasu gry.'
+item-disabled-message: '&#FF0000✘ &8Ξ &cTen przedmiot jest obecnie wyłączony z zakupu.'
+sell-item-disabled-message: '&#FF0000✘ &8Ξ &cTen przedmiot jest obecnie wyłączony ze sprzedaży.'
+money-shop-item-name: "&#00FC25&lꜱ&#21FD42&lᴋ&#43FE5E&lʟ&#64FE7B&lᴇ&#85FF97&lᴘ &#83FF95&lᴢ&#82FF94&lᴀ
+  &#61FE78&lʜ&#41FE5C&lᴀ&#20FD41&lᴊ&#00FC25&lꜱ"
+money-shop-item-lore:
+- ''
+- '&#00FC25$ Informacje o kategorii.'
+- '  &8♯ &fᴡ &bᴛᴇᴊ&f ᴋᴀᴛᴇɢᴏʀɪɪ &aᴋᴜᴘɪꜱᴢ&f ᴘᴏᴛʀᴢᴇʙɴᴇ'
+- '  &8♯ &fᴄɪ &eᴡꜱᴢʏꜱᴛᴋɪᴇ&f ʀᴢᴇᴄᴢʏ ᴅᴏ &cᴡᴀʟᴋɪ&f ᴢ ɢʀᴀᴄᴢᴀᴍɪ!'
+- ''
+- '&7Kliknij PPM, aby zobaczyć!'
+money-shop-item-material: PLAYER_HEAD
+money-shop-item-head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJmYTA2ZjIzMTZiODkwNTY1N2I3MjVjN2I4ZDVhNTBlNDIzYTc5ZWVkNzY1OGNlZmEwNTg3YzA5ODhhNTNkMyJ9fX0=
+money-shop-item-slot: 20
+time-shop-item-name: "&#FFCD49&lꜱ&#FFD35D&lᴋ&#FFD871&lʟ&#FFDE85&lᴇ&#FFE399&lᴘ &#FFE294&lᴢ&#FFE192&lᴀ
+  &#FFDB7E&lᴄ&#FFD76C&lᴢ&#FFD25B&lᴀ&#FFCD49&lꜱ"
+time-shop-item-lore:
+- ''
+- '&#FFCD49⌚ Informacje o kategorii.'
+- '  &8♯ &fᴡ &bᴛᴇᴊ&f ᴋᴀᴛᴇɢᴏʀɪɪ ᴍᴏżᴇꜱᴢ &aᴋᴜᴘɪć'
+- '  &8♯ &cᴄᴇɴɴᴇ&f ᴘʀᴢᴇᴅᴍɪᴏᴛʏ ᴢᴀ &eᴘʀᴢᴇɢʀᴀɴʏ&f ᴄᴢᴀꜱ!'
+- ''
+- '&7Kliknij PPM, aby zobaczyć!'
+time-shop-item-material: PLAYER_HEAD
+time-shop-item-head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZiNmZhN2FkNGEzZTUzMTY1NWQwNGVjOGI5YTQ1ZmRlYjQ1YjdmNDg2OTI4NzAxZTE5ZjkwYzZiZGZhYjRhIn19fQ==
+time-shop-item-slot: 22
+sell-shop-item-name: '&#63B6F8&lꜱ&#6FBCF9&lᴋ&#7AC2FB&lᴜ&#86C8FC&lᴘ &#9DD4FF&lᴘ&#9AD3FF&lʀ&#97D2FF&lᴢ&#95D0FF&lᴇ&#92CFFF&lᴅ&#8FCEFF&lᴍ&#86C9FE&lɪ&#7DC4FC&lᴏ&#75C0FB&lᴛ&#6CBBF9&ló&#63B6F8&lᴡ'
+sell-shop-item-lore:
+- ''
+- '&#63B6F8⌚ Informacje o kategorii.'
+- '  &8♯ &fᴡ &bᴛᴇᴊ&f ᴋᴀᴛᴇɢᴏʀɪɪ &aꜱᴋᴜᴘ&f ꜱᴡᴏᴊᴇ '
+- '  &8♯ &f&eᴘʀᴢᴇᴅᴍɪᴏᴛʏ&f ɪ &cᴏᴛʀᴢʏᴍᴀᴊ&f ꜱᴇʀᴡᴇʀᴏᴡᴇ &aᴅᴏʟᴀʀʏ!'
+- ''
+- '&7Kliknij PPM, aby zobaczyć!'
+sell-shop-item-material: PLAYER_HEAD
+sell-shop-item-head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkyNzNjYjNjNzllY2Q1M2MxM2I0ZDcxZTlhZmQ5MTlkMWRjYmExNDEwYzI1MzhiOGZlMDk5ZWNkNjFhNmNiNCJ9fX0=
+sell-shop-item-slot: 24
+kills-shop-item-name: "&#FF4141&lꜱ&#FF4848&lᴋ&#FF4F4F&lʟ&#FF5757&lᴇ&#FF5E5E&lᴘ &#FF6C6C&lᴢ&#FF6A6A&lᴀ
+  &#FF6565&lᴢ&#FF6262&lᴀ&#FF6060&lʙ&#FF5B5B&ló&#FF5656&lᴊ&#FF5151&lꜱ&#FF4B4B&lᴛ&#FF4646&lᴡ&#FF4141&lᴀ"
+kills-shop-item-lore:
+- ''
+- '&#FF4141⚔ Informacje o kategorii.'
+- '  &8♯ &fᴡ &bᴛᴇᴊ&f ᴋᴀᴛᴇɢᴏʀɪɪ &aᴋᴜᴘ&c ᴄᴇɴɴᴇ '
+- '  &8♯ &eᴘʀᴢᴇᴅᴍɪᴏᴛʏ&f ᴢᴀ ꜱᴡᴏᴊᴇ &cᴋɪʟʟᴇ!'
+- ''
+- '&7Kliknij PPM, aby zobaczyć!'
+kills-shop-item-material: PLAYER_HEAD
+kills-shop-item-head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM3NDMxZjgwYjBkMWNiYzE0ZjEyNjE2NDVmODYxMjQ5ODAxZTJjNzViYzY0OTU1YjQwZTM5YzliYjUzZTFmIn19fQ==
+kills-shop-item-slot: 31
+wallet-shop-item-name: '&e&lSklep za wPLN'
+wallet-shop-item-lore:
+- '&7Kliknij, aby otworzyć'
+- '&7sklep za wPLN.'
+wallet-shop-item-material: RED_WOOL
+wallet-shop-item-head-value: ''
+wallet-shop-item-slot: 33
+license-shop-item-name: '&6&lSklep licencyjny'
+license-shop-item-lore:
+- '&7Kliknij, aby otworzyc'
+- '&7specjalny sklep.'
+license-shop-item-material: ORANGE_WOOL
+license-shop-item-head-value: ''
+license-shop-item-slot: 21
+back-button-name: '&c&l◀ Powrót'
+back-button-lore:
+- ''
+- '&7Wróć do menu głównego'
+price-lore:
+- ''
+- '&8▸ &fCena zakupu:'
+- '&8  &#FFDD57{price}$'
+balance-lore:
+- '&8▸ &fStan Twojego konta:'
+- '&8  &#00E0FF{balance}$'
+can-afford-lore:
+- ''
+- '&#4EFA76✔ Stać Cię na ten przedmiot'
+- '&fKliknij, aby przejść do zakupu'
+cannot-afford-lore:
+- ''
+- '&#FF5C5C✘ Brakuje Ci środków'
+- '&7Zdobądź więcej monet i spróbuj ponownie'
+disabled-item-lore:
+- ''
+- '&#FF5C5C✘ Ten przedmiot jest wyłączony z zakupu!'
+time-price-lore:
+- ''
+- '&8▸ &fWymagany czas gry:'
+- '&8  &#00E0FF{time}'
+playtime-lore:
+- '&8▸ &fTwój aktualny czas:'
+- '&8  &#B388FF{time}'
+not-enough-time-lore:
+- ''
+- '&#FF5C5C✘ Masz za mało czasu gry'
+kills-price-lore:
+- ''
+- '&8▸ &fWymagane zabójstwa:'
+- '&8  &#FF5C5C{kills}'
+player-kills-lore:
+- '&8▸ &fTwoje zabójstwa:'
+- '&8  &#FFB800{kills}'
+not-enough-kills-lore:
+- ''
+- '&#FF5C5C✘ Masz za mało zabójstw'
+not-enough-kills-message: '&#FF0000✘ &8Ξ &cNie masz wystarczającej liczby zabójstw.'
+wallet-price-lore:
+- ''
+- '&8▸ &fCena zakupu:'
+- '&8  &#FFDD57{price} wPLN'
+wallet-balance-lore:
+- '&8▸ &fStan portfela:'
+- '&8  &#00E0FF{balance} wPLN'
+not-enough-wallet-lore:
+- ''
+- '&#FF5C5C✘ Masz za mało wPLN'
+not-enough-wallet-message: '&#FF0000✘ &8Ξ &cNie masz wystarczająco wPLN.'
+purchase-confirm-title: '&8✦ Potwierdzenie zakupu'
+purchase-preview-slot: 10
+purchase-quick-slots:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+purchase-quick-amounts:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+purchase-add-slots:
+- 14
+- 23
+- 32
+purchase-add-amounts:
+- 64
+- 10
+- 1
+purchase-remove-slots:
+- 12
+- 21
+- 30
+purchase-remove-amounts:
+- 64
+- 10
+- 1
+purchase-confirm-slot: 31
+purchase-cancel-slot: 40
+purchase-preview-name: '&#00E0FF&l{ITEM}'
+purchase-preview-lore:
+- ''
+- '&8▸ &fWybrana ilość: &#00E0FF{AMOUNT} szt.'
+- '&8▸ &fŁączny koszt: &#FFDD57{PRICE}$'
+- ''
+purchase-quick-name: '&#4EFA76Ustaw ilość: &f{AMOUNT} szt.'
+purchase-quick-lore:
+- ''
+- '&7Ustaw zakup na &#00E0FF{AMOUNT} szt.'
+- ''
+- '&#4EFA76✔ Kliknij, aby wybrać'
+purchase-add-name: '&#4EFA76Dodaj &f{AMOUNT} szt.'
+purchase-add-lore:
+- ''
+- '&7Dodaj &#4EFA76{AMOUNT} szt. &7do zakupu'
+- ''
+- '&#4EFA76✔ Kliknij, aby dodać'
+purchase-remove-name: '&#FF5C5COdejmij &f{AMOUNT} szt.'
+purchase-remove-lore:
+- ''
+- '&7Odejmij &#FF5C5C{AMOUNT} szt. &7z zakupu'
+- ''
+- '&#FF5C5C✘ Kliknij, aby odjąć'
+purchase-confirm-name: '&#4EFA76&lZATWIERDŹ ZAKUP'
+purchase-confirm-lore:
+- ''
+- '&8▸ &fLiczba produktów: &#00E0FF{AMOUNT} szt.'
+- '&8▸ &fKoszt zakupu: &#FFDD57{PRICE}$'
+- ''
+- '&#4EFA76✔ Kliknij, aby zatwierdzić transakcję'
+purchase-cancel-name: '&#FF5C5C&lANULUJ ZAKUP'
+purchase-cancel-lore:
+- ''
+- '&7Anuluj zakup i wróć do sklepu.'
+- ''
+- '&#FF5C5C✘ Kliknij, aby anulować'
+sell-price-lore:
+- ''
+- '&8▸ &fOtrzymasz za sprzedaż:'
+- '&8  &#4EFA76{price}$'
+required-amount-lore:
+- '&8▸ &fWymagana liczba:'
+- '&8  &#FFDD57{amount} szt.'
+player-has-lore:
+- '&8▸ &fPosiadasz obecnie:'
+- '&8  &#00E0FF{amount} szt.'
+can-sell-lore:
+- ''
+- '&#4EFA76✔ Kliknij, aby sprzedać'
+cannot-sell-lore:
+- ''
+- '&#FF5C5C✘ Nie masz wymaganych przedmiotów'
+disabled-sell-item-lore:
+- ''
+- '&#FF5C5C✘ Ten przedmiot jest wyłączony ze skupu!'

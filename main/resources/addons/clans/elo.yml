@@ -1,0 +1,62 @@
+kFactor: 48
+startingElo: 1000
+minElo: 0
+maxElo: 15000
+maxGain: 300
+maxLoss: 200
+highEloThreshold: 5000
+highEloKFactor: 72
+enabled: true
+broadcast: '§4%victim%&8(&c%victim-points-count%&8) &czostał zabity przez &4%attacker%&8(&c%attacker-points-count%&8)'
+attackerTitle: '&2Zabójstwo'
+attackerSubtitle: '&4%victim% &#92FF99%attacker-points-count% &8(&#C3E9FF%attacker-points%pkt &8| &2↑%attacker-position-change% &8| &fPozycja: &#C3E9FF%attacker-position%&8)'
+victimTitle: '&x&C&6&C&3&C&3&lś&x&A&7&A&6&A&6&lᴍ&x&8&8&8&8&8&8&lɪ&x&A&0&A&0&A&0&lᴇ&x&B&8&B&8&B&8&lʀ&x&D&0&D&0&D&0&lć'
+victimSubtitle: '&7%attacker% &8(&c%victim-points-count%&8) &f#%victim-position%'
+deathTitle: '&c&lŚMIERĆ'
+deathSubtitle: '&7Zginąłeś przez &f{killer} &c(-{lost})'
+killTitle: '&b&lZABÓJSTWO'
+killSubtitle: '&7Zabiłeś gracza &f{victim} &c(+{gain})'
+killChatMessage: '&d⚔ &fGracz &c{victim} &c(-{lost}) &fzostał zabity przez gracza &a{killer} &a(+{gain})'
+killCooldownSeconds: 300
+titleFadeIn: 10
+titleStay: 40
+titleFadeOut: 20
+killAnimationEnabled: true
+killAnimationTitle: ᴢᴀʙᴏᴊꜱᴛᴡᴏ
+killAnimationTitleCenterIndex: 4
+killAnimationTitleGray: '#8A8A8A'
+killAnimationTitleColorStart: '#FFB347'
+killAnimationTitleColorEnd: '#FF2200'
+deathAnimationTitle: ꜱᴍɪᴇʀć
+deathAnimationTitleCenterIndex: 2
+deathAnimationTitleGray: '#666666'
+deathAnimationTitleColorStart: '#FF6666'
+deathAnimationTitleColorEnd: '#AA0000'
+killAnimationSpreadEveryTicks: 2
+killAnimationSubtitleDelayTicks: 6
+killAnimationSubtitlePartEveryTicks: 3
+killAnimationHoldTicks: 55
+killAnimationSoundMain: ENTITY_PLAYER_ATTACK_CRIT
+killAnimationSoundExtra: none
+killAnimationSoundVolume: 0.8
+killAnimationSoundMainPitch: 1.1
+killAnimationSoundExtraPitch: 1.65
+deathAnimationSoundMain: ENTITY_WITHER_HURT
+deathAnimationSoundExtra: BLOCK_ANVIL_LAND
+deathAnimationSoundVolume: 0.55
+deathAnimationSoundMainPitch: 0.85
+deathAnimationSoundExtraPitch: 1.35
+killSubtitleParts:
+- '&#8B0000{VICTIM} &#FFD700{GAIN}'
+- ' &#C1C1C1({POINTS}pkt'
+- ' &#C1C1C1| {POS_CHANGE}'
+- ' &#C1C1C1| Pozycja: &#FF5C5C{NEW_POS})'
+deathSubtitleParts:
+- '&#C1C1C1Zabity przez &#8B0000{KILLER}'
+- ' &#FF5C5C{LOSS}'
+- ' &#C1C1C1({POINTS}pkt'
+- ' &#C1C1C1| {POS_CHANGE}'
+- ' &#C1C1C1| Pozycja: &#FF5C5C{NEW_POS})'
+posChangeUp: '&a↑{AMOUNT}'
+posChangeDown: '&c↓{AMOUNT}'
+posChangeNone: '&a↑0'

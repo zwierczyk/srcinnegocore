@@ -1,0 +1,36 @@
+zones: {}
+rewards:
+- permission: Holly.afk.basic
+  money-reward: 10.0
+  item-chance: 0
+  interval-seconds: 60
+  display-name: '&eNagroda Podstawowa &7(10$)'
+  bossbar-color: YELLOW
+  item-rewards: []
+  reward-commands:
+  - lp user {player} parent addtemp svip 3d
+- permission: Holly.afk.vip
+  money-reward: 25.0
+  item-chance: 0
+  interval-seconds: 45
+  display-name: '&6Nagroda VIP &7(25$)'
+  bossbar-color: GOLD
+  item-rewards: []
+  reward-commands:
+  - lp user {player} parent addtemp svip 3d
+- permission: Holly.afk.svip
+  money-reward: 50.0
+  item-chance: 0
+  interval-seconds: 30
+  display-name: '&cNagroda SVIP &7(50$)'
+  bossbar-color: RED
+  item-rewards: []
+  reward-commands:
+  - lp user {player} parent addtemp svip 3d
+bossbar-format: '&e{reward_name} &7otrzymasz za: &f{time}'
+turbo-bossbar-title: '&aTurboAFK &2x{MULTIPLIER} &7pozostało: &f{TIME}'
+turbo-bossbar-color: GREEN
+placeholders-help:
+- '{player} / {PLAYER} / %player% - nick gracza odbierającego nagrodę'
+- '{uuid} / {UUID} / %uuid% - UUID gracza'
+- 'Przykład komendy: lp user {player} parent addtemp svip 3d'

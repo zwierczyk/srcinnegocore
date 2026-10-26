@@ -1,0 +1,13 @@
+enabled-message: '&#00FF3B✔ &8Ξ &#4EFA76Włączyłeś tryb twórcy!'
+disabled-message: '&#00FF3B✔ &8Ξ &#4EFA76Wyłączyłeś tryb twórcy!'
+no-permission-message: '&#FF0000✘ &8Ξ &cNie posiadasz dostępu do &#FF0000/tryb-tworca &8(&4hollycore.creatormode&8)'
+actionbar-enabled: true
+actionbar-message: '&7&l[&e&lTRYB TWÓRCY&7&l] &fPrzedmioty nie wypadają!'
+actionbar-interval: 20
+creator-placeholder: '&e[T]'
+granted-staff-message: '&#00FF3B✔ &8Ξ &#4EFA76Nadano tryb twórcy graczowi &f{player} &ana &e{time}&a.'
+granted-player-message: '&#00FF3B✔ &8Ξ &#4EFA76Otrzymałeś tryb twórcy na &e{time}&a.'
+expired-message: '&#FF0000✘ &8Ξ &cTwój tryb twórcy wygasł.'
+revoked-staff-message: '&#00FF3B✔ &8Ξ &#4EFA76Zabrano tryb twórcy graczowi &f{player}&a.'
+revoked-player-message: '&#FF0000✘ &8Ξ &cTwój tryb twórcy został zabrany.'
+grant-locked-message: '&#FF0000✘ &8Ξ &cMasz nadany tryb twórcy jeszcze przez &e{time}&c.'

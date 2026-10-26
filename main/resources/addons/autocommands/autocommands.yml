@@ -1,0 +1,8 @@
+timezone: Europe/Warsaw
+
+commands:
+  "18:00":
+    - "rozdajadmin luckyblock 1 1"
+    - "rozdajadmin starbox 1 1"
+  "19:00":
+    - "rozdajadmin eventbox 1"

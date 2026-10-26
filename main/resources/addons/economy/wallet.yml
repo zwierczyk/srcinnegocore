@@ -1,0 +1,146 @@
+enabled: true
+currency-name: wPLN
+gui:
+  title: '&7Portfel'
+  rows: 5
+balance-item:
+  slot: 40
+  item:
+    material: GOLD_INGOT
+    amount: 1
+    head-value: ''
+    meta:
+      display: '&6&lTwój portfel'
+      lore:
+      - ''
+      - ' &8» &fStan konta: &a{BALANCE} {CURRENCY}'
+      - ''
+      custom-model-data: 0
+      unbreakable: false
+      item-flags: []
+buy-bar:
+  enabled: true
+  title: '&8‹ &7Gracz &f{PLAYER} &7zakupił &f{SERVICE} &7za &a{PRICE} {CURRENCY} &8›'
+  bar-style: SEGMENTED_6
+  bar-color: RED
+  ticks: 80
+  rainbow-min-price: 100.0
+  rainbow-interval-ticks: 4
+  premium-sound: ENTITY_ENDER_DRAGON_DEATH
+recharge-announcement:
+  # Domyślny dźwięk, gdy nie pasuje żadna kwota z amount-sounds.
+  sound-name: ENTITY_PLAYER_LEVELUP
+  # Działa progowo: plugin wybiera najwyższą pozycję, której amount <= kwota doładowania.
+  # Przykład: 75 odpali dźwięk z amount: 50.0, a 100+ odpali dźwięk z amount: 100.0.
+  amount-sounds:
+  - amount: 5.0
+    sound-name: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 1.0
+    pitch: 1.0
+  - amount: 20.0
+    sound-name: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
+  - amount: 50.0
+    sound-name: UI_TOAST_CHALLENGE_COMPLETE
+    volume: 1.0
+    pitch: 1.0
+  - amount: 100.0
+    sound-name: ENTITY_ENDER_DRAGON_GROWL
+    volume: 1.0
+    pitch: 1.0
+  title-fade-in: 10
+  title-stay: 60
+  title-fade-out: 10
+  messages:
+  - ''
+  - '&8‹◆ &a&lPORTFEL &8◆›'
+  - ' &8× &7Gracz &f{PLAYER} &7doładował portfel o &a{AMOUNT} {CURRENCY}'
+  - ''
+  title: '&a&lPORTFEL'
+  sub-title: '&7Gracz &f{PLAYER} &7doładował &a{AMOUNT} {CURRENCY}'
+logs-gui:
+  title: '&7Logi portfela &f{PLAYER}'
+  rows: 5
+  previous-slot: 39
+  next-slot: 41
+  back-slot: 40
+admin-product-stats:
+  enabled: true
+  permission: Holly.cmd.aportfel
+  lore:
+  - ''
+  - '&8&m--------------------'
+  - '&c&lSTATYSTYKI ADMINA'
+  - '&7Kupilo: &f{BUYERS} &7osob &8(&f{PURCHASES} &7zakupow&8)'
+  - '&7Zarobek: &a{REVENUE} {CURRENCY}'
+  - '&8&m--------------------'
+messages:
+  disabled: '&#FF0000✘ &8Ξ &cSystem portfela jest wyłączony.'
+  player-only: '&#FF0000✘ &8Ξ &cTa komenda jest tylko dla gracza.'
+  no-permission: '&#FF0000✘ &8Ξ &cNie posiadasz dostępu do &#FF0000/portfel reload &8(&4Holly.cmd.aportfel&8)'
+  usage-admin: |-
+    &#FF0000✘ &8Ξ &cPoprawne użycie: &#FF0000
+     &8• &4/aportfel info <nick>
+     &8• &4/aportfel add <nick> <ilość>
+     &8• &4/aportfel remove <nick> <ilość>
+     &8• &4/aportfel set <nick> <ilość>
+     &8• &4/aportfel doladowanie <nick> <ilość>
+     &8• &4/aportfel logs <nick>
+     &8• &4/aportfel total
+     &8• &4/aportfel reload
+  invalid-amount: '&#FF0000✘ &8Ξ &cPodaj poprawną liczbę.'
+  player-not-found: '&#FF0000✘ &8Ξ &cNie znaleziono gracza &4{PLAYER}&c.'
+  balance-self: '&#00FF3B✔ &8Ξ &7Stan konta: &a{BALANCE} {CURRENCY}'
+  balance-target: '&#00FF3B✔ &8Ξ &7Stan konta gracza &f{PLAYER}&7: &a{BALANCE} {CURRENCY}'
+  added: '&#00FF3B✔ &8Ξ &#4EFA76Dodano &f{AMOUNT} {CURRENCY} &agraczowi &f{PLAYER}&a.'
+  removed: '&#00FF3B✔ &8Ξ &#4EFA76Usunięto &f{AMOUNT} {CURRENCY} &agraczowi &f{PLAYER}&a.'
+  set: '&#00FF3B✔ &8Ξ &#4EFA76Ustawiono stan konta gracza &f{PLAYER} &ana &f{AMOUNT} {CURRENCY}&a.'
+  insufficient-funds: '&#FF0000✘ &8Ξ &cNie masz wystarczająco {CURRENCY}.'
+  bought: '&#00FF3B✔ &8Ξ &#4EFA76Zakupiono usługę &f{SERVICE} &aza &f{PRICE} {CURRENCY}&a.'
+  bought-console: '&#00FF3B✔ &8Ξ &#4EFA76Wykonano zakup usługi &f{SERVICE}&a.'
+  recharge-added: '&#00FF3B✔ &8Ξ &#4EFA76Doładowano portfel gracza &f{PLAYER} &akwotą &f{AMOUNT}
+    {CURRENCY}&a.'
+  total: '&#00FF3B✔ &8Ξ &7Łączna wartość doładowań serwera: &a{TOTAL} {CURRENCY}'
+  no-logs: '&#FF0000✘ &8Ξ &cBrak logów portfela dla tego gracza.'
+  reloaded: '&#00FF3B✔ &8Ξ &#4EFA76Przeładowano konfigurację portfela.'
+services:
+  21:
+    sound: UI_BUTTON_CLICK
+    item:
+      material: STONE
+      amount: 1
+      head-value: ''
+      meta:
+        display: '&b&lRangi premium'
+        lore:
+        - ''
+        - ' &8» &fKliknij aby przejść dalej!'
+        - ''
+        custom-model-data: 0
+        unbreakable: false
+        item-flags: []
+    gui-title: '&7Portfel'
+    gui-rows: 5
+    categories:
+    - slot: 10
+      sound: ENTITY_EXPERIENCE_ORB_PICKUP
+      item:
+        material: LEATHER_HELMET
+        amount: 1
+        head-value: ''
+        meta:
+          display: '&f&lVIP &8(&730 dni&8)'
+          lore:
+          - ''
+          - ' &8» &fCena: &a5.0 wPLN'
+          - ''
+          - ' &aKliknij, aby zakupić'
+          custom-model-data: 0
+          unbreakable: false
+          item-flags: []
+      price: 5.0
+      commands:
+      - lp user {PLAYER} parent addtemp vip 30d
+      player-commands: []
+      close-after-buy: true

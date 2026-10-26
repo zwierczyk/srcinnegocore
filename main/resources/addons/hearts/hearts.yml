@@ -1,0 +1,3 @@
+enabled: true
+max-health: 60.0
+reset-to-vanilla-when-disabled: true

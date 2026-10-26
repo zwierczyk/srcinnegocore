@@ -1,0 +1,60 @@
+sector-name: Globalny
+startChannelSlot: 20
+inventory:
+  rows: 5
+  title: '&7Kanały'
+filler:
+  - slot:
+      - 0
+      - 8
+      - 36
+      - 44
+    item:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+  - slot:
+      - 1
+      - 9
+      - 7
+      - 17
+      - 27
+      - 37
+      - 35
+      - 43
+    item:
+      material: CYAN_STAINED_GLASS_PANE
+  - slot:
+      - 18
+      - 26
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+  - slot:
+      - 2
+      - 3
+      - 5
+      - 6
+      - 38
+      - 39
+      - 41
+      - 42
+    item:
+      material: SOUL_LANTERN
+  - slot:
+      - 4
+      - 40
+    item:
+      material: CHAIN
+sectorMaterial: CYAN_DYE
+sectorTitle: '&b▶ &fKanał: &#68CEFF{SECTORNAME}'
+sectorLore:
+  - '&f'
+  - '&b⚠ &#12B2FFI&#10B5FFn&#0EB7FFf&#0DBAFFo&#0BBCFFr&#09BFFFm&#07C1FFa&#05C4FFc&#04C6FFj&#02C9FFe &#00CBFFo &#00CBFFk&#00CBFFa&#00CBFFn&#00CBFFa&#00CBFFl&#00CBFFe&#00CBFF:'
+  - '&f'
+  - ' &8■ &7Nazwa: &b{SECTORNAME}'
+  - ' &8■ &7TPS: &b{TPS}'
+  - ' &8■ &7Gracze online: &b{ONLINE}'
+  - '&f'
+  - '&7ᴏꜱᴛᴀᴛɴɪᴀ ᴀᴋᴛᴜʟɪᴢᴀᴄᴊᴀ: &f{LASTUPDATE}'
+  - '&f'
+  - '{CONNECT}'
+sectorCanConnect: '&8⮕ &a&#22FF00K&#28FF09l&#2DFF12i&#33FF1Bk&#38FF24n&#3EFF2Di&#43FF36j&#49FF3E, &#54FF50a&#59FF59b&#5FFF62y &#6AFF74z&#6AFF74m&#6AFF74i&#6AFF74e&#6AFF74n&#6AFF74i&#6AFF74ć &#6AFF74k&#6AFF74a&#6AFF74n&#6AFF74a&#6AFF74ł'
+sectorCantConnect: '&8⮕ &#FF7C7CJ&#FF7878e&#FF7575s&#FF7171t&#FF6D6De&#FF6969ś &#FF6262j&#FF5E5Eu&#FF5B5Bż &#FF5353p&#FF4F4Fo&#FF4C4Cł&#FF4848ą&#FF4444c&#FF4040z&#FF3D3Do&#FF3939n&#FF3939y &#FF3939z &#FF3939t&#FF3939y&#FF3939m &#FF3939s&#FF3939e&#FF3939k&#FF3939t&#FF3939o&#FF3939r&#FF3939e&#FF3939m&#FF3939!'

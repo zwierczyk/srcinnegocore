@@ -1,0 +1,87 @@
+enabled: true
+display-name: Piniata
+duration-seconds: 300
+
+spawn:
+  world: spawn
+  x: -157.433
+  y: 42.0
+  z: -244.486
+  yaw: 0.0
+  pitch: 0.0
+
+entity-name: '&d&lPINIATA &8- &f{hp}&7/&f{max_hp} HP'
+max-health: 2000.0
+damage-per-hit: 8.0
+glowing: true
+size-change-seconds: 5
+effect-interval-ticks: 20
+
+slow-radius: 8.0
+slow-duration-ticks: 60
+slow-amplifier: 1
+knockback-radius: 6.0
+knockback-strength: 1.2
+knockback-y: 0.35
+knockback-cooldown-millis: 5000
+hit-reward-cooldown-millis: 1000
+
+hit-rewards:
+  - chance: 15.0
+    commands:
+      - eco give {player} 100
+
+bossbar:
+  enabled: true
+  only-event-world: false
+  start-title: '&fDO ROZPOCZECIA PINIATY ZOSTALO: &b{time}'
+  hp-title: '&fPINIATA HP: &d{piniata_hp}&7/&f{piniata_max_hp}'
+  start-color: YELLOW
+  end-color: RED
+  style: SOLID
+
+chat-announcements: true
+countdown-seconds:
+  - 300
+  - 120
+  - 60
+  - 30
+  - 10
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+
+rewards:
+  top-1:
+    - eco give {player} 5000
+  top-2:
+    - eco give {player} 3000
+  top-3:
+    - eco give {player} 2000
+  top-4:
+    - eco give {player} 1000
+  top-5:
+    - eco give {player} 500
+
+messages:
+  prefix: '&8[&dPiniata&8] '
+  disabled: '{prefix}&cPiniata jest wyłączona.'
+  already-running: '{prefix}&cPiniata jest już zaplanowana albo aktywna.'
+  invalid-time: '{prefix}&cPodaj poprawny czas, np. &f30s&c, &f5m&c, &f1h&c.'
+  scheduled: '{prefix}&aZaplanowano piniatę. Start za &f{time}&a.'
+  started: '{prefix}&aPiniata wystartowała! Masz &f{duration}&a na zadanie obrażeń.'
+  stopped: '{prefix}&cPiniatę zatrzymano.'
+  spawn-set: '{prefix}&aUstawiono spawn piniaty.'
+  reloaded: '{prefix}&aPrzeładowano konfigurację piniaty.'
+  not-running: '{prefix}&cPiniata nie jest teraz aktywna.'
+  world-missing: '{prefix}&cŚwiat piniaty nie istnieje: &f{world}'
+  no-winners: brak
+  countdown:
+    - '{prefix}&fPiniata startuje za &b{time}&f!'
+  ended:
+    - '{prefix}&fPiniata zakończona!'
+    - '{prefix}&fTOP 1: &d{top_1}'
+    - '{prefix}&fTOP 2: &d{top_2}'
+    - '{prefix}&fTOP 3: &d{top_3}'

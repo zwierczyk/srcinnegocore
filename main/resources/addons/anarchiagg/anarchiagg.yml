@@ -1,0 +1,2987 @@
+blocked-regions:
+- spawn
+
+eventowki:
+  global-use-delay-ticks: 10
+  wedkasurfera:
+    cooldown: 5
+    full-item:
+      material: FISHING_ROD
+      name: '&b&lWędka surferka'
+      lore:
+      - ' &8» &7Jest to przedmiot z:'
+      - ' &8» &feventu wakacyjnego (2023)'
+      - ''
+      - ' &8» &7Ta &aniezwykła &7wędka zapewnia ci'
+      - ' &8» &7zdumiewająca zdolność przyciąania się'
+      - ' &8» &7do &bbloków &7i &dgraczy&7, tworząc zupełnie'
+      - ' &8» &7nowe możliwości eksploracji i walki!'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        FORTUNE: 10
+      pdc-key: wedkasurfera
+  hydroklatka:
+    item: BLAZE_ROD
+    name: §3§lWyrzutnia Hydro Klatki
+    cooldown: 150
+    time: 20
+    radius: 10
+    elytra-disable: true
+    full-item:
+      material: BLAZE_ROD
+      name: '&3&lWyrzutnia Hydro Klatki'
+      lore:
+      - ' &8» &7Jest to przedmiot zdobyty podczas'
+      - ' &8» &fwydarzenia wakacyjnego 2025&7!'
+      - ' &7'
+      - ' &8» &7Po użyciu wystrzeliwuje pocisk, który'
+      - ' &8» &7tworzy &3wodną klatkę&7 uwięziającą'
+      - ' &8» &7przeciwników w miejscu!'
+      custom-model-data: 2
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        UNBREAKING: 10
+      pdc-key: hydroklatka
+  marchewkowakusza:
+    name: '&6&lMarchewkowa Kusza'
+    cooldown: 90
+    full-item:
+      material: CROSSBOW
+      name: '&6&lMarchewkowa Kusza'
+      lore:
+      - ''
+      - '&8» &7Jest to przedmiot z &fwielkanocnego'
+      - '&8» &fwydarzenia &7z &e2024 roku&7!'
+      - ''
+      - '&8» &7Ta &aniezwykła &7kusza zapewnia ci'
+      - '&8» &7zdumiewającą zdolność przyciągania'
+      - '&8» &7do siebie &egraczy&7, tworząc zupełnie'
+      - '&8» &7nowe możliwości eksploracji i walki!'
+      custom-model-data: 125125
+      unbreakable: false
+      item-flags: []
+      enchants: {}
+      pdc-key: marchewkowakusza
+  dynamit:
+    name: '&4&lDynamit'
+    cooldown: 60
+    dynamit: RED_CANDLE
+    full-item:
+      material: RED_CANDLE
+      name: '&4&lDynamit'
+      lore:
+      - '&8» &7Ten przedmiot umożliwi tobie zniszczenie'
+      - '&8» &7skały macierzystej! Wystarczy kliknąć'
+      - '&8» &7tylko &cprawy &7przycisk!'
+      custom-model-data: 523
+      unbreakable: false
+      item-flags: []
+      enchants: {}
+      pdc-key: dynamit
+  lukkupidyna:
+    name: '&4Łuk Kupidyna'
+    cooldown: 30
+    full-item:
+      material: BOW
+      name: '&4Łuk Kupidyna'
+      lore:
+      - ''
+      - '&5&lSpecjalny przedmiot!'
+      - '&7Masz szanse, że trafiony przez'
+      - '&7Ciebie gracz zostaje &doślepiony!'
+      unbreakable: false
+      item-flags: []
+      enchants:
+        POWER: 4
+        FLAME: 1
+        INFINITY: 1
+        UNBREAKING: 3
+      pdc-key: lukkupidyna
+      custom-model-data: 1
+  watacukrowa:
+    item: PINK_DYE
+    name: '&b&lWata cukrowa'
+    cooldown: 5
+    full-item:
+      material: PINK_DYE
+      name: '&b&lWata cukrowa'
+      lore:
+      - ' &8» &7Jest to przedmiot zdobyty podczas'
+      - ' &8» &fwydarzenia cyrkowego 2025&7!'
+      - ' &7'
+      - ' &8» &7Po użyciu rozpoczyna &dnaprawę&7 jednego'
+      - ' &8» &7z elementów twojej zbroi do &apełnej trwałości&7.'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        UNBREAKING: 11
+      pdc-key: watacukrowa
+  balonik:
+    blocked-regions:
+    - pvp
+    item: PLAYER_HEAD
+    name: §3§lBalonik z helem
+    cooldown: 5
+    full-item:
+      material: PLAYER_HEAD
+      name: '&3&lBalonik z helem'
+      lore:
+      - ' &8» &7Jest to przedmiot zdobyty podczas'
+      - ' &8» &fDnia Dziecka 2025&7!'
+      - ' &7'
+      - ' &8» &7Po aktywacji unosi się, niszcząc'
+      - ' &8» &7wszystkie bloki znajdujące się nad nim'
+      custom-model-data: 0
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        UNBREAKING: 10
+      pdc-key: balonik
+  hydrotrojzab:
+    name: '&3&lHydro Trójząb'
+    item: BOW
+    shoot-cooldown: 30
+    fly-cooldown: 30
+    damage: 1
+    full-item:
+      material: BOW
+      name: '&3&lHydro Trójząb'
+      lore:
+      - ' &8» &7Jest to przedmiot zdobyty podczas'
+      - ' &8» &fwydarzenia wakacyjnego 2025&7!'
+      - ' &7'
+      - ' &8» &7Po rzuceniu trójzębem w miejsce'
+      - ' &8» &7uderzenia &buderza piorun&7, który'
+      - ' &8» &7zadaje obrażenia i odpycha'
+      - ' &8» &7pobliskich przeciwników!'
+      - ' &7'
+      - ' &8» &7Klikając &fSHIFT &7możesz się'
+      - ' &8» &7wystrzelić w dowolnym miejscu!'
+      custom-model-data: 6000
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        INFINITY: 1
+        PIERCING: 3
+        LOYALTY: 1
+        UNBREAKING: 15
+      pdc-key: hydrotrojzab
+  blokwidmo:
+    material: STRUCTURE_BLOCK
+    name: §c§lBlok widmo
+    cooldown: 180
+    time: 90
+    full-item:
+      material: STRUCTURE_BLOCK
+      name: '&c&lBlok widmo'
+      lore:
+      - ' &8» &7Jest to przedmiot zdobyty podczas'
+      - ' &8» &fDnia Dziecka 2025&7!'
+      - ' &7'
+      - ' &8» &7Po postawieniu na ziemi, '
+      - ' &8» &7uwalnia &eenergię&7, która obniża'
+      - ' &8» &fmaksymalny limit &7serc pobliskim'
+      - ' &8» &7graczom na określony czas.&7.'
+      custom-model-data: 74574576
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        UNBREAKING: 10
+      pdc-key: blokwidmo
+  ulepszonaelytra:
+    material: ELYTRA
+    name: §5§lWzmocniona elytra
+    cooldown: 0
+    damage: 30
+    full-item:
+      material: ELYTRA
+      name: '&5&lWzmocniona elytra'
+      lore:
+      - ' &8» &7Jest to przedmiot zdobyty podczas'
+      - ' &8» &fWielkanocnego Wydarzenia 2025&7!'
+      - ' &7'
+      - ' &8» &7Po naładowaniu elytry do &f100%&7, zyskujesz'
+      - ' &8» &cpotężną moc&7, która przy uderzeniu w ziemię'
+      - ' &8» &7uwolni się, oddziałując na pobliskich graczy!'
+      custom-model-data: 42421
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        UNBREAKING: 10
+      pdc-key: ulepszonaelytra
+  parawan:
+    item: FEATHER
+    name: §e§lParawan
+    cooldown: 5
+    full-item:
+      material: FEATHER
+      name: '&e&lParawan'
+      lore:
+      - ' &8» &7Jest to przedmiot zdobyty z'
+      - ' &8» &fwydarzenia wakacyjnego 2024&7!'
+      - ''
+      - ' &8» &7Po użyciu tego przedmiotu odrzuca'
+      - ' &8» &7wszystkich przeciwników w okolicy!'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags: []
+      enchants: {}
+      pdc-key: parawan
+  sakwa:
+    item: RABBIT_FOOT
+    name: §a§lSakiewka dropu
+    cooldown: 0
+    full-item:
+      material: RABBIT_FOOT
+      name: '&a&lSakiewka dropu'
+      lore:
+      - ' &8» &7Posiadając ten przedmiot w'
+      - ' &8» &7ekwipunku po &czabiciu &7dowolnego'
+      - ' &8» &fgracza &7jego przedmioty trafiają'
+      - ' &8» &7do twojej &asakiewki&7!'
+      - ''
+      - ' &8» &eKliknij PRAWYM, aby otworzyć sakiewkę!'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags: []
+      enchants: {}
+      pdc-key: sakwa
+  boskitopor:
+    item: IRON_AXE
+    name: §b§lBoski topór
+    cooldown: 90
+    time: 5
+    full-item:
+      material: IRON_AXE
+      name: '&b&lBoski topór'
+      lore:
+      - ' &8» &7Jest to przedmiot z:'
+      - ' &8» &fspecjalnego wydarzenia (2025)'
+      - '&7'
+      - ' &8» &7Po &fkliknięciu &7prawym przyciskiem'
+      - ' &8» &7aktywujesz &epotężna fale uderzeniową&7'
+      - ' &8» &7która zapewnia Tobie &cnieśmiertelność&7!'
+      custom-model-data: 3462232
+      unbreakable: true
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        UNBREAKING: 10
+      pdc-key: boskitopor
+  zlamaneserduszko:
+    item: PURPLE_DYE
+    name: §5§lZłamane serce
+    cooldown: 5
+    time: 20
+    full-item:
+      material: PURPLE_DYE
+      name: '&5&lZłamane serce'
+      lore:
+      - ' &8» &7Jest to przedmiot z:&8'
+      - ' &8» &feventu walentynkowego (2025)'
+      - '&7'
+      - ' &8» &7Uderz nim w przeciwnika, aby'
+      - ' &8» &7złamać jego &dserduszko&7!'
+      custom-model-data: 56463536
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        UNBREAKING: 10
+      pdc-key: zlamaneserduszko
+  anarchiczeneserce:
+    item: RED_DYE
+    name: §4§lAnarchiczne serce
+    cooldown: 0
+    full-item:
+      material: RED_DYE
+      name: '&4&lAnarchiczne serce'
+      lore:
+      - ' &8» &7To &cserce &7możesz użyć poza limitem &c30 serc&7.'
+      - ' &8» &7Maksymalnie możesz uzyskać &f40 serduszek&7!'
+      - '&7'
+      custom-model-data: 4
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      enchants:
+        UNBREAKING: 10
+      pdc-key: anarchiczeneserce
+  bombarda:
+    item: FIRE_CHARGE
+    name: §5§lBombarda maxima
+    blocked-regions:
+    - pvp
+    cooldown: 5
+    full-item:
+      material: FIRE_CHARGE
+      name: '&5&lBombarda maxima'
+      lore:
+      - ' &8» &7Po wystrzeleniu wybucha w okolicy'
+      - ' &8» &7i niszczy każdy możliwy blok oprócz'
+      - ' &8» &fskały macierzystej&7!'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants: {}
+      pdc-key: bombarda
+  lizak:
+    item: ALLIUM
+    name: '&d&lLizak'
+    cooldown: 0
+    full-item:
+      material: ALLIUM
+      name: '&d&lLizak'
+      lore:
+      - ' &8» &7Przedmiot zdobyty w &fdzień dziecka&7!'
+      - ' &8» &7Trzymaj go w ręce aby otrzymywać:'
+      - '  &8- &fEfekt SIŁY 1'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags: []
+      enchants: {}
+      pdc-key: lizak
+  nielota:
+    name: §5§lWędka nielota
+    cooldown: 60
+    full-item:
+      material: FISHING_ROD
+      name: '&5&lWędka nielota'
+      lore:
+      - ' &8» &7Wędka nielota była do zdobycia'
+      - ' &8» &7w &f2024 roku &7podczas &adnia dziecka'
+      - ''
+      - ' &8» &7Po złapaniu gracza na haczyk'
+      - ' &8» &7nie może on odlecieć &delytrą!'
+      custom-model-data: 2
+      unbreakable: true
+      item-flags:
+      - HIDE_UNBREAKABLE
+      enchants: {}
+      pdc-key: nielota
+  rozakupidyna:
+    item: POPPY
+    name: '&c&lRóża kupidyna'
+    cooldown: 0
+    full-item:
+      material: POPPY
+      name: '&c&lRóża kupidyna'
+      lore:
+      - ' &8» &7Przedmiot zdobyty w &fwalentynki w 2024 roku&7!'
+      - ' &8» &7Trzymaj go w ręce aby otrzymywać:'
+      - '  &8- &fEfekt odporności 1'
+      - '  &8- &fEfekt regeneracji 1'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags: []
+      enchants: {}
+      pdc-key: rozakupidyna
+  supernieskonczonamarchewka:
+    material: GOLDEN_CARROT
+    name: '&6&lSuper Nieskończona Marchewka'
+    custom-model-data: 2026
+    lore:
+    - '&8» &7Jest to przedmiot zdobyty podczas'
+    - '&8» &fwielkanocnego eventu 2026&7!'
+    - '&8» &f'
+    - '&8» &7Po użyciu &fpowiększa cię do &6ogromnej wielkości&7,'
+    - '&8» &7nakłada &cSpowolnienie II &7i &aOdporność III'
+    - '&8» &7oraz &czwiększa &dobrażenia krytyczne&7.'
+    cooldown: 60
+    time: 3
+    scale: 1.3
+    crit-multiplier: 1.5
+    full-item:
+      material: GOLDEN_CARROT
+      name: '&6&lSuper Nieskończona Marchewka'
+      custom-model-data: 2026
+      lore:
+      - '&8» &7Jest to przedmiot zdobyty podczas'
+      - '&8» &fwielkanocnego eventu 2026&7!'
+      - '&8» &f'
+      - '&8» &7Po użyciu &fpowiększa cię do &6ogromnej wielkości&7,'
+      - '&8» &7nakłada &cSpowolnienie II &7i &aOdporność III'
+      - '&8» &7oraz &czwiększa &dobrażenia krytyczne&7.'
+      unbreakable: false
+      item-flags:
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants: {}
+  kroliczymiecz:
+    name: §3§lKróliczy miecz
+    cooldown: 120
+    time: 15
+    full-item:
+      material: NETHERITE_SWORD
+      name: '&3&lKróliczy miecz'
+      lore:
+      - '&cDodatkowe obrażenia 0%'
+      - '&8 » &7Jest to przedmiot z &fwydarzenia'
+      - '&8 » &fwielkanocnego &7z &f2024 roku'
+      - ''
+      - '&8 » &7Po uderzeniu przeciwnika blokuje'
+      - '&8 » &7możliwość skakania na &f4 sekundy&7!'
+      custom-model-data: 2
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        SHARPNESS: 6
+        FIRE_ASPECT: 2
+      pdc-key: kroliczymiecz
+  kostkarubika:
+    name: §e§lKostka rubika
+    cooldown: 5
+    material: PLAYER_HEAD
+    full-item:
+      material: PLAYER_HEAD
+      name: '&e&lKostka rubika'
+      lore:
+      - ' &8» &7Kostka rubika była do zdobycia'
+      - ' &8» &7w &f2024 roku &7podczas &adnia dziecka'
+      - ''
+      - ' &8» &7Uderz gracza, aby jego ekwipunek'
+      - ' &8» &7został &fprzemieszany!'
+      custom-model-data: 0
+      unbreakable: false
+      item-flags: []
+      enchants: {}
+      pdc-key: kostkarubika
+  marchewkowymiecz:
+    name: §6Marchewkowy miecz
+    cooldown: 90
+    material: GOLDEN_SWORD
+    time: 2
+    full-item:
+      material: GOLDEN_SWORD
+      name: '&6Marchewkowy miecz'
+      lore:
+      - ' &8» &7Dzięki niemu możesz &bzamrozić &7przeciwnika'
+      - ' &8» &7po &cuderzeniu &7na &asekundę!'
+      - ''
+      - ' &8» &7Przedmiot z &e&nEVENTU WIELKANOCNEGO!'
+      - ' &8» &7Zdobyty: &f09-04-2023, 08:30:08'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants: {}
+      pdc-key: marchewkowymiecz
+  korona:
+    item: GOLDEN_HELMET
+    name: §6Korona ANARCHII
+    cooldown: 0
+    full-item:
+      material: GOLDEN_HELMET
+      name: '&6Korona ANARCHII'
+      lore:
+      - ' &8» &eTen przedmiot jest wyjątkowy!'
+      - ' &8» &7Na serwerze znajdują się tylko jedna'
+      - ' &8» &7taka korona! Która nigdy nie zostanie'
+      - ' &8» &7zniszczona.'
+      - ''
+      - ' &8» &eZalety przedmiotu:'
+      - '  &fStałe efekty:'
+      - '   &8- &7Szybkość II'
+      - '   &8- &7Odporność na ogień I'
+      - '   &8- &7Siła II'
+      - '   &8- &7Odporność III'
+      - '   &8- &7Szczęście I'
+      custom-model-data: 1
+      unbreakable: true
+      item-flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants: {}
+      pdc-key: korona
+  siekieragrincza:
+    name: §2Siekiera Grincha
+    cooldown: 60
+    material: GOLDEN_AXE
+    full-item:
+      material: GOLDEN_AXE
+      name: '&2Siekiera Grincha'
+      lore:
+      - ' &8» &7Jest to przedmiot z:'
+      - ' &8» &feventu świątecznego (2023)'
+      - ''
+      - ' &8» &7Po &auderzeniu &7strzela &fpiorun'
+      - ' &8» &7w przeciwnika zabierając mu &c30%'
+      - ' &8» &7jego życia! &fUmiejętność &7działa'
+      - ' &8» &7raz na 1 minute.'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        FORTUNE: 1
+      pdc-key: siekieragrincza
+  kosa:
+    name: §8§lKosa
+    cooldown: 60
+    material: NETHERITE_HOE
+    time: 10
+    full-item:
+      material: NETHERITE_HOE
+      name: '&8&lKosa'
+      lore:
+      - ' &8» &7Jest to przedmiot z:'
+      - ' &8» &feventu halloween (2023)'
+      - ''
+      - ' &8» &7Twoje uderzenie może &fco minute'
+      - ' &8» &7przestraszyć przeciwnika nadając'
+      - ' &8» &7mu efekty utrudniające widoczność'
+      custom-model-data: 1
+      unbreakable: true
+      item-flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants: {}
+      pdc-key: kosa
+  krewwampira:
+    item: BEETROOT_SOUP
+    name: §c§lKrew wampira
+    cooldown: 1
+    max-stack-size: 1
+    full-item:
+      material: BEETROOT_SOUP
+      name: '&c&lKrew wampira'
+      lore:
+      - ' &8» &7Jest to przedmiot z:'
+      - ' &8» &feventu halloween (2023)'
+      - ''
+      - ' &8» &7Po kliknięciu ulecz Cię'
+      - ' &8» &7do &cpełnego HP&7!'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags: []
+      enchants: {}
+      pdc-key: krewwampira
+  totemulaskawienia:
+    name: §5§lTotem ułaskawienia
+    cooldown: 0
+    full-item:
+      material: TOTEM_OF_UNDYING
+      name: '&5&lTotem ułaskawienia'
+      lore:
+      - ' &8» &7Jest to przedmiot z:'
+      - ' &8» &feventu halloween (2023)'
+      - ''
+      - ' &8» &7Trzymając go po śmierci &dnie'
+      - ' &8» &dstracisz &7swoich przedmiotów!'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags: []
+      enchants: {}
+      pdc-key: totemulaskawienia
+  sniezkateleportacji:
+    name: §fŚnieżka
+    cooldown: 5
+    material: SNOWBALL
+    full-item:
+      material: SNOWBALL
+      name: '&fŚnieżka'
+      lore:
+      - '&8» &7Jest to przedmiot z:'
+      - '&8» &fwydarzenia świątecznego (2023)'
+      - ''
+      - '&8» &7Po trafieniu &ezamieniasz się'
+      - '&8» &7z przeciwnikiem miejscem!'
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        UNBREAKING: 10
+      pdc-key: sniezkateleportacji
+  zatrutyolowek:
+    name: §a§lZatruty ołówek
+    cooldown: 90
+    material: LIME_CANDLE
+    time: 20
+    full-item:
+      material: LIME_CANDLE
+      name: '&a&lZatruty ołówek'
+      lore:
+      - ' &8» &7Jest to przedmiot zdobyty z'
+      - ' &8» &fwydarzenia szkolnego 2024&7!'
+      - ''
+      - ' &8» &7Po uderzeniu przeciwnika'
+      - ' &8» &7otrzymuje on &ctrujący efekt&7!'
+      custom-model-data: 14
+      unbreakable: false
+      item-flags: []
+      enchants: {}
+      pdc-key: zatrutyolowek
+  usuwaczpajeczyn:
+    name: '&x&A&A&A&A&A&A&lᴜ&x&9&E&9&E&9&E&lꜱ&x&9&2&9&2&9&2&lᴜ&x&8&6&8&6&8&6&lᴡ&x&7&9&7&9&7&9&lᴀ&x&6&D&6&D&6&D&lᴄ&x&6&1&6&1&6&1&lᴢ &x&6&0&6&0&6&0&lᴘ&x&6&A&6&A&6&A&lᴀ&x&7&5&7&5&7&5&lᴊ&x&8&0&8&0&8&0&lᴇ&x&8&A&8&A&8&A&lᴄ&x&9&5&9&5&9&5&lᴢ&x&9&F&9&F&9&F&lʏ&x&A&A&A&A&A&A&lɴ'
+    lore: {}
+    cooldown: 10
+    radius: 4
+  kokos:
+    cooldown: 0
+    resistance-seconds: 15
+    regen-seconds: 10
+    golden-hearts: 3
+    full-item:
+      material: GOLDEN_APPLE
+      name: '&6&lKokos'
+      lore:
+      - ' &8» &7Eventówka #1'
+      - ''
+      - ' &8» &7Zjedz, aby otrzymać:'
+      - ' &8» &fOdporność I &7na &f15s'
+      - ' &8» &fRegenerację II &7na &f10s'
+      - ' &8» &f3 złote serca'
+      - ''
+      - ' &8» &cPrzedmiot jednorazowy'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      pdc-key: kokos
+  bombakapitana:
+    cooldown: 5
+    radius: 5
+    blindness-ticks: 100
+    elytra-lock-millis: 2000
+    full-item:
+      material: FIREWORK_STAR
+      name: '&c&lBomba Kapitana Hak'
+      lore:
+      - ' &8» &7Eventówka #2'
+      - ''
+      - ' &8» &7PPM — rzuca bombę'
+      - ' &8» &7Wybuch oślepia w &f5 kratek'
+      - ' &8» &7i blokuje elytrę na &f2s'
+      - ''
+      - ' &8» &cPrzedmiot jednorazowy'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      pdc-key: bombakapitana
+  linacecco:
+    cooldown: 0
+    range: 15
+    full-item:
+      material: LEAD
+      name: '&e&lLina Cecco'
+      lore:
+      - ' &8» &7Eventówka #3'
+      - ''
+      - ' &8» &7PPM — wyrzucasz linę na &f15 kratek'
+      - ' &8» &7Trafienie gracza przyciąga go do Ciebie'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      pdc-key: linacecco
+  usciskvadera:
+    cooldown: 0
+    stun-ticks: 80
+    lift-blocks: 2
+    damage-multiplier: 0.7
+    full-item:
+      material: BLACK_DYE
+      name: '&8&lUścisk Vadera'
+      lore:
+      - ' &8» &7Eventówka #4'
+      - ''
+      - ' &8» &7Uderz gracza, aby unieść go o &f2 kratki'
+      - ' &8» &7i unieruchomić na &f4s'
+      - ' &8» &7Otrzymuje &f30% &7mniej obrażeń'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      pdc-key: usciskvadera
+  retrospekcjaskywalkera:
+    cooldown: 0
+    delay-ticks: 120
+    rewind-ticks: 16
+    full-item:
+      material: LIGHT_BLUE_DYE
+      name: '&b&lRetrospekcja Skywalkera'
+      lore:
+      - ' &8» &7Eventówka #5'
+      - ''
+      - ' &8» &7PPM — zapisuje lokalizację'
+      - ' &8» &7Po &f6s &7wracasz z animacją'
+      - ' &8» &7Regeneruje HP i ukrywa Cię podczas powrotu'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      pdc-key: retrospekcjaskywalkera
+  excalibur:
+    name: §e§lExcalibur
+    damage: 0.055
+    cooldown: 600
+    full-item:
+      material: NETHERITE_SWORD
+      name: '&e&lExcalibur'
+      lore:
+      - '&cDodatkowe obrażenia 0%'
+      - ''
+      - ' &8» &7Jest to przedmiot zdobyty z'
+      - ' &8» &fwydarzenia wakacyjnego 2024&7!'
+      - ''
+      - '&8» &7Aktualnie zabójstw: &f0'
+      - '&8» &f&l&m-&f&l&m-&f&l&m-&f&l&m-&f&l&m-&f&l&m-&f&l&m-&f&l&m-&f&l&m-&f&l&m-&r
+        &e0%'
+      - ''
+      - ' &8» &7Zapełnienie paska zapewnia'
+      - ' &8» &7Ci &f12 punktów obrażeń&7, co'
+      - ' &8» &7jest równoznaczne z &eostrościa 7&7!'
+      - ''
+      - ' &8» &7Obrażenia od ataku: &f11.5'
+      custom-model-data: 5
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        SHARPNESS: 6
+        UNBREAKING: 3
+        FIRE_ASPECT: 2
+      pdc-key: excalibur
+  jablko:
+    item: ENCHANTED_GOLDEN_APPLE
+    name: §c§lWampirze jabłko
+    cooldown: 0
+    time: 6
+    full-item:
+      material: ENCHANTED_GOLDEN_APPLE
+      name: '&c&lWampirze jabłko'
+      lore:
+      - ' &8» &7Jest to przedmiot z:'
+      - ' &8» &feventu halloween (2024)'
+      - '&7'
+      - ' &8» &7Po zjedzeniu otrzymujesz na'
+      - ' &8» &7krótki czas &csiły II&7!'
+      custom-model-data: 5324
+      unbreakable: false
+      item-flags: []
+      enchants: {}
+      pdc-key: jablko
+  cieplemleko:
+    item: BOWL
+    name: §9§lCiepłe mleko
+    cooldown: 5
+    full-item:
+      material: BOWL
+      name: '&9&lCiepłe mleko'
+      lore:
+      - ' &8» &7Jest to przedmiot z:'
+      - ' &8» &feventu świątecznego (2024)'
+      - '&7'
+      - ' &8» &7Po wypiciu usuwa wszystkie'
+      - ' &8» &cnegatywne efekty&7! Również posiada'
+      - ' &8» &7mechanike &7stakowania'
+      custom-model-data: 43634712
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        UNBREAKING: 10
+      pdc-key: cieplemleko
+  piernik:
+    item: COOKIE
+    name: §6§lPiernik
+    cooldown: 5
+    time: 10
+    full-item:
+      material: COOKIE
+      name: '&6&lPiernik'
+      lore:
+      - ' &8» &7Jest to przedmiot z:'
+      - ' &8» &feventu świątecznego (2024)'
+      - '&7'
+      - ' &8» &7Po zjedzeniu &epiernika &7otrzmujesz'
+      - ' &8» &7efekt &aszybkości kopania 10&7!'
+      custom-model-data: 100000000
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        UNBREAKING: 10
+      pdc-key: piernik
+  lopatagrincza:
+    name: §a§lŁopata grincha
+    cooldown: 90
+    material: DIAMOND_SHOVEL
+    time: 12
+    full-item:
+      material: DIAMOND_SHOVEL
+      name: '&a&lŁopata grincha'
+      lore:
+      - ' &8» &7Jest to przedmiot z:'
+      - ' &8» &feventu świątecznego (2024)'
+      - '&7'
+      - ' &8» &7Po &auderzeniu &7przeciwnika'
+      - ' &8» &7zostaje on &cogłuszony&7 przez co'
+      - ' &8» &7rotacja zostaje wylosowana&7!'
+      custom-model-data: 4572321
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        UNBREAKING: 10
+      pdc-key: lopatagrincza
+  smoczymiecz:
+    name: '&d&lSmoczy miecz'
+    cooldown: 15
+    full-item:
+      material: NETHERITE_SWORD
+      name: '&d&lSmoczy miecz'
+      lore:
+      - '&cDodatkowe obrażenia 0%'
+      - '&7Posiada on możliwość strzelania'
+      - '&dperłami kresu&7!'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags:
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        SHARPNESS: 6
+        FIRE_ASPECT: 2
+      pdc-key: smoczymiecz
+  jajkoolafa:
+    name: '&b&lOlaf'
+    cooldown: 60
+    material: EGG
+    full-item:
+      material: EGG
+      name: '&b&lOlaf'
+      lore:
+      - ' &8» &7Przedmiot z &fświatecznego wydarzenia 2025&7!'
+      - ' &7'
+      - ' &8» &7Po trafieniu przeciwnika przywoła'
+      - ' &8» &bbałwana Olafa&7, który &czasłoni mu widok&7!'
+      custom-model-data: 889
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        UNBREAKING: 10
+      pdc-key: jajkoolafa
+  cudownalatarnia:
+    name: '&d&lCudowna Latarnia'
+    cooldown: 60
+    material: BEACON
+    time: 20
+    full-item:
+      material: BEACON
+      name: '&d&lCudowna Latarnia'
+      lore:
+      - ' &8» &7Przedmiot z &fświatecznego wydarzenia 2025&7!'
+      - ' &7'
+      - ' &8» &7Po postawieniu otrzymujesz:'
+      - ' &8» &dRegenerację V &8(20s)'
+      - ' &8» &eAbsorpcję VI &8(10s)'
+      - ' &8» &cSiłę II &8(10s)'
+      - ' &7'
+      - ' &8» &7Fontanna pozostanie aktywna przez &f30 sekund&7.'
+      - ' &8» &7Efekty działają w zasięgu &f30 kratek&7.'
+      - ' &8» &7Zniszczenie fontanny usuwa efekty.'
+      custom-model-data: 888
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        UNBREAKING: 10
+      pdc-key: cudownalatarnia
+    blocked-regions:
+    - spawn
+  rozdzkailuzjonisty:
+    name: '&5&lRóżdżka iluzjonisty'
+    cooldown_lpm: 30
+    damage: 6
+    cooldown_ppm: 60
+    material: GOLDEN_HOE
+    time: 6
+    full-item:
+      material: GOLDEN_HOE
+      name: '&5&lRóżdżka iluzjonisty'
+      lore:
+      - ' &8» &7Jest to przedmiot zdobyty podczas'
+      - ' &8» &fwydarzenia cyrkowego 2025&7!'
+      - ' &7'
+      - ' &8» &7LPM: przywołuje &dSzczęki Evokera&7'
+      - ' &8» &7atakujące przeciwników na wprost.'
+      - ' &7'
+      - ' &8» &7PPM: &dznikasz&7 na &e4s&7 i tworzysz'
+      - ' &8» &dklona&7 biegnącego do przodu.'
+      custom-model-data: 2
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        UNBREAKING: 10
+      pdc-key: rozdzkailuzjonisty
+    illusion-speed: 0.215
+  sniezynka:
+    name: '&bSniezynka'
+    cooldown: 15
+    material: SNOWBALL
+  rogjednorozca:
+    name: §d§lRóg Jednorożca
+    cooldown: 60
+    time: 5
+    material: GOAT_HORN
+    blocked-regions:
+    - liniaspawn
+    full-item:
+      material: GOAT_HORN
+      name: '&d&lRóg Jednorożca'
+      lore:
+      - ' &8» &7Jest to przedmiot z:'
+      - ' &8» &feventu walentynkowego (2026)'
+      - '&7'
+      - ' &8» &7Po użyciu przywołujesz &djednorożca&7,'
+      - ' &8» &7którym możesz jeździć! Niszczy bloki'
+      - ' &8» &7na swojej drodze i &cogłusza graczy&7,'
+      - ' &8» &7w których wjedziesz!'
+      custom-model-data: 1
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        UNBREAKING: 10
+      pdc-key: rogjednorozca
+  piekielnymiecz:
+    name: §c§lPiekielny miecz
+    material: NETHERITE_SWORD
+    cooldown: 0
+    full-item:
+      material: NETHERITE_SWORD
+      name: '&c&lPiekielny miecz'
+      lore:
+      - '&cDodatkowe obrażenia 0%'
+      - '&7'
+      - ' &8» &7Po uderzeniu przeciwnika podpalasz'
+      - ' &8» &7go &cpiekielnym ogniem&7, który'
+      - ' &8» &7ignoruje &fodporności na ogień&7!'
+      custom-model-data: 4
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        SHARPNESS: 5
+        UNBREAKING: 5
+        FIRE_ASPECT: 1
+      pdc-key: piekielnymiecz
+  turbotrap:
+    blocked-regions:
+    - pvp
+    cooldown: 1
+    name: §a§lTurbo-Trap
+    blocks:
+    - OAK_TRAPDOOR:0:0:0:90
+    - OBSIDIAN:1:0:0
+    - OBSIDIAN:-1:0:0
+    - OBSIDIAN:0:0:-1
+    - OBSIDIAN:1:1:0
+    - OBSIDIAN:-1:1:0
+    - OBSIDIAN:0:1:-1
+    - OBSIDIAN:1:2:0
+    - OBSIDIAN:-1:2:0
+    - OBSIDIAN:0:2:0
+    - OBSIDIAN:1:-1:0
+    - OBSIDIAN:-1:-1:0
+    - OBSIDIAN:0:-1:-1
+    - OBSIDIAN:1:-2:0
+    - OBSIDIAN:-1:-2:0
+    - OBSIDIAN:0:-2:1
+    - OBSIDIAN:0:-2:-1
+    - OBSIDIAN:1:-3:0
+    - OBSIDIAN:-1:-3:0
+    - OBSIDIAN:0:-3:1
+    - OBSIDIAN:0:-3:-1
+    - OBSIDIAN:1:-4:0
+    - OBSIDIAN:-1:-4:0
+    - OBSIDIAN:0:-4:1
+    - OBSIDIAN:0:-4:-1
+    - OBSIDIAN:1:-5:0
+    - OBSIDIAN:-1:-5:0
+    - OBSIDIAN:0:-5:1
+    - OBSIDIAN:0:-5:-1
+    - OBSIDIAN:1:-6:0
+    - OBSIDIAN:-1:-6:0
+    - OBSIDIAN:0:-6:1
+    - OBSIDIAN:0:-6:-1
+    - OBSIDIAN:2:-7:0
+    - OBSIDIAN:-2:-7:0
+    - OBSIDIAN:0:-7:1
+    - OBSIDIAN:0:-7:-1
+    - OBSIDIAN:1:-7:1
+    - OBSIDIAN:-1:-7:-1
+    - OBSIDIAN:-1:-7:1
+    - OBSIDIAN:1:-7:-1
+    - OBSIDIAN:2:-8:0
+    - OBSIDIAN:-2:-8:0
+    - OBSIDIAN:0:-8:1
+    - OBSIDIAN:0:-8:-1
+    - OBSIDIAN:1:-8:1
+    - OBSIDIAN:-1:-8:-1
+    - OBSIDIAN:-1:-8:1
+    - OBSIDIAN:1:-8:-1
+    - OBSIDIAN:2:-9:0
+    - OBSIDIAN:-2:-9:0
+    - OBSIDIAN:0:-9:1
+    - OBSIDIAN:0:-9:-1
+    - OBSIDIAN:1:-9:1
+    - OBSIDIAN:-1:-9:-1
+    - OBSIDIAN:-1:-9:1
+    - OBSIDIAN:1:-9:-1
+    - OBSIDIAN:1:-10:0
+    - OBSIDIAN:-1:-10:0
+    - OBSIDIAN:0:-10:1
+    - OBSIDIAN:0:-10:-1
+    - OBSIDIAN:0:-10:0
+    - WHITE_BANNER:0:-3:0:0
+    - WHITE_BANNER:0:-4:0:90
+    - WHITE_BANNER:0:-5:0:0
+    - WHITE_BANNER:0:-6:0:90
+    - WHITE_BANNER:0:-7:0:0
+    - WHITE_BANNER:0:-8:0:90
+    - WHITE_BANNER:0:-9:0:0
+    - WHITE_BANNER:0:1:0:0
+    - COBWEB:1:-9:0
+    - COBWEB:-1:-9:0
+    - OAK_FENCE:1:-8:0
+    - OAK_FENCE:-1:-8:0
+    - OAK_FENCE:1:-7:0
+    - OAK_FENCE:-1:-7:0
+    - AIR:0:-1:0
+    - AIR:0:-2:0
+    - AIR:0:-1:1
+    - AIR:0:0:1
+    - AIR:0:1:1
+    full-item:
+      material: EGG
+      name: '&a&lTurbo-Trap'
+      lore:
+      - ' &8» &7Jest to przedmiot zdobyty podczas'
+      - ' &8» &fWielkanocnego Wydarzenia 2025&7!'
+      - ' &7'
+      - ' &8» &7Podczas wystrzelenia Turbotrapu'
+      - ' &8» &fbudujesz prostą pułapkę &7w miejscu eksplozji!'
+      custom-model-data: 50
+      unbreakable: false
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      enchants:
+        SMITE: 10
+      pdc-key: turbotrap
+  nowyexcalibur:
+    material: NETHERITE_SWORD
+    name: '&e&lExcalibur &6&l⭐18'
+    cooldown: 0
+    sharpness: 38
+    attack-speed: 2.6
+    unbreakable: true
+    item-flags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    enchants:
+      FIRE_ASPECT: 2
+      DURABILITY: 3
+    lore:
+    - '&cDodatkowe obrazenia 0%'
+    - ''
+    - '&8» &7Jest to przedmiot zdobyty z'
+    - '&8» &fwydarzenia wakacyjnego 2024&7!'
+    - ''
+    - '&8» &7Aktualnie zabojstw: &f{kills}'
+    - '&8» {progress} &e{progress_percent}%'
+    - ''
+    - '&8» &7Zapelnienie paska zapewnia'
+    - '&8» &f12 punktow obrazen&7, co'
+    - '&8» &7jest rownoznaczne z &eostroscia {sharpness}&7!'
+    - ''
+    full-item:
+      material: NETHERITE_SWORD
+      name: '&e&lExcalibur &6&l⭐18'
+      lore:
+      - '&cDodatkowe obrazenia 0%'
+      - ''
+      - '&8» &7Jest to przedmiot zdobyty z'
+      - '&8» &fwydarzenia wakacyjnego 2024&7!'
+      - ''
+      - '&8» &7Aktualnie zabojstw: &f0'
+      - '&8» &f&l&m-&f&l&m-&f&l&m-&f&l&m-&f&l&m-&f&l&m-&f&l&m-&f&l&m-&f&l&m-&f&l&m-&r
+        &e0%'
+      - ''
+      - '&8» &7Zapelnienie paska zapewnia'
+      - '&8» &f28 punktow obrazen&7, co'
+      - '&8» &7jest rownoznaczne z &eostroscia 38&7!'
+      - ''
+      unbreakable: true
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      enchants:
+        SHARPNESS: 38
+        UNBREAKING: 3
+        FIRE_ASPECT: 2
+      pdc-key: nowyexcalibur
+
+ksiegi:
+  gui-title: '&8Księgi'
+  refresh-ticks: 40
+  books:
+    otrucie:
+      chance: 0.2
+      duration-ticks: 60
+      amplifier: 0
+    niepodpalanie: {}
+    krytyczne:
+      chance: 0.2
+      multiplier: 1.35
+    regeneracji:
+      chance: 0.18
+      duration-ticks: 60
+      amplifier: 1
+    pospiech: {}
+    szybkosci: {}
+    spowolnienie:
+      chance: 0.2
+      duration-ticks: 60
+      amplifier: 0
+    unik:
+      chance: 0.15
+    wampiryzm:
+      chance: 0.25
+      heal-percent: 0.3
+    wytrzymalosci:
+      negate-chance: 0.35
+
+zmianki:
+  damage-multiplier: 0.3
+  item:
+    name: '&b&lZmianka'
+    lore:
+    - ''
+    - '&8× &7Kliknij &bprawym&7, aby otworzyć'
+    - '&8× &7kowadło zmianek miecza!'
+    - ''
+    - '&8× &7Losujesz boost obrażeń &e5%&7-&e43%'
+    - '&8× &75-13% &anormalnie&7, &e14-30% &7trudniej,'
+    - '&8× &631-43% &7bardzo trudno'
+    - ''
+    - '&8× &7Przedmiot pochodzi z skrzyni &dmistycznej'
+    type: HEART_OF_THE_SEA
+    custom-model-data: 1
+  gui:
+    title: ' &8▶ &bᴢᴍɪᴀɴᴋɪ &8· &fᴍɪᴇᴄᴢ &8◀'
+    size: 27
+    apply-item:
+      type: HEART_OF_THE_SEA
+      name: '&b&lᴜᴢʏᴊ ᴢᴍɪᴀɴᴋɪ'
+      lore:
+      - ''
+      - ' &4UWAGA! &cKlikając ten przedmiot'
+      - ' &cprzemieniasz bonus `DODATKOWE OBRAŻENIA`'
+      - ' &cbezpowrotnie!'
+      - ''
+      - ' &8» &7Koszt: &bZmianka x1'
+      - ' &8» &7Losujesz &e5%&7-&e43% &7obrażeń'
+      - ' &8» &75-13% łatwiej · 14-30% trudniej · 31-43% rzadko'
+      - ' &8» &7Kliknij, aby użyć zmianki!'
+      slot: 11
+      custom-model-data: 1
+    main-slot:
+      type: PAPER
+      name: '&6&lᴡʏʙɪᴇʀᴢ ᴍɪᴇᴄᴢ'
+      lore:
+      - ''
+      - ' &8» &7Kliknij &fdiamentowy &7lub &8netherytowy'
+      - ' &8» &7miecz w ekwipunku, który chcesz'
+      - ' &8» &7ulepszyć zmianką!'
+      - ''
+      slot: 13
+      custom-model-data: 0
+    close-button:
+      type: BARRIER
+      name: '&c&lᴢᴀᴍᴋɴɪᴊ'
+      lore:
+      - ''
+      - ' &8» &7Kliknij aby zamknąć!'
+      - ''
+      slot: 15
+      custom-model-data: 0
+
+szafka:
+  blocked-regions:
+  - spawn
+  
+  gui:
+    szafa-title: '&7Szafka'
+    
+    zwoj-button:
+      kostium:
+        slot: 12
+        type: LIME_DYE
+        name: '&2&lᴘʀᴢᴇᴅʟᴜᴢ ᴋᴏꜱᴛɪᴜᴍ'
+        lore:
+        - ''
+        - '&8 » &aKliknij aby przedłużyć kostium!'
+        - ''
+      pet:
+        slot: 16
+        type: LIME_DYE
+        name: '&2&lᴘʀᴢᴇᴅʟᴜᴢ ᴘᴇᴛᴀ'
+        lore:
+        - ''
+        - '&8 » &aKliknij aby przedłużyć peta!'
+        - ''
+    
+    zdejmij-button:
+      kostium:
+        slot: 10
+        type: RED_DYE
+        name: '&4&lᴢᴅᴇᴊᴍɪᴊ ᴋᴏꜱᴛɪᴜᴍ'
+        lore:
+        - ''
+        - '&8 » &cKliknij aby zdjąć kostium!'
+        - ''
+      pet:
+        slot: 14
+        type: RED_DYE
+        name: '&4&lᴢᴅᴇᴊᴍɪᴊ ᴘᴇᴛᴀ'
+        lore:
+        - ''
+        - '&8 » &cKliknij aby zdjąć peta!'
+        - ''
+      papuga:
+        slot: 30
+        type: RED_DYE
+        name: '&4&lᴢᴅᴇᴊᴍɪᴊ ᴘᴀᴘᴜɢᴇ'
+        lore:
+        - ''
+        - '&8 » &cKliknij aby zdjąć papugę!'
+        - ''
+    
+    rolluj-button:
+      papuga:
+        slot: 32
+        type: LIME_DYE
+        name: '&2&lᴘʀᴢᴇʟᴏsᴜᴊ ʙᴏɴᴜs ᴘᴀᴘᴜɢɪ'
+        lore:
+        - ''
+        - '&8 » &aKliknij aby przelosować bonus!'
+        - '&8 » &7Koszt: &a%cost%$'
+        - ''
+    
+    kostium-slot:
+      brak-kostiumu:
+        slot: 11
+        type: CHAINMAIL_CHESTPLATE
+        name: '&cBrak kostiumu'
+        lore: []
+      kostium:
+        slot: 11
+    
+    pet-slot:
+      brak-peta:
+        slot: 15
+        type: SKELETON_SKULL
+        name: '&cBrak peta'
+        lore: []
+      pet:
+        slot: 15
+    
+    papuga-slot:
+      brak-papugi:
+        slot: 13
+        type: PARROT_SPAWN_EGG
+        name: '&cBrak papuszki'
+        lore: []
+      papuga:
+        slot: 13
+    
+    close-button:
+      slot: 40
+      type: BARRIER
+      name: ' '
+      lore: []
+    
+    dekoracje:
+      '1':
+        slot: 20
+        type: RED_STAINED_GLASS_PANE
+        name: ' '
+        lore:
+        - '&cKostiumy możesz zdobyć poprzez zakup'
+        - '&cspecjalnych pakietów okazyjnych na naszej'
+        - '&cstronie &cwww.anarchia.gg'
+      '2':
+        slot: 22
+        type: RED_STAINED_GLASS_PANE
+        name: ' '
+        lore:
+        - '&cPapuszki możesz zdobyć szukając'
+        - '&cich w losowych miejscach na mapie!'
+        - '&cKażda papuszka posiada unikalne'
+        - '&cefekty, które możesz wykorzystać!'
+      '3':
+        slot: 24
+        type: RED_STAINED_GLASS_PANE
+        name: ' '
+        lore:
+        - '&cPeta możesz zdobyć poprzez zakup'
+        - '&cklucza w sklepie za czas lub'
+        - '&cna naszej stronie &cwww.anarchia.gg'
+      '4':
+        slot: 36
+        type: ARMOR_STAND
+        name: '&6Kostiumy'
+        lore:
+        - ' &8» &7W tym miejscu odnajdziesz pełna listę'
+        - ' &8» &7wszystkich dostępnych &ekostiumów'
+        - ' &8» &7wraz z ich efektami dodatkowymi!'
+        - ''
+        - ' &8» &aKliknij LEWYM, aby przejść!'
+      '5':
+        slot: 41
+        type: REDSTONE_TORCH
+        name: '&aWidoczność peta'
+        lore:
+        - ' &8» &7Denerwuje ciebie twój zwierzak?'
+        - ' &8» &7Jeżeli tak to wystarczy, że ukryjesz'
+        - ' &8» &7go ta funkcją!'
+        - ''
+        - ' &8» &7Status: &awidoczny'
+        - ' &8» &aKliknij, aby ukryć!'
+      '6':
+        slot: 44
+        type: EGG
+        name: '&6Pety'
+        lore:
+        - ' &8» &7W tym miejscu odnajdziesz pełna listę'
+        - ' &8» &7wszystkich dostępnych &ezwierząt'
+        - ' &8» &etowarzyszących &7wraz z ich efektami'
+        - ' &8» &7dodatkowymi!'
+        - ''
+        - ' &8» &aKliknij LEWYM, aby przejść!'
+  pety:
+    aniolek:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTcyODE1NjU3MzM2MywKICAicHJvZmlsZUlkIiA6ICJjY2MxNGM2ZDUwMDE0MjBmYmMxYjkyMTM2Y2JmOWU4MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJab25lX1gwODE1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U2ODBhYjU1OTBlNzMxYzJmM2QwZTNhYzJiODJlNjRjYmNlZDE2ODVjODllMjIyNjM2Y2VjZTA1NjFlZGFjMDUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        name: '&7Pet &bAniołek &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &c+2 &7serca'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 0
+        damage-reduction: 0
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 2
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: false
+        see-health: false
+    reniferek:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTYyMTMzODI5NDU0OCwKICAicHJvZmlsZUlkIiA6ICIwNWQ0NTNiZWE0N2Y0MThiOWI2ZDUzODg0MWQxMDY2MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJFY2hvcnJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JjNjAzZmU3MDRhOWQwNDk4ZTllYmQ5ZDJhNzdiZTYwMWE3ZTg1ZWJhNjZmNjUwZGI5NDE5OWViZTdmNzViNTUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        name: '&7Pet &6Reniferek &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &7Stały efekt potki &cszybkość I'
+        - ' &8» &cNigdy &7nie stajesz się głodny'
+        - ' &8» &c-50% &7obrażeń od dripstone'
+        - ' &8» &c+1 &7serce'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 0
+        damage-reduction: 0
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.5
+        extra-hearts: 1
+        negative-effects-disable: false
+        effects:
+        - speed:0
+        totem-pop-effects: []
+        no-hunger: true
+        double-drop: false
+        see-health: false
+    balwanek:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTcwNjY5OTU3NzA2NywKICAicHJvZmlsZUlkIiA6ICI0MWZlYzZlMWQzNWM0ZDIyOWYxOGQ3OGRkZjk3ZGQzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSaWJva2luZ190dyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMzgyMzA4NDY0MGVmN2YwMDY4MzY1ODdiN2YyMWNhMDc5M2VkNTk3ZjBmZGQ2MGE5ZmRlNzJjMjllNTNkYTFhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        name: '&7Pet &bBałwanek &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &c+10% &7obrony od wszystkich obrażeń'
+        - ' &8» &cPodwaja &7drop z surowców i farm'
+        - ' &8» &7Stały efekt potki &cszybkość II'
+        - ' &8» &c+2 &7dodatkowych obrażeń'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 2
+        damage-reduction: 1.2
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects:
+        - speed:1
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: true
+        see-health: false
+    nietoperek:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTcxMjMwNjE4NTc3OSwKICAicHJvZmlsZUlkIiA6ICIxODA1Y2E2MmM0ZDI0M2NiOWQxYmY4YmM5N2E1YjgyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdWxsZWQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM1ODNhODdlYzI3NDdkMGEwZTZhY2M2ODM2YjYzOWMwNjMyZGNmOTRiYzMwZDJlNWQwNDgwNmM1ZTc5MTZhZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+        name: '&7Pet &eNietoperek &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &c+10% &7obrony od wszystkich obrażeń'
+        - ' &8» &cPodwaja &7drop z surowców i farm'
+        - ' &8» &7Stały efekt potki &cszybkość II'
+        - ' &8» &c+2 &7dodatkowych obrażeń'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 2
+        damage-reduction: 1.2
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects:
+        - speed:1
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: true
+        see-health: false
+    elfik:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTc0Nzg2MzI0ODQ2MSwKICAicHJvZmlsZUlkIiA6ICJjYmNkNDQzZGE1NTI0OGU3ODM3NWNmZjYwMmQzZWI0NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJPX1JlaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kYWQzM2FiNjRjODFiNDNiZjRiZjUyNjFkZmRkODRiODEyOTE1MmRkN2IxMjI2MWY1ZGFjYjc3MzYyOTIyYTVkIgogICAgfQogIH0KfQ==
+        name: '&7Pet &2Elfik &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &c+20% &7obrony od wszystkich obrażeń'
+        - ' &8» &c-50% &7obrażeń od dripstone'
+        - ' &8» &c+3 &7dodatkowych obrażeń'
+        - ' &8» &cNigdy &7nie stajesz się głodny'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 3
+        damage-reduction: 2
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.5
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        no-hunger: true
+        double-drop: false
+        see-health: false
+    telekrolik:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTc0Nzg2NDg2OTcwMSwKICAicHJvZmlsZUlkIiA6ICJmYjZkM2E5Zjk3MWY0ZTdlYmQ0MjE2Yjk0MjE5NDA3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkZW5BcHBsZUdIRyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MWRiZGY0ZDZiZDBjOWMyZTk0ZDMwZTYzMjJiZDUzZjBiZWFkODI2OTAzZmViZmY0NGQ4Y2QzZDJiZDVhZGM5IgogICAgfQogIH0KfQ==
+        name: '&7Pet &3Telekrólik &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &7Podgląd &4życia &7przeciwnika'
+        - ' &8» &c+3 &7dodatkowych obrażeń'
+        - ' &8» &c+10% &7obrony od wszystkich obrażeń'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 3
+        damage-reduction: 1.2
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: false
+        see-health: true
+    pudzianek:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTcyOTg2OTc1MDk1MywKICAicHJvZmlsZUlkIiA6ICJjYzU2NjAzYmZiZjg0OGJmOTM3MzY1N2VjYzUyNGI4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJpc2FhYWFhYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE4NzlkZjUxYTFlYmY4NTZlYzk2MTJhYWNiMzlhNWVmMDhmZjE2MzE0N2E0MjVlYjUzNWY1ZWQ0ZDFmYTM5MCIKICAgIH0KICB9Cn0=
+        name: '&7Pet &bPudzianek &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &c+2 &7dodatkowych obrażeń'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 2
+        damage-reduction: 0.0
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: false
+        see-health: false
+    discordzik:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTYzNzU0MjMwOTQwOSwKICAicHJvZmlsZUlkIiA6ICIzZmM3ZmRmOTM5NjM0YzQxOTExOTliYTNmN2NjM2ZlZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJZZWxlaGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FlYzA4OTdjZjVhYWE5MDFlODcyYzlhNTdiYjEyZWEyZThiYThkZDMzMzIzOGExOTg2OWNjYzIxN2RjMzNkZSIKICAgIH0KICB9Cn0=
+        name: '&7Pet &bDiscordzik &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &c+1 &7dodatkowych obrażeń'
+        - ' &8» &c+1 &7serce'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 1
+        damage-reduction: 0.0
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 1
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: false
+        see-health: false
+    duszek:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTY5NjY1ODU4MDkyMSwKICAicHJvZmlsZUlkIiA6ICIyNjRkYzBlYjVlZGI0ZmI3OTgxNWIyZGY1NGY0OTgyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb2phbmdIYXNBU3R1ZGlvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VhYTFhNjE5OTYwYWM2ODYwY2I1YzliNmQzYzg4NzQ1ZDZlZjY0MDMwMDlhZjViYTBkMDgzOGI4N2IxMmRmMDQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        name: '&7Pet &fDuszek &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &7Stały efekt potki &cszybkość II'
+        - ' &8» &cNigdy &7nie stajesz się głodny'
+        - ' &8» &c-50% &7obrażeń od dripstone'
+        - ' &8» &c+1 &7serce'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 0
+        damage-reduction: 0.0
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.5
+        extra-hearts: 1
+        negative-effects-disable: false
+        effects:
+        - speed:1
+        totem-pop-effects: []
+        no-hunger: true
+        double-drop: false
+        see-health: false
+    pancernik:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTYzMjUyMTY5MTI0MiwKICAicHJvZmlsZUlkIiA6ICIzOWEzOTMzZWE4MjU0OGU3ODQwNzQ1YzBjNGY3MjU2ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZW1pbmVjcmFmdGVybG9sIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc3MDE4YTBkZjM2MjYzY2U0NzYyMDZjYTNiZjBkODk0ZTcyZmQwZTY1NWE1NzUzYTc3YTczZjE0MjQ1YjdkYSIKICAgIH0KICB9Cn0=
+        name: '&7Pet &bPancernik &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &c+10% &7obrony od wszystkich obrażeń'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 0
+        damage-reduction: 1.2
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: false
+        see-health: false
+    golemik:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTYyMDgwNTM2MTI1MiwKICAicHJvZmlsZUlkIiA6ICI2MWVhMDkyM2FhNDQ0OTEwYmNlZjViZmQ2ZDNjMGQ1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVEYXJ0aEZhdGhlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kN2JmNTUwMWM3ZWIyYmVhYWFlNmI4ZDNjOGQ1MjUxNWI5OTc4ZmY1YjgzMzk2MTQ0MGQwYTM4M2E0MjQ5NGVlIgogICAgfQogIH0KfQ==
+        name: '&7Pet &fGolemik &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &c+10% &7obrony od wszystkich obrażeń'
+        - ' &8» &c-50% &7obrażeń od dripstone'
+        - ' &8» &c+1 &7serce'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 0
+        damage-reduction: 1.2
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.5
+        extra-hearts: 1
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: false
+        see-health: false
+    eustachy:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTY4MTkwOTQ5ODM1OCwKICAicHJvZmlsZUlkIiA6ICJiMDU4MTFjYTdmNDk0YTM5OTZiNDU4ZjcwMmQ2MzJiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJVeWlsIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQwNzE0OGE0N2ZhYTQ3MDgzZGNjYTU0MjlkNTVhYWVhYWZjZmQxZDc5NWRkMGJkYmY4ZjY3MTBhNzMyNzM2ZTkiCiAgICB9CiAgfQp9
+        name: '&7Pet &2Eustachy &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &7Stały efekt potki &cszybkość II'
+        - ' &8» &cPodwaja &7drop z surowców i farm'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 0
+        damage-reduction: 0
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects:
+        - speed:1
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: true
+        see-health: false
+    enderman:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTcxMTc1NzY4NzUzNSwKICAicHJvZmlsZUlkIiA6ICJhYzA2Yjc3ZTY3YmE0NzFkYTQwNDllNmE5NGY3Nzg4YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaWRpdm9jYXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZkZjhkODQ2MzJmNDMzZTgwYjhkMjI1YjlhNjlmZjRjNjdiNGRkODllNjEwN2Y1ZjZiMGFkOWUwNzdlYTYxYiIKICAgIH0KICB9Cn0=
+        name: '&7Pet &5Enderman &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &7Zwiększony drop pereł w &dendzie'
+        - ' &8» &c+3 &7dodatkowych obrażeń'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 3
+        damage-reduction: 0
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: false
+        double-ender-pearl-drop: true
+        see-health: false
+    zajaczek:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTY1MjIyNTQ1NDI5NywKICAicHJvZmlsZUlkIiA6ICIwNTVhOTk2NTk2M2E0YjRmOGMwMjRmMTJmNDFkMmNmMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVWb3hlbGxlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMzM2VhYjU2MDI0NmFkMWEzNGQ1NTI3NjgwZjczZDRmNjBjMDQ4YzU1ZDExZDE5MTkwN2FiMmMwZDI5MWI2MTAiCiAgICB9CiAgfQp9
+        name: '&7Pet &fZajączek &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &7Stały efekt potki &cwysoki skok II'
+        - ' &8» &c+4 &7dodatkowe obrażenia'
+        - ' &8» &7Stały efekt potki &cszybkość I'
+        - ' &8» &c-50% &7obrażeń od upadku'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 4
+        damage-reduction: 0
+        fall-damage-reduction: 0.5
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects:
+        - jump:1
+        - speed:0
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: false
+        see-health: false
+    pajak:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTY2Njk3NDgyMTIxOSwKICAicHJvZmlsZUlkIiA6ICJhMjk1ODZmYmU1ZDk0Nzk2OWZjOGQ4ZGE0NzlhNDNlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZXZlMjMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzFmNjc4MTlmMTY0MmJlMTNlY2ZjNDdjNDZhZmZmNWE1OTZiMjA2Y2Q4Y2QzZjRjMTg4ZDZkZTI3ZmFlMGU2NiIKICAgIH0KICB9Cn0=
+        name: '&7Pet &cPająk &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &7Odporność na &dnegatywne efekty'
+        - ' &8» &7Stały efekt potki &cwysoki skok II'
+        - ' &8» &7Stały efekt potki &bszybkości II'
+        - ' &8» &c-100% &7obrażeń od upadku'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 0
+        damage-reduction: 0
+        fall-damage-reduction: 1.0
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 0
+        negative-effects-disable: true
+        effects:
+        - jump:1
+        - speed:1
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: false
+        see-health: false
+    skalniaczek:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTY0Njc4NzA3MDcxNCwKICAicHJvZmlsZUlkIiA6ICIzYTNmNzhkZmExZjQ0OTllYjE5NjlmYzlkOTEwZGYwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb19jcmVyYXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk4NWY3MGI1YWM0M2RlNzJhYTgwNzcyZTE0MWU0ZjUzOGIyMzIwYzdhM2IyZWFmM2Q5NGMwOWEzMzI0MTNmMiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+        name: '&7Pet &bSkalniaczek &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &c-50% &7obrażeń od dripstone'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 0
+        damage-reduction: 0
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.5
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: false
+        see-health: false
+    sowa:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg2OWY2Nzk2MWYzZWU1YjY4ZTM4Zjc5ODU3MDY4ZWQxNmNiZGYwZjhjOWNlYTJkNzUwNGZjOGRmODcxZDFkNyJ9fX0=
+        name: '&7Pet &6Sowa &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &c+3 &7dodatkowych obrażeń'
+        - ' &8» &cNigdy &7nie stajesz się głodny'
+        - ' &8» &7Podgląd &4życia &7przeciwnika'
+        - ' &8» &7Stały efekt potki &bszybkości I'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 3
+        damage-reduction: 0
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.5
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects:
+        - speed:0
+        totem-pop-effects: []
+        no-hunger: true
+        double-drop: false
+        see-health: true
+    biznesmenik:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTY5MjM0NTkwMTU2NSwKICAicHJvZmlsZUlkIiA6ICJmZTE0M2FhZTVmNGE0YTdiYjM4MzcxM2U1Mjg0YmIxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZWZveHk0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQwMzI4OTc3MTUyNjBkNzZlYzY3ODhiYjQxNTE0ZTQxNGQ3M2U5NWU4OTdjOTg2NTgxNzM3OWE5NTU2N2NjNGQiCiAgICB9CiAgfQp9
+        name: '&7Pet &bBiznesmenik &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &cPodwaja &7drop z surowców i farm'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 0
+        damage-reduction: 0
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: true
+        see-health: false
+    bobas:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ2N2IyYThmY2E4YmQxNTljMmUxOTQ3OTQ3YmQxZDU2MmZiYzI3MTZlZmVlNDhkNTU3OTRmZTUzNWVmYmEifX19
+        name: '&7Pet &bBobas &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &c+2 &7dodatkowych obrażeń'
+        - ' &8» &7Odporność na &eogień'
+        - ' &8» &c+2 &7serca'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 2
+        damage-reduction: 0
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 2
+        negative-effects-disable: false
+        effects:
+        - fire_resistance:0
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: false
+        see-health: false
+    paczus:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTc0NzQ5OTc0NTU5MywKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTgxNzE3M2ZiMTJmMjYwZjc2NzAxNGMxMmQ4NWFhZTVlMjIyMmEwZTU0M2UzYTZmNjdkMTI0YmI1N2IzN2U2ZiIKICAgIH0KICB9Cn0=
+        name: '&7Pet &6Pączuś &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &cNigdy &7nie stajesz się głodny'
+        - ' &8» &7Stały efekt potki &codporności II'
+        - ' &8» &7Stały efekt &4spowolnienia I'
+        - ' &8» &7Stały efekt potki &dregeneracji I'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 0
+        damage-reduction: 0
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects:
+        - resistance:1
+        - slowness:0
+        - regeneration:0
+        totem-pop-effects: []
+        no-hunger: true
+        double-drop: false
+        see-health: false
+    pierniczek:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: ewogICJ0aW1lc3RhbXAiIDogMTc0Nzg2MzczNzcxMCwKICAicHJvZmlsZUlkIiA6ICJkNDAwODgyZmY3OGQ0ZGVhYjliMGNlMTc2YmQ1ZTQyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQcmF4aWJldGwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzgyZTlhYzhjNjdlYzM2NmFhYTFmZDhjOTQyMTIxNjg4ODAyNGNlZjY0MzUzNzdmM2I3MWRlZWI2YzdlOTA4NiIKICAgIH0KICB9Cn0=
+        name: '&7Pet &6Pierniczek &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &cPodwaja &7drop z surowców i farm'
+        - ' &8» &7Stały efekt potki &cszybkość II'
+        - ' &8» &c+2 &7serca'
+        - ' &8» &7Większe &adoświadczenie &7z kamienia'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 0
+        damage-reduction: 0
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 2
+        negative-effects-disable: false
+        effects:
+        - speed:1
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: true
+        see-health: false
+        stone-experience: 1.0
+    drakula:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTRkNDEyZDhhNmI5NmNkN2FhYTgzMjJlZjc1ZmY1ZjQ0Yzc4ODhjZjMyMjQwYWQ4YzkyM2E1OGNlYTc0MDdhNiJ9fX0=
+        name: '&7Pet &cDrakula &7na czas &4%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &7Wytrzymałość uzbrojenia &f+20%'
+        - ' &8» &c10% &7na kradzież życia'
+        - ' &8» &c+2 &7serca'
+        - ' &8» &7Stały efekt potki &bszybkości II'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 0
+        damage-reduction: 0
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 2
+        negative-effects-disable: false
+        effects:
+        - speed:1
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: false
+        see-health: false
+        stone-experience: 0.0
+        wampir: true
+    pedziwiatr:
+      enabled: true
+      display-item:
+        material: PLAYER_HEAD
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzYyNmIxZmY1ZmQyY2IwYzFhZWI1MzYxMzIzMmZmZThhYjgxYmQzM2Q1NWJlMWYzYTkyZTdkNmZjN2ZkNjNhMCJ9fX0=
+        name: '&7Pet &bPędziwiatr &7na czas &3%czas%'
+        lore:
+        - ''
+        - '&fOtrzymasz następujące bonusy:'
+        - ' &8» &7Stały efekt potki &cszybkości II'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 0
+        damage-reduction: 0
+        fall-damage-reduction: 0.0
+        dripstone-damage-reduction: 0.0
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects:
+        - speed:1
+        totem-pop-effects: []
+        no-hunger: false
+        double-drop: false
+        see-health: false
+        stone-experience: 0.0
+  
+  zwoj-pet:
+    name: '&e&lᴢᴡᴏᴊ ᴘʀᴢᴇᴅʟᴜᴢᴇɴɪᴀ &fᴘᴇᴛᴀ'
+    lore:
+    - ''
+    - '&8» &7Z jego pomocą możesz przedłużyć'
+    - '&8» &7swojego &fPeta &7pod komendą &f/szafka'
+    - ''
+    - '&8» &7Czas Trwania &f%czas%'
+  kostiumy:
+    walentynkowy:
+      enabled: true
+      display-item:
+        material: LEATHER_CHESTPLATE
+        color: '#DB67E4'
+        name: '&7Kostium &dwalentynkowy &7na czas &5%czas%'
+        lore:
+        - '&7Został on wydany jako pierwszy w historii serwerów'
+        - '&7w dniu &aWalentynek (2025)&7, aby uczcić miłość!'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &4+5 &7serc'
+        - ' &8» &c12% &7dodatkowych obrażeń'
+        - ' &8» &e100% &7odporności od upadku'
+        - ' &8» &b+5% &7obrony'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 2
+        damage-reduction: 0.8
+        fall-damage-reduction: 1.0
+        extra-hearts: 5
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        rob-money: 0.0
+      armor:
+        helmet: w1
+        chestplate: w2
+        leggings: w3
+        boots: w4
+    przeciwzakazeniowy:
+      enabled: true
+      display-item:
+        material: LEATHER_CHESTPLATE
+        color: '#E7C63F'
+        name: '&7Kostium &aprzeciwzakażeniowy &7na czas &2%czas%'
+        lore:
+        - '&7Został on wydany w trackie &funikatowego'
+        - '&7wydarzenia &f21 marca 2025 roku &8(&2ZARAZA&8)'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &4+3 &7serc'
+        - ' &8» &7Odporność na &cnegatywne efekty'
+        - ' &8» &b10% &7obrony'
+        - ' &8» &7Po kliknięciu &azarażasz &7przeciwnika, zadając mu większe &cobrażenia'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 0
+        damage-reduction: 1.2
+        fall-damage-reduction: 0.0
+        extra-hearts: 3
+        negative-effects-disable: true
+        effects: []
+        totem-pop-effects: []
+        rob-money: 0.0
+        zakazny: true
+      armor:
+        helmet: z1
+        chestplate: z2
+        leggings: z3
+        boots: z4
+    zabojczegokrolika:
+      enabled: true
+      display-item:
+        material: LEATHER_CHESTPLATE
+        color: '#FFFFFF'
+        name: '&7Kostium &fzabójczego królika &7na czas &f%czas%'
+        lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fwielkanocnego 2025&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &7Stały efekt &eszybkiego kopania 2'
+        - ' &8» &7Po pęknięciu &etotemu &7otrzymasz &csiłe 2'
+        - ' &8» &e100% &7odporności od upadku'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 0
+        damage-reduction: 0.0
+        fall-damage-reduction: 1.0
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects:
+        - fast_digging:1
+        totem-pop-effects:
+        - strength:1:10
+        rob-money: 0.0
+      armor:
+        helmet: k1
+        chestplate: k2
+        leggings: k3
+        boots: k4
+    malegourwisa:
+      enabled: true
+      display-item:
+        material: LEATHER_CHESTPLATE
+        color: '#FFFF00'
+        name: '&7Kostium &fmałego urwisa &7na czas &f%czas%'
+        lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fz okazji dnia dziecka 2025&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &7Stały efekt &bszybkości biegania 2'
+        - ' &8» &c10% &7dodatkowych obrażeń'
+        - ' &8» &7Po zabiciu gracza kraniesz mu &e3% &7majątku'
+        - ' &8» &e50% &7odporności od upadku'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 1.5
+        damage-reduction: 0.0
+        fall-damage-reduction: 0.5
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects:
+        - speed:1
+        totem-pop-effects: []
+        rob-money: 3.0
+      armor:
+        helmet: b1
+        chestplate: b2
+        leggings: b3
+        boots: b4
+    pirata:
+      enabled: true
+      display-item:
+        material: LEATHER_CHESTPLATE
+        color: '#663939'
+        name: '&7Kostium &6pirata &7na czas &6%czas%'
+        lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fpirackiego 2025&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &3-5% &7obrony'
+        - ' &8» &c13% &7dodatkowych obrażeń'
+        - ' &8» &7Po zabiciu gracza kradniesz mu &e3% &7majatku'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 2
+        damage-reduction: 0.0
+        fall-damage-reduction: 0.0
+        extra-hearts: 0
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        rob-money: 3.0
+      armor:
+        helmet: p1
+        chestplate: p2
+        leggings: p3
+        boots: p4
+    mima:
+      enabled: true
+      display-item:
+        material: LEATHER_CHESTPLATE
+        color: '#000000'
+        name: '&7Kostium &5mima &7na czas &5%czas%'
+        lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fcyrkowego 2025&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &cLustro bólu&7, które przenosi obrażenia &7otrzymane na &ewroga &8(3x
+          shift)'
+        - ' &8» &4+4 &7serc'
+        - ' &8» &c11% &7dodatkowych obrażeń'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 1.7
+        damage-reduction: 0.0
+        fall-damage-reduction: 0.0
+        extra-hearts: 4
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        rob-money: 0.0
+        mim: true
+      armor:
+        helmet: m1
+        chestplate: m2
+        leggings: m3
+        boots: m4
+    nurka:
+      enabled: true
+      display-item:
+        material: LEATHER_CHESTPLATE
+        color: '#008000'
+        name: '&7Kostium &bnurka głębinowego &7na czas &3%czas%'
+        lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fwakacyjnego 2025&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &7Stały efekt &bszybkości biegania 2'
+        - ' &8» &7Po wejściu do wody otrzymujesz'
+        - ' &7co jakiś czas &bgracje delfina'
+        - ' &8» &3+30% &7obrażeń w wodzie'
+        - ' &8» &4+4 &7serc'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 0.0
+        damage-reduction: 0.0
+        fall-damage-reduction: 0.0
+        extra-hearts: 4
+        negative-effects-disable: false
+        effects:
+        - speed:1
+        totem-pop-effects: []
+        rob-money: 0.0
+        nurek: true
+      armor:
+        helmet: n1
+        chestplate: n2
+        leggings: n3
+        boots: n4
+    wampira:
+      enabled: true
+      display-item:
+        material: LEATHER_CHESTPLATE
+        color: '#F5907F'
+        name: '&7Kostium &cwampira &7na czas &4%czas%'
+        lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fhalloween 2025&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &c10% &7dodatkowych obrażeń'
+        - ' &8» &4+4 &7serc'
+        - ' &8» &cPocałunek wampira &7leczy gracza za &e7%'
+        - ' &ezadanych obrażeń&7!'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 1.5
+        damage-reduction: 0.0
+        fall-damage-reduction: 0.0
+        extra-hearts: 4
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        rob-money: 0.0
+        wampir: true
+      armor:
+        helmet: wp1
+        chestplate: wp2
+        leggings: wp3
+        boots: wp4
+    mikolaja:
+      enabled: true
+      display-item:
+        material: LEATHER_CHESTPLATE
+        color: '#B02E26'
+        name: '&7Kostium &cmikołaja &7na czas &4%czas%'
+        lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fświątecznego 2025&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &b+5% &7obrony'
+        - ' &8» &4+6 &7serc'
+        - ' &8» &c8% &7dodatkowych obrażeń'
+        - ' &8» &7Podczas chodzenia zostawiasz za sobą &fśnieg&7,'
+        - ' &7który &bspowalnia &7przeciwników'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 1.2
+        damage-reduction: 0.8
+        fall-damage-reduction: 0.0
+        extra-hearts: 6
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        rob-money: 0.0
+        mikolaj: true
+      armor:
+        helmet: mk1
+        chestplate: mk2
+        leggings: mk3
+        boots: mk4
+    olafa:
+      enabled: true
+      display-item:
+        material: LEATHER_CHESTPLATE
+        color: '#6E86A1'
+        name: '&7Kostium &bolafa &7na czas &3%czas%'
+        lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fzimowego 2026&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &c10% &7dodatkowych obrażeń'
+        - ' &8» &7Po zabiciu gracza kraniesz mu &e2% &7majątku'
+        - ' &8» &4+3 &7serc'
+        - ' &8» &7Stały efekt &bszybkości biegania 2'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 1.5
+        damage-reduction: 0.0
+        fall-damage-reduction: 0.0
+        extra-hearts: 3
+        negative-effects-disable: false
+        effects:
+        - speed:1
+        totem-pop-effects: []
+        rob-money: 2.0
+      armor:
+        helmet: o1
+        chestplate: o2
+        leggings: o3
+        boots: o4
+    grinch:
+      enabled: true
+      type: LEATHER_CHESTPLATE
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTgzOGQ2MzBkNDk2ZjIxMjg1ZDQ5MDk5YzNmZDhkOTIxNDQyMTcyYTUxNjBjMWI1ZDQyYTUwODBmOWNmODE4YSJ9fX0=
+      display-item:
+        material: LEATHER_CHESTPLATE
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTgzOGQ2MzBkNDk2ZjIxMjg1ZDQ5MDk5YzNmZDhkOTIxNDQyMTcyYTUxNjBjMWI1ZDQyYTUwODBmOWNmODE4YSJ9fX0=
+        color: '#4C7817'
+        name: '&7Kostium &agrincha &7na czas &2%czas%'
+        lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fświątecznego 2025&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &7Po zabiciu gracza kradniesz mu &e3% &7majątku'
+        - ' &8» &aWybuch Grincha &8(3x shift)&7, który blokuje'
+        - ' &7nakładanie &cstałych eventówek &7na Ciebie przez &f10s&7!'
+        - ' &8» &4+3 &7serc'
+        - ' &8» &c10% &7dodatkowych obrażeń'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 1.5
+        damage-reduction: 0.0
+        fall-damage-reduction: 0.0
+        extra-hearts: 3
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        rob-money: 3.0
+        grinch: true
+      armor:
+        helmet: gr1
+        chestplate: gr2
+        leggings: gr3
+        boots: gr4
+    grincz:
+      enabled: true
+      type: LEATHER_CHESTPLATE
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTgzOGQ2MzBkNDk2ZjIxMjg1ZDQ5MDk5YzNmZDhkOTIxNDQyMTcyYTUxNjBjMWI1ZDQyYTUwODBmOWNmODE4YSJ9fX0=
+      display-item:
+        material: LEATHER_CHESTPLATE
+        head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTgzOGQ2MzBkNDk2ZjIxMjg1ZDQ5MDk5YzNmZDhkOTIxNDQyMTcyYTUxNjBjMWI1ZDQyYTUwODBmOWNmODE4YSJ9fX0=
+        color: '#4C7817'
+        name: '&7Kostium &agrincha &7na czas &2%czas%'
+        lore:
+        - '&7Został on wydany w trakcie &fwydarzenia'
+        - '&fświątecznego 2025&7.'
+        - ''
+        - '&7Dzięki temu przedmiotowi otrzymasz'
+        - '&funikatowy &7wygląd oraz &fepickie &7bonusy'
+        - ''
+        - '&7Lista bonusów:'
+        - ' &8» &7Po zabiciu gracza kradniesz mu &e3% &7majątku'
+        - ' &8» &aWybuch Grincha &8(3x shift)&7, który blokuje'
+        - ' &7nakładanie &cstałych eventówek &7na Ciebie przez &f10s&7!'
+        - ' &8» &4+3 &7serc'
+        - ' &8» &c10% &7dodatkowych obrażeń'
+        - ''
+        - '&7Data wygaśnięcia &f%uzycie%'
+      bonuses:
+        damage: 1.5
+        damage-reduction: 0.0
+        fall-damage-reduction: 0.0
+        extra-hearts: 3
+        negative-effects-disable: false
+        effects: []
+        totem-pop-effects: []
+        rob-money: 3.0
+        grinch: true
+      armor:
+        helmet: gr1
+        chestplate: gr2
+        leggings: gr3
+        boots: gr4
+  
+  zwoj-kostium:
+    name: '&e&lᴢᴡᴏᴊ ᴘʀᴢᴇᴅʟᴜᴢᴇɴɪᴀ &fᴋᴏꜱᴛɪᴜᴍᴜ'
+    lore:
+    - ''
+    - '&8» &7Z jego pomocą możesz przedłużyć'
+    - '&8» &7swój &fKostium &7pod komendą &f/szafka'
+    - ''
+    - '&8» &7Czas Trwania &f%czas%'
+  kostium-items:
+    w1:
+      material: PLAYER_HEAD
+      head-value: ewogICJ0aW1lc3RhbXAiIDogMTc2MDc5MTYwOTE1MiwKICAicHJvZmlsZUlkIiA6ICJiMDRkYjY1Y2MxNDQ0YzQ1YmFkZjcwNzc5MDFkNjYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICIwcnplbE1haW44OSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZGUyMGRkYjJjN2NhZDJhMjc3ZjFhOTE3NTk1MTg5N2Y3NTNjMTE4MDE5YTVmZDQyMDc1OWQ2MzE1ODdlNDNhIgogICAgfQogIH0KfQ==
+    w2:
+      material: LEATHER_CHESTPLATE
+    w3:
+      material: LEATHER_LEGGINGS
+    w4:
+      material: LEATHER_BOOTS
+    wp1:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNkMzg1MTIxMjI4MGU3Mzk2NjhkMDZhYjQ0NTM1ODFlZWVmNzlhNjNhZWZhNjA5YzJkNTgxOGI4MzJlM2RlZSJ9fX0=
+    wp2:
+      material: LEATHER_CHESTPLATE
+    wp3:
+      material: LEATHER_LEGGINGS
+    wp4:
+      material: LEATHER_BOOTS
+    z1:
+      material: PLAYER_HEAD
+      head-value: ewogICJ0aW1lc3RhbXAiIDogMTc2MDc5MTgwOTA2NiwKICAicHJvZmlsZUlkIiA6ICJiMDRkYjY1Y2MxNDQ0YzQ1YmFkZjcwNzc5MDFkNjYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICIwcnplbE1haW44OSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NTcwNjkxMjQ4YmUzNzM0YjBmNTc0OTY4MjNkYTcyY2M2OWY4YWI2ZDg0MGE3ZjUxOWM5ZDgyYjc3MjhhZWVkIgogICAgfQogIH0KfQ==
+    z2:
+      material: LEATHER_CHESTPLATE
+    z3:
+      material: LEATHER_LEGGINGS
+    z4:
+      material: LEATHER_BOOTS
+    k1:
+      material: PLAYER_HEAD
+      head-value: ewogICJ0aW1lc3RhbXAiIDogMTc2MDc5MTkwMDIzMywKICAicHJvZmlsZUlkIiA6ICJiMDRkYjY1Y2MxNDQ0YzQ1YmFkZjcwNzc5MDFkNjYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICIwcnplbE1haW44OSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lZjk4MzM3YjgyNDIyMjlkOTVkYTIzMDkwNzU1Nzg5Nzc4YjE4YmY1ZDA3ZDYxZjYyMGNkYmRiYmQyOWZhNjE1IgogICAgfQogIH0KfQ==
+    k2:
+      material: LEATHER_CHESTPLATE
+    k3:
+      material: LEATHER_LEGGINGS
+    k4:
+      material: LEATHER_BOOTS
+    b4:
+      material: LEATHER_BOOTS
+    b3:
+      material: LEATHER_LEGGINGS
+    b2:
+      material: LEATHER_CHESTPLATE
+    b1:
+      material: PLAYER_HEAD
+      head-value: ewogICJ0aW1lc3RhbXAiIDogMTc2MDc5MTk0ODkwNCwKICAicHJvZmlsZUlkIiA6ICJiMDRkYjY1Y2MxNDQ0YzQ1YmFkZjcwNzc5MDFkNjYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICIwcnplbE1haW44OSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZDQxNzA0NzliYzk3ZDhiMGI5YzhjNWNiM2E3N2JjNDIwNDA5YTQzMjFjYTJkNzIyZmY5MzdjYjA3ZTNjM2VjIgogICAgfQogIH0KfQ==
+    p4:
+      material: LEATHER_BOOTS
+    p3:
+      material: LEATHER_LEGGINGS
+    p2:
+      material: LEATHER_CHESTPLATE
+    p1:
+      material: PLAYER_HEAD
+      head-value: ewogICJ0aW1lc3RhbXAiIDogMTc2MDc5MjA4MjQ1OSwKICAicHJvZmlsZUlkIiA6ICJiMDRkYjY1Y2MxNDQ0YzQ1YmFkZjcwNzc5MDFkNjYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICIwcnplbE1haW44OSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zYTUxMzNjMWU0MDA4NDI1YWRiMTQ1MGViOGY2ZThiNmE0ZGI0NjU5MjU5ZGYyM2VhZDc4NzQyNTZmOGNiYzQ3IgogICAgfQogIH0KfQ==
+    m4:
+      material: LEATHER_BOOTS
+    m3:
+      material: LEATHER_LEGGINGS
+    m2:
+      material: LEATHER_CHESTPLATE
+    m1:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjUxMmE3ZWI2ZDMxNmU2NDNmMWViM2FhMDU1NDAxMDQ1ZmE3NDA4NmZiOGMzMmFiZWNhMmFhMzVhMTE3OWIifX19
+    n1:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjc2OTgxN2MzMmVjNGIwZDNiM2NkYzUwOGE0ZDZjOGExOTFhMjUyMzA2MzRkMWYwMGU1N2E3NzRkNGNiODhhOCJ9fX0=
+    n2:
+      material: LEATHER_CHESTPLATE
+    n3:
+      material: LEATHER_LEGGINGS
+    n4:
+      material: LEATHER_BOOTS
+    mk1:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzYyZjlmMmQ1ZDUyYTQyYzIxY2Q0Y2Y5ZGQ1ZDE5YjgwNDdiOTIwODdmY2I4ZjZjNmM3ODEzMWQ5ZWNkOWNkMSJ9fX0=
+    mk2:
+      material: LEATHER_CHESTPLATE
+    mk3:
+      material: LEATHER_LEGGINGS
+    mk4:
+      material: LEATHER_BOOTS
+    o1:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVmNWI4NDdmZjQ1M2Y0NTI1NTBmNTMzNWFmNmJlNjAwY2JhNmRiYmIyOWZiYjI2NDc1YTIwMGVmZjc3YzEyOCJ9fX0=
+    o2:
+      material: LEATHER_CHESTPLATE
+    o3:
+      material: LEATHER_LEGGINGS
+    o4:
+      material: LEATHER_BOOTS
+    gc1:
+      material: PLAYER_HEAD
+      head-value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjhjYmRkZDVlMWQyN2NhZTFhMmYzYzcyOTBhYjI5ZDA5MWQ4N2U3ZTc5NDljZmE4N2QwZGIxZTMzY2Q5In19fQ==
+    gc2:
+      material: LEATHER_CHESTPLATE
+    gc3:
+      material: LEATHER_LEGGINGS
+    gc4:
+      material: LEATHER_BOOTS
+  roll:
+    base-cost: 50.0
+    multiplier: 2.0
+  
+  papugi:
+    pirat:
+      material: PARROT_SPAWN_EGG
+      variant: BLUE
+      shoulder: right
+      give-displayname: '&7???'
+      displayname: '&fPapuszka %imie% &7na czas &3%czas%'
+      random-names:
+      - Pirat
+      - Kapitan
+      - Korsarz
+      - Rabuś
+      - Bosman
+      - Beczka Rumu
+      - Hakobrody
+      - Czarny Dziób
+      - Sztorm
+      - Neptun
+      - Srebrnoskrzydły
+      - Brodaty
+      - Morski Wilk
+      - Rafa
+      - Czarnobrody
+      - Perłowy Dziób
+      - Fregata
+      - Kaper
+      lore:
+      - '&7Przedmiot wydarzeniowy'
+      - '&9Niebieska papuga'
+      - ''
+      - '&7Ten przedmiot mogłeś zdobyć'
+      - '&7w trakcie wydarzenia pirackiego 2025!'
+    
+    rubin:
+      material: PARROT_SPAWN_EGG
+      variant: RED
+      shoulder: left
+      give-displayname: '&7???'
+      displayname: '&fPapuszka %imie% &7na czas &3%czas%'
+      random-names:
+      - Rubin
+      - Karmazyn
+      - Ognisty Dziób
+      - Szkarłat
+      - Flara
+      - Płomień
+      - Iskra
+      - Rudy
+      - Ares
+      - Feniks
+      - Pożoga
+      - Wulkan
+      - Mars
+      - Szrapnel
+      - Błysk
+      - Rozżarzony
+      lore:
+      - '&7Przedmiot wydarzeniowy'
+      - '&cCzerwona papuga'
+      - ''
+      - '&7Rzadka papuga o ognistym umaszczeniu.'
+    
+    szmaragd:
+      material: PARROT_SPAWN_EGG
+      variant: GREEN
+      shoulder: right
+      give-displayname: '&7???'
+      displayname: '&fPapuszka %imie% &7na czas &3%czas%'
+      random-names:
+      - Szmaragd
+      - Liść
+      - Dżungla
+      - Bambus
+      - Mango
+      - Limonka
+      - Szyszka
+      - Echo
+      - Wicher
+      - Zielony Korsarz
+      - Trawka
+      - Jaszczur
+      - Palma
+      - Sawanna
+      - Jadeit
+      - Amazonka
+      lore:
+      - '&7Przedmiot wydarzeniowy'
+      - '&aZielona papuga'
+      - ''
+      - '&7Papuga z tropikalnej dżungli.'
+    
+    popiol:
+      material: PARROT_SPAWN_EGG
+      variant: GRAY
+      shoulder: left
+      give-displayname: '&7???'
+      displayname: '&fPapuszka %imie% &7na czas &3%czas%'
+      random-names:
+      - Popiół
+      - Mgła
+      - Pyłek
+      - Burza
+      - Grafit
+      - Cień
+      - Dymek
+      - Komin
+      - Lodowy Dziób
+      - Skrawek
+      - Pył
+      - Huragan
+      - Monolit
+      - Smuga
+      - Popielec
+      - Kamyk
+      lore:
+      - '&7Przedmiot wydarzeniowy'
+      - '&7Szara papuga'
+      - ''
+      - '&7Niepozorna, ale bardzo charakterystyczna.'
+    
+    turkus:
+      material: PARROT_SPAWN_EGG
+      variant: CYAN
+      shoulder: right
+      give-displayname: '&7???'
+      displayname: '&fPapuszka %imie% &7na czas &3%czas%'
+      random-names:
+      - Turkus
+      - Fala
+      - Laguna
+      - Perła
+      - Sztormiak
+      - Błękit
+      - Morski Wilk
+      - Rafa
+      - Hydra
+      - Piana
+      - Ocean
+      - Mewa
+      - Tsunami
+      - Koral
+      - Głębia
+      - Bryza
+      lore:
+      - '&7Przedmiot wydarzeniowy'
+      - '&bTurkusowa papuga'
+      - ''
+      - '&7Papuga w morskim, egzotycznym kolorze.'
+  
+  bonuses:
+    damage_10:
+      displayname: '&aDodatkowe obrażenia +10%'
+      lore:
+      - ' &8» &7Dodatkowe obrażenia &a+10%'
+      damage-multiplier: 0.1
+      weight: 20
+    damage_20:
+      displayname: '&aDodatkowe obrażenia +20%'
+      lore:
+      - ' &8» &7Dodatkowe obrażenia &a+20%'
+      damage-multiplier: 0.2
+      weight: 15
+    damage_30:
+      displayname: '&aDodatkowe obrażenia +30%'
+      lore:
+      - ' &8» &7Dodatkowe obrażenia &a+30%'
+      damage-multiplier: 0.3
+      weight: 10
+    damage_40:
+      displayname: '&aDodatkowe obrażenia +40%'
+      lore:
+      - ' &8» &7Dodatkowe obrażenia &a+40%'
+      damage-multiplier: 0.4
+      weight: 7
+    damage_50:
+      displayname: '&aDodatkowe obrażenia +50%'
+      lore:
+      - ' &8» &7Dodatkowe obrażenia &a+50%'
+      damage-multiplier: 0.5
+      weight: 4
+    damage_60:
+      displayname: '&aDodatkowe obrażenia +60%'
+      lore:
+      - ' &8» &7Dodatkowe obrażenia &a+60%'
+      damage-multiplier: 0.6
+      weight: 2
+    damage_70:
+      displayname: '&6Dodatkowe obrażenia +70%'
+      lore:
+      - ' &8» &7Dodatkowe obrażenia &6+70%'
+      damage-multiplier: 0.7
+      weight: 1
+    flat_damage_1:
+      displayname: '&aDodatkowe obrażenia +0.1'
+      lore:
+      - ' &8» &7Dodatkowe obrażenia &a+0.1'
+      damage: 0.1
+      weight: 14
+    flat_damage_2:
+      displayname: '&aDodatkowe obrażenia +0.2'
+      lore:
+      - ' &8» &7Dodatkowe obrażenia &a+0.2'
+      damage: 0.2
+      weight: 11
+    flat_damage_3:
+      displayname: '&aDodatkowe obrażenia +0.3'
+      lore:
+      - ' &8» &7Dodatkowe obrażenia &a+0.3'
+      damage: 0.3
+      weight: 9
+    flat_damage_4:
+      displayname: '&aDodatkowe obrażenia +0.4'
+      lore:
+      - ' &8» &7Dodatkowe obrażenia &a+0.4'
+      damage: 0.4
+      weight: 6
+    flat_damage_5:
+      displayname: '&aDodatkowe obrażenia +0.5'
+      lore:
+      - ' &8» &7Dodatkowe obrażenia &a+0.5'
+      damage: 0.5
+      weight: 4
+    flat_damage_6:
+      displayname: '&6Dodatkowe obrażenia +0.6'
+      lore:
+      - ' &8» &7Dodatkowe obrażenia &6+0.6'
+      damage: 0.6
+      weight: 2
+    flat_damage_7:
+      displayname: '&6Dodatkowe obrażenia +0.7'
+      lore:
+      - ' &8» &7Dodatkowe obrażenia &6+0.7'
+      damage: 0.7
+      weight: 1
+    speed_1:
+      displayname: '&bStały efekt Szybkość I'
+      lore:
+      - ' &8» &7Stały efekt &bSzybkość I'
+      effects:
+      - speed:0
+      weight: 12
+    speed_2:
+      displayname: '&bStały efekt Szybkość II'
+      lore:
+      - ' &8» &7Stały efekt &bSzybkość II'
+      effects:
+      - speed:1
+      weight: 4
+    strength_1:
+      displayname: '&cStały efekt Siła I'
+      lore:
+      - ' &8» &7Stały efekt &cSiła I'
+      effects:
+      - increase_damage:0
+      weight: 5
+    strength_2:
+      displayname: '&6Stały efekt Siła II'
+      lore:
+      - ' &8» &7Stały efekt &6Siła II'
+      effects:
+      - increase_damage:1
+      weight: 1
+    haste_1:
+      displayname: '&eStały efekt Haste I'
+      lore:
+      - ' &8» &7Stały efekt &eHaste I'
+      effects:
+      - fast_digging:0
+      weight: 8
+    haste_2:
+      displayname: '&6Stały efekt Haste II'
+      lore:
+      - ' &8» &7Stały efekt &6Haste II'
+      effects:
+      - fast_digging:1
+      weight: 2
+    jump_1:
+      displayname: '&aStały efekt Skok I'
+      lore:
+      - ' &8» &7Stały efekt &aSkok I'
+      effects:
+      - jump:0
+      weight: 7
+    jump_2:
+      displayname: '&2Stały efekt Skok II'
+      lore:
+      - ' &8» &7Stały efekt &2Skok II'
+      effects:
+      - jump:1
+      weight: 2
+    regeneration_1:
+      displayname: '&dStały efekt Regeneracja I'
+      lore:
+      - ' &8» &7Stały efekt &dRegeneracja I'
+      effects:
+      - regeneration:0
+      weight: 3
+    resistance_1:
+      displayname: '&9Stały efekt Odporność I'
+      lore:
+      - ' &8» &7Stały efekt &9Odporność I'
+      effects:
+      - damage_resistance:0
+      weight: 3
+    fire_resistance_1:
+      displayname: '&6Stały efekt Ognioodporność'
+      lore:
+      - ' &8» &7Stały efekt &6Ognioodporność'
+      effects:
+      - fire_resistance:0
+      weight: 4
+    water_breathing_1:
+      displayname: '&bStały efekt Oddychanie pod wodą'
+      lore:
+      - ' &8» &7Stały efekt &bOddychanie pod wodą'
+      effects:
+      - water_breathing:0
+      weight: 4
+    night_vision_1:
+      displayname: '&5Stały efekt Noktowizor'
+      lore:
+      - ' &8» &7Stały efekt &5Noktowizor'
+      effects:
+      - night_vision:0
+      weight: 5
+    luck_1:
+      displayname: '&aStały efekt Szczęście I'
+      lore:
+      - ' &8» &7Stały efekt &aSzczęście I'
+      effects:
+      - luck:0
+      weight: 5
+    weakness_1:
+      displayname: '&8Stały efekt Słabość I'
+      lore:
+      - ' &8» &7Stały efekt &8Słabość I'
+      effects:
+      - weakness:0
+      weight: 9
+    slow_1:
+      displayname: '&8Stały efekt Spowolnienie I'
+      lore:
+      - ' &8» &7Stały efekt &8Spowolnienie I'
+      effects:
+      - slow:0
+      weight: 9
+    slow_2:
+      displayname: '&7Stały efekt Spowolnienie II'
+      lore:
+      - ' &8» &7Stały efekt &7Spowolnienie II'
+      effects:
+      - slow:1
+      weight: 4
+    mining_fatigue_1:
+      displayname: '&8Stały efekt Zmęczenie I'
+      lore:
+      - ' &8» &7Stały efekt &8Zmęczenie I'
+      effects:
+      - slow_digging:0
+      weight: 8
+    hunger_1:
+      displayname: '&8Stały efekt Głód I'
+      lore:
+      - ' &8» &7Stały efekt &8Głód I'
+      effects:
+      - hunger:0
+      weight: 7
+    blind_1:
+      displayname: '&8Stały efekt Ślepota I'
+      lore:
+      - ' &8» &7Stały efekt &8Ślepota I'
+      effects:
+      - blindness:0
+      weight: 2
+    poison_1:
+      displayname: '&4Stały efekt Trucizna I'
+      lore:
+      - ' &8» &7Stały efekt &4Trucizna I'
+      effects:
+      - poison:0
+      weight: 1
+    unluck_1:
+      displayname: '&8Stały efekt Pech I'
+      lore:
+      - ' &8» &7Stały efekt &8Pech I'
+      effects:
+      - unluck:0
+      weight: 4
+  default-hp: 60.0

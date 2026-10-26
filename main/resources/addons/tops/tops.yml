@@ -1,0 +1,51 @@
+refresh-interval-ticks: 600
+entries: {}
+types:
+  POINTS:
+    hologram-offset-y: 2.15
+    lines:
+      - '&#FFAA00&l★ ᴛᴏᴘᴋᴀ ʀᴀɴᴋɪɴɢᴜ ★'
+      - '&f{TOP} &f{NAME}'
+      - '&#FFAA00{VALUE} &#C1C1C1pkt.'
+  CLAN:
+    hologram-offset-y: 2.15
+    lines:
+      - '&#FFAA00&l★ ᴛᴏᴘᴋᴀ ᴋʟᴀɴᴏᴡ ★'
+      - '&f{TOP} &f{NAME}'
+      - '&#FFAA00{VALUE} &#C1C1C1pkt.'
+  KILLS:
+    hologram-offset-y: 2.15
+    lines:
+      - '&#FF5C5C&l⚔ ᴛᴏᴘᴋᴀ ᴢᴀʙᴏ́ᴊꜱᴛᴡ ⚔'
+      - '&f{TOP} &f{NAME}'
+      - '&#FF5C5C{VALUE} &#C1C1C1zabójstw'
+  DEATHS:
+    hologram-offset-y: 2.15
+    lines:
+      - '&#C1C1C1&l☠ ᴛᴏᴘᴋᴀ ꜱ́ᴍɪᴇʀᴄɪ ☠'
+      - '&f{TOP} &f{NAME}'
+      - '&#C1C1C1{VALUE} &#777777śmierci'
+  TIME:
+    hologram-offset-y: 2.15
+    lines:
+      - '&#89E2FF&l⏰ ᴛᴏᴘᴋᴀ ᴄᴢᴀꜱᴜ ɢʀʏ ⏰'
+      - '&f{TOP} &f{NAME}'
+      - '&#89E2FF{VALUE}'
+  CRATES:
+    hologram-offset-y: 2.15
+    lines:
+      - '&#DD5FFF&l✨ ᴛᴏᴘᴋᴀ ꜱᴋʀᴢʏɴᴇᴋ ✨'
+      - '&f{TOP} &f{NAME}'
+      - '&#DD5FFF{VALUE} &#C1C1C1otwartych'
+  BLOCKS:
+    hologram-offset-y: 2.15
+    lines:
+      - '&#60FF8B&l⛏ ᴛᴏᴘᴋᴀ ʙʟᴏᴋᴏ́ᴡ ⛏'
+      - '&f{TOP} &f{NAME}'
+      - '&#60FF8B{VALUE} &#C1C1C1wykopanych'
+  MONEY:
+    hologram-offset-y: 2.15
+    lines:
+      - '&#FFD700&l✦ ᴛᴏᴘᴋᴀ ᴋᴀꜱʏ ✦'
+      - '&f{TOP} &f{NAME}'
+      - '&#FFD700{VALUE} &#C1C1C1$'

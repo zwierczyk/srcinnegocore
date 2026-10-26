@@ -1,0 +1,22 @@
+
+enabled: true
+
+title: "&#FF1A1A{CROSS} &c&lZablokowane &#FF1A1A{CROSS}"
+subtitle: "&7{LABEL} &8— &#FF5C5Cdostępne później"
+chat: "&#FF1A1A{CROSS} &8• &#FF5C5C{LABEL} &7zostanie odblokowane w &#FF5C5C&lpóźniejszym etapie &7rozgrywki."
+
+title-fade-in: 8
+title-stay: 55
+title-fade-out: 12
+
+sound: BLOCK_NOTE_BLOCK_BASS
+sound-volume: 0.75
+sound-pitch: 0.65
+
+commands:
+  szaman:
+    permission: Holly.cmd.szaman
+    label: /szaman
+    bypass-permissions:
+      - Holly.cmd.szaman.admin
+    aliases: []

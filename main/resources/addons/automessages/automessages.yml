@@ -1,0 +1,13 @@
+enabled: true
+interval: 30
+messages:
+  1:
+  - '&x&F&5&9&7&9&7&lʜ&x&F&8&A&0&A&0&lᴏ&x&F&A&A&8&A&8&lʟ&x&F&D&B&1&B&1&lʟ&x&F&F&B&9&B&9&lʏ&x&F&E&B&6&B&6&lꜱ&x&F&D&B&2&B&2&lᴇ&x&F&C&A&F&A&F&lʀ&x&F&B&A&B&A&B&lᴠ&x&F&A&A&8&A&8&lɪ&x&F&9&A&5&A&5&lᴄ&x&F&8&A&1&A&1&lᴇ&x&F&7&9&E&9&E&l.&x&F&6&9&A&9&A&lᴘ&x&F&5&9&7&9&7&lʟ
+    &8» &fOdwiedź nasz sklep&8: &x&F&5&9&7&9&7ʜ&x&F&8&A&0&A&0ᴏ&x&F&A&A&8&A&8ʟ&x&F&D&B&1&B&1ʟ&x&F&F&B&9&B&9ʏ&x&F&E&B&6&B&6ꜱ&x&F&D&B&2&B&2ᴇ&x&F&C&A&F&A&Fʀ&x&F&B&A&B&A&Bᴠ&x&F&A&A&8&A&8ɪ&x&F&9&A&5&A&5ᴄ&x&F&8&A&1&A&1ᴇ&x&F&7&9&E&9&E.&x&F&6&9&A&9&Aᴘ&x&F&5&9&7&9&7ʟ'
+  2:
+  - '&x&F&5&9&7&9&7&lʜ&x&F&8&A&0&A&0&lᴏ&x&F&A&A&8&A&8&lʟ&x&F&D&B&1&B&1&lʟ&x&F&F&B&9&B&9&lʏ&x&F&E&B&6&B&6&lꜱ&x&F&D&B&2&B&2&lᴇ&x&F&C&A&F&A&F&lʀ&x&F&B&A&B&A&B&lᴠ&x&F&A&A&8&A&8&lɪ&x&F&9&A&5&A&5&lᴄ&x&F&8&A&1&A&1&lᴇ&x&F&7&9&E&9&E&l.&x&F&6&9&A&9&A&lᴘ&x&F&5&9&7&9&7&lʟ
+    &8» &fNaszym oficjalnym i glownym komunikatorem jest &x&F&5&9&7&9&7ᴅ&x&F&7&9&E&9&Eᴄ&x&F&9&A&5&A&5.&x&F&B&A&B&A&Bʜ&x&F&D&B&2&B&2ᴏ&x&F&F&B&9&B&9ʟ&x&F&E&B&6&B&6ʟ&x&F&D&B&3&B&3ʏ&x&F&D&B&1&B&1ꜱ&x&F&C&A&E&A&Eᴇ&x&F&B&A&B&A&Bʀ&x&F&A&A&8&A&8ᴠ&x&F&9&A&5&A&5ɪ&x&F&8&A&2&A&2ᴄ&x&F&8&A&0&A&0ᴇ&x&F&7&9&D&9&D.&x&F&6&9&A&9&Aᴘ&x&F&5&9&7&9&7ʟ'
+  3:
+  - '&x&F&5&9&7&9&7&lʜ&x&F&8&A&0&A&0&lᴏ&x&F&A&A&8&A&8&lʟ&x&F&D&B&1&B&1&lʟ&x&F&F&B&9&B&9&lʏ&x&F&E&B&6&B&6&lꜱ&x&F&D&B&2&B&2&lᴇ&x&F&C&A&F&A&F&lʀ&x&F&B&A&B&A&B&lᴠ&x&F&A&A&8&A&8&lɪ&x&F&9&A&5&A&5&lᴄ&x&F&8&A&1&A&1&lᴇ&x&F&7&9&E&9&E&l.&x&F&6&9&A&9&A&lᴘ&x&F&5&9&7&9&7&lʟ
+    &8» &fChcesz odebrac zupelnie &adarmowa &fnagrode? &fwpisz §x§2§a§c§3§f§b/nagroda'
+random-order: false

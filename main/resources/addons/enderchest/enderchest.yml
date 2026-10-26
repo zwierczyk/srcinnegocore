@@ -1,0 +1,44 @@
+selector:
+  title: '&7Enderchesty'
+  page-name: '&5&lEnderChest &f{PAGE}'
+  locked-name: '&c&lEnderChest &f{PAGE}'
+  open-lore:
+    - ''
+    - ' &8• &7Ranga: &f{RANK}'
+    - ''
+    - ' &aKliknij LPM lub PPM, aby otworzyć'
+  locked-lore:
+    - ''
+    - ' &8• &7Ranga: &f{RANK}'
+    - ''
+    - ' &cBrak dostępu do tego enderchesta'
+
+chest:
+  title: '&7EnderChest {PAGE}'
+
+pages:
+  1:
+    slot: 10
+    rows: 3
+    rank: '&fGracz'
+    permission: ''
+  2:
+    slot: 12
+    rows: 3
+    rank: '&aVIP'
+    permission: 'Holly.cmd.ec.page.2'
+  3:
+    slot: 14
+    rows: 3
+    rank: '&6SVIP'
+    permission: 'Holly.cmd.ec.page.3'
+  4:
+    slot: 16
+    rows: 3
+    rank: '&#55ffffELITA'
+    permission: 'Holly.cmd.ec.page.4'
+  5:
+    slot: 22
+    rows: 3
+    rank: '&dMVP'
+    permission: 'Holly.cmd.ec.page.5'

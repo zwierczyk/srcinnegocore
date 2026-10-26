@@ -1,0 +1,29 @@
+settings:
+  enabled: true
+  max-mobs-per-spawn: 2
+  check-interval-ticks: 20
+  delete-search-radius: 5.0
+  block-pvp-deny-regions: true
+reward:
+  package: shard
+  amount: 1
+mobs:
+  zombie:
+    entity-type: ZOMBIE
+    display-name: "&fPodw\u0142adny &7poziomu &x&F&F&A&8&0&02\u2605"
+    drop-chance-percent: 10.0
+    hits-to-kill: 10
+    spawn-weight: 20
+  skeleton:
+    entity-type: SKELETON
+    display-name: "&fPodw\u0142adny &7poziomu &x&F&F&F&0&0&01&x&F&F&F&0&0&0\u2605"
+    drop-chance-percent: 5.0
+    hits-to-kill: 6
+    spawn-weight: 70
+  spider:
+    entity-type: SPIDER
+    display-name: "&fPodw\u0142adny &7poziomu &x&F&F&0&0&0&03\u2605"
+    drop-chance-percent: 15.0
+    hits-to-kill: 15
+    spawn-weight: 10
+spawns: {}

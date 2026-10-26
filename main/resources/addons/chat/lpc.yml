@@ -1,0 +1,48 @@
+enableChat: true
+blockedWorld: []
+chatGroups:
+- groupName: default
+  messageFormat: '&#DBE200%holly_position%ュ {TAG}&f{NICK} &8» &7{MESSAGE}'
+  cooldown: 3000
+blockedMessage: '&#FF0000✘ &8Ξ &cTa wiadomość zawiera zablokowane słowo.'
+groupNotConfiguredMessage: '&#FF0000✘ &8Ξ &cTwoja ranga LuckPerms nie jest skonfigurowana na chacie.'
+cooldownMessage: '&#FF0000✘ &8Ξ &cMożesz napisać następną wiadomość za &f{TIME}&c.'
+chatDisabledMessage: '&#FF0000✘ &8Ξ &cChat jest obecnie wyłączony.'
+bypassCooldownPermission: holly.chat.bypasscooldown
+bypassBlockedWordsPermission: holly.chat.bypassblocked
+antiAdEnabled: true
+antiAdBlockLinks: true
+antiAdBlockDiscord: true
+antiAdMessage: '&#FF0000✘ &8Ξ &cReklamy, linki i zaproszenia Discord są zabronione.'
+bypassAntiAdPermission: holly.chat.bypassad
+antiAdAllowedDomains:
+- masakra.gg
+- www.masakra.gg
+- dc.masakra.gg
+antiAdBlockedPhrases:
+- gz najlepszy
+- najlepszy gz
+- mod na kopanie
+- mody na kopanie
+- bezpieczny mod
+- bezpieczne mody
+- bezpieczny yt
+- bezpieczne yt
+- calkiem bezpieczn
+- całkiem bezpieczn
+- xray mod
+- x-ray mod
+- mod xray
+- pobierz moda
+- pobierz mod
+- najlepszy mod
+- najlepsze mody
+- wejdz na serwer
+- wejdź na serwer
+- zapraszam na dc
+- zapraszam na discord
+- dolacz na dc
+- dołącz na dc
+- discord gg
+- dc gg
+- dsc gg

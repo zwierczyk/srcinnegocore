@@ -1,0 +1,80 @@
+gui:
+  rows: 5
+  title: '&8Rangi Serwerowe'
+ranks:
+  vip:
+    name: '                       &f&x&7&B&D&7&7&E&lᴠ&lɪ&lᴘ'
+    aliases:
+      - vip
+    slot: 20
+    icon: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzcxNTA5NTc0MzQ0MjQxYjJjZGZmZmJiZjFkYzdhZjgzNDQwNTUzMzU0ZDBhNWM1MzhlZjllZWQ2NTYzNjE5OSJ9fX0=
+    lore:
+      - ''
+      - ' &x&F&F&9&E&0&0P&x&F&F&9&A&0&3r&x&F&F&9&6&0&7z&x&F&F&9&2&0&Ay&x&F&F&8&E&0&Dw&x&F&F&8&9&1&0i&x&F&F&8&5&1&4l&x&F&F&8&1&1&7e&x&F&F&7&D&1&Aj&x&F&F&7&D&1&Ae &x&F&F&7&D&1&Ar&x&F&F&7&D&1&Aa&x&F&F&7&D&1&An&x&F&F&7&D&1&Ag&x&F&F&7&D&1&Ai'
+      - '  &8▶ &7Dostęp do &6eksluzywnego &7zestawu &f&x&7&B&D&7&7&E&lᴠ&lɪ&lᴘ &8( &#FFE831/kit &8)'
+      - '  &8▶ &7Prefix nad głową, tabie i na chacie &f&x&7&B&D&7&7&E&lᴠ&lɪ&lᴘ'
+      - ''
+      - ' &x&0&0&F&F&3&3D&x&0&3&F&F&3&0o&x&0&7&F&F&2&Es&x&0&A&F&F&2&Bt&x&0&D&F&F&2&8ę&x&1&0&F&F&2&5p &x&1&7&F&F&2&0d&x&1&A&F&F&1&Do &x&1&A&F&F&1&Dk&x&1&A&F&F&1&Do&x&1&A&F&F&1&Dm&x&1&A&F&F&1&De&x&1&A&F&F&1&Dn&x&1&A&F&F&1&Dd:'
+      - '  &8▶ &e/ec - &7Przenośny enderchest'
+      - ' &f'
+      - ' &8» &7Rangę zakupisz na stronie &fwww.oghub.pl'
+      - ' &f'
+  svip:
+    name: '                       &f&x&D&7&C&D&7&B&lꜱ&lᴠ&lɪ&lᴘ'
+    aliases:
+      - svip
+    slot: 21
+    icon: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRkYTU4NWY5NDE0NTNhZDYyOGVjMDk3MTBmNmU0NTU1NGE5ZjUyZWZhNWIwNWVkYTI1MzgzMDQ1MGM1YmY5OCJ9fX0=
+    lore:
+      - ''
+      - ' &x&F&F&9&E&0&0P&x&F&F&9&A&0&3r&x&F&F&9&6&0&7z&x&F&F&9&2&0&Ay&x&F&F&8&E&0&Dw&x&F&F&8&9&1&0i&x&F&F&8&5&1&4l&x&F&F&8&1&1&7e&x&F&F&7&D&1&Aj&x&F&F&7&D&1&Ae &x&F&F&7&D&1&Ar&x&F&F&7&D&1&Aa&x&F&F&7&D&1&An&x&F&F&7&D&1&Ag&x&F&F&7&D&1&Ai'
+      - '  &8▶ &7Dostęp do &6eksluzywnego &7zestawu &f&x&D&7&C&D&7&B&lꜱ&lᴠ&lɪ&lᴘ &8( &#31F7FF/kit &8)'
+      - '  &8▶ &7Prefix nad głową, tabie i na chacie &f&x&D&7&C&D&7&B&lꜱ&lᴠ&lɪ&lᴘ'
+      - ''
+      - ' &x&0&0&F&F&3&3D&x&0&3&F&F&3&0o&x&0&7&F&F&2&Es&x&0&A&F&F&2&Bt&x&0&D&F&F&2&8ę&x&1&0&F&F&2&5p &x&1&7&F&F&2&0d&x&1&A&F&F&1&Do &x&1&A&F&F&1&Dk&x&1&A&F&F&1&Do&x&1&A&F&F&1&Dm&x&1&A&F&F&1&De&x&1&A&F&F&1&Dn&x&1&A&F&F&1&Dd:'
+      - '  &8▶ &e/repair - &7Naprawia przedmiot w ręce'
+      - '  &8▶ &e/ec - &7Przenośny enderchest'
+      - ' &f'
+      - ' &8» &7Rangę zakupisz na stronie &fwww.oghub.pl'
+      - ' &f'
+  legenda:
+    name: '                       &f&x&F&F&8&7&0&0&lʟ&lᴇ&lɢ&lᴇ&lɴ&lᴅ&lᴀ'
+    aliases:
+      - legenda
+    slot: 23
+    icon: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTUwOWMyMzZjZjg5OGZlNjJjN2I1NDQ2ODE4MzM4MTYwY2I5NTU2MzQ4NmQzZTI5YWZmZmRmODg3N2MwOGJmNCJ9fX0=
+    lore:
+      - ''
+      - ' &x&F&F&9&E&0&0P&x&F&F&9&A&0&3r&x&F&F&9&6&0&7z&x&F&F&9&2&0&Ay&x&F&F&8&E&0&Dw&x&F&F&8&9&1&0i&x&F&F&8&5&1&4l&x&F&F&8&1&1&7e&x&F&F&7&D&1&Aj&x&F&F&7&D&1&Ae &x&F&F&7&D&1&Ar&x&F&F&7&D&1&Aa&x&F&F&7&D&1&An&x&F&F&7&D&1&Ag&x&F&F&7&D&1&Ai'
+      - '  &8▶ &7Dostęp do &6eksluzywnego &7zestawu &f&x&F&F&8&7&0&0&lʟ&lᴇ&lɢ&lᴇ&lɴ&lᴅ&lᴀ &8( &#E3FF31/kit &8)'
+      - '  &8▶ &7Prefix nad głową, tabie i na chacie &f&x&F&F&8&7&0&0&lʟ&lᴇ&lɢ&lᴇ&lɴ&lᴅ&lᴀ'
+      - ''
+      - ' &x&0&0&F&F&3&3D&x&0&3&F&F&3&0o&x&0&7&F&F&2&Es&x&0&A&F&F&2&Bt&x&0&D&F&F&2&8ę&x&1&0&F&F&2&5p &x&1&7&F&F&2&0d&x&1&A&F&F&1&Do &x&1&A&F&F&1&Dk&x&1&A&F&F&1&Do&x&1&A&F&F&1&Dm&x&1&A&F&F&1&De&x&1&A&F&F&1&Dn&x&1&A&F&F&1&Dd:'
+      - '  &8▶ &e/repair all - &7Naprawia wszystkie przedmioty'
+      - '  &8▶ &e/repair - &7Naprawia przedmiot w ręce'
+      - '  &8▶ &e/ec - &7Przenośny enderchest'
+      - '  &8▶ &e/feed - &7Najada cię do pełna.'
+      - ' &f'
+      - ' &8» &7Rangę zakupisz na stronie &fwww.oghub.pl'
+      - ' &f'
+  og:
+    name: '                       &f&x&0&0&F&F&1&1&lᴏ&x&5&4&B&0&5&A&lɢ'
+    aliases:
+      - zen
+    slot: 24
+    icon: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2EyYWExYjFkZDIxYjhkNjE1YTI1ZGVkNGU0MDhhYjI1YTc4OTU0NjU2YjgwNTFmOWQ4YmE1ODVmMTJjNWRiZSJ9fX0=
+    lore:
+      - ''
+      - ' &x&F&F&9&E&0&0P&x&F&F&9&A&0&3r&x&F&F&9&6&0&7z&x&F&F&9&2&0&Ay&x&F&F&8&E&0&Dw&x&F&F&8&9&1&0i&x&F&F&8&5&1&4l&x&F&F&8&1&1&7e&x&F&F&7&D&1&Aj&x&F&F&7&D&1&Ae &x&F&F&7&D&1&Ar&x&F&F&7&D&1&Aa&x&F&F&7&D&1&An&x&F&F&7&D&1&Ag&x&F&F&7&D&1&Ai'
+      - '  &8▶ &7Dostęp do &6eksluzywnego &7zestawu &f&x&0&0&F&F&1&1&lᴏ&x&5&4&B&0&5&A&lɢ &8( &#FF3F3F/kit &8)'
+      - '  &8▶ &7Prefix nad głową, tabie i na chacie &f&x&0&0&F&F&1&1&lᴏ&x&5&4&B&0&5&A&lɢ'
+      - ''
+      - ' &x&0&0&F&F&3&3D&x&0&3&F&F&3&0o&x&0&7&F&F&2&Es&x&0&A&F&F&2&Bt&x&0&D&F&F&2&8ę&x&1&0&F&F&2&5p &x&1&7&F&F&2&0d&x&1&A&F&F&1&Do &x&1&A&F&F&1&Dk&x&1&A&F&F&1&Do&x&1&A&F&F&1&Dm&x&1&A&F&F&1&De&x&1&A&F&F&1&Dn&x&1&A&F&F&1&Dd:'
+      - '  &8▶ &e/repair all - &7Naprawia wszystkie przedmioty'
+      - '  &8▶ &e/repair - &7Naprawia przedmiot w ręce'
+      - '  &8▶ &e/ec - &7Przenośny enderchest'
+      - '  &8▶ &e/feed - &7Najada cię do pełna.'
+      - '  &8▶ &e/hat - &7Zakłada ci przedmiot z ręki na głowę.'
+      - ' &f'
+      - ' &8» &7Rangę zakupisz na stronie &fwww.oghub.pl'
+      - ' &f'

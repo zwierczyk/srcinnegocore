@@ -1,0 +1,36 @@
+enabled: true
+
+# Efekty odepchnięcia (dźwięk wind charge oraz cząsteczki)
+sound-enabled: true
+particles-enabled: true
+
+# Promień wykrywania / impulsu (bloki).
+radius: 1.25
+
+# Jak blisko można podejść (miękka powłoka). Musi być < radius.
+min-distance: 0.65
+
+# Siła impulsu odpychania (poziomo) i Y jak wind charge blast.
+push-strength: 0.65
+push-y: 0.36
+
+# Cooldown impulsu (ms) — żeby nie było ciągłej ściany co tick.
+push-cooldown-ms: 350
+
+# Wiadomość na chat (pusty string = bez wiadomości).
+message: ''
+
+# Cooldown wiadomości per gracz (ms).
+message-cooldown-ms: 2500
+
+# Uprawnienie omijające odpychanie.
+bypass-permission: Holly.fancynpc.push.bypass
+
+# Tylko NPC zapisane do pliku FancyNpcs (pomija tymczasowe, np. iluzje).
+only-saved-npcs: true
+
+# Puste = wszystkie NPC. Wypełnij nazwami/id FancyNPC, żeby ograniczyć.
+only-npcs: []
+
+# NPC wykluczone (nazwa lub id).
+excluded-npcs: []

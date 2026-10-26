@@ -1,0 +1,152 @@
+blocked-regions:
+  - spawn
+
+gui:
+  szafa-title: "&7Szafka"
+
+  zwoj-button:
+    kostium:
+      slot: 12
+      type: LIME_DYE
+      name: '&2&lᴘʀᴢᴇᴅʟᴜᴢ ᴋᴏꜱᴛɪᴜᴍ'
+      lore:
+        - ''
+        - '&8 » &aKliknij aby przedłużyć kostium!'
+        - ''
+    pet:
+      slot: 16
+      type: LIME_DYE
+      name: '&2&lᴘʀᴢᴇᴅʟᴜᴢ ᴘᴇᴛᴀ'
+      lore:
+        - ''
+        - '&8 » &aKliknij aby przedłużyć peta!'
+        - ''
+
+  zdejmij-button:
+    kostium:
+      slot: 10
+      type: RED_DYE
+      name: '&4&lᴢᴅᴇᴊᴍɪᴊ ᴋᴏꜱᴛɪᴜᴍ'
+      lore:
+        - ''
+        - '&8 » &cKliknij aby zdjąć kostium!'
+        - ''
+    pet:
+      slot: 14
+      type: RED_DYE
+      name: '&4&lᴢᴅᴇᴊᴍɪᴊ ᴘᴇᴛᴀ'
+      lore:
+        - ''
+        - '&8 » &cKliknij aby zdjąć peta!'
+        - ''
+    papuga:
+      slot: 30
+      type: RED_DYE
+      name: '&4&lᴢᴅᴇᴊᴍɪᴊ ᴘᴀᴘᴜɢᴇ'
+      lore:
+        - ''
+        - '&8 » &cKliknij aby zdjąć papugę!'
+        - ''
+
+  rolluj-button:
+    papuga:
+      slot: 32
+      type: LIME_DYE
+      name: '&2&lᴘʀᴢᴇʟᴏsᴜᴊ ʙᴏɴᴜs ᴘᴀᴘᴜɢɪ'
+      lore:
+        - ''
+        - '&8 » &aKliknij aby przelosować bonus!'
+        - '&8 » &7Koszt: &a%cost%$'
+        - ''
+
+  kostium-slot:
+    brak-kostiumu:
+      slot: 11
+      type: CHAINMAIL_CHESTPLATE
+      name: '&cBrak kostiumu'
+      lore: []
+    kostium:
+      slot: 11
+
+  pet-slot:
+    brak-peta:
+      slot: 15
+      type: SKELETON_SKULL
+      name: '&cBrak peta'
+      lore: []
+    pet:
+      slot: 15
+
+  papuga-slot:
+    brak-papugi:
+      slot: 31
+      type: PARROT_SPAWN_EGG
+      name: '&cBrak papuszki'
+      lore: []
+    papuga:
+      slot: 31
+
+  close-button:
+    slot: 40
+    type: BARRIER
+    name: ' '
+    lore: []
+
+  dekoracje:
+    '1':
+      slot: 20
+      type: RED_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '&cKostiumy możesz zdobyć poprzez zakup'
+        - '&cspecjalnych pakietów okazyjnych na naszej'
+        - '&cstronie &cwww.anarchia.gg'
+    '2':
+      slot: 22
+      type: RED_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '&cPapuszki możesz zdobyć szukając'
+        - '&cich w losowych miejscach na mapie!'
+        - '&cKażda papuszka posiada unikalne'
+        - '&cefekty, które możesz wykorzystać!'
+    '3':
+      slot: 24
+      type: RED_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '&cPeta możesz zdobyć poprzez zakup'
+        - '&cklucza w sklepie za czas lub'
+        - '&cna naszej stronie &cwww.anarchia.gg'
+    '4':
+      slot: 36
+      type: ARMOR_STAND
+      name: '&6Kostiumy'
+      lore:
+        - ' &8» &7W tym miejscu odnajdziesz pełna listę'
+        - ' &8» &7wszystkich dostępnych &ekostiumów'
+        - ' &8» &7wraz z ich efektami dodatkowymi!'
+        - ''
+        - ' &8» &aKliknij LEWYM, aby przejść!'
+    '5':
+      slot: 41
+      type: REDSTONE_TORCH
+      name: '&aWidoczność peta'
+      lore:
+        - ' &8» &7Denerwuje ciebie twój zwierzak?'
+        - ' &8» &7Jeżeli tak to wystarczy, że ukryjesz'
+        - ' &8» &7go ta funkcją!'
+        - ''
+        - ' &8» &7Status: &awidoczny'
+        - ' &8» &aKliknij, aby ukryć!'
+    '6':
+      slot: 44
+      type: EGG
+      name: '&6Pety'
+      lore:
+        - ' &8» &7W tym miejscu odnajdziesz pełna listę'
+        - ' &8» &7wszystkich dostępnych &ezwierząt'
+        - ' &8» &etowarzyszących &7wraz z ich efektami'
+        - ' &8» &7dodatkowymi!'
+        - ''
+        - ' &8» &aKliknij LEWYM, aby przejść!'

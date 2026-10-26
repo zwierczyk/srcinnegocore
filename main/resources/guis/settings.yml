@@ -1,0 +1,75 @@
+default-rows: 5
+max-rows: 5
+background-3-rows:
+  - 'GGGGGGGGG'
+  - 'GXXXXXXXG'
+  - 'GGGGGGGGG'
+background-5-rows:
+  - 'GGGGGGGGG'
+  - 'GXXXXXXXG'
+  - 'GXXXXXXXG'
+  - 'GXXXXXXXG'
+  - 'GGGGGGGGG'
+background-6-rows:
+  - 'GGGGGGGGG'
+  - 'GXXXXXXXG'
+  - 'GXXXXXXXG'
+  - 'GXXXXXXXG'
+  - 'GXXXXXXXG'
+  - 'GGGGGGGGG'
+background-item-name: ' '
+
+title: '&7Ustawienia'
+rows: 5
+status:
+  enabled: '&aWłączone! &a(✔)'
+  disabled: '&cWyłączone! &c(✖)'
+items:
+  private-messages:
+    slot: 20
+    material: BOOK
+    name: '&6&lWIADOMOŚCI PRYWATNE'
+    lore:
+    - ''
+    - '&8× &fJeśli nie chcesz odbierać wiadomości'
+    - '&8× &fprywatnych, to tutaj możesz je wyłączyć!'
+    - ''
+    - '&8× &fStatus: {STATUS}'
+    - ''
+    - '&8» &eKliknij, aby zmienić status!'
+  recharge-music:
+    slot: 22
+    material: BELL
+    name: '&6&lMUZYKA Z DOŁADOWAŃ'
+    lore:
+    - ''
+    - '&8× &fJeśli irytuje Ciebie dźwięk z'
+    - '&8× &fdoładowań, to tutaj możesz go wyłączyć!'
+    - ''
+    - '&8× &fStatus: {STATUS}'
+    - ''
+    - '&8» &eKliknij, aby zmienić status!'
+  kill-info:
+    slot: 24
+    material: DIAMOND_SWORD
+    name: '&6&lINFORMACJE O ZABÓJSTWACH'
+    lore:
+    - ''
+    - '&8× &fJeśli irytują Ciebie informacje o'
+    - '&8× &fzabójstwach, to tutaj możesz je wyłączyć!'
+    - ''
+    - '&8× &fStatus: {STATUS}'
+    - ''
+    - '&8» &eKliknij, aby zmienić status!'
+  kill-totem-effect:
+    slot: 31
+    material: TOTEM_OF_UNDYING
+    name: '&6&lEFEKT TOTEMU PO KILLU'
+    lore:
+    - ''
+    - '&8x &fJesli nie chcesz widziec efektu'
+    - '&8x &ftotemu po zabiciu gracza, wylacz go tutaj.'
+    - ''
+    - '&8x &fStatus: {STATUS}'
+    - ''
+    - '&8> &eKliknij, aby zmienic status!'

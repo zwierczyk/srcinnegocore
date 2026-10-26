@@ -1,0 +1,13 @@
+guiTitle: '&7Zestawy'
+guiRows: 5
+kitItemName: '&c&l{kit}'
+kitAvailableLore: '&aDostępny do odbioru!'
+kitCooldownLore: '&cOdczekaj: &f{time}'
+kitNoPermissionLore: '&cBrak uprawnień!'
+kitPreviewLore: '&7PPM - Podgląd zawartości'
+kitClaimLore: '&7LPM - Odbierz zestaw'
+kitReceivedMessage: '&#00FF3B✔ &8Ξ &#4EFA76Otrzymałeś zestaw &e{kit}&a!'
+kitCooldownMessage: '&#FF0000✘ &8Ξ &cMusisz odczekać &4{time} &czanim odbierzesz ten zestaw!'
+kitNoPermissionMessage: '&#FF0000✘ &8Ξ &cNie posiadasz dostępu do &#FF0000/kit &8(&4permisja-zestawu&8)'
+kitNotFoundMessage: '&#FF0000✘ &8Ξ &cZestaw nie został znaleziony!'
+supportBase64Heads: true

@@ -1,0 +1,6 @@
+enabled: true
+max-players-per-ip: 4
+bypass-permission: "hollycore.iplimit.bypass"
+kick-message: "&#FF0000✘ &8Ξ &cOsiągnięto limit graczy z Twojego adresu IP (&4{limit}&c)!"
+exempt-ips:
+  - "127.0.0.1"

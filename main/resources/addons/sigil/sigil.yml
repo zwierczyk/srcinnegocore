@@ -1,0 +1,135 @@
+inventory:
+  title: '&8SIGILE'
+  size: 54
+  equip-slots:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  # Slot GUI (0-53) dla kazdego sigila. Zmiana tutaj przesuwa ikone w /sigil.
+  slots:
+    furia: 19
+    gniew: 20
+    przebicie: 21
+    wytrzymalosc: 22
+    tarcza: 23
+    odpornosc: 24
+    jad: 27
+    klatwa: 29
+    drenaz: 30
+    skarb: 31
+    szczescie: 32
+    dobrobyt: 33
+    spetania: 25
+    lowcy: 26
+    podmuchu: 28
+  roll-slot: 38
+  buy-slots-slot: 39
+
+rollCost: 100
+rerollCost: 50
+extraSlotsCost: 200
+extraSlotsDurationDays: 3
+maxPower: 25
+minPower: 1
+max-per-category: 2
+
+non-fortuna-power-multiplier: 0.25
+damage-bonus-multiplier: 0.5
+
+emptyEquipMaterial: GRAY_DYE
+
+shardName: '&d&lSmoczy Odłamek'
+shard:
+  serializedItem: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA50dAAFUEFQRVJzcQB+AABzcQB+AAN1cQB+AAYAAAAGcQB+AAh0AAltZXRhLXR5cGV0AAxkaXNwbGF5LW5hbWV0AARsb3JldAARY3VzdG9tLW1vZGVsLWRhdGF0ABJQdWJsaWNCdWtraXRWYWx1ZXN1cQB+AAYAAAAGdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAf9eyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiJQIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiIjMzlDNEZGIiwiYm9sZCI6ZmFsc2V9LHsidGV4dCI6InUiLCJvYmZ1c2NhdGVkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJjb2xvciI6IiMzOUMxRkYiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoibiIsIm9iZnVzY2F0ZWQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsImNvbG9yIjoiIzM5QkRGRiIsImJvbGQiOmZhbHNlfSx7InRleHQiOiJrIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiIjMzlCQUZGIiwiYm9sZCI6ZmFsc2V9LHsidGV4dCI6InQgIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiIjMzlCN0ZGIiwiYm9sZCI6ZmFsc2V9LHsidGV4dCI6ImQiLCJvYmZ1c2NhdGVkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJjb2xvciI6IiMzOUIwRkYiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoibyIsIm9iZnVzY2F0ZWQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsImNvbG9yIjoiIzM5QURGRiIsImJvbGQiOmZhbHNlfSx7InRleHQiOiLFmyIsIm9iZnVzY2F0ZWQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsImNvbG9yIjoiIzM5QUFGRiIsImJvbGQiOmZhbHNlfSx7InRleHQiOiJ3Iiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiIjMzlBN0ZGIiwiYm9sZCI6ZmFsc2V9LHsidGV4dCI6ImkiLCJvYmZ1c2NhdGVkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJjb2xvciI6IiMzOUEzRkYiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiYSIsIm9iZnVzY2F0ZWQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsImNvbG9yIjoiIzM5QTBGRiIsImJvbGQiOmZhbHNlfSx7InRleHQiOiJkIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiIjMzk5REZGIiwiYm9sZCI6ZmFsc2V9LHsidGV4dCI6ImMiLCJvYmZ1c2NhdGVkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJjb2xvciI6IiMzOTk5RkYiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoieiIsIm9iZnVzY2F0ZWQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsImNvbG9yIjoiIzM5OTZGRiIsImJvbGQiOmZhbHNlfSx7InRleHQiOiJlIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiIjMzk5M0ZGIiwiYm9sZCI6ZmFsc2V9LHsidGV4dCI6Im4iLCJvYmZ1c2NhdGVkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJjb2xvciI6IiMzOTkwRkYiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiIjMzk5MEZGIiwiYm9sZCI6ZmFsc2V9XX1zcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVxAH4ABgAAAAJ0AKp7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IlRlbiBwcnplZG1pb3Qgc8WCdcW8eSBkbyBsb3Nvd2FuaWEiLCJvYmZ1c2NhdGVkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJjb2xvciI6ImdyYXkiLCJib2xkIjpmYWxzZX1dfXQArnsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiWndvasOzdyBrdMOzcmUgdcWCYXR3acSFIGNpIHJvemdyeXdrxJkiLCJvYmZ1c2NhdGVkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJjb2xvciI6ImdyYXkiLCJib2xkIjpmYWxzZX1dfXNxAH4ADgAAAAF0ACx7CiAgICAiaHMtaXRlbXN0b3JhZ2UtcGFwZXI6dHlwZSI6ICJTSEFSRCIKfQ==
+
+manageGui:
+  title: '&8Zarządzanie sigilem'
+  size: 27
+  display-slot: 13
+  reroll-slot: 15
+  back-slot: 11
+
+rollAnimation:
+  enabled: true
+  gui-title: '&8Losowanie sigila...'
+  gui-rows: 3
+  # Ta sama krzywa co otwieranie case (ticki między klatkami)
+  anim-delay-ticks:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 3
+  - 3
+  - 3
+  - 3
+  - 4
+  - 4
+  - 5
+  - 6
+  - 8
+  - 10
+  - 13
+  - 16
+  - 20
+  - 5
+  - 30
+  sounds:
+    finish: ENTITY_PLAYER_LEVELUP
+    fail: BLOCK_NOTE_BLOCK_BASS
+
+broadcast:
+  roll-enabled: true
+  reroll-enabled: true
+  roll: "&#FF59E8❖ &#7AD7FF{PLAYER} &f{VERB} {COLOR}{SIGIL}\n&8( {POWER_COLOR}{POWER}% &8)"
+  reroll: "&#FF59E8❖ &#7AD7FF{PLAYER} &f{VERB} {COLOR}{SIGIL}\n&8( &7{OLD}% &8→ {POWER_COLOR}{NEW}% &8)"
+
+sounds:
+  gui-open: BLOCK_CHEST_OPEN
+  click: UI_BUTTON_CLICK
+  equip: ENTITY_EXPERIENCE_ORB_PICKUP
+  unequip: BLOCK_NOTE_BLOCK_PLING
+  unlock: ENTITY_PLAYER_LEVELUP
+  manage-open: BLOCK_ENDER_CHEST_OPEN
+  fail: BLOCK_NOTE_BLOCK_BASS
+
+messages:
+  not-enough-shards: '&#FF0000✘ &8Ξ &cNie masz wystarczajaco odlamkow. Potrzebujesz &f{AMOUNT}&c.'
+  inventory-full: '&#FF0000✘ &8Ξ &cMusisz miec wolne miejsce w ekwipunku, aby losowac sigile.'
+  roll-success: '&#00FF3B✔ &8Ξ &#4EFA76Wylosowano &f{SIGIL} &a(&f{POWER}%&a)!'
+  unlock-success: '&#00FF3B✔ &8Ξ &aOdblokowano sigil &f{SIGIL} &a(&f{POWER}%&a).'
+  unlock-weaker: '&#FFAA00⚠ &8Ξ &ePosiadasz juz silniejszy sigil &f{SIGIL}&e (&f{POWER}%&e).'
+  equipped: '&#00FF3B✔ &8Ξ &aAktywowano sigil &f{SIGIL}&a.'
+  unequipped: '&#00FF3B✔ &8Ξ &aDezaktywowano sigil &f{SIGIL}&a.'
+  already-equipped: '&#FFAA00⚠ &8Ξ &eTen sigil jest juz aktywny.'
+  category-limit: '&#FF0000✘ &8Ξ &cMozesz miec maksymalnie &f2 &csigile z kategorii &f{CATEGORY}&c.'
+  no-free-slot: '&#FF0000✘ &8Ξ &cBrak wolnego slotu na sigil.'
+  not-unlocked: '&#FF0000✘ &8Ξ &cTen sigil nie zostal jeszcze odblokowany.'
+  premium-slot-locked: '&#FFAA00⚠ &8Ξ &eTen slot jest premium. Kup dodatkowe sloty, aby go odblokowac.'
+  extra-slots-bought: '&#00FF3B✔ &8Ξ &aOdblokowano +2 sloty na &f{DAYS} &adni.'
+  reroll-success: '&#00FF3B✔ &8Ξ &aPrzelosowano moc sigila &f{SIGIL}&a: &7{OLD}% &8→ &e{NEW}%'
+  already-owned-title: '&#FF0000✘'
+  already-owned-subtitle: '&cnie mozesz uzyc tego sigila'
+  temporary-grant-received: '&#00FF3B✔ &8Ξ &aOtrzymałeś sigile do ekwipunku. Użyj PPM, aby odblokować na &e{TIME}&a (&f{POWER}%&a).'
+  temporary-grant-expired: '&#FFAA00⚠ &8Ξ &eTymczasowe sigile wygasły i zostały usunięte.'
+  temporary-item-expired: '&#FFAA00⚠ &8Ξ &eTen sigil już wygasł.'
+  unlock-temporary-success: '&#00FF3B✔ &8Ξ &aOdblokowano sigil &f{SIGIL} &a(&f{POWER}%&a) na &e{TIME}&a.'
+
+actionbar:
+  enabled: true
+  dealt: '&cPerk &8» &f{SIGIL} &7(&f{POWER}%&7) &8→ &f{PLAYER}'
+  taken: '&cPerk &8» &f{PLAYER} &7{SIGIL} &8(&f{POWER}%&8)'
+  self: '&aPerk &8» &f{SIGIL} &7(&f{POWER}%&7)'

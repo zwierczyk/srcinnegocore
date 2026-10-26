@@ -1,0 +1,108 @@
+# Itemy: material, amount, chance (0-100), name, lore, enchants
+# drop-to-inventory: true = do EQ, false = drop przy bossie
+# top-rewards: dodatkowe nagrody za miejsce (1 = najwięcej dmg / killer)
+#
+#                        {DAMAGE} {POSITION} {PLAYER} {TOP1} {TOP2} {TOP3}
+
+hoglin:
+  name: '&#FF9B00&lʜ&#F67C00&lᴏ&#ED5D00&lɢ&#E43E00&lʟ&#DB1F00&lɪ&#D20000&lɴ'
+  hours:
+    - '18:00'
+  max-health: 100
+  location: ''
+  nametag: '{NAME}&r &8[&c{HEALTH}❤&8/&4{MAX_HEALTH}❤&8]'
+  spawn-title: '&8♮ &#CD2121⚔ &8♮'
+  spawn-subtitle: '&fPojawił się {NAME} &r&fna &#CD2121Strefie Eventowej'
+  rewards:
+    - 'say {PLAYER} pokonal Hoglin Bossa!'
+  broadcast: '&aBoss Hoglin został pokonany! Top1: &2{PLAYER}'
+  drop-to-inventory: true
+  items:
+    - material: DIAMOND
+      amount: 8
+      chance: 100
+      name: '&bDiament Hoglin'
+      lore:
+        - '&7Nagroda za pokonanie bossa'
+    - material: GOLDEN_APPLE
+      amount: 3
+      chance: 50
+    - material: DIAMOND_SWORD
+      amount: 1
+      chance: 15
+      name: '&cMiecz Hoglin'
+      enchants:
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+  top-rewards:
+    '1':
+      commands:
+        - 'eco give {PLAYER} 5000'
+      items:
+        - material: NETHERITE_INGOT
+          amount: 1
+          chance: 100
+    '2':
+      commands:
+        - 'eco give {PLAYER} 2500'
+    '3':
+      commands:
+        - 'eco give {PLAYER} 1000'
+  countdown-title: '&fBoss &cHoglin &fpojawi się za &e{TIME}'
+  countdown-color: RED
+
+bosses:
+  VINDICATOR:
+    name: '&5&lZLODZIEJ'
+    entity-type: VINDICATOR
+    hours:
+      - '17:00'
+    max-health: 500
+    location: ''
+    spawn-title: '&8♮ &#CD2121⚔ &8♮'
+    spawn-subtitle: '&fPojawił się {NAME} &r&fna &#CD2121Strefie Eventowej'
+    rewards:
+      - 'say {PLAYER} pokonal bossa!'
+    broadcast: '&aBoss {NAME} został pokonany przez &2{PLAYER}'
+    drop-to-inventory: true
+    items:
+      - material: EMERALD
+        amount: 16
+        chance: 100
+        name: '&aŁup Złodzieja'
+      - material: TOTEM_OF_UNDYING
+        amount: 1
+        chance: 25
+    top-rewards:
+      '1':
+        commands:
+          - 'eco give {PLAYER} 3000'
+    countdown-title: '&fBoss &5Vindicator &fpojawi się za &e{TIME}'
+    countdown-color: PURPLE
+
+spawn-title: '&8♮ &#CD2121⚔ &8♮'
+spawn-subtitle: '&fPojawił się {NAME} &r&fna &#CD2121Strefie Eventowej'
+spawn-title-fade-in: 250
+spawn-title-stay: 3000
+spawn-title-fade-out: 500
+no-boss-placeholder: '&7Brak'
+
+sidebar:
+  title: '&8x &c&lBOSS &8x'
+  empty-rank: 'Nikt'
+  rank-format: '{PLAYER} &8- &#C80B0B❤{DAMAGE}'
+  lines:
+    - ''
+    - ' &8▪ &7Boss: &f{BOSS}'
+    - ' &c❤ &7Życie: &#C80B0B❤{HEALTH}&7/&4{MAX_HEALTH}'
+    - ' &8▪ &7Lokalizacja: &#FFFB7A{LOCATION}'
+    - ''
+    - ' &8↓ &#F4BC54&lᴛ&#FAA449&lᴏ&#FF8C3D&lᴘ&#FB9C45&lᴋ&#F8AC4C&lᴀ &#FAA449&lᴏ&#FF8C3D&lʙ&#FB9C45&lʀ&#F8AC4C&lᴀ&#F4BC54&lᴢ&#FAA449&lᴇ&#FF8C3D&lɴ&r &8↓'
+    - ''
+    - ' &#FF4747①. &#FF4747{TOP1}'
+    - ' &#FF8347②. &#FF8347{TOP2}'
+    - ' &#FFCD47③. &#FFCD47{TOP3}'
+    - ''
+    - ' &8▪ &fZadałeś &#C80B0B❤{DAMAGE}'
+    - ' &8▪ &fPozycja &#00B7FF#{POSITION}'
+    - ''

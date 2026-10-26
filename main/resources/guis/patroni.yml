@@ -1,0 +1,19 @@
+title: '&8✘ &d&lPATRONI &8✘'
+rows: 5
+use-template: true
+
+selected-slot: 39
+info-slot: 40
+roll-slot: 41
+
+patron-slots:
+  feniks: 11
+  zolh: 12
+  strus: 13
+  pajak: 14
+  modliszka: 15
+  skorpion: 20
+  zyrafa: 21
+  pan: 22
+  goryl: 23
+  krowa: 24

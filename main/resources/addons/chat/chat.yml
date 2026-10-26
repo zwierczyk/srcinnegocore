@@ -1,0 +1,45 @@
+chat-clear-message: '&#00FF3B✔ &8Ξ &#4EFA76Chat został wyczyszczony przez &e{player}&a!'
+chat-disabled-message: '&#FF0000✘ &8Ξ &cChat został wyłączony przez &e{player}&c!'
+chat-enabled-message: '&#00FF3B✔ &8Ξ &#4EFA76Chat został włączony przez &e{player}&a!'
+chat-is-disabled-message: '&#FF0000✘ &8Ξ &cChat jest aktualnie wyłączony!'
+chat-permission: Holly.cmd.chat
+chat-clear-permission: Holly.cmd.chat.clear
+chat-toggle-permission: Holly.cmd.chat.toggle
+no-permission-message: '&#FF0000✘ &8Ξ &cNie posiadasz dostępu do &#FF0000/chat &8(&4Holly.cmd.chat&8)'
+clear-lines: 100
+chat-usage: |-
+  &#FF0000✘ &8Ξ &cPoprawne użycie: &#FF0000
+   &8• &4/chat <clear|off|on>
+
+# Hover przy najechaniu na nick / wiadomość na czacie.
+# Placeholdery: {prefix} {player} {nick} {money} {kills} {deaths} {playtime} {rank}
+hover-enabled: true
+hover-click-command: '/hollyplayeraction {player}'
+hover-lines:
+  - '{prefix}&7{player}'
+  - '&fStan konta: &e{money}'
+  - '&fZabójstwa: &c{kills}'
+
+# Legacy (opcjonalne, używane tylko gdy hover-lines jest puste)
+hover-header: '{prefix}&7{player}'
+hover-nick: '{prefix}&7{player}'
+hover-rank: '&7Ranga: &f{rank}'
+hover-kills: '&fZabójstwa: &c{kills}'
+hover-deaths: '&7Śmierci: &f{deaths}'
+hover-money: '&fStan konta: &e{money}'
+hover-playtime: '&7Czas gry: &b{playtime}'
+hover-click-info: '&aKliknij, aby wysłać prośbę o teleportację!'
+
+player-action-gui-title: '&7Opcje gracza: &e{player}'
+player-action-gui-rows: 3
+tpa-button-name: '&a&lTeleportacja (TPA)'
+tpa-button-material: ENDER_PEARL
+tpa-button-slot: 11
+tpa-button-custom-model-data: 0
+tpa-button-lore: '&7Kliknij, aby wysłać prośbę o teleportację'
+cancel-button-name: '&c&lAnuluj'
+cancel-button-material: BARRIER
+cancel-button-slot: 15
+cancel-button-custom-model-data: 0
+cancel-button-lore: '&7Kliknij, aby zamknąć'
+tpa-sent-from-gui: '&#00FF3B✔ &8Ξ &#4EFA76Wysłano prośbę o teleportację do &e{player}&a!'

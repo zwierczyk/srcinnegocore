@@ -1,0 +1,447 @@
+settings:
+  gui-title: "&7OGHub CustomItems"
+  gui-size: 54
+  admin-permission: "Holly.customitems.admin"
+  default-cooldown-seconds: 30
+  display-version: 3
+  messages:
+    no-permission: "&#FF0000✘ &8Ξ &cNie posiadasz dostępu do &#FF0000/customitems &8(&4Holly.customitems.admin&8)"
+    only-player: "&#FF0000✘ &8Ξ &cTylko gracz może użyć tej komendy."
+    reloaded: "&#00FF3B✔ &8Ξ &#4EFA76Przeładowano OGHub CustomItems."
+    blocked-region: "&#FF0000✘ &8Ξ &cTen przedmiot nie działa w tej strefie."
+    cooldown: "&#FF0000✘ &8Ξ &cMusisz odczekać jeszcze &4%time%s &cprzed następnym użyciem."
+    unknown-item: "&#FF0000✘ &8Ξ &cNie znaleziono itemu &4%item%&c."
+    setitem-empty-hand: "&#FF0000✘ &8Ξ &cMusisz trzymać item w głównej ręce."
+    setitem-saved: "&#00FF3B✔ &8Ξ &#4EFA76Zapisano item &f%item%&a z trzymanego przedmiotu."
+    reset-player: "&#00FF3B✔ &8Ξ &#4EFA76Zresetowano cooldowny gracza &f%player%&a."
+    reset-all: "&#00FF3B✔ &8Ξ &#4EFA76Zresetowano cooldowny wszystkich graczy online."
+    gui-give: "&#00FF3B✔ &8Ξ &#4EFA76Dodano item &f%item% &ado ekwipunku."
+    stun-success: "&#00FF3B✔ &8Ξ &#4EFA76Udało ci się ogłuszyć gracza!"
+    stun-fail: "&#FF0000✘ &8Ξ &cNie udało ci się ogłuszyć gracza."
+    stun-victim: "&#FF0000✘ &8Ξ &cZostałeś ogłuszony!"
+    pull-success: "&#00FF3B✔ &8Ξ &#4EFA76Udało ci się przyciągnąć do siebie gracza!"
+    pull-victim: "&#FF0000✘ &8Ξ &cZostałeś przyciągnięty do gracza!"
+    water-pistol-hit: "&#00FF3B✔ &8Ξ &#4EFA76Trafiłeś gracza &f%player% &apistoletem na wodę!"
+    water-pistol-victim: "&#FF0000✘ &8Ξ &cZostałeś trafiony przez &4%player% &cpistoletem na wodę!"
+    turtle-shell: "&#00FF3B✔ &8Ξ &#4EFA76Odbijasz uderzenia przeciwników przez &f%time%s&a!"
+    turtle-shell-reflect: "&#FF0000✘ &8Ξ &cGracz odbił twój atak skorupą żółwia!"
+    sand-castle-start: "&#FD7A7A⚠ &8Ξ &#FD7A7AZamek Piaskowy &8〢 &#FD7A7APozostało: &f%time%s"
+    sand-castle-blocked: "&#FD7A7A✘ &8Ξ &#FD7A7ANie możesz użyć tego przedmiotu w tej strefie."
+    sand-castle-empty: "&#FD7A7A✘ &8Ξ &#FD7A7AW promieniu 5 kratek nie ma żadnego gracza."
+
+blocked-regions:
+  - spawn
+
+items:
+  antiweb:
+    enabled: true
+    action: COBWEB_REMOVER
+    slot: 10
+    material: BLAZE_POWDER
+    name: "&x&F&F&3&B&3&B&lᴜ&x&F&F&4&1&3&7&lꜱ&x&F&F&4&8&3&3&lᴜ&x&F&F&4&E&2&F&lᴡ&x&F&F&5&5&2&B&lᴀ&x&F&F&5&B&2&7&lᴄ&x&F&F&6&1&2&3&lᴢ&x&F&F&6&8&1&F&l &x&F&F&6&E&1&C&lᴘ&x&F&F&7&5&1&8&lᴀ&x&F&F&7&B&1&4&lᴊ&x&F&F&8&1&1&0&lᴇ&x&F&F&8&8&0&C&lᴄ&x&F&F&8&E&0&8&lᴢ&x&F&F&9&5&0&4&lʏ&x&F&F&9&B&0&0&lɴ"
+    lore:
+      - ""
+      - "&8× &7Kliknij &cprawym&7, aby usunąć &fcobweby"
+      - "&8× &7w obszarze &e3x3 &7wokół Ciebie!"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: true
+    custom-model-data: 1
+    cooldown-seconds: 10
+    teparca-cooldown-seconds: 5
+    radius: 2
+    height: 3
+    consume: true
+  bone:
+    enabled: true
+    action: STUN_BONE
+    slot: 11
+    material: BONE
+    name: "&x&F&5&F&5&F&5&lᴋ&x&F&1&F&1&F&1&lᴏ&x&E&C&E&C&E&C&lꜱ&x&E&8&E&8&E&8&lᴄ&x&E&4&E&4&E&4&l &x&D&F&D&F&D&F&lᴏ&x&D&B&D&B&D&B&lɢ&x&D&6&D&6&D&6&lʟ&x&D&2&D&2&D&2&lᴜ&x&C&E&C&E&C&E&lꜱ&x&C&9&C&9&C&9&lᴢ&x&C&5&C&5&C&5&lᴇ&x&C&1&C&1&C&1&lɴ&x&B&C&B&C&B&C&lɪ&x&B&8&B&8&B&8&lᴀ"
+    lore:
+      - ""
+      - "&8× &7Po &cuderzeniu &7gracza masz szansę"
+      - "&8× &7go &fogłuszyć&7. Ogłuszony nie użyje &ffajerwerki&7!"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: true
+    custom-model-data: 1
+    cooldown-seconds: 60
+    chance: 50
+    firework-cooldown-ticks: 60
+    consume: false
+  crossbow:
+    enabled: true
+    action: PULL_CROSSBOW
+    slot: 12
+    material: CROSSBOW
+    name: "&x&F&F&1&A&1&A&lᴋ&x&F&F&1&E&1&9&lᴜ&x&F&F&2&3&1&7&lꜱ&x&F&F&2&8&1&6&lᴢ&x&F&F&2&C&1&4&lᴀ&x&F&F&3&0&1&3&l &x&F&F&3&5&1&1&lᴘ&x&F&F&3&A&1&0&lʀ&x&F&F&3&E&0&E&lᴢ&x&F&F&4&2&0&D&lʏ&x&F&F&4&7&0&C&lᴄ&x&F&F&4&C&0&A&lɪ&x&F&F&5&0&0&9&lᴀ&x&F&F&5&4&0&7&lɢ&x&F&F&5&9&0&6&lᴀ&x&F&F&5&E&0&4&lᴊ&x&F&F&6&2&0&3&lᴀ&x&F&F&6&6&0&1&lᴄ&x&F&F&6&B&0&0&lᴀ"
+    lore:
+      - ""
+      - "&8× &7Po &ctrafieniu &7gracza kuszą"
+      - "&8× &7zostaje on &fprzyciągnięty &7do Ciebie!"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: true
+    custom-model-data: 1
+    cooldown-seconds: 60
+    range: 15
+    consume: false
+  splash-potion:
+    enabled: true
+    action: WEB_GRENADE
+    slot: 13
+    material: SPLASH_POTION
+    name: "&x&3&9&F&F&1&4&lᴍ&x&3&5&F&C&1&8&lɪ&x&3&2&F&8&1&C&lᴋ&x&2&E&F&5&2&0&lꜱ&x&2&B&F&1&2&4&lᴛ&x&2&7&E&E&2&8&lᴜ&x&2&4&E&A&2&C&lʀ&x&2&0&E&7&3&0&lᴀ&x&1&C&E&4&3&4&l &x&1&9&E&0&3&7&lᴘ&x&1&5&D&D&3&B&lᴀ&x&1&2&D&9&3&F&lᴊ&x&0&E&D&6&4&3&lᴇ&x&0&B&D&2&4&7&lᴄ&x&0&7&C&F&4&B&lᴢ&x&0&4&C&B&4&F&lʏ&x&0&0&C&8&5&3&lɴ"
+    lore:
+      - ""
+      - "&8× &7Po &crzuceniu &7stawia &fpajęczyny"
+      - "&8× &7wokół miejsca &etrafienia&7!"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: true
+    custom-model-data: 1
+    cooldown-seconds: 60
+    trap-radius: 1
+    effect-duration-seconds: 8
+    consume: false
+  fishing-rod:
+    enabled: true
+    action: HOOK
+    slot: 14
+    material: FISHING_ROD
+    name: "&x&F&F&F&8&0&0&lᴡ&x&F&F&E&F&0&0&lᴇ&x&F&F&E&6&0&0&lᴅ&x&F&F&D&C&0&0&lᴋ&x&F&F&D&3&0&0&lᴀ&x&F&F&C&A&0&0&l &x&F&F&C&1&0&0&lꜰ&x&F&F&B&7&0&0&lʀ&x&F&F&A&E&0&0&lᴜ&x&F&F&A&5&0&0&lᴡ&x&F&F&9&C&0&0&lᴀ&x&F&F&9&2&0&0&lᴊ&x&F&F&8&9&0&0&lᴋ&x&F&F&8&0&0&0&lᴀ"
+    lore:
+      - ""
+      - "&8× &7Przyciąga Cię w miejsce &fhaczka"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: true
+    custom-model-data: 1
+    cooldown-seconds: 60
+    pull-y: 1.0
+    consume: false
+  lava-boots:
+    enabled: true
+    action: LAVA_BOOTS
+    slot: 15
+    material: NETHERITE_BOOTS
+    name: "&x&F&F&6&B&0&0&lʟ&x&F&F&6&3&0&3&lᴀ&x&F&F&5&B&0&5&lᴡ&x&F&F&5&3&0&8&lᴏ&x&F&F&4&B&0&A&lᴡ&x&F&F&4&2&0&D&lᴇ&x&F&F&3&A&1&0&l &x&F&F&3&2&1&2&lʙ&x&F&F&2&A&1&5&lᴜ&x&F&F&2&2&1&7&lᴛ&x&F&F&1&A&1&A&lʏ"
+    lore:
+      - ""
+      - "&8× &7Nosząc te buty otrzymujesz"
+      - "&8× &cSiłę&7, &fSzybkość &7oraz &6Ognioodporność&7!"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: true
+    custom-model-data: 1
+    cooldown-seconds: 0
+    consume: false
+  turtle-shell:
+    enabled: true
+    action: TURTLE_SHELL
+    slot: 16
+    material: TURTLE_HELMET
+    name: "&x&2&2&F&F&0&0&lꜱ&x&1&F&F&3&0&0&lᴋ&x&1&D&E&7&0&0&lᴏ&x&1&A&D&B&0&0&lʀ&x&1&8&C&F&0&0&lᴜ&x&1&5&C&3&0&0&lᴘ&x&1&2&B&7&0&0&lᴀ&x&1&0&A&C&0&0&l &x&0&D&A&0&0&0&lᴢ&x&0&A&9&4&0&0&lᴏ&x&0&8&8&8&0&0&lʟ&x&0&5&7&C&0&0&lᴡ&x&0&3&7&0&0&0&lɪ&x&0&0&6&4&0&0&lᴀ"
+    lore:
+      - ""
+      - "&8× &7Przez &f2 sekundy &7odbijasz"
+      - "&8× &7uderzenia &cprzeciwników&7!"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: true
+    custom-model-data: 1
+    cooldown-seconds: 180
+    effect-duration-seconds: 5
+    consume: false
+  sand-castle:
+    enabled: true
+    action: SAND_CASTLE
+    slot: 17
+    material: SAND
+    name: "&x&F&F&E&2&6&0&lᴢ&x&F&F&D&E&5&F&lᴀ&x&F&F&D&B&5&F&lᴍ&x&F&F&D&7&5&E&lᴇ&x&F&F&D&3&5&D&lᴋ&x&F&F&D&0&5&D&l &x&F&F&C&C&5&C&lᴘ&x&F&F&C&8&5&B&lɪ&x&F&F&C&4&5&A&lᴀ&x&F&F&C&1&5&A&lꜱ&x&F&F&B&D&5&9&lᴋ&x&F&F&B&9&5&8&lᴏ&x&F&F&B&6&5&8&lᴡ&x&F&F&B&2&5&7&lʏ"
+    lore:
+      - ""
+      - "&8× &7Po &ckliknięciu &7prawym tym &fprzedmiotem"
+      - "&8× &7Wysuwa się &fwielki &ezamek &7w którym"
+      - "&8× &7Jesteś zamknięty na &f10s &7tylko z &cprzeciwnikiem!"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: true
+    custom-model-data: 1
+    cooldown-seconds: 300
+    radius: 5
+    duration-seconds: 10
+    schematic: "HypeStarZamek"
+    consume: false
+  water-pistol:
+    enabled: true
+    action: WATER_PISTOL
+    slot: 18
+    material: IRON_HORSE_ARMOR
+    name: "&x&6&0&A&4&F&F&lᴘ&x&6&6&A&9&F&F&lɪ&x&6&B&A&F&F&F&lꜱ&x&7&1&B&4&F&F&lᴛ&x&7&6&B&A&F&F&lᴏ&x&7&C&B&F&F&F&lʟ&x&8&1&C&4&F&F&lᴇ&x&8&7&C&A&F&F&lᴛ&x&8&C&C&F&F&F&l &x&9&2&D&5&F&F&lɴ&x&9&7&D&A&F&F&lᴀ&x&9&D&D&F&F&F&l &x&A&2&E&5&F&F&lᴡ&x&A&8&E&A&F&F&lᴏ&x&A&D&F&0&F&F&lᴅ&x&B&3&F&5&F&F&lᴇ"
+    lore:
+      - ""
+      - "&8× &7Po kliknięciu &fprawym &7strzelamy do gracza"
+      - "&8× &7Pociskiem, którym nadajemy efekt &elewitacji!"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: true
+    custom-model-data: 1
+    cooldown-seconds: 180
+    projectile-speed: 4.0
+    effect-duration-seconds: 7
+    amplifier: 0
+    consume: false
+  easy-boost:
+    enabled: true
+    action: EASY_BOOST
+    slot: 19
+    material: POTION
+    name: "&x&3&D&C&1&F&F&lᴇ&x&4&8&C&6&F&F&lᴀ&x&5&4&C&B&F&F&lꜱ&x&5&F&D&0&F&F&lʏ&x&6&A&D&5&F&F&l &x&7&5&D&A&F&F&lʙ&x&8&1&D&F&F&F&lᴏ&x&8&C&E&4&F&F&lᴏ&x&9&7&E&9&F&F&lꜱ&x&A&2&E&E&F&F&lᴛ"
+    lore:
+      - ""
+      - "&8× &7Po &ckliknięciu &7prawym kurczysz się"
+      - "&8× &7do skali &f0.4 &7na &e5 sekund"
+      - "&8× &7oraz dostajesz &cSiłę I &7na &f1 minutę&7!"
+      - ""
+      - "&8× &7Cooldown: &f2 minuty"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: true
+    custom-model-data: 1
+    cooldown-seconds: 120
+    scale: 0.4
+    scale-seconds: 5
+    strength-seconds: 60
+    strength-amplifier: 0
+    consume: false
+  usuwacz-pajeczyn:
+    enabled: true
+    action: COBWEB_REMOVER
+    slot: 0
+    material: BLAZE_POWDER
+    name: "&x&F&F&3&B&3&B&lᴜ&x&F&F&4&1&3&7&lꜱ&x&F&F&4&8&3&3&lᴜ&x&F&F&4&E&2&F&lᴡ&x&F&F&5&5&2&B&lᴀ&x&F&F&5&B&2&7&lᴄ&x&F&F&6&1&2&3&lᴢ&x&F&F&6&8&1&F&l &x&F&F&6&E&1&C&lᴘ&x&F&F&7&5&1&8&lᴀ&x&F&F&7&B&1&4&lᴊ&x&F&F&8&1&1&0&lᴇ&x&F&F&8&8&0&C&lᴄ&x&F&F&8&E&0&8&lᴢ&x&F&F&9&5&0&4&lʏ&x&F&F&9&B&0&0&lɴ"
+    lore:
+      - ""
+      - "&8× &7Kliknij &cprawym&7, aby usunąć &fcobweby"
+      - "&8× &7w promieniu &e3 kratek &7wokół Ciebie!"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: true
+    custom-model-data: 1
+    cooldown-seconds: 10
+    teparca-cooldown-seconds: 5
+    radius: 3
+    consume: false
+  kokos:
+    enabled: true
+    action: KOKOS
+    slot: 20
+    material: GOLDEN_APPLE
+    name: "&x&A&0&5&2&2&D&lᴋ&x&B&5&7&5&4&E&lᴏ&x&C&A&9&8&7&0&lᴋ&x&E&0&B&B&9&2&lᴏ&x&F&5&D&E&B&3&lꜱ"
+    lore:
+      - ""
+      - "&8× &7Trzymając &cprawy &7zjadasz &fkokosa&7,"
+      - "&8× &7aby zyskać &eOdporność I &7(15s), &dRegenerację II &7(10s)"
+      - "&8× &7i &c3 złote serca&7. Przedmiot jest &fjednorazowy&7!"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: false
+    custom-model-data: 1
+    cooldown-seconds: 0
+    resistance-seconds: 15
+    regen-seconds: 10
+    golden-hearts: 3
+    consume: true
+  bombakapitana:
+    enabled: true
+    action: BOMBA_KAPITANA
+    slot: 21
+    material: FIREWORK_STAR
+    name: "&x&F&F&1&4&9&3&lʙ&x&F&C&1&C&9&9&lᴏ&x&F&A&2&3&9&F&lᴍ&x&F&7&2&B&A&5&lʙ&x&F&4&3&3&A&B&lᴀ&x&F&2&3&A&B&2&l &x&E&F&4&2&B&8&lᴋ&x&E&C&4&A&B&E&lᴀ&x&E&A&5&1&C&4&lᴘ&x&E&7&5&9&C&A&lɪ&x&E&5&6&0&D&0&lᴛ&x&E&2&6&8&D&6&lᴀ&x&D&F&7&0&D&C&lɴ&x&D&D&7&7&E&3&lᴀ&x&D&A&7&F&E&9&l &x&D&7&8&7&E&F&lʜ&x&D&5&8&E&F&5&lᴀ&x&D&2&9&6&F&B&lᴋ"
+    lore:
+      - ""
+      - "&8× &7Rzucona &cPPM &7bomba wybucha, &foślepiając"
+      - "&8× &7graczy w promieniu &e5 kratek &7oraz &cblokując"
+      - "&8× &7używanie &felytry &7na &f2s&7. Przedmiot jest &fjednorazowy&7!"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: false
+    custom-model-data: 1
+    cooldown-seconds: 5
+    radius: 5
+    blindness-ticks: 100
+    elytra-lock-millis: 2000
+    consume: true
+  linacecco:
+    enabled: true
+    action: LINA_CECCO
+    slot: 22
+    material: LEAD
+    name: "&x&C&6&8&B&5&9&lʟ&x&C&A&9&0&5&9&lɪ&x&C&F&9&5&5&9&lɴ&x&D&3&9&9&5&9&lᴀ&x&D&8&9&E&5&9&l &x&D&C&A&3&5&8&lᴄ&x&E&1&A&8&5&8&lᴇ&x&E&5&A&C&5&8&lᴄ&x&E&A&B&1&5&8&lᴄ&x&E&E&B&6&5&8&lᴏ"
+    lore:
+      - ""
+      - "&8× &7Po &ckliknięciu &7prawym wyrzucasz &flinę"
+      - "&8× &7na odległość &f15 kratek&7. Trafiony"
+      - "&8× &7gracz zostanie &cprzyciągnięty &7do Ciebie!"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: false
+    custom-model-data: 1
+    cooldown-seconds: 0
+    range: 15
+    consume: false
+  usciskvadera:
+    enabled: true
+    action: USCISK_VADERA
+    slot: 23
+    material: BLACK_DYE
+    name: "&x&F&F&0&0&3&3&lᴜ&x&F&F&0&4&3&6&lꜱ&x&F&F&0&8&3&9&lᴄ&x&F&F&0&D&3&C&lɪ&x&F&F&1&1&3&E&lꜱ&x&F&F&1&5&4&1&lᴋ&x&F&F&1&A&4&4&l &x&F&F&1&E&4&7&lᴠ&x&F&F&2&2&4&A&lᴀ&x&F&F&2&6&4&C&lᴅ&x&F&F&2&A&4&F&lᴇ&x&F&F&2&F&5&2&lʀ&x&F&F&3&3&5&5&lᴀ"
+    lore:
+      - ""
+      - "&8× &7Po &cuderzeniu &7gracza tym &fprzedmiotem"
+      - "&8× &7Unosisz go w &fgórę &7na &e2 kratki"
+      - "&8× &7oraz całkowicie &cblokujesz &7jego &fakcje!"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: false
+    custom-model-data: 1
+    cooldown-seconds: 0
+    stun-ticks: 80
+    lift-blocks: 2
+    damage-multiplier: 0.7
+    consume: false
+  retrospekcjaskywalkera:
+    enabled: true
+    action: RETROSPEKCJA_SKYWALKERA
+    slot: 24
+    material: LIGHT_BLUE_DYE
+    name: "&x&0&0&E&5&F&F&lʀ&x&0&0&E&3&F&D&lᴇ&x&0&0&E&2&F&B&lᴛ&x&0&0&E&0&F&9&lʀ&x&0&0&D&E&F&7&lᴏ&x&0&0&D&D&F&5&lꜱ&x&0&0&D&B&F&3&lᴘ&x&0&0&D&9&F&1&lᴇ&x&0&0&D&8&E&F&lᴋ&x&0&0&D&6&E&D&lᴄ&x&0&0&D&4&E&B&lᴊ&x&0&0&D&2&E&8&lᴀ&x&0&0&D&1&E&6&l &x&0&0&C&F&E&4&lꜱ&x&0&0&C&D&E&2&lᴋ&x&0&0&C&C&E&0&lʏ&x&0&0&C&A&D&E&lᴡ&x&0&0&C&8&D&C&lᴀ&x&0&0&C&7&D&A&lʟ&x&0&0&C&5&D&8&lᴋ&x&0&0&C&3&D&6&lᴇ&x&0&0&C&2&D&4&lʀ&x&0&0&C&0&D&2&lᴀ"
+    lore:
+      - ""
+      - "&8× &7Po &ckliknięciu &7prawym zapisuje Twoją &fpozycję&7."
+      - "&8× &7Po upływie &e6 sekund &7zostajesz"
+      - "&8× &7automatycznie &ccofnięty &7w to samo miejsce!"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: false
+    custom-model-data: 1
+    cooldown-seconds: 0
+    delay-ticks: 120
+    rewind-ticks: 16
+    consume: false
+  torba:
+    enabled: true
+    action: TORBA
+    slot: 36
+    material: BROWN_DYE
+    name: "&x&1&A&1&A&1&A&lᴡ&x&2&4&2&4&2&4&lᴏ&x&2&E&2&E&2&E&lʀ&x&3&8&3&8&3&8&lᴇ&x&4&2&4&2&4&2&lᴋ&x&4&C&4&C&4&C&l &x&5&6&5&6&5&6&lɴ&x&6&0&6&0&6&0&lɪ&x&6&A&6&A&6&A&lɴ&x&7&4&7&4&7&4&lᴊ&x&7&E&7&E&7&E&lᴀ"
+    lore:
+      - ""
+      - "&8× &7Trzymając &fworek ninja &7w ekwipunku"
+      - "&8× &7Trafiają do niego wszystkie &ecenne"
+      - "&8× &7przedmioty z &czabitych graczy&7!"
+      - ""
+      - "&8× &7Kliknij &cprawym&7, aby otworzyć!"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: false
+    custom-model-data: 1
+    cooldown-seconds: 5
+    consume: false
+  kartypiekla:
+    enabled: true
+    action: KARTY_PIEKLA
+    slot: 25
+    material: RED_DYE
+    name: "&x&F&F&2&D&2&D&lᴋ&x&F&F&3&A&2&A&lᴀ&x&F&F&4&7&2&7&lʀ&x&F&F&5&4&2&4&lᴛ&x&F&F&6&1&2&1&lʏ&x&F&F&6&E&1&E&l &x&F&F&7&B&1&B&lᴘ&x&F&F&8&8&1&8&lɪ&x&F&F&9&5&1&5&lᴇ&x&F&F&A&2&1&2&lᴋ&x&F&F&A&F&0&F&lʟ&x&F&F&B&C&0&C&lᴀ"
+    lore:
+      - ""
+      - "&8× &7Po &ckliknięciu &7prawym osoby w &f5 &7kratkach"
+      - "&8× &7Losują &cSiłę I&7, &8Spowolnienie III"
+      - "&8× &7lub &dRegen V &7na &f10 sekund&7!"
+      - ""
+      - "&8× &cPrzedmiot jednorazowy"
+    glow: false
+    custom-model-data: 1
+    cooldown-seconds: 70
+    radius: 5
+    effect-duration-seconds: 10
+    consume: true
+  magicznykrysztal:
+    enabled: true
+    action: MAGICZNY_KRYSZTAL
+    slot: 26
+    material: AMETHYST_SHARD
+    name: "&x&B&2&6&6&F&F&lᴍ&x&B&8&7&0&F&F&lᴀ&x&B&E&7&A&F&F&lɢ&x&C&4&8&4&F&F&lɪ&x&C&A&8&E&F&F&lᴄ&x&D&0&9&8&F&F&lᴢ&x&D&6&A&2&F&F&lɴ&x&D&C&A&C&F&F&lʏ&x&E&2&B&6&F&F&l &x&E&8&C&0&F&F&lᴋ&x&E&E&C&A&F&F&lʀ&x&F&4&D&4&F&F&lʏ&x&F&A&D&E&F&F&lꜱ&x&F&F&E&8&F&F&lᴢ&x&F&F&F&2&F&F&lᴛ&x&F&F&F&F&F&F&lᴀ&x&F&F&F&F&F&F&lʟ"
+    lore:
+      - ""
+      - "&8× &7Po &ckliknięciu &7prawym tym &fkryształem"
+      - "&8× &7Otrzymujesz &e10 złotych serc"
+      - "&8× &7które chronią Cię w walce!"
+      - ""
+      - "&8× &cPrzedmiot jednorazowy"
+    glow: false
+    custom-model-data: 1
+    cooldown-seconds: 70
+    golden-hearts: 10
+    absorption-duration-seconds: 120
+    consume: true
+  laskamistrzawu:
+    enabled: true
+    action: LASKA_MISTRZA_WU
+    slot: 27
+    material: BLAZE_ROD
+    name: "&x&F&F&D&9&0&0&lʟ&x&F&F&C&C&0&0&lᴀ&x&F&F&B&F&0&0&lꜱ&x&F&F&B&2&0&0&lᴋ&x&F&F&A&5&0&0&lᴀ&x&F&F&9&8&0&0&l &x&F&F&8&B&0&0&lᴍ&x&F&F&7&E&0&0&lɪ&x&F&F&7&1&0&0&lꜱ&x&F&F&6&4&0&0&lᴛ&x&F&F&5&7&0&0&lʀ&x&F&F&4&A&0&0&lᴀ&x&F&F&3&D&0&0&l &x&F&F&3&0&0&0&lᴡ&x&F&F&2&3&0&0&lᴜ"
+    lore:
+      - ""
+      - "&8× &7Po &cuderzeniu &7gracza tą &flaską"
+      - "&8× &7Odrzucasz go mocą &cOdrzutu II&7!"
+      - "&8× &7Cooldown użycia: &f70 sekund"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: false
+    custom-model-data: 2
+    cooldown-seconds: 70
+    knockback-level: 2
+    consume: false
+  sercezimy:
+    enabled: true
+    action: SERCE_ZIMY
+    slot: 28
+    material: BLUE_ICE
+    name: "&x&7&F&D&F&F&F&lꜱ&x&7&0&D&5&F&F&lᴇ&x&6&1&C&B&F&F&lʀ&x&5&2&C&1&F&F&lᴄ&x&4&3&B&7&F&F&lᴇ&x&3&4&A&D&F&F&l &x&2&5&A&3&F&F&lᴢ&x&1&6&9&9&F&F&lɪ&x&0&7&8&F&F&F&lᴍ&x&0&0&8&5&F&F&lʏ"
+    lore:
+      - ""
+      - "&8× &7Po &ckliknięciu &7prawym zostajesz"
+      - "&8× &bzamrożony &7na &f4 sekundy&7!"
+      - "&8× &7Nie ruszasz się, ale &fnikt Cię nie bije"
+      - "&8× &7Możesz normalnie &fjeść"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: false
+    custom-model-data: 1
+    cooldown-seconds: 70
+    duration-seconds: 4
+    consume: false
+  smoczykiel:
+    enabled: true
+    action: SMOCZY_KIEL
+    slot: 29
+    material: PRISMARINE_SHARD
+    name: "&x&C&8&0&0&F&F&lꜱ&x&C&0&0&0&F&0&lᴍ&x&B&8&0&0&E&1&lᴏ&x&B&0&0&0&D&2&lᴄ&x&A&8&0&0&C&3&lᴢ&x&A&0&0&0&B&4&lʏ&x&9&8&0&0&A&5&l &x&9&0&0&0&9&6&lᴋ&x&8&8&0&0&8&7&lɪ&x&8&0&0&0&7&8&lᴇ&x&7&8&0&0&6&9&lʟ"
+    lore:
+      - ""
+      - "&8× &7Po &ckliknięciu &7prawym przez &f4s"
+      - "&8× &7Masz &e10% &7szans, że uderzony gracz"
+      - "&8× &7Dostanie &fpiorun &7za &c2.5 HP&7!"
+      - ""
+      - "&8× &7Przedmiot pochodzi z skrzyni &dmistycznej"
+    glow: false
+    custom-model-data: 1
+    cooldown-seconds: 70
+    duration-seconds: 4
+    lightning-chance: 10.0
+    lightning-damage: 5.0
+    consume: false

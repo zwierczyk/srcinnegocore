@@ -1,0 +1,55 @@
+# Addon oghubzmianki — /zmianki + /azmianki
+zmianki:
+  damage-multiplier: 0.3
+  item:
+    name: '&b&lZmianka'
+    lore:
+    - ''
+    - '&8× &7Kliknij &bprawym&7, aby otworzyć'
+    - '&8× &7kowadło zmianek miecza!'
+    - ''
+    - '&8× &7Losujesz boost obrażeń &e5%&7-&e43%'
+    - '&8× &75-13% &anormalnie&7, &e14-30% &7trudniej,'
+    - '&8× &631-43% &7bardzo trudno'
+    - ''
+    - '&8× &7Przedmiot pochodzi z skrzyni &dmistycznej'
+    type: HEART_OF_THE_SEA
+    custom-model-data: 1
+  gui:
+    title: ' &8▶ &bᴢᴍɪᴀɴᴋɪ &8· &fᴍɪᴇᴄᴢ &8◀'
+    size: 27
+    apply-item:
+      type: HEART_OF_THE_SEA
+      name: '&b&lᴜᴢʏᴊ ᴢᴍɪᴀɴᴋɪ'
+      lore:
+      - ''
+      - ' &4UWAGA! &cKlikając ten przedmiot'
+      - ' &cprzemieniasz bonus `DODATKOWE OBRAŻENIA`'
+      - ' &cbezpowrotnie!'
+      - ''
+      - ' &8» &7Koszt: &bZmianka x1'
+      - ' &8» &7Losujesz &e5%&7-&e43% &7obrażeń'
+      - ' &8» &75-13% łatwiej · 14-30% trudniej · 31-43% rzadko'
+      - ' &8» &7Kliknij, aby użyć zmianki!'
+      slot: 11
+      custom-model-data: 1
+    main-slot:
+      type: PAPER
+      name: '&6&lᴡʏʙɪᴇʀᴢ ᴍɪᴇᴄᴢ'
+      lore:
+      - ''
+      - ' &8» &7Kliknij &fdiamentowy &7lub &8netherytowy'
+      - ' &8» &7miecz w ekwipunku, który chcesz'
+      - ' &8» &7ulepszyć zmianką!'
+      - ''
+      slot: 13
+      custom-model-data: 0
+    close-button:
+      type: BARRIER
+      name: '&c&lᴢᴀᴍᴋɴɪᴊ'
+      lore:
+      - ''
+      - ' &8» &7Kliknij aby zamknąć!'
+      - ''
+      slot: 15
+      custom-model-data: 0

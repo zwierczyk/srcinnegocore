@@ -1,0 +1,27 @@
+enabled: true
+
+mining:
+  enabled: true
+  rewards:
+    - chance: 0.12
+      command: 'case give {PLAYER} zwykla 1'
+      title: '&#7AD4FF&lKLUCZ'
+      subtitle: '&#7AD4FFWykopałeś &#B8ECFFKlucz Zwykły'
+      sound: BLOCK_AMETHYST_BLOCK_CHIME
+      sound-volume: 0.85
+      sound-pitch: 1.35
+
+kills:
+  enabled: true
+  # Cooldown (sekundy) zanim ten sam gracz znowu moze dostac klucz za zabicie tej samej ofiary.
+  same-player-cooldown-seconds: 3600
+  rewards:
+    - chance: 2.5
+      command: 'case give {PLAYER} zwykla 1'
+      chat: '&#FF59E8❖ &#7AD7FF{PLAYER} &8〢 &fzdobył &#B8ECFFKlucz Zwykły &8z zabójstwa'
+      sound: ENTITY_PLAYER_LEVELUP
+      extra-sound: BLOCK_NOTE_BLOCK_CHIME
+      sound-volume: 0.9
+      sound-pitch: 1.45
+      extra-sound-volume: 0.7
+      extra-sound-pitch: 1.8

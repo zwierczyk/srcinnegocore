@@ -1,0 +1,14 @@
+enabled: true
+world-name: world
+minx: -5000
+maxx: 5000
+minz: -5000
+maxz: 5000
+cooldown-seconds: 60
+max-attempts: 10
+teleporting-message: '&#00E0FFℹ &8Ξ &fSzukanie bezpiecznej lokalizacji...'
+teleported-message: '&#00FF3B✔ &8Ξ &#4EFA76Przeteleportowano na losowe koordynaty!'
+cooldown-message: '&#FF0000✘ &8Ξ &cMusisz odczekać &4{time} &czanim użyjesz ponownie!'
+no-safe-location-message: '&#FF0000✘ &8Ξ &cNie znaleziono bezpiecznej lokalizacji, spróbuj
+  ponownie!'
+world-not-found-message: '&#FF0000✘ &8Ξ &cŚwiat nie został znaleziony!'

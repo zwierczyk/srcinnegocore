@@ -1,0 +1,65 @@
+snapshotIntervalMinutes: 15
+snapshotTtlHours: 48
+deathsTtlHours: 0
+maxDeathsPerPlayer: 300
+discordWebhookUrl: ''
+discordNotificationsEnabled: false
+discordBotToken: ''
+discordGuildId: ''
+discordStaffRoleIds:
+  - '1489380672974884965'
+  - '1489379224451027225'
+  - '1489380136967999699'
+  - '1489379423315693639'
+  - '1487914156077219891'
+  - '1487621669248827413'
+  - '1527204984544821248'
+discordTicketCategoryIds:
+  - '1498691464920698930'
+discordModeName: ''
+discordRegistryDatabase: hollycore_network
+pendingBossBarText: '&e⚠ Masz backup do odebrania! Użyj &f/odbierzbackup'
+deathKeepEnabled: false
+deathKeepPercent: 0.0
+deathKeepBoostPercent: 0.0
+zapowiedz:
+  enabled: false
+  timezone: Europe/Warsaw
+  event-date: '2026-08-26'
+  reward-start-hour: 18
+  reward-end-hour: 19
+  banner-url: 'https://i.imgur.com/Komqfo4.png'
+  reward-db-prefix: skypvp1
+  reminders-enabled: true
+  reminder-dispatch-interval-seconds: 10
+  reminder-status-channel-id: '1528310546758369393'
+  mongo:
+    db-prefix: ''
+    name: ''
+    pass: ''
+    auth-source: admin
+    ip: localhost
+    port: 27017
+  rewards:
+    - case-name: rzadka
+      amount: 3
+    - case-name: skarbow
+      amount: 1
+messages:
+  backupRequested: '&#00E0FFℹ &8Ξ &fProśba o backup została wysłana do weryfikacji.'
+  backupAccepted: '&#00FF3B✔ &8Ξ &#4EFA76Backup został nadany! Użyj &f/odbierzbackup &#4EFA76aby odebrać przedmioty.'
+  backupDenied: '&#FF0000✘ &8Ξ &cTwoja prośba o backup została odrzucona.'
+  backupPending: '&#FFB800⚠ &8Ξ &eMasz oczekujący backup! Użyj &f/odbierzbackup &eaby go odebrać.'
+  noBackupPending: '&#FF0000✘ &8Ξ &cNie masz żadnego oczekującego backupu.'
+  inventoryNotEmpty: '&cMusisz mieć całkowicie pusty ekwipunek, zbroję i offhand aby
+    odebrać backup!'
+  backupReceived: '&#00FF3B✔ &8Ξ &#4EFA76Otrzymałeś swój backup!'
+  noDeathsFound: '&#FF0000✘ &8Ξ &cNie znaleziono żadnych backupów śmierci dla tego gracza.'
+  playerNotFound: '&#FF0000✘ &8Ξ &cNie znaleziono gracza o podanym nicku.'
+  noPermission: '&#FF0000✘ &8Ξ &cNie posiadasz dostępu do &#FF0000/backup &8(&4holly.cmd.backup.verify&8)'
+  backupListEmpty: '&#FF0000✘ &8Ξ &cBrak oczekujących zgłoszeń backupów.'
+  backupDeleted: '&#00FF3B✔ &8Ξ &#4EFA76Zgłoszenie backupu zostało usunięte.'
+  backupReloaded: '&#00FF3B✔ &8Ξ &#4EFA76Przeładowano konfigurację backupów.'
+  backupEqGranted: '&#00FF3B✔ &8Ξ &#4EFA76Backup ekwipunku został nadany.'
+  backupStatsRestored: '&#00FF3B✔ &8Ξ &#4EFA76Statystyki zostały przywrócone.'
+  backupStatsRestoredTarget: '&#00FF3B✔ &8Ξ &#4EFA76Twoje statystyki zostały przywrócone przez administrację.'

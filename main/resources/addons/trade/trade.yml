@@ -1,0 +1,41 @@
+
+settings:
+  # Shift + PPM na gracza działa tylko w tym świecie
+  shift-click-world: spawn
+  max-distance: 8.0
+  request-timeout-seconds: 60
+  click-cooldown-ms: 150
+
+gui:
+  trade-title: '&8⚔ &7Wymiana z &f{PARTNER}'
+  accept-title: '&8⚔ &7Prośba o wymianę'
+  withdraw-title: '&8⚔ &7Odbierz przedmioty'
+
+sounds:
+  add: UI_BUTTON_CLICK
+  remove: UI_BUTTON_CLICK
+  ready: BLOCK_NOTE_BLOCK_PLING
+  complete: ENTITY_PLAYER_LEVELUP
+  deny: BLOCK_NOTE_BLOCK_BASS
+  open: BLOCK_CHEST_OPEN
+
+messages:
+  self: '&#FF0000✘ &8Ξ &cNie możesz wymieniać się sam ze sobą.'
+  offline: '&#FF0000✘ &8Ξ &cGracz &f{PLAYER} &cnie jest online.'
+  already-trading: '&#FF0000✘ &8Ξ &cTen gracz jest już w wymianie.'
+  you-trading: '&#FF0000✘ &8Ξ &cJesteś już w wymianie.'
+  pending: '&#FF0000✘ &8Ξ &cMasz już aktywną prośbę o wymianę.'
+  sent: '&#00FF3B✔ &8Ξ &#4EFA76Wysłano prośbę o wymianę do &f{PLAYER}&a.'
+  received: '&#00E0FFℹ &8Ξ &f{PLAYER} &7chce się wymienić. Wpisz &f/wymiana {PLAYER} &7lub użyj &fShift+PPM&7.'
+  pending-wait: '&#00E0FFℹ &8Ξ &7Czekasz aż &f{PLAYER} &7wpisze &f/wymiana &7lub użyje &fShift+PPM&7.'
+  accepted: '&#00FF3B✔ &8Ξ &#4EFA76Rozpoczęto wymianę z &f{PLAYER}&a.'
+  denied: '&#FF0000✘ &8Ξ &cOdrzucono wymianę z &f{PLAYER}&c.'
+  denied-target: '&#FF0000✘ &8Ξ &f{PLAYER} &codrzucił wymianę.'
+  timeout: '&#FFB800⚠ &8Ξ &eProśba o wymianę wygasła.'
+  too-far: '&#FF0000✘ &8Ξ &cGracz jest za daleko.'
+  wrong-world: '&#FF0000✘ &8Ξ &cShift+PPM działa tylko na spawnie.'
+  complete: '&#00FF3B✔ &8Ξ &#4EFA76Wymiana z &f{PLAYER} &azakończona!'
+  partner-quit: '&#FFB800⚠ &8Ξ &eDruga osoba wyszła — odbierz przedmioty.'
+  not-ready-partner: '&#00E0FFℹ &8Ξ &7Czekasz na gotowość &f{PLAYER}&7…'
+  ready-on: '&#00FF3B✔ &8Ξ &#4EFA76Oznaczono gotowość.'
+  ready-off: '&#FFB800⚠ &8Ξ &eCofnięto gotowość.'

@@ -1,0 +1,559 @@
+pety:
+  aniolek:
+    type: petaniolek
+    displayname: '&7Pet &bAniołek &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &c+2 &7serca'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 0
+      damage-reduction: 0
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.0
+      hearts: 2
+      negative-effects-disable: false
+      effects: []
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: false
+      see-health: false
+  reniferek:
+    type: petreniferek
+    displayname: '&7Pet &6Reniferek &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &7Stały efekt potki &cszybkość I'
+      - ' &8» &cNigdy &7nie stajesz się głodny'
+      - ' &8» &c-50% &7obrażeń od dripstone'
+      - ' &8» &c+1 &7serce'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 0
+      damage-reduction: 0
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.5
+      hearts: 1
+      negative-effects-disable: false
+      effects:
+        - speed:0
+      totem-pop-effects: []
+      no-hunger: true
+      double-drop: false
+      see-health: false
+  balwanek:
+    type: petbalwanek
+    displayname: '&7Pet &bBałwanek &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &c+10% &7obrony od wszystkich obrażeń'
+      - ' &8» &cPodwaja &7drop z surowców i farm'
+      - ' &8» &7Stały efekt potki &cszybkość II'
+      - ' &8» &c+2 &7dodatkowych obrażeń'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 2
+      damage-reduction: 1.2
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.0
+      hearts: 0
+      negative-effects-disable: false
+      effects:
+        - speed:1
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: true
+      see-health: false
+  nietoperek:
+    type: petnietoperek
+    displayname: '&7Pet &eNietoperek &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &c+10% &7obrony od wszystkich obrażeń'
+      - ' &8» &cPodwaja &7drop z surowców i farm'
+      - ' &8» &7Stały efekt potki &cszybkość II'
+      - ' &8» &c+2 &7dodatkowych obrażeń'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 2
+      damage-reduction: 1.2
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.0
+      hearts: 0
+      negative-effects-disable: false
+      effects:
+        - speed:1
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: true
+      see-health: false
+  elfik:
+    type: petelfik
+    displayname: '&7Pet &2Elfik &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &c+20% &7obrony od wszystkich obrażeń'
+      - ' &8» &c-50% &7obrażeń od dripstone'
+      - ' &8» &c+3 &7dodatkowych obrażeń'
+      - ' &8» &cNigdy &7nie stajesz się głodny'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 3
+      damage-reduction: 2
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.5
+      hearts: 0
+      negative-effects-disable: false
+      effects: []
+      totem-pop-effects: []
+      no-hunger: true
+      double-drop: false
+      see-health: false
+  telekrolik:
+    type: pettelekrolik
+    displayname: '&7Pet &3Telekrólik &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &7Podgląd &4życia &7przeciwnika'
+      - ' &8» &c+3 &7dodatkowych obrażeń'
+      - ' &8» &c+10% &7obrony od wszystkich obrażeń'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 3
+      damage-reduction: 1.2
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.0
+      hearts: 0
+      negative-effects-disable: false
+      effects: []
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: false
+      see-health: true
+  pudzianek:
+    type: petpudzianek
+    displayname: '&7Pet &bPudzianek &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &c+2 &7dodatkowych obrażeń'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 2
+      damage-reduction: 0.0
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.0
+      hearts: 0
+      negative-effects-disable: false
+      effects: []
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: false
+      see-health: false
+  discordzik:
+    type: petdiscordzik
+    displayname: '&7Pet &bDiscordzik &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &c+1 &7dodatkowych obrażeń'
+      - ' &8» &c+1 &7serce'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 1
+      damage-reduction: 0.0
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.0
+      hearts: 1
+      negative-effects-disable: false
+      effects: []
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: false
+      see-health: false
+  duszek:
+    type: petduszek
+    displayname: '&7Pet &fDuszek &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &7Stały efekt potki &cszybkość II'
+      - ' &8» &cNigdy &7nie stajesz się głodny'
+      - ' &8» &c-50% &7obrażeń od dripstone'
+      - ' &8» &c+1 &7serce'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 0
+      damage-reduction: 0.0
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.5
+      hearts: 1
+      negative-effects-disable: false
+      effects:
+        - speed:1
+      totem-pop-effects: []
+      no-hunger: true
+      double-drop: false
+      see-health: false
+  pancernik:
+    type: petpancernik
+    displayname: '&7Pet &bPancernik &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &c+10% &7obrony od wszystkich obrażeń'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 0
+      damage-reduction: 1.2
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.0
+      hearts: 0
+      negative-effects-disable: false
+      effects: []
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: false
+      see-health: false
+  golemik:
+    type: petgolemik
+    displayname: '&7Pet &fGolemik &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &c+10% &7obrony od wszystkich obrażeń'
+      - ' &8» &c-50% &7obrażeń od dripstone'
+      - ' &8» &c+1 &7serce'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 0
+      damage-reduction: 1.2
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.5
+      hearts: 1
+      negative-effects-disable: false
+      effects: []
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: false
+      see-health: false
+  eustachy:
+    type: peteustachy
+    displayname: '&7Pet &2Eustachy &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &7Stały efekt potki &cszybkość II'
+      - ' &8» &cPodwaja &7drop z surowców i farm'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 0
+      damage-reduction: 0
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.0
+      hearts: 0
+      negative-effects-disable: false
+      effects:
+        - speed:1
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: true
+      see-health: false
+  enderman:
+    type: petenderman
+    displayname: '&7Pet &5Enderman &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &7Zwiększony drop pereł w &dendzie'
+      - ' &8» &c+3 &7dodatkowych obrażeń'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 3
+      damage-reduction: 0
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.0
+      hearts: 0
+      negative-effects-disable: false
+      effects: []
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: false
+      double-ender-pearl-drop: true
+      see-health: false
+  zajaczek:
+    type: petzajaczek
+    displayname: '&7Pet &fZajączek &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &7Stały efekt potki &cwysoki skok II'
+      - ' &8» &c+4 &7dodatkowe obrażenia'
+      - ' &8» &7Stały efekt potki &cszybkość I'
+      - ' &8» &c-50% &7obrażeń od upadku'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 4
+      damage-reduction: 0
+      fall-damage-reduction: 0.5
+      dripstone-damage-reduction: 0.0
+      hearts: 0
+      negative-effects-disable: false
+      effects:
+        - jump:1
+        - speed:0
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: false
+      see-health: false
+  pajak:
+    type: petpajak
+    displayname: '&7Pet &cPająk &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &7Odporność na &dnegatywne efekty'
+      - ' &8» &7Stały efekt potki &cwysoki skok II'
+      - ' &8» &7Stały efekt potki &bszybkości II'
+      - ' &8» &c-100% &7obrażeń od upadku'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 0
+      damage-reduction: 0
+      fall-damage-reduction: 1.0
+      dripstone-damage-reduction: 0.0
+      hearts: 0
+      negative-effects-disable: true
+      effects:
+        - jump:1
+        - speed:1
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: false
+      see-health: false
+  skalniaczek:
+    type: petskalniaczek
+    displayname: '&7Pet &bSkalniaczek &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &c-50% &7obrażeń od dripstone'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 0
+      damage-reduction: 0
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.5
+      hearts: 0
+      negative-effects-disable: false
+      effects: []
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: false
+      see-health: false
+  sowa:
+    type: petsowa
+    displayname: '&7Pet &6Sowa &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &c+3 &7dodatkowych obrażeń'
+      - ' &8» &cNigdy &7nie stajesz się głodny'
+      - ' &8» &7Podgląd &4życia &7przeciwnika'
+      - ' &8» &7Stały efekt potki &bszybkości I'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 3
+      damage-reduction: 0
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.5
+      hearts: 0
+      negative-effects-disable: false
+      effects:
+        - speed:0
+      totem-pop-effects: []
+      no-hunger: true
+      double-drop: false
+      see-health: true
+  biznesmenik:
+    type: petbiznesmenik
+    displayname: '&7Pet &bBiznesmenik &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &cPodwaja &7drop z surowców i farm'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 0
+      damage-reduction: 0
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.0
+      hearts: 0
+      negative-effects-disable: false
+      effects: []
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: true
+      see-health: false
+  bobas:
+    type: petbobas
+    displayname: '&7Pet &bBobas &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &c+2 &7dodatkowych obrażeń'
+      - ' &8» &7Odporność na &eogień'
+      - ' &8» &c+2 &7serca'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 2
+      damage-reduction: 0
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.0
+      hearts: 2
+      negative-effects-disable: false
+      effects:
+        - fire_resistance:0
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: false
+      see-health: false
+  paczus:
+    type: petpaczus
+    displayname: '&7Pet &6Pączuś &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &cNigdy &7nie stajesz się głodny'
+      - ' &8» &7Stały efekt potki &codporności II'
+      - ' &8» &7Stały efekt &4spowolnienia I'
+      - ' &8» &7Stały efekt potki &dregeneracji I'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 0
+      damage-reduction: 0
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.0
+      hearts: 0
+      negative-effects-disable: false
+      effects:
+        - resistance:1
+        - slowness:0
+        - regeneration:0
+      totem-pop-effects: []
+      no-hunger: true
+      double-drop: false
+      see-health: false
+  pierniczek:
+    type: petpierniczek
+    displayname: '&7Pet &6Pierniczek &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &cPodwaja &7drop z surowców i farm'
+      - ' &8» &7Stały efekt potki &cszybkość II'
+      - ' &8» &c+2 &7serca'
+      - ' &8» &7Większe &adoświadczenie &7z kamienia'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 0
+      damage-reduction: 0
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.0
+      hearts: 2
+      negative-effects-disable: false
+      effects:
+        - speed:1
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: true
+      see-health: false
+      stone-experience: 1.0
+  drakula:
+    type: drakula
+    displayname: '&7Pet &cDrakula &7na czas &4%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &7Wytrzymałość uzbrojenia &f+20%'
+      - ' &8» &c10% &7na kradzież życia'
+      - ' &8» &c+2 &7serca'
+      - ' &8» &7Stały efekt potki &bszybkości II'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 0
+      damage-reduction: 0
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.0
+      hearts: 2
+      negative-effects-disable: false
+      effects:
+        - speed:1
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: false
+      see-health: false
+      stone-experience: 0.0
+      wampir: true
+  pedziwiatr:
+    type: pedziwiatr
+    displayname: '&7Pet &bPędziwiatr &7na czas &3%czas%'
+    lore:
+      - ''
+      - '&fOtrzymasz następujące bonusy:'
+      - ' &8» &7Stały efekt potki &cszybkości II'
+      - ''
+      - '&7Data wygaśnięcia &f%uzycie%'
+    boosts:
+      damage: 0
+      damage-reduction: 0
+      fall-damage-reduction: 0.0
+      dripstone-damage-reduction: 0.0
+      hearts: 0
+      negative-effects-disable: false
+      effects:
+        - speed:1
+      totem-pop-effects: []
+      no-hunger: false
+      double-drop: false
+      see-health: false
+      stone-experience: 0.0
+
+default-hp: 60.0
+
+zwoj-pet:
+  name: "&e&lᴢᴡᴏᴊ ᴘʀᴢᴇᴅʟᴜᴢᴇɴɪᴀ &fᴘᴇᴛᴀ"
+  lore:
+    - ""
+    - "&8» &7Z jego pomocą możesz przedłużyć"
+    - "&8» &7swojego &fPeta &7pod komendą &f/szafka"
+    - ""
+    - "&8» &7Czas Trwania &f%czas%"

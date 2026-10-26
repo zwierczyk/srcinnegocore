@@ -1,0 +1,136 @@
+gui-title: '&5&lOsiągnięcia'
+gui-rows: 5
+sub-gui-title: '&8{category}'
+sub-gui-rows: 5
+enable-date: ''
+category-claimed-line: ' &7Odebrane osiągnięcia&8: &f{claimed}&8/&7{total}'
+kills-name: '&c&lZabójstwa'
+kills-lore:
+- ''
+- '&eKliknij, aby &6przeglądać &eosiągnięcia w tej kategorii'
+kills-material: DIAMOND_SWORD
+kills-slot: 20
+deaths-name: '&4&lŚmierci'
+deaths-lore:
+- ''
+- '&eKliknij, aby &6przeglądać &eosiągnięcia w tej kategorii'
+deaths-material: SKELETON_SKULL
+deaths-slot: 21
+blocks-mined-name: '&3&lZniszczone bloki'
+blocks-mined-lore:
+- ''
+- '&eKliknij, aby &6przeglądać &eosiągnięcia w tej kategorii'
+blocks-mined-material: DIAMOND_PICKAXE
+blocks-mined-slot: 23
+playtime-name: '&e&lSpędzony czas'
+playtime-lore:
+- ''
+- '&eKliknij, aby &6przeglądać &eosiągnięcia w tej kategorii'
+playtime-material: CLOCK
+playtime-slot: 24
+crates-name: '&6&lSkrzynki'
+crates-lore:
+- ''
+- '&eKliknij, aby &6przeglądać &eosiągnięcia w tej kategorii'
+crates-material: CHEST
+crates-slot: 22
+points-name: '&d&lRanking'
+points-lore:
+- ''
+- '&eKliknij, aby &6przeglądać &eosiągnięcia w tej kategorii'
+points-material: NETHER_STAR
+points-slot: 29
+earned-points-name: '&5&lZdobyte punkty'
+earned-points-lore:
+- ''
+- '&eKliknij, aby &6przeglądać &eosiągnięcia w tej kategorii'
+earned-points-material: EXPERIENCE_BOTTLE
+earned-points-slot: 30
+kills-tiers:
+  1: 10
+  2: 50
+  3: 100
+  4: 500
+  5: 1000
+deaths-tiers:
+  1: 10
+  2: 50
+  3: 100
+  4: 500
+  5: 1000
+blocks-mined-tiers:
+  1: 1250
+  2: 500
+  3: 1000
+  4: 5000
+  5: 10000
+playtime-tiers:
+  1: 3600000
+  2: 18000000
+  3: 36000000
+  4: 108000000
+  5: 216000000
+crates-tiers:
+  1: 10
+  2: 50
+  3: 100
+  4: 250
+  5: 500
+points-tiers:
+  1: 1100
+  2: 1300
+  3: 1500
+  4: 1800
+  5: 2200
+earned-points-tiers:
+  1: 100
+  2: 500
+  3: 1000
+  4: 2500
+  5: 5000
+rewards: {}
+category-intro-lore:
+- '&cOdbieraj osiągnięcia i zdobywaj'
+- '&cnagrody w postaci fragmentów, kluczów itp.'
+allowed-blocks:
+- STONE
+- DEEPSLATE
+- IRON_ORE
+- DEEPSLATE_IRON_ORE
+- GOLD_ORE
+- DEEPSLATE_GOLD_ORE
+- DIAMOND_ORE
+- DEEPSLATE_DIAMOND_ORE
+- COAL_ORE
+- DEEPSLATE_COAL_ORE
+- LAPIS_ORE
+- DEEPSLATE_LAPIS_ORE
+- REDSTONE_ORE
+- DEEPSLATE_REDSTONE_ORE
+- EMERALD_ORE
+- DEEPSLATE_EMERALD_ORE
+- COPPER_ORE
+- DEEPSLATE_COPPER_ORE
+excluded-regions:
+- spawn
+- safe_zone
+not-completed-material: RED_CONCRETE
+completed-material: LIME_CONCRETE
+claimed-material: GRAY_CONCRETE
+achievement-item-name: '&c&lOSIĄGNIĘCIE &8#&f{tier}'
+progress-line: '&a» &7Posiadasz &f{current}&7/&f{required}'
+progress-line-playtime: '&a» &7Czas gry: &f{current}&7/&f{required}'
+reward-header: ''
+reward-line: '&a» &f{item} &7x{amount}'
+status-not-completed: '&cNie możesz jeszcze tego odebrać!'
+status-completed: '&aKliknij, aby odebrać!'
+status-claimed: '&7» Osiągnięcie odebrane!'
+achievement-claimed: '&#00FF3B✔ &8Ξ &#4EFA76Odebrano nagrodę z osiągnięcia!'
+achievement-already-claimed: '&#FF0000✘ &8Ξ &cJuż odebrałeś to osiągnięcie!'
+achievement-not-completed: '&#FF0000✘ &8Ξ &cNie ukończyłeś jeszcze tego osiągnięcia!'
+no-rewards-set: '&#FF0000✘ &8Ξ &cBrak nagród do odebrania!'
+must-claim-previous: '&#FF0000✘ &8Ξ &cNajpierw odbierz poprzednie nagrody!'
+back-button-name: '&4&lPowrót'
+back-button-lore:
+- ''
+- '&a» &7Kliknij LPM aby powrócić do głównej sekcji'

@@ -1,0 +1,107 @@
+settings:
+  min-bet: 100.0
+  invite-expire-seconds: 30
+  roll-step-ticks: 2
+  roll-sound-every-updates: 2
+  roll-pause-between-players-ticks: 20
+  win-bossbar-duration-ticks: 40
+  gui-close-after-finish-ticks: -1
+
+  worldguard:
+    enabled: true
+    region: "spawn"
+    restrict-challenge: true
+    restrict-accept: true
+
+    enforce-stay-in-region: true
+    cancel-invite-on-leave: true
+    cancel-battle-on-leave: true
+    instant-finish-battle-on-leave: false
+
+    cancel-global-on-leave: true
+
+  global:
+    radius: 8
+    duration-seconds: 60
+    notify-interval-seconds: 10
+    hologram-y-offset: 2.35
+    loop-period-ticks: 4
+    hologram-update-interval-ticks: 6
+    hologram-min-move-distance: 0.35
+
+messages:
+  invite-received:
+    - "&fGracz §x§2§7§A§4§E§C{player}&f wysyła ci §x§2§7§A§4§E§Cbitwę &fna zmianki o §x§2§7§A§4§E§C{ilość}"
+    - "&fWpisz §x§2§7§A§4§E§C/zmianki bitwa zakceptuj {playername}&f lub §x§2§7§A§4§E§C§lKLIKNIJ TUTAJ"
+  invite-sent: "&#00FF3B✔ &8Ξ &#4EFA76Wysłałeś zaproszenie do bitwy na zmianki graczowi &f{player} &#4EFA76o &f{ilość}&#4EFA76."
+  invite-expired-inviter: "&cTwoje zaproszenie do &f{player}&c wygasło."
+  invite-expired-invited: "&cZaproszenie od &f{player}&c wygasło."
+  invite-cancelled-left-region: "&#FF0000✘ &8Ξ &cZaproszenie na zmianki zostało anulowane, ponieważ &f{player} &copuścił region &f{region}&c."
+  battle-started: "&aBitwa na zmianki wystartowała! Stawka: &f{ilość}&a."
+  battle-ended: "&7Wynik: &f{winer} &7({winer_percent}%) vs &f{loser} &7({loser_percent}%)."
+  global-opened: "&aWłączyłeś globalne zmianki o &f{ilosc}$&a. &7Przez {seconds}s gracze w promieniu {radius} kratek mogą kliknąć hologram."
+  global-expired: "&cGlobalne zmianki o &f{ilosc}$&c wygasły."
+  global-cancelled-left-region: "&#FF0000✘ &8Ξ &cGlobalne zmianki zostały anulowane, ponieważ opuściłeś region &f{region}&c."
+  global-nearby:
+    - "&3&lOTWARTA GRA &8- &b{player}"
+    - "&7Stawka: &3{ilosc}$ &8| &7Pozostało: &e{seconds}s"
+    - "&eKliknij hologram nad nim."
+  errors:
+    usage: |-
+      &#FF0000✘ &8Ξ &cPoprawne użycie: &#FF0000
+       &8• &4/zmianki global <kwota>
+       &8• &4/zmianki wyzwij <nick> <kwota> &7(min. {min})
+    usage-accept: |-
+      &#FF0000✘ &8Ξ &cPoprawne użycie: &#FF0000
+       &8• &4/zmianki bitwa zaakceptuj <nick>
+    player-offline: "&cTen gracz jest offline."
+    cannot-self: "&cNie możesz zaprosić samego siebie."
+    too-low: "&cMinimalna kwota to &f{min}&c."
+    no-invite: "&cNie masz zaproszenia od tego gracza."
+    different-world: "&cMusicie być w tym samym świecie."
+    no-money: "&cBrakuje ci pieniędzy. Potrzebujesz: &f{ilość}&c."
+    other-no-money: "&cPrzeciwnik nie ma pieniędzy."
+    already-battle: "&cKtoś z was jest już w bitwie."
+    inviter-offline: "&cGracz, który cię zaprosił, jest offline."
+    invite-busy: "&cMasz już aktywne zaproszenie na zmianki. Poczekaj aż wygaśnie lub zostanie zaakceptowane."
+    target-busy: "&cGracz &f{player}&c ma już aktywne zaproszenie na zmianki lub jest w trakcie bitwy."
+    economy-unavailable: "&cEkonomia jeszcze się ładuje. Spróbuj za chwilę."
+    worldguard-unavailable: "&cWorldGuard jest niedostępny. Nie można sprawdzić regionu."
+    region-not-found: "&#FF0000✘ &8Ξ &cRegion WorldGuard &f{region} &cnie istnieje w tym świecie."
+    region-not-allowed: "&cMożesz użyć tej akcji tylko w regionie &f{region}&c."
+    other-not-in-region: "&cGracz &f{player}&c musi być w regionie &f{region}&c."
+    global-already-open: "&cMasz już otwarte globalne zmianki."
+    global-too-far: "&cMusisz być w promieniu 8 kratek od gracza."
+
+battle:
+  gui:
+    title: "&7Zmianki - {ilość}"
+    rows: 3
+    slots:
+      inviter-head: 10
+      inviter-percent: 11
+      invited-percent: 15
+      invited-head: 16
+    percent-item:
+      name: "&fSzansa: &e{percent}%"
+      lore:
+        - "&7Wylosowana wartość"
+  percent-range:
+    min: -24
+    max: 52
+
+sounds:
+  click: "ui.click"
+  error: "villager.no"
+  succes: "expieriene_pickup"
+  roll: "block.dispenser.dispense"
+  win_sound: "player_lvlup"
+  lose_sound: "villager.hurt"
+
+bossbars:
+  create-alert:
+    color: "red"
+    title: "&cGracz &4{inviter_name} &ctoczy bitwę na zmianki z &4{invited_name}&c o kwotę &4{ilość}&c!"
+  win-alert:
+    color: "red"
+    title: "&cGracz &4{winer}&c wygrał z graczem &c{loser} &co kwotę &4{ilość}&c!"

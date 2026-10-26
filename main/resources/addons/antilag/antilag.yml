@@ -1,0 +1,37 @@
+disable-redstone: false
+disable-pistons: false
+disable-dispensers-and-droppers: false
+disable-hoppers: false
+
+max-redstone-updates-per-chunk-tick: 80
+max-piston-events-per-chunk-tick: 24
+max-hopper-moves-per-chunk-tick: 48
+max-hoppers-per-chunk: 24
+
+max-armor-stands-per-chunk: 3
+max-minecarts-per-chunk: 3
+max-boats-per-chunk: 2
+max-item-frames-per-chunk: 6
+max-paintings-per-chunk: 6
+max-end-crystals-per-chunk: 2
+
+cleanup-excess-entities: true
+entity-cleanup-interval-ticks: 200
+entity-cleanup-chunks-per-run: 32
+log-entity-cleanup: false
+
+blocked-mechanic-message: '&#FF0000✘ &8Ξ &cTa mechanika jest wylaczona na serwerze.'
+blocked-block-message: '&#FF0000✘ &8Ξ &cTen blok jest wylaczony na serwerze.'
+armor-stand-limit-message: '&#FF0000✘ &8Ξ &cOsiagnieto limit {limit} armor standow na chunk!'
+minecart-limit-message: '&#FF0000✘ &8Ξ &cOsiagnieto limit {limit} wagonikow na chunk!'
+boat-limit-message: '&#FF0000✘ &8Ξ &cOsiagnieto limit {limit} lodzi na chunk!'
+item-frame-limit-message: '&#FF0000✘ &8Ξ &cOsiagnieto limit {limit} ramek na chunk!'
+painting-limit-message: '&#FF0000✘ &8Ξ &cOsiagnieto limit {limit} obrazow na chunk!'
+end-crystal-limit-message: '&#FF0000✘ &8Ξ &cOsiagnieto limit {limit} krysztalow na chunk!'
+hopper-limit-message: '&#FF0000✘ &8Ξ &cOsiagnieto limit {limit} hopperow na chunk!'
+
+entity-limit-ignored-metadata:
+- IS_ILLUSION_STAND
+- NPC
+
+blocked-place-materials: []

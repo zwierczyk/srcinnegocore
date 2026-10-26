@@ -1,0 +1,79 @@
+codes: {}
+require-discord-reward: true
+code-not-found: '&#FF0000✘ &8Ξ &cKod nie istnieje lub wygasł!'
+code-already-used: '&#FF0000✘ &8Ξ &cJuż odebrałeś ten kod!'
+code-not-active: '&#FF0000✘ &8Ξ &cKod nie jest aktywny!'
+code-discord-required: '&#FF0000✘ &8Ξ &cNajpierw odbierz nagrodę Discord, żeby móc używać &e/kod&c! &7(/nagroda)'
+code-time-required: '&#FF0000✘ &8Ξ &cMusisz spędzić jeszcze &e{time} &cna serwerze aby
+  odebrać ten kod!'
+code-redeemed: '&#00FF3B✔ &8Ξ &#4EFA76Odebrałeś kod &e{code}&a!'
+code-broadcast:
+- '&8[&6✦&8] &e{player} &7odebrał kod &e{code}&7!'
+- '&7Jeśli też chcesz, wpisz &e/kod {code}'
+code-started: '&#00FF3B✔ &8Ξ &#4EFA76Aktywowano kod &e{code}&a!'
+code-stopped: '&#00FF3B✔ &8Ξ &#4EFA76Zatrzymano kod &e{code}&a!'
+code-created: '&#00FF3B✔ &8Ξ &#4EFA76Stworzono kod &e{code}&a!'
+code-deleted: '&#00FF3B✔ &8Ξ &#4EFA76Usunięto kod &e{code}&a!'
+code-reloaded: '&#00FF3B✔ &8Ξ &#4EFA76Przeładowano konfigurację kodów!'
+code-item-added: '&#00FF3B✔ &8Ξ &#4EFA76Dodano przedmiot do kodu &e{code}&a!'
+code-reset-all: '&#00FF3B✔ &8Ξ &#4EFA76Zresetowano użycie kodu &e{code} &adla wszystkich graczy!'
+code-reset-player: '&#00FF3B✔ &8Ξ &#4EFA76Zresetowano użycie kodu &e{code} &adla gracza &e{player}&a!'
+code-list: '&#00E0FFℹ &8Ξ &fDostępne kody: &e{codes}'
+code-usage: |-
+  &#FF0000✘ &8Ξ &cPoprawne użycie: &#FF0000
+   &8• &4/kod <kod>
+bossbar-format: '&e&lKOD: &f{code} &8| &7Kliknij &e/kod {code} &7aby odebrać!'
+bossbar-color: YELLOW
+bossbar-style: SOLID
+bossbar-progress: 1.0
+bossbar-enabled: true
+
+rank-giveaway:
+  active: false
+  available-from: "20:10"
+  timezone: "Europe/Warsaw"
+  max-winners: 50
+  grant-duration: "1h"
+  command-template: "lp user {player} parent addtemp {group} {duration}"
+  announcement-title: "&a&lGZ!!!"
+  announcement-subtitle: "&f{player}"
+  rank-subtitle: "&7Losowanie rangi..."
+  time-subtitle: "&7Czas: &f{time}"
+  draw-started: "&#00FF3B✔ &8Ξ &#4EFA76Rozpoczynam losowanie!"
+  wait-for-draw: "&#FFB800⚠ &8Ξ &eTrwa losowanie! Sprobuj ponownie za chwile."
+  not-active: "&#FF0000✘ &8Ξ &cRozdanie rang nie jest aktywne!"
+  not-available-yet: "&#FF0000✘ &8Ξ &cRozdanie rang bedzie dostepne od &f{time}&c!"
+  already-won: "&#FF0000✘ &8Ξ &cJuz wylosowales range w tym rozdanieu!"
+  limit-reached: "&#FF0000✘ &8Ξ &cLimit &f{limit} &closowan zostal juz wyczerpany!"
+  fake-durations:
+    - "1h"
+    - "10h"
+    - "1d"
+    - "7d"
+    - "30d"
+  ranks:
+    vip:
+      group: vip
+      title: "&f&x&7&B&D&7&7&E&lᴠ&lɪ&lᴘ"
+      weight: 35
+      limit: -1
+    svip:
+      group: svip
+      title: "&f&x&D&7&C&D&7&B&lꜱ&lᴠ&lɪ&lᴘ"
+      weight: 30
+      limit: -1
+    legenda:
+      group: legenda
+      title: "&f&x&F&F&8&7&0&0&lʟ&lᴇ&lɢ&lᴇ&lɴ&lᴅ&lᴀ"
+      weight: 20
+      limit: -1
+    og:
+      group: og
+      title: "&f&x&0&0&F&F&1&1&lᴏ&x&5&4&B&0&5&A&lɢ"
+      weight: 10
+      limit: 10
+    peak:
+      group: peak
+      title: "&x&0&0&F&4&F&F&lᴘ&x&0&0&C&D&D&6&lᴇ&x&0&0&B&7&B&F&lᴀ&x&0&0&9&8&9&F&lᴋ"
+      weight: 5
+      limit: 10

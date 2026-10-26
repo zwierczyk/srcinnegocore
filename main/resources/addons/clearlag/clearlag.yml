@@ -1,0 +1,10 @@
+enabled: true
+interval: 300
+countdown-start: 5
+countdown-message: ''
+clear-message: ''
+player-protection-radius: 5.0
+creative-protection-radius: 16.0
+min-item-age-ticks: 100
+worlds: []
+excluded-items: []

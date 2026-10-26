@@ -1,0 +1,101 @@
+min-members-for-ranking: 3
+hypestar-pack-version: 0
+starting-elo: 1000
+min-tag-length: 3
+max-tag-length: 6
+max-members: 100
+max-deputies: 2
+creation-cost: 1.0
+points-multiplier: 1.0
+points-percent: 0.026
+minus-multiplier: 1.15
+turbo-points-multi: 1.5
+panel-access: true
+clans-enabled: true
+clan-disable-message: '&cKlany są wyłączone do godziny &419:30!'
+elo-gain-on-kill: 15
+elo-loss-on-death: 10
+clan-created-message: '&#00FF3B✔ &8Ξ &#4EFA76Pomyślnie utworzono klan &f{clan}&a!'
+clan-deleted-message: '&#00FF3B✔ &8Ξ &#4EFA76Klan został usunięty!'
+clan-invite-sent-message: '&#00FF3B✔ &8Ξ &#4EFA76Wysłano zaproszenie do &f{player}&a!'
+clan-invite-received-message: '&#00E0FFℹ &8Ξ &fOtrzymałeś zaproszenie do klanu &f{clan}&f!
+  Kliknij &a[DOŁĄCZ] &6aby dołączyć.'
+clan-joined-message: '&#00FF3B✔ &8Ξ &#4EFA76Dołączyłeś do klanu &f{clan}&a!'
+clan-left-message: '&#00FF3B✔ &8Ξ &#4EFA76Opuściłeś klan!'
+clan-kicked-message: '&#FF0000✘ &8Ξ &cZostałeś wyrzucony z klanu!'
+clan-already-in-clan-message: '&#FF0000✘ &8Ξ &cJesteś już w klanie!'
+clan-not-in-clan-message: '&#FF0000✘ &8Ξ &cNie jesteś w żadnym klanie!'
+clan-not-leader-message: '&#FF0000✘ &8Ξ &cNie jesteś liderem klanu!'
+clan-not-leader-or-deputy-message: '&#FF0000✘ &8Ξ &cMusisz być liderem albo zastępcą klanu!'
+clan-leader-cannot-leave-message: '&#FF0000✘ &8Ξ &cLider nie może opuścić klanu. Przekaż lidera albo usuń klan.'
+clan-target-already-in-clan-message: '&#FF0000✘ &8Ξ &cTen gracz jest już w klanie!'
+clan-target-not-in-your-clan-message: '&#FF0000✘ &8Ξ &cTen gracz nie jest członkiem Twojego klanu!'
+clan-friendly-fire-blocked-message: '&#FF0000✘ &8Ξ &cPvP klanowe jest wyłączone. Nie możesz bić gracza &f{player}&c.'
+clan-pvp-enabled-message: '&#00FF3B✔ &8Ξ &#4EFA76PvP między członkami klanu zostało włączone.'
+clan-pvp-disabled-message: '&#00FF3B✔ &8Ξ &#4EFA76PvP między członkami klanu zostało wyłączone.'
+clan-announcement-sent-message: '&#00FF3B✔ &8Ξ &#4EFA76Wysłano ogłoszenie klanowe!'
+clan-tag-exists-message: '&#FF0000✘ &8Ξ &cKlan z tym tagiem już istnieje!'
+clan-not-enough-money-message: '&#FF0000✘ &8Ξ &cNie masz wystarczająco pieniędzy! Potrzebujesz
+  &f{cost}$&c.'
+clan-player-not-found-message: '&#FF0000✘ &8Ξ &cGracz nie został znaleziony!'
+clan-no-invite-message: '&#FF0000✘ &8Ξ &cNie masz żadnego zaproszenia do klanu!'
+clan-deputy-set-message: '&#00FF3B✔ &8Ξ &#4EFA76Ustawiono &f{player} &ajako zastępcę!'
+clan-help-request-message: '&#00E0FFℹ &8Ξ &f{player} &7prosi o pomoc! Lokalizacja: &e{x},
+  {y}, {z}'
+clan-chat-format: '&8[&cKLAN&8] &7{player}&8: &f{message}'
+clan-announcement-format: '&8[&c&lKLAN&8] &e{message}'
+clan-upgrade-purchased-message: '&#00FF3B✔ &8Ξ &#4EFA76Pomyślnie ulepszono!'
+clan-upgrade-need-previous-message: '&#FF0000✘ &8Ξ &cNajpierw musisz kupić poprzedni poziom ulepszenia!'
+clan-upgrade-not-enough-coins-message: '&#FF0000✘ &8Ξ &cKlan nie ma wystarczającej ilości {currency}! Potrzebujesz &f{price}&c.'
+clan-upgrade-disabled-message: '&#FF0000✘ &8Ξ &cUlepszenia klanu są wyłączone!'
+clan-deposit-success-message: '&#00FF3B✔ &8Ξ &#4EFA76Wpłacono &f{amount} &ado skarbca klanu ({currency})!'
+clan-deposit-invalid-amount-message: '&#FF0000✘ &8Ξ &cPodaj poprawną kwotę większą od 0!'
+clan-deposit-not-enough-money-message: '&#FF0000✘ &8Ξ &cNie masz wystarczająco pieniędzy! Potrzebujesz &f{amount}$&c.'
+clan-info-layout:
+- '&7&m-------&r &9&l⭐ {CLAN_TAG} ⭐ &7&m-------'
+- '&8● &bNazwa: &f{CLAN_TAG}'
+- '&8● &bZałożyciel: &a{LEADER_NAME}'
+- '&8● &bZastępca: &f{DEPUTY_NAMES}'
+- '&8● &bCzłonkowie: &7({ONLINE}/{TOTAL}) &a{MEMBERS_LIST}'
+- ''
+- '&8● &bRanking: &f{ELO} &8#{RANK}'
+- '&8● &bZabójstwa: &f{KILLS}'
+- '&8● &bŚmierci: &f{DEATHS}'
+- '&8● &bPVP: {PVP_STATUS}'
+- '&8● &bSkarbiec: &f{COINS} {CURRENCY}'
+- '&7&m---------------------------------'
+clan-no-deputy-text: Brak
+clan-not-ranked-text: '-'
+clan-pvp-enabled-text: '&aWłączone'
+clan-pvp-disabled-text: '&cWyłączone'
+upgrades:
+  enabled: true
+  gui-title: '&8Ulepszenia klanu'
+  stages-gui-title: '&8Poziomy ulepszenia'
+  currency-name: '&dOdłamki klanowe'
+  gui-rows: 6
+  back-slot: 49
+  back-name: '&cPowrót'
+  categories:
+    DROP_SHARD:
+      name: '&dOdłamki z killi'
+      material: PRISMARINE_SHARD
+      slot: 20
+      description: 'Zwiększa drop odłamków z killi o &f%{CHANCE} (x{AMPLIFIER})'
+      stages:
+      - {stage: 1, slot: 20, price: 50, amplifier: 1.0, chance: 50.0}
+      - {stage: 2, slot: 21, price: 100, amplifier: 1.5, chance: 60.0}
+    RANKING:
+      name: '&6Bonus ranking'
+      material: GOLD_INGOT
+      slot: 22
+      description: 'Bonus do rankingu +{AMPLIFIER}%'
+      stages:
+      - {stage: 1, slot: 20, price: 50, amplifier: 5.0, chance: 0}
+    BOOST_DROP:
+      name: '&aBoost dropu'
+      material: EMERALD
+      slot: 24
+      description: 'Mnożnik dropu x{AMPLIFIER}'
+      stages:
+      - {stage: 1, slot: 20, price: 75, amplifier: 1.1, chance: 0}

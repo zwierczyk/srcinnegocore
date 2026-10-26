@@ -1,0 +1,287 @@
+# Konfiguracja filtrów dla rynku
+# Każdy filtr może mieć wiele kategorii, każda kategoria może filtrować po materiale i/lub customModelData
+
+filters:
+  all:
+    # Filtr "Wszystko" - bez kategorii, pokazuje wszystkie itemy
+    icon:
+      material: NETHER_STAR
+      customModelData: 0
+    name: '&8× &#00C356&lWszystko'
+    lore:
+      - ''
+      - '&7Wyświetla wszystkie przedmioty'
+      - '&7dostępne na rynku.'
+      - ''
+      - '&fKliknij, aby wybrać'
+    categories: {}
+
+  armor:
+    # Filtr zbroi - kategorie: hełmy, napierśniki, spodnie, buty, elytry
+    icon:
+      material: NETHERITE_CHESTPLATE
+      customModelData: 0
+    name: '&8× &#AC2222&lUzbrojenie'
+    lore:
+      - ''
+      - '&7Filtruj przedmioty według'
+      - '&7typu zbroi.'
+      - ''
+      - '&fKliknij, aby zmienić kategorię'
+    categories:
+      Hełmy:
+        - material: NETHERITE_HELMET
+          customModelData: -1  # -1 = ignoruj customModelData
+        - material: DIAMOND_HELMET
+          customModelData: -1
+        - material: IRON_HELMET
+          customModelData: -1
+        - material: GOLDEN_HELMET
+          customModelData: -1
+        - material: LEATHER_HELMET
+          customModelData: -1
+        - material: CHAINMAIL_HELMET
+          customModelData: -1
+        - material: TURTLE_HELMET
+          customModelData: -1
+
+      Napierśniki:
+        - material: NETHERITE_CHESTPLATE
+          customModelData: -1
+        - material: DIAMOND_CHESTPLATE
+          customModelData: -1
+        - material: IRON_CHESTPLATE
+          customModelData: -1
+        - material: GOLDEN_CHESTPLATE
+          customModelData: -1
+        - material: LEATHER_CHESTPLATE
+          customModelData: -1
+        - material: CHAINMAIL_CHESTPLATE
+          customModelData: -1
+
+      Spodnie:
+        - material: NETHERITE_LEGGINGS
+          customModelData: -1
+        - material: DIAMOND_LEGGINGS
+          customModelData: -1
+        - material: IRON_LEGGINGS
+          customModelData: -1
+        - material: GOLDEN_LEGGINGS
+          customModelData: -1
+        - material: LEATHER_LEGGINGS
+          customModelData: -1
+        - material: CHAINMAIL_LEGGINGS
+          customModelData: -1
+
+      Buty:
+        - material: NETHERITE_BOOTS
+          customModelData: -1
+        - material: DIAMOND_BOOTS
+          customModelData: -1
+        - material: IRON_BOOTS
+          customModelData: -1
+        - material: GOLDEN_BOOTS
+          customModelData: -1
+        - material: LEATHER_BOOTS
+          customModelData: -1
+        - material: CHAINMAIL_BOOTS
+          customModelData: -1
+
+      Elytry:
+        - material: ELYTRA
+          customModelData: -1
+
+  weapons:
+    # Filtr narzędzi/broni
+    icon:
+      material: NETHERITE_SWORD
+      customModelData: 0
+    name: '&8× &#FF8CF9&lNarzędzia'
+    lore:
+      - ''
+      - '&7Filtruj broń i narzędzia'
+      - '&7według typu.'
+      - ''
+      - '&fKliknij, aby zmienić kategorię'
+    categories:
+      Miecze:
+        - material: NETHERITE_SWORD
+          customModelData: -1
+        - material: DIAMOND_SWORD
+          customModelData: -1
+        - material: IRON_SWORD
+          customModelData: -1
+        - material: GOLDEN_SWORD
+          customModelData: -1
+        - material: STONE_SWORD
+          customModelData: -1
+        - material: WOODEN_SWORD
+          customModelData: -1
+
+      Kilofy:
+        - material: NETHERITE_PICKAXE
+          customModelData: -1
+        - material: DIAMOND_PICKAXE
+          customModelData: -1
+        - material: IRON_PICKAXE
+          customModelData: -1
+        - material: GOLDEN_PICKAXE
+          customModelData: -1
+        - material: STONE_PICKAXE
+          customModelData: -1
+        - material: WOODEN_PICKAXE
+          customModelData: -1
+
+      Siekiery:
+        - material: NETHERITE_AXE
+          customModelData: -1
+        - material: DIAMOND_AXE
+          customModelData: -1
+        - material: IRON_AXE
+          customModelData: -1
+        - material: GOLDEN_AXE
+          customModelData: -1
+        - material: STONE_AXE
+          customModelData: -1
+        - material: WOODEN_AXE
+          customModelData: -1
+
+      Łopaty:
+        - material: NETHERITE_SHOVEL
+          customModelData: -1
+        - material: DIAMOND_SHOVEL
+          customModelData: -1
+        - material: IRON_SHOVEL
+          customModelData: -1
+        - material: GOLDEN_SHOVEL
+          customModelData: -1
+        - material: STONE_SHOVEL
+          customModelData: -1
+        - material: WOODEN_SHOVEL
+          customModelData: -1
+
+      Motyki:
+        - material: NETHERITE_HOE
+          customModelData: -1
+        - material: DIAMOND_HOE
+          customModelData: -1
+        - material: IRON_HOE
+          customModelData: -1
+        - material: GOLDEN_HOE
+          customModelData: -1
+        - material: STONE_HOE
+          customModelData: -1
+        - material: WOODEN_HOE
+          customModelData: -1
+
+      Nożyce:
+        - material: SHEARS
+          customModelData: -1
+
+      Łuki:
+        - material: BOW
+          customModelData: -1
+        - material: CROSSBOW
+          customModelData: -1
+
+      Tarcze:
+        - material: SHIELD
+          customModelData: -1
+
+  special:
+    # Filtr specjalnych itemów (eventówki)
+    icon:
+      material: ENDER_EYE
+      customModelData: 0
+    name: '&8× &#00C2FF&lSpecjalne'
+    lore:
+      - ''
+      - '&7Specjalne przedmioty'
+      - '&7z eventów i nie tylko.'
+      - ''
+      - '&fKliknij, aby zmienić kategorię'
+    categories:
+      Eventówki:
+        # Eventówki z customModelData
+        - material: PURPLE_DYE
+          customModelData: 1
+        - material: YELLOW_DYE
+          customModelData: 1
+        - material: BLUE_DYE
+          customModelData: 1
+        - material: RED_DYE
+          customModelData: 1
+        - material: GREEN_DYE
+          customModelData: 1
+        - material: ORANGE_DYE
+          customModelData: 1
+
+      Perly:
+        - material: ENDER_PEARL
+          customModelData: -1
+        - material: ENDER_EYE
+          customModelData: -1
+
+      Totemy:
+        - material: TOTEM_OF_UNDYING
+          customModelData: -1
+
+      Koxy:
+        - material: GOLDEN_APPLE
+          customModelData: -1
+        - material: ENCHANTED_GOLDEN_APPLE
+          customModelData: -1
+
+  premium:
+    # Filtr premium itemów (klucze, vouchery, sigile, itp.)
+    icon:
+      material: GOLDEN_CARROT
+      customModelData: 0
+    name: '&8× &#F6FF93&lPremium'
+    lore:
+      - ''
+      - '&7Premium przedmioty:'
+      - '&7klucze, vouchery, sigile,'
+      - '&7odłamki i więcej.'
+      - ''
+      - '&fKliknij, aby zmienić kategorię'
+    categories:
+      Odłamki:
+        - material: PAPER
+          customModelData: 1
+
+      'Fragmenty Klanu':
+        - material: PAPER
+          customModelData: 2
+
+      OgBoxy:
+        - material: PURPLE_GLAZED_TERRACOTTA
+          customModelData: -1
+
+      Klucze:
+        - material: TRIPWIRE_HOOK
+          customModelData: -1
+
+      Vouchery:
+        - material: PAPER
+          customModelData: -1
+
+      Sigile:
+        - material: RED_DYE
+          customModelData: -1
+        - material: LIGHT_BLUE_DYE
+          customModelData: -1
+        - material: PURPLE_DYE
+          customModelData: -1
+        - material: ORANGE_DYE
+          customModelData: -1
+        - material: ENCHANTED_BOOK
+          customModelData: -1
+
+      'Książki Umiejętności':
+        - material: ENCHANTED_BOOK
+          customModelData: 1
+        - material: ENCHANTED_BOOK
+          customModelData: 2
+        - material: ENCHANTED_BOOK
+          customModelData: 3

@@ -1,0 +1,217 @@
+marketGuiTitle: '&5&lRynek'
+marketGuiRows: 6
+product-info:
+- ''
+- '&f★ &fSprzedawca: &b{seller}'
+- '&f$ &fCena: &a${price} &8(${price_int})'
+- '&f⌚ &fWygasa za: &e{expires}'
+- ''
+- '{action}'
+listingSellerLine: '&f★ &fSprzedawca: &b{seller}'
+listingPriceLine: '&f$ &fCena: &a${price} &8(${price_int})'
+listingExpiresLine: '&f⌚ &fWygasa za: &e{expires}'
+listingWithdrawAction: '&f✖ &cKliknij, aby wycofać przedmiot'
+listingBuyAction: '&f✔ &aKliknij, aby zakupić przedmiot'
+listingNoMoneyAction: '&f✖ &cNie posiadasz wystarczającej ilości pieniędzy!'
+listingMissingMoneyAction: '&f✖ &cBrakuje ci dokładnie: &#DD2525${missing}'
+listingAdminAction: '&f✖ &cKliknij z shiftem, aby usunąć &8[&4ADMIN&8]'
+myItemsGuiTitle: '&5&lTwoje Oferty'
+maxPrice: 1.0E10
+minPrice: 0.16
+maxItemsPerPlayer: 20
+defaultMaxItems: 20
+commission: 0.05
+expirationDays: 4
+showTimeSeconds: 60
+showTimeFastSeconds: 5
+fastShowTime: false
+blockedMaterialSuffixes:
+- _BOX
+itemExpiredMessage: '&#00E0FFℹ &8Ξ &fTwój przedmiot &e{item} &7wygasł na rynku i został
+  przeniesiony do wygasłych.'
+expiredItemsGuiTitle: '&7Wygasłe przedmioty'
+actionCooldownMs: 1000
+cooldownMessage: '&#FF0000✘ &8Ξ &cPoczekaj chwilę przed kolejną akcją!'
+itemListedMessage: '&aWystawiono przedmiot na rynek za &2${price}'
+itemListedVisibilityMessage: '&7Przedmiot będzie do kupna za &e{time}'
+itemBoughtMessage: '&#00FF3B✔ &#4EFA76Kupiłeś przedmiot za &e{price}$&a!'
+itemSoldMessage: '&#00FF3B✔ &#4EFA76Sprzedałeś przedmiot za &e{price}$&a! &8(prowizja: &c{commission}$&8)'
+offlineSaleMessage: '&ePodczas Twojej nieobecności sprzedano przedmioty na łączną kwotę &6{total}$&e!'
+itemWithdrawnMessage: '&#00FF3B✔ &#4EFA76Wycofałeś przedmiot z rynku!'
+invalidPriceMessage: '&cPodana cena musi być większa niż &4$0.16'
+noItemInHandMessage: '&cWeź przedmiot do &4ręki &caby go wystawić!'
+maxItemsReachedMessage: '&cPosiadasz limit &4wystawionych &cprzedmiotów na &4rynku!'
+blockedItemMessage: '&cTego przedmiotu nie możesz wystawić na &4rynku!'
+notEnoughMoneyMessage: '&#FF0000✘ &cNie masz wystarczająco pieniędzy!'
+itemNotFoundMessage: '&#FF0000✘ &cTen przedmiot już nie istnieje na rynku!'
+cannotBuyOwnItemMessage: '&#FF0000✘ &cNie możesz kupić własnego przedmiotu!'
+confirmGuiTitle: '&7Potwierdzenie zakupu'
+confirmButtonName: '&a&lPOTWIERDŹ ZAKUP'
+confirmButtonLore: '&8» &7Kliknij, aby kupić za &a{price}$'
+cancelButtonName: '&c&lANULUJ'
+cancelButtonLore: '&8» &7Kliknij, aby wrócić do rynku'
+myItemsName: '&6&lMOJE PRZEDMIOTY'
+sortName: '&e&lSORTOWANIE'
+filterArmor: '&b&lZBROJE'
+filterTools: '&b&lNARZĘDZIA'
+filterEventItems: '&b&lEVENTÓWKI'
+filterPremium: '&b&lPREMIUM'
+filterEnabledLore: '&aFiltr włączony'
+filterDisabledLore: '&cFiltr wyłączony'
+filterInstructionLore: |-
+  &7LPM - włącz filtr
+  &7PPM - wyłącz filtr
+sortNewest: '&aOd najnowszych'
+sortOldest: '&eOd najstarszych'
+sortCheapest: '&bOd najtańszych'
+sortExpensive: '&cOd najdroższych'
+refreshButtonName: '&c&lODŚWIEŻ STRONĘ'
+refreshButtonLore: '&8» &7Kliknij &cPRAWYM&7, aby odświeżyć'
+infoButtonName: '&c&lINFORMACJE'
+sortButtonName: '&c&lSORTOWANIE PRZEDMIOTÓW'
+sortButtonLore: '&c✎ Aktualnie wybrałeś:'
+expiredButtonName: '&c&lWYGASŁE PRZEDMIOTY'
+expiredButtonLore: '&8» &7Kliknij &cPRAWYM&7, aby otworzyć &cwygasłe &7itemy'
+myItemsButtonName: '&c&lTWOJE PRZEDMIOTY'
+myItemsButtonLore: '&8» &7Kliknij &cPRAWYM&7, aby otworzyć &ctwoje &7itemy'
+infoLore1: '&c✎ Informacje na temat rynku:'
+infoLore2: '&8» &7Jest to &fmarket &7na którym możesz'
+infoLore3: '&8» &7sprzedawać oraz kupować &fprzedmioty'
+infoLore4: '&8» &7Aby sprzedać przedmiot musisz wpisać:'
+infoLore5: '&8» &a/rynek sell <cena>'
+infoLore6: '&8» &7Obecnie sprzedajesz &f{current}&7/&f{max} &7rzeczy'
+filterArmorSlot: 0
+filterToolsSlot: 9
+filterEventSlot: 18
+filterPremiumSlot: 27
+prevPageSlot: 39
+sortSlot: 40
+nextPageSlot: 41
+refreshSlot: 37
+infoSlot: 4
+expiredSlot: 38
+myItemsButtonSlot: 42
+filterArmorMaterial: DIAMOND_HELMET
+filterToolsMaterial: DIAMOND_PICKAXE
+filterEventMaterial: FISHING_ROD
+filterPremiumMaterial: GOLD_INGOT
+prevPageMaterial: ARROW
+nextPageMaterial: ARROW
+sortMaterial: HOPPER
+refreshMaterial: RED_SHULKER_BOX
+infoMaterial: BOOK
+expiredMaterial: BELL
+myItemsButtonMaterial: ENDER_CHEST
+prevPageName: '&d&lPoprzednia strona'
+nextPageName: '&d&lNastępna strona'
+sortButtonClickLore: '&8» &7Kliknij &cPRAWYM&7, aby zmienić sortowanie'
+filterArmorCustomModelData: 0
+filterToolsCustomModelData: 0
+filterEventCustomModelData: 0
+filterPremiumCustomModelData: 0
+prevPageCustomModelData: 0
+nextPageCustomModelData: 0
+sortCustomModelData: 0
+refreshCustomModelData: 0
+infoCustomModelData: 0
+expiredCustomModelData: 0
+myItemsButtonCustomModelData: 0
+confirmGuiRows: 5
+confirmPreviewSlot: 13
+confirmButtonSlot: 21
+cancelButtonSlot: 23
+confirmButtonMaterial: LIME_DYE
+cancelButtonMaterial: RED_DYE
+confirmButtonCustomModelData: 0
+cancelButtonCustomModelData: 0
+expiredGuiBackButtonName: '&c&lPowrót do rynku'
+expiredGuiBackButtonMaterial: BARRIER
+expiredGuiBackSlot: 40
+expiredGuiPrevPageSlot: 39
+expiredGuiNextPageSlot: 41
+expiredGuiClaimLore: '&cKliknij, aby odebrać'
+expiredGuiEmptyMessage: '&7Nie masz wygasłych przedmiotów.'
+categoryArmorItems:
+- LEATHER_HELMET
+- LEATHER_CHESTPLATE
+- LEATHER_LEGGINGS
+- LEATHER_BOOTS
+- CHAINMAIL_HELMET
+- CHAINMAIL_CHESTPLATE
+- CHAINMAIL_LEGGINGS
+- CHAINMAIL_BOOTS
+- IRON_HELMET
+- IRON_CHESTPLATE
+- IRON_LEGGINGS
+- IRON_BOOTS
+- GOLDEN_HELMET
+- GOLDEN_CHESTPLATE
+- GOLDEN_LEGGINGS
+- GOLDEN_BOOTS
+- DIAMOND_HELMET
+- DIAMOND_CHESTPLATE
+- DIAMOND_LEGGINGS
+- DIAMOND_BOOTS
+- NETHERITE_HELMET
+- NETHERITE_CHESTPLATE
+- NETHERITE_LEGGINGS
+- NETHERITE_BOOTS
+- TURTLE_HELMET
+- SHIELD
+- ELYTRA
+categoryToolsItems:
+- WOODEN_SWORD
+- STONE_SWORD
+- IRON_SWORD
+- GOLDEN_SWORD
+- DIAMOND_SWORD
+- NETHERITE_SWORD
+- WOODEN_AXE
+- STONE_AXE
+- IRON_AXE
+- GOLDEN_AXE
+- DIAMOND_AXE
+- NETHERITE_AXE
+- WOODEN_PICKAXE
+- STONE_PICKAXE
+- IRON_PICKAXE
+- GOLDEN_PICKAXE
+- DIAMOND_PICKAXE
+- NETHERITE_PICKAXE
+- WOODEN_SHOVEL
+- STONE_SHOVEL
+- IRON_SHOVEL
+- GOLDEN_SHOVEL
+- DIAMOND_SHOVEL
+- NETHERITE_SHOVEL
+- WOODEN_HOE
+- STONE_HOE
+- IRON_HOE
+- GOLDEN_HOE
+- DIAMOND_HOE
+- NETHERITE_HOE
+- BOW
+- CROSSBOW
+- TRIDENT
+categoryEventItems:
+- FISHING_ROD
+- ENDER_PEARL
+- ENDER_EYE
+- TOTEM_OF_UNDYING
+- GOLDEN_APPLE
+- ENCHANTED_GOLDEN_APPLE
+- END_CRYSTAL
+categoryPremiumItems:
+- GOLD_INGOT
+- GOLD_BLOCK
+- DIAMOND
+- DIAMOND_BLOCK
+- EMERALD
+- EMERALD_BLOCK
+- NETHERITE_INGOT
+- NETHERITE_BLOCK
+- BEACON
+- NETHER_STAR
+- DRAGON_EGG
+- HEART_OF_THE_SEA
+premiumIncludesEnchanted: true

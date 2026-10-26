@@ -1,0 +1,12 @@
+prefix: '&8[&6HollyCore&8] '
+debug: false
+default-cooldown: 3
+no-damage:
+  enabled: true
+  causes:
+    - FALL
+    - FLY_INTO_WALL
+    - SUFFOCATION
+    - CRAMMING
+  # Blokuje tylko sand/żwir/kowadło — dripstone zawsze spada (patrz NoEnvironmentalDamageListener).
+  no-falling-blocks: true

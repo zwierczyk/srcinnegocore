@@ -1,0 +1,450 @@
+scoreboard:
+  enabled: true
+  auto-shadow:
+    enabled: false
+    color: '#000000C0'
+  # Pełne odświeżenie placeholderów co 3s (pieniądze, kille, punkty…).
+  update-seconds: 3
+  update-batch-size: 24
+  periodic-refresh: true
+  # Pokazuj sekcję klanu w scoreboardzie (nawet jeśli gracz ma klan)
+  show-clan-section: true
+  lines:
+    - ''
+    - '&#FF0000&l| &f<shadow:#000000C0> Sektor: <gradient:#00FFC1:#00FF5A>%core_sector%</gradient></shadow>'
+    - '&#FF0000&l| &f<shadow:#000000C0> Aby zmienic wpisz: <gradient:#00FFC1:#00FF5A>/ch</gradient></shadow>'
+    - '&#FF0000&l|'
+    - '&#FF0000&l| &f<shadow:#000000C0> Nick: <gradient:#00C1FF:#00D6FF>%player_name%</gradient></shadow>'
+    - '&#FF0000&l| &f<shadow:#000000C0> Czas gry: <gradient:#9FFF00:#2AFF5B:#A9FF00>%core_playtime%</gradient></shadow>'
+    - '&#FF0000&l| &f<shadow:#000000C0> Pieniądze: &#00FF4F%core_balance%$
+    &8(&#FF9B00%core_vpln%&8)</shadow>'
+    - '&#FF0000&l|'
+    - '&#FF0000&l| &f<shadow:#000000C0> Punkty: <gradient:#A7A7A7:#B5CFD4:#969798>%core_points%</gradient>
+    &8♦ &f#{player_points_position}</shadow>'
+    - '&#FF0000&l| &f<shadow:#000000C0> Zabójstwa: &#FF0000%core_kills%</shadow>'
+    - '&#FF0000&l| &f<shadow:#000000C0> Śmierci: &#8DC4BB%core_deaths%</shadow>'
+    - '&#FF0000&l|'
+    - '&#FF0000&l| &f<shadow:#000000C0> Boss: <gradient:#FF5C5C:#FFB800>{BOSS_NAME}</gradient> &8• &f{BOSS_TIME}</shadow>'
+    - ''
+    - '{clan_section}'
+  no-clan-lines:
+    - '&f<shadow:#000000C0>ꑢ &cNie posiadasz klanu</shadow>'
+    - '&f<shadow:#000000C0>ꑢ &cZaloz klan pod: &#FF0000/klan zaloz &f\\<TAG></shadow>'
+  in-clan-lines:
+    - '&f<shadow:#000000C0>ノ Klan: &#32F55F{clan_name}</shadow>'
+    - '&f<shadow:#000000C0>ノ Punkty: &#32F55F{clan_points} &8● &f#{clan_points_position}</shadow>'
+tab:
+  enabled: true
+  update-seconds: 30
+  update-batch-size: 8
+  name-tag-update-batch-size: 8
+  custom-tab-enabled: true
+  auto-shadow:
+    enabled: false
+    color: '#000000C0'
+  fill-empty-rows: false
+  # System animacji dla custom tab rows - różne topki się zmieniają
+  animation:
+    enabled: false
+    # Interwał zmiany strony w sekundach
+    interval-seconds: 10
+    # Lista stron do rotacji
+    pages:
+      - 'top-players-points'
+      - 'top-players-kills'
+      - 'top-players-time'
+      - 'top-players-money'
+      - 'top-clans-points'
+      - 'top-clans-kills'
+  custom-tab-skin:
+    # Value z MineSkin dla glowek w custom tabie
+    value: ewogICJ0aW1lc3RhbXAiIDogMTc4Mjk5MjIyNTg2NiwKICAicHJvZmlsZUlkIiA6ICJhYzAwNzU2Mjg3YzA0MDE5YTAwN2U5NTc4MTBiZmUyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFWjJPTl9SRUJPT1RfUiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NTY2NDE4Zjk0NWY5YzMzZDFmNjU5ZWM5ZTllZDVjMWNmNWQ4Njg3MDI1ZTE0OTM0NmVmMzljM2Q0NWM0MDE4IgogICAgfQogIH0KfQ==
+    # Signature z MineSkin dla glowek w custom tabie. Moze byc puste.
+    signature: pdW1re6t41u+ZwH6jjJ/qTFSjzI2eB9mPY1K1OUFRWNBYERPCoJx84njDTctdTF9hXCX3eu6RUVDgr369esPlqXtSeXlYHVuo15zsTNL4CtWuh1aPt26gUFnJN4qlcQKrcyVbrXOt9MwulvgVSvbq5xK8ip+K4P8BEYBABhSw6NVJ55yyjRY/qjdr6Qw9fB8QwfawYetpSMBt10VvZiol8m7uDdPd5pYiioCKZVb2ngpg6dvdENpHIPSNwqboahEchSPRqYfL27JXYe46YDwZIzuXO/ORjaQ5fcBh8fTLj6ihp1ufYm+TzU+nS4Hfu8fUJQQ1skQKsvrzIXGmqERH3nwtwEK/vLID1ecAoGJN8LzrK++trJrIi7j2hBL0R4l67+5kbCGs5GcLxL2HVrYzS+Nh1E5eoRmmCi9n15qxYZxobJSPONAk4Q1UkMbVJRWKflPqcCUu7ulcXdxOpf7aKakJl1E5J7+3aYLLfCttn+F9/bqs5vKpIzwiMRfXoQNm1Ob8BLd2T7QFt6q5/ywcfUHYvx2UT4HWPEA3rodA/5Kf4IRSXc4Ix7Krv2ffSA9cErA8fw0uslCjMWOFIcg7cBVYyzl29htplSQkej/u2EDRMdTT4sG2SqJBaZbsNwWw8cOXczpLbBh7HlVSVNMV5gRSPmMihrpzBF2D5AArCw=
+  identity-update-interval-ticks: 400
+  full-row-update-interval-ticks: 300
+  update-rows-on-move: false
+  max-adaptive-full-row-update-interval-ticks: 600
+  tabtop:
+    user-format: '#{PLACE} {STATUS} {NAME} ({VALUE})'
+    clan-format: '#{PLACE} {STATUS} {NAME} ({VALUE})'
+    online-symbol: '&a•'
+    offline-symbol: '&c•'
+    colors:
+      '2': '&x&F&F&B&A&0&0'
+      '1': '&x&F&F&1&8&1&8'
+      default: '&x&A&F&D&C&F&F'
+      '3': '&x&7&2&F&F&4&1'
+    # Tekst wyswietlany zamiast numeru {PLACE} w topce taba. Klucz default obsluguje pozycje bez osobnego wpisu.
+    position-labels:
+      '1': '&fび'
+      '2': '&fが'
+      '3': '&fい'
+      '4': '&f4'
+      '5': '&f5'
+      '6': '&f6'
+      '7': '&f7'
+      '8': '&f8'
+      '9': '&f9'
+      '10': '&f10'
+      '11': '&f11'
+      '12': '&f12'
+      '13': '&f13'
+      '14': '&f14'
+      '15': '&f15'
+      default: '{PLACE}'
+    o-ld_default_format: '#{PLACE} {STATUS} {NAME} ({VALUE})'
+    de-fa-ult_points_format: '{PLACE} &f{NAME} &8⁂ &8(&a{VALUE}ptk.&8)'
+    o-ld_default_colors:
+      '1': '&x&F&F&1&8&1&8'
+      default: '&x&A&F&D&C&F&F'
+      '3': '&x&7&2&F&F&4&1'
+      '2': '&x&F&F&B&A&0&0'
+  adaptive-refresh: true
+  adaptive-max-ticks: 400
+  sort-by-luck-perms: true
+  # Sortowanie: najlepsza (najwyższa) grupa gracza z rank-order — nie tylko primary.
+  # Dzięki temu właściciel + odebrane VIP zostaje na górze tabu. Puste wpisy w liście są pomijane.
+  # sorting:
+  #   fallback-group: default
+  #   unknown-group-weight: 999
+  #   sorting-types:
+  #     - 'GROUPS:root,admin,mod,helper,vip,default'
+  rank-order:
+    - root
+    - wlasciciel
+    - owner
+    - zarzad
+    - headadmin
+    - hadmin
+    - admin
+    - mod
+    - moderator
+    - kidmod
+    - jmod
+    - helper
+    - thelper
+    - trialhelper
+    - builder
+    - budowniczy
+    - partner
+    - tworca
+    - media
+    - youtuber
+    - yt
+    - tiktok
+    - minimedia
+    - sponsor
+    - patron
+    - elita
+    - champion
+    - boss
+    - dig
+    - mvip
+    - svip
+    - vip
+    - gracz
+    - player
+    - default
+  # Bez armorstars — przy 400+ graczach %holly_armorstars% na każdym nametagu = TPS killer.
+  # %rel_holly_clan_tag_rel% — tag klanu: zielony dla sojuszników, czerwony dla reszty.
+  player-name: '%luckperms_prefix%%name_color%%player_name% %core_format% %core_vanish%'
+  name-tag: '%luckperms_prefix%%name_color%%player_name% %core_format% %core_vanish%'
+  rank-name-colors:
+    root: '&c'
+    wlasciciel: '&c'
+    owner: '&c'
+    headadmin: '&c'
+    hadmin: '&c'
+    admin: '&c'
+    mod: '&2'
+    moderator: '&2'
+    helper: '&b'
+    thelper: '&b'
+    trialhelper: '&b'
+    vip: '&e'
+    svip: '&e'
+    mvip: '&e'
+    gracz: '&b'
+    player: '&b'
+    default: '&b'
+    media: '&d'
+    tiktok: '&d'
+    partner: '&d'
+    sponsor: '&6'
+    patron: '&6'
+  header:
+    - ''
+    - '&fꑧ &f<shadow:#000000C0><b><gradient:#FF0000:#FF0000:#FF0000><shadow:#000000:1><b>ᴍᴀꜱᴀᴋʀᴀ.ɢɢ</b></shadow></gradient></b>
+    &fꑧ'
+    - '&f'
+    - '&8• &fɴᴀ ꜱᴇʀᴡᴇʀᴢᴇ ᴢɴᴀᴅᴜᴊᴇ ꜱɪᴇ &#72FF2A&n%bungee_all%&f &a• &fɢʀᴀᴄᴢʏ &8•'
+    - ''
+  footer:
+    - ''
+    - '&fᴢɴᴀᴊᴅᴜᴊᴇꜱᴢ ꜱɪᴇ ɴᴀ ᴛʀʏʙɪᴇ: <b><gradient:#FFFFFF:#969696:#FFFFFF><b>ʀᴀᴘʏ-ᴘʀᴀᴄᴛɪᴄᴇ</b></gradient></b>
+    &8(&7%bungee_rapyprac_1% &fgraczy&8)'
+    - ' &f彡 &fꜱᴛʀᴏɴᴀ: &aᴡᴡᴡ.ᴍᴀꜱᴀᴋʀᴀ.ɢɢ &8● &fᴅɪꜱᴄᴏʀᴅ: &#2EBDF5ᴅᴄ.ᴍᴀꜱᴀᴋʀᴀ.ɢɢ &f彳'
+    - ''
+  rows:
+    - '&8'
+    - ' &f <b><gradient:#FF0000:#B75454:#FF0000><b>ᴛᴡᴏᴊᴇ ꜱᴛᴀᴛʏꜱᴛʏᴋɪ</b></gradient></b>&f
+    '
+    - '&7'
+    - '&8▶ &f Nick: &#FF0000%player_name%'
+    - '&8▶ &f Pieniadze: &#FF0000%core_balance%$'
+    - '&8▶ &f Punkty: &#FF0000%core_points% &8#&#B75454%core_position%'
+    - '&8▶ &f Zabójstwa: &#FF0000%core_kills%'
+    - '&8▶ &f Śmierci: &#FF0000%core_deaths%'
+    - '&8▶ &f Czas gry: &#FF0000%core_playtime%'
+    - '&7'
+    - '     &f <b><gradient:#BEFF00:#9DB754:#BEFF00><b>ᴛᴡóᴊ ᴋʟᴀɴ</b></gradient></b>
+    &f'
+    - '&8'
+    - '&8▶ &f Nazwa: &#BEFF00%core_clan%'
+    - '&8▶ &f Punkty klanowe: &#BEFF00%core_clan_points% &8#&#9DB754%core_clan_position%'
+    - '&8▶ &f Członków: &#BEFF00%core_clan_members%'
+    - '&8▶ &f Online: &#BEFF00%core_clan_members%&8/&#9DB754%core_clan_online%'
+    - '&7'
+    - ''
+    - '&7'
+    - '&7'
+    - '     &f <b><gradient:#FFFFFF:#8F8F8F:#FFFFFF><b>ᴛᴏᴘᴏᴡɪ ɢʀᴀᴄᴢᴇ</b></gradient></b>
+    &f'
+    - '           &8[&fʀᴀɴᴋɪɴɢ&8]'
+    - ''
+    - '%core_tabtopuser_POINTS_1%'
+    - '%core_tabtopuser_POINTS_2%'
+    - '%core_tabtopuser_POINTS_3%'
+    - '%core_tabtopuser_POINTS_4%'
+    - '%core_tabtopuser_POINTS_5%'
+    - '%core_tabtopuser_POINTS_6%'
+    - '%core_tabtopuser_POINTS_7%'
+    - '%core_tabtopuser_POINTS_8%'
+    - '%core_tabtopuser_POINTS_9%'
+    - '%core_tabtopuser_POINTS_10%'
+    - '%core_tabtopuser_POINTS_11%'
+    - '%core_tabtopuser_POINTS_12%'
+    - '%core_tabtopuser_POINTS_13%'
+    - '%core_tabtopuser_POINTS_14%'
+    - '%core_tabtopuser_POINTS_15%'
+    - '&8▶ &x&A&F&D&C&F&F%player_name% &8⁂ &f#%core_position%'
+    - '&8'
+    - '     &f <b><gradient:#F100FF:#7A00A4:#F100FF><b>ᴛᴏᴘᴏᴡᴇ ᴋʟᴀɴʏ</b></gradient></b>
+    &f'
+    - '          &8[&fʀᴀɴᴋɪɴɢ&8]'
+    - '&8'
+    - '%core_tabtopclan_POINTS_1%'
+    - '%core_tabtopclan_POINTS_2%'
+    - '%core_tabtopclan_POINTS_3%'
+    - '%core_tabtopclan_POINTS_4%'
+    - '%core_tabtopclan_POINTS_5%'
+    - '%core_tabtopclan_POINTS_6%'
+    - '%core_tabtopclan_POINTS_7%'
+    - '%core_tabtopclan_POINTS_8%'
+    - '%core_tabtopclan_POINTS_9%'
+    - '%core_tabtopclan_POINTS_10%'
+    - '%core_tabtopclan_POINTS_11%'
+    - '%core_tabtopclan_POINTS_12%'
+    - '%core_tabtopclan_POINTS_13%'
+    - '%core_tabtopclan_POINTS_14%'
+    - '%core_tabtopclan_POINTS_15%'
+    - '&8▶ &x&A&F&D&C&F&F%core_clan% &8⁂ &f#%core_clan_position%'
+    - '&8'
+    - ''
+    - ' &f <b><gradient:#00E0FF:#008EA2:#00E0FF><b>ᴘʀᴢʏᴅᴀᴛɴᴇ ᴋᴏᴍᴇɴᴅʏ</b></gradient></b>
+    &f'
+    - '&8'
+    - '&8▶ &f/portfel &8- &#00E0FFWesprzyj serwer!'
+    - '&8▶ &f/rangi &8- &#00E0FFInformacje co posiadają rangi!'
+    - '&8▶ &f/nagroda &8- &#00E0FFDarmowa nagroda!'
+    - '&8▶ &f/zglos <nick> &8- &#00E0FFZgłoś cheatera!'
+    - '&8▶ &f/kit &8- &#00E0FFOdbierz dostępne zestawy!'
+    - '&8▶ &f/odbierz &8- &#00E0FFOdbierz swoje klucze!'
+    - '&8▶ &f/kosz &8- &#00E0FFWyrzuć swoje przedmioty!'
+    - '&8'
+    - '     &f <b><gradient:#FF9B00:#925B04:#FF9B00><b>ɪɴꜰᴏʀᴍᴀᴄᴊᴇ</b></gradient></b>&f
+    '
+    - '&8'
+    - '&8► &fSektor: &#FF9B00%core_sector%'
+    - '&8► &fTpsy: &#FF9B00%server_tps_1%&8 &8| &#FF9B00%server_tps_5%&8 &8| &#FF9B00%server_tps_15%'
+    - '&8► &fTwój ping: &#FF9B00%player_ping%ms'
+    - '&8'
+  # Definicje stron dla animacji - różne topki graczy i klanów
+  # TOP GRACZE - PUNKTY
+  top-players-points:
+    - '&8'
+    - ' &f <b><gradient:#FF0000:#B75454:#FF0000><b>ᴛᴡᴏᴊᴇ ꜱᴛᴀᴛʏꜱᴛʏᴋɪ</b></gradient></b>&f '
+    - '&7'
+    - '&8▶ &f Nick: &#FF0000%player_name%'
+    - '&8▶ &f Punkty: &#FF0000%core_points% &8#&#B75454%core_position%'
+    - '&7'
+    - '     &f <b><gradient:#FFFFFF:#8F8F8F:#FFFFFF><b>ᴛᴏᴘ ɢʀᴀᴄᴢʏ - ᴘᴜɴᴋᴛʏ</b></gradient></b> &f'
+    - '           &8[&fʀᴀɴᴋɪɴɢ&8]'
+    - ''
+    - '%core_tabtopuser_POINTS_1%'
+    - '%core_tabtopuser_POINTS_2%'
+    - '%core_tabtopuser_POINTS_3%'
+    - '%core_tabtopuser_POINTS_4%'
+    - '%core_tabtopuser_POINTS_5%'
+    - '%core_tabtopuser_POINTS_6%'
+    - '%core_tabtopuser_POINTS_7%'
+    - '%core_tabtopuser_POINTS_8%'
+    - '%core_tabtopuser_POINTS_9%'
+    - '%core_tabtopuser_POINTS_10%'
+    - '%core_tabtopuser_POINTS_11%'
+    - '%core_tabtopuser_POINTS_12%'
+    - '%core_tabtopuser_POINTS_13%'
+    - '%core_tabtopuser_POINTS_14%'
+    - '%core_tabtopuser_POINTS_15%'
+    - '&8▶ &x&A&F&D&C&F&F%player_name% &8⁂ &f#%core_position%'
+
+  # TOP GRACZE - ZABÓJSTWA
+  top-players-kills:
+    - '&8'
+    - ' &f <b><gradient:#FF0000:#B75454:#FF0000><b>ᴛᴡᴏᴊᴇ ꜱᴛᴀᴛʏꜱᴛʏᴋɪ</b></gradient></b>&f '
+    - '&7'
+    - '&8▶ &f Nick: &#FF0000%player_name%'
+    - '&8▶ &f Zabójstwa: &#FF0000%core_kills%'
+    - '&7'
+    - '     &f <b><gradient:#FF0000:#8F0000:#FF0000><b>ᴛᴏᴘ ɢʀᴀᴄᴢʏ - ᴢᴀʙóᴊꜱᴛᴡᴀ</b></gradient></b> &f'
+    - '           &8[&fʀᴀɴᴋɪɴɢ&8]'
+    - ''
+    - '%core_tabtopuser_KILLS_1%'
+    - '%core_tabtopuser_KILLS_2%'
+    - '%core_tabtopuser_KILLS_3%'
+    - '%core_tabtopuser_KILLS_4%'
+    - '%core_tabtopuser_KILLS_5%'
+    - '%core_tabtopuser_KILLS_6%'
+    - '%core_tabtopuser_KILLS_7%'
+    - '%core_tabtopuser_KILLS_8%'
+    - '%core_tabtopuser_KILLS_9%'
+    - '%core_tabtopuser_KILLS_10%'
+    - '%core_tabtopuser_KILLS_11%'
+    - '%core_tabtopuser_KILLS_12%'
+    - '%core_tabtopuser_KILLS_13%'
+    - '%core_tabtopuser_KILLS_14%'
+    - '%core_tabtopuser_KILLS_15%'
+    - '&8▶ &x&A&F&D&C&F&F%player_name% &8⁂ &f%core_kills% ᴋɪʟʟꜱ'
+
+  # TOP GRACZE - CZAS GRY
+  top-players-time:
+    - '&8'
+    - ' &f <b><gradient:#FF0000:#B75454:#FF0000><b>ᴛᴡᴏᴊᴇ ꜱᴛᴀᴛʏꜱᴛʏᴋɪ</b></gradient></b>&f '
+    - '&7'
+    - '&8▶ &f Nick: &#FF0000%player_name%'
+    - '&8▶ &f Czas gry: &#FF0000%core_playtime%'
+    - '&7'
+    - '     &f <b><gradient:#00FF00:#008F00:#00FF00><b>ᴛᴏᴘ ɢʀᴀᴄᴢʏ - ᴄᴢᴀꜱ ɢʀʏ</b></gradient></b> &f'
+    - '           &8[&fʀᴀɴᴋɪɴɢ&8]'
+    - ''
+    - '%core_tabtopuser_PLAYTIME_1%'
+    - '%core_tabtopuser_PLAYTIME_2%'
+    - '%core_tabtopuser_PLAYTIME_3%'
+    - '%core_tabtopuser_PLAYTIME_4%'
+    - '%core_tabtopuser_PLAYTIME_5%'
+    - '%core_tabtopuser_PLAYTIME_6%'
+    - '%core_tabtopuser_PLAYTIME_7%'
+    - '%core_tabtopuser_PLAYTIME_8%'
+    - '%core_tabtopuser_PLAYTIME_9%'
+    - '%core_tabtopuser_PLAYTIME_10%'
+    - '%core_tabtopuser_PLAYTIME_11%'
+    - '%core_tabtopuser_PLAYTIME_12%'
+    - '%core_tabtopuser_PLAYTIME_13%'
+    - '%core_tabtopuser_PLAYTIME_14%'
+    - '%core_tabtopuser_PLAYTIME_15%'
+    - '&8▶ &x&A&F&D&C&F&F%player_name% &8⁂ &f%core_playtime%'
+
+  # TOP GRACZE - PIENIĄDZE
+  top-players-money:
+    - '&8'
+    - ' &f <b><gradient:#FF0000:#B75454:#FF0000><b>ᴛᴡᴏᴊᴇ ꜱᴛᴀᴛʏꜱᴛʏᴋɪ</b></gradient></b>&f '
+    - '&7'
+    - '&8▶ &f Nick: &#FF0000%player_name%'
+    - '&8▶ &f Pieniądze: &#FF0000%core_balance%$'
+    - '&7'
+    - '     &f <b><gradient:#FFD700:#8F7700:#FFD700><b>ᴛᴏᴘ ɢʀᴀᴄᴢʏ - ᴘɪᴇɴɪᴀ̨ᴅᴢᴇ</b></gradient></b> &f'
+    - '           &8[&fʀᴀɴᴋɪɴɢ&8]'
+    - ''
+    - '%core_tabtopuser_BALANCE_1%'
+    - '%core_tabtopuser_BALANCE_2%'
+    - '%core_tabtopuser_BALANCE_3%'
+    - '%core_tabtopuser_BALANCE_4%'
+    - '%core_tabtopuser_BALANCE_5%'
+    - '%core_tabtopuser_BALANCE_6%'
+    - '%core_tabtopuser_BALANCE_7%'
+    - '%core_tabtopuser_BALANCE_8%'
+    - '%core_tabtopuser_BALANCE_9%'
+    - '%core_tabtopuser_BALANCE_10%'
+    - '%core_tabtopuser_BALANCE_11%'
+    - '%core_tabtopuser_BALANCE_12%'
+    - '%core_tabtopuser_BALANCE_13%'
+    - '%core_tabtopuser_BALANCE_14%'
+    - '%core_tabtopuser_BALANCE_15%'
+    - '&8▶ &x&A&F&D&C&F&F%player_name% &8⁂ &f%core_balance%$'
+
+  # TOP KLANY - PUNKTY
+  top-clans-points:
+    - '&8'
+    - '     &f <b><gradient:#BEFF00:#9DB754:#BEFF00><b>ᴛᴡóᴊ ᴋʟᴀɴ</b></gradient></b> &f'
+    - '&8'
+    - '&8▶ &f Nazwa: &#BEFF00%core_clan%'
+    - '&8▶ &f Punkty: &#BEFF00%core_clan_points% &8#&#9DB754%core_clan_position%'
+    - '&7'
+    - '     &f <b><gradient:#F100FF:#7A00A4:#F100FF><b>ᴛᴏᴘ ᴋʟᴀɴʏ - ᴘᴜɴᴋᴛʏ</b></gradient></b> &f'
+    - '          &8[&fʀᴀɴᴋɪɴɢ&8]'
+    - '&8'
+    - '%core_tabtopclan_POINTS_1%'
+    - '%core_tabtopclan_POINTS_2%'
+    - '%core_tabtopclan_POINTS_3%'
+    - '%core_tabtopclan_POINTS_4%'
+    - '%core_tabtopclan_POINTS_5%'
+    - '%core_tabtopclan_POINTS_6%'
+    - '%core_tabtopclan_POINTS_7%'
+    - '%core_tabtopclan_POINTS_8%'
+    - '%core_tabtopclan_POINTS_9%'
+    - '%core_tabtopclan_POINTS_10%'
+    - '%core_tabtopclan_POINTS_11%'
+    - '%core_tabtopclan_POINTS_12%'
+    - '%core_tabtopclan_POINTS_13%'
+    - '%core_tabtopclan_POINTS_14%'
+    - '%core_tabtopclan_POINTS_15%'
+    - '&8▶ &x&A&F&D&C&F&F%core_clan% &8⁂ &f#%core_clan_position%'
+
+  # TOP KLANY - ZABÓJSTWA
+  top-clans-kills:
+    - '&8'
+    - '     &f <b><gradient:#BEFF00:#9DB754:#BEFF00><b>ᴛᴡóᴊ ᴋʟᴀɴ</b></gradient></b> &f'
+    - '&8'
+    - '&8▶ &f Nazwa: &#BEFF00%core_clan%'
+    - '&8▶ &f Zabójstwa: &#BEFF00%core_clan_kills%'
+    - '&7'
+    - '     &f <b><gradient:#FF0000:#7A0000:#FF0000><b>ᴛᴏᴘ ᴋʟᴀɴʏ - ᴢᴀʙóᴊꜱᴛᴡᴀ</b></gradient></b> &f'
+    - '          &8[&fʀᴀɴᴋɪɴɢ&8]'
+    - '&8'
+    - '%core_tabtopclan_KILLS_1%'
+    - '%core_tabtopclan_KILLS_2%'
+    - '%core_tabtopclan_KILLS_3%'
+    - '%core_tabtopclan_KILLS_4%'
+    - '%core_tabtopclan_KILLS_5%'
+    - '%core_tabtopclan_KILLS_6%'
+    - '%core_tabtopclan_KILLS_7%'
+    - '%core_tabtopclan_KILLS_8%'
+    - '%core_tabtopclan_KILLS_9%'
+    - '%core_tabtopclan_KILLS_10%'
+    - '%core_tabtopclan_KILLS_11%'
+    - '%core_tabtopclan_KILLS_12%'
+    - '%core_tabtopclan_KILLS_13%'
+    - '%core_tabtopclan_KILLS_14%'
+    - '%core_tabtopclan_KILLS_15%'
+    - '&8▶ &x&A&F&D&C&F&F%core_clan% &8⁂ &f%core_clan_kills% ᴋɪʟʟꜱ'
+  o-ld_default_name: '{afk_prefix}&f%player_name%'
+  de-fa-ult_ranked_name: '{afk_prefix}%luckperms_prefix%&f%player_name%%luckperms_suffix%'
+idle-afk:
+  # WYLACZONE — nie dokleja [AFK] / markerow do nicku
+  enabled: false
+  after-seconds: 120
+  reset-on-interact: true
+  reset-on-chat: true
+  reset-on-command: true
+  marker: ''

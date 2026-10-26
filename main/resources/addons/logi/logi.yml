@@ -1,0 +1,20 @@
+enabled: true
+webhook-url: ''
+market-listed:
+  enabled: true
+  webhook-url: ''
+gamemode-changed:
+  enabled: true
+  webhook-url: ''
+backup-requested:
+  enabled: true
+  webhook-url: ''
+backup-approved:
+  enabled: true
+  webhook-url: ''
+backup-claimed:
+  enabled: true
+  webhook-url: ''
+pay-transfer:
+  enabled: true
+  webhook-url: ''

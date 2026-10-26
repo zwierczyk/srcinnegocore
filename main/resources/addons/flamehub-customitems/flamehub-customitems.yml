@@ -1,0 +1,65 @@
+# ========================================================== #
+#              FLAMEHUB CUSTOMITEMS - CONFIG                 #
+# ========================================================== #
+
+items:
+  yoda:
+    material: "NETHER_STAR"
+    name: "&#2ecc71&lMoc Yody"
+    lore:
+      - "&#7f8c8d&m----------------------------------"
+      - "&7Starożytna technika jasnej strony Mocy."
+      - ""
+      - "&fAktywacja: &aPrawym Przyciskiem Myszy (PPM)"
+      - "&fDziałanie:"
+      - " &8▪ &7Redukcja obrażeń: &#2ecc7130%"
+      - " &8▪ &7Czas trwania: &f3 sekundy"
+      - " &8▪ &7Cooldown: &f60 sekund"
+      - "&#7f8c8d&m----------------------------------"
+    duration-seconds: 3
+    damage-reduction-percent: 30.0
+    cooldown-seconds: 60
+
+  vader:
+    material: "BLAZE_ROD"
+    name: "&#e74c3c&lMoc Vadera"
+    lore:
+      - "&#7f8c8d&m----------------------------------"
+      - "&7Mroczna potęga niszcząca każdego przeciwnika."
+      - ""
+      - "&fAktywacja: &cPrawym Przyciskiem Myszy (PPM)"
+      - "&fDziałanie:"
+      - " &8▪ &7Zwiększone obrażenia: &#e74c3c+25%"
+      - " &8▪ &7Czas trwania: &f3 sekundy"
+      - " &8▪ &7Cooldown: &f60 sekund"
+      - "&#7f8c8d&m----------------------------------"
+    duration-seconds: 3
+    damage-increase-percent: 25.0
+    cooldown-seconds: 60
+
+gui:
+  title: "&#c0392b&lFLAME&f&lHUB &8| &7Wybierz przedmiot"
+  size: 9
+  filler:
+    enabled: true
+    material: "GRAY_STAINED_GLASS_PANE"
+    name: "&7"
+  slots:
+    yoda: 3
+    vader: 5
+
+messages:
+  prefix: "&#c0392b&lFLAME&f&lHUB &8» "
+  no-permission: "&c✖ &8| &cBrak uprawnień do wykonania tej komendy!"
+  only-player: "&c✖ &8| &cTa komenda może być wykonana tylko przez gracza w grze!"
+  player-not-found: "&c✖ &8| &cGracz &4{PLAYER} &cjest offline lub nie istnieje!"
+  cooldown-active: "&c✖ &8| &cMusisz odczekać jeszcze &4{TIME}s &cprzed następnym użyciem."
+  cooldown-reset-self: "&a✔ &8| &aWszystkie Twoje cooldowny zostały zresetowane!"
+  cooldown-reset-other: "&a✔ &8| &aPomyślnie zresetowano cooldowny dla gracza &e{PLAYER}&a!"
+  cooldown-reset-notify: "&a✔ &8| &aTwój cooldown został zresetowany przez administratora!"
+  item-received: "&a✔ &8| &aPomyślnie wyciągnięto przedmiot: {ITEM}&a!"
+  yoda-activated: "&a✔ &8| &aAktywowano &2Moc Yody&a! Otrzymujesz 30% redukcji obrażeń przez 3 sekundy."
+  vader-activated: "&c✔ &8| &cAktywowano &4Moc Vadera&c! Zadajesz o &f{PERCENT}% &cwięcej obrażeń przez &f{DURATION}s."
+  yoda-expired: "&7Efekt &2Mocy Yody &7właśnie wygasł."
+  vader-expired: "&7Efekt &4Mocy Vadera &7właśnie wygasł."
+  config-reloaded: "&a✔ &8| &aKonfiguracja FlameHub CustomItems została pomyślnie przeładowana!"

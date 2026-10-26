@@ -1,0 +1,252 @@
+
+click-cooldown-ms: 100
+active-style: STANDARD
+price-multipliers-version: 2
+# false = nie ustawiaj CustomModelData na mieczach przy /ulepsz (poziom jako CMD)
+apply-sword-custom-model-data: true
+
+gui:
+  title: '&8Ulepszenia przedmiotów'
+  levels-title: '&8Poziomy: {TYPE}'
+  rows: 5
+  back-slot: 40
+  prev-page-slot: 39
+  next-page-slot: 41
+  prev-page-name: '&d&lPoprzednia strona'
+  next-page-name: '&d&lNastępna strona'
+  back-item:
+    material: BARRIER
+    name: '&cPowrót'
+    lore:
+      - '&7Kliknij, aby wrócić do głównego GUI.'
+  level-slots:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+  include-original-lore: true
+  upgrade-item-lore:
+    - '&f'
+    - '&7Cena: &a{PRICE}$'
+    - '&7Nazwa itemka: &f{NAME}'
+    - ''
+    - '&aKliknij lewym, aby ulepszyć'
+    - '&eKliknij prawym, aby sprawdzić itemki'
+  level-item-lore:
+    - '&f'
+    - '&7Cena: &a{PRICE}$'
+    - '&7Nazwa itemka: &f{NAME}'
+
+messages:
+  no-item: '&#FF0000✘ &cMusisz trzymać ulepszany przedmiot w ręce!'
+  invalid-item: '&#FF0000✘ &cTen przedmiot nie pasuje do wybranej kategorii!'
+  minimum-level: '&#FF0000✘ &cTen typ można dodać dopiero od poziomu &e{MIN_LEVEL}&c.'
+  no-next-level: '&#FF0000✘ &cNie ma kolejnego poziomu dla tego przedmiotu!'
+  max-level: '&#FF0000✘ &cPosiadasz maksymalne ulepszenie tego przedmiotu!'
+  no-free-slot: '&#FF0000✘ &cNie masz wolnego miejsca w ekwipunku!'
+  not-enough-money: '&#FF0000✘ &cNie masz wystarczająco pieniędzy! Potrzebujesz &e{PRICE}$&c.'
+  changed-item: '&#FF0000✘ &cPrzedmiot zmienił się podczas ulepszania. Pieniądze zostały zwrócone.'
+  upgraded: '&#00FF3B✔ &#4EFA76Ulepszono &f{TYPE} &ado poziomu &e{LEVEL}&a za &e{PRICE}$&a!'
+  bought: '&#00FF3B✔ &#4EFA76Kupiono &f{TYPE} &apoziom &e{LEVEL}&a za &e{PRICE}$&a!'
+  created: '&#00FF3B✔ &#4EFA76Dodano &f{TYPE} &apoziom &e{LEVEL}&a za &e{PRICE}$&a.'
+  generated: '&#00FF3B✔ &#4EFA76Wygenerowano poziom &e{LEVEL}&a dla &e{COUNT} &atypów.'
+  cooldown: '&#FF0000✘ &cOdczekaj chwilę przed kolejnym ulepszeniem!'
+  style-switched: '&#00FF3B✔ &#4EFA76Przełączono styl ulepszania na &e{STYLE}&a!'
+
+types:
+  SWORD:
+    enabled: true
+    slot: 30
+    preview-material: NETHERITE_SWORD
+    item-material: NETHERITE_SWORD
+    display-prefix: Broń
+    minimum-level: 1
+    price-multiplier: 4.0
+    accepted-materials:
+      - WOODEN_SWORD
+      - STONE_SWORD
+      - IRON_SWORD
+      - GOLDEN_SWORD
+      - DIAMOND_SWORD
+      - NETHERITE_SWORD
+  HELMET:
+    enabled: true
+    slot: 20
+    preview-material: NETHERITE_HELMET
+    item-material: NETHERITE_HELMET
+    display-prefix: Hełm
+    minimum-level: 1
+    price-multiplier: 1.0
+    accepted-materials:
+      - LEATHER_HELMET
+      - CHAINMAIL_HELMET
+      - IRON_HELMET
+      - GOLDEN_HELMET
+      - DIAMOND_HELMET
+      - NETHERITE_HELMET
+      - PLAYER_HEAD
+  CHEST_PLATE:
+    enabled: true
+    slot: 21
+    preview-material: NETHERITE_CHESTPLATE
+    item-material: NETHERITE_CHESTPLATE
+    display-prefix: Napierśnik
+    minimum-level: 1
+    price-multiplier: 1.0
+    accepted-materials:
+      - LEATHER_CHESTPLATE
+      - CHAINMAIL_CHESTPLATE
+      - IRON_CHESTPLATE
+      - GOLDEN_CHESTPLATE
+      - DIAMOND_CHESTPLATE
+      - NETHERITE_CHESTPLATE
+  LEGGINGS:
+    enabled: true
+    slot: 22
+    preview-material: NETHERITE_LEGGINGS
+    item-material: NETHERITE_LEGGINGS
+    display-prefix: Spodnie
+    minimum-level: 1
+    price-multiplier: 1.0
+    accepted-materials:
+      - LEATHER_LEGGINGS
+      - CHAINMAIL_LEGGINGS
+      - IRON_LEGGINGS
+      - GOLDEN_LEGGINGS
+      - DIAMOND_LEGGINGS
+      - NETHERITE_LEGGINGS
+  ELYTRA:
+    enabled: true
+    slot: 24
+    preview-material: ELYTRA
+    item-material: ELYTRA
+    display-prefix: Elytra
+    minimum-level: 1
+    price-multiplier: 1.0
+    accepted-materials:
+      - ELYTRA
+  BOOTS:
+    enabled: true
+    slot: 23
+    preview-material: NETHERITE_BOOTS
+    item-material: NETHERITE_BOOTS
+    display-prefix: Buty
+    minimum-level: 1
+    price-multiplier: 1.0
+    accepted-materials:
+      - LEATHER_BOOTS
+      - CHAINMAIL_BOOTS
+      - IRON_BOOTS
+      - GOLDEN_BOOTS
+      - DIAMOND_BOOTS
+      - NETHERITE_BOOTS
+  HOE:
+    enabled: false
+    slot: 31
+    preview-material: NETHERITE_HOE
+    item-material: NETHERITE_HOE
+    display-prefix: Motyka
+    minimum-level: 1
+    price-multiplier: 2.0
+    accepted-materials:
+      - WOODEN_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLDEN_HOE
+      - DIAMOND_HOE
+      - NETHERITE_HOE
+  PICKAXE:
+    enabled: true
+    slot: 32
+    preview-material: NETHERITE_PICKAXE
+    item-material: NETHERITE_PICKAXE
+    display-prefix: Kilof
+    minimum-level: 1
+    price-multiplier: 4.0
+    accepted-materials:
+      - DIAMOND_PICKAXE
+      - NETHERITE_PICKAXE
+      - NETHERITE_AXE
+  SHEARS:
+    enabled: true
+    slot: 29
+    preview-material: SHEARS
+    item-material: SHEARS
+    display-prefix: Nożyce
+    minimum-level: 1
+    price-multiplier: 8.0
+    accepted-materials:
+      - SHEARS
+      - DIAMOND_SHOVEL
+      - NETHERITE_SHOVEL
+  AXE:
+    enabled: false
+    slot: 33
+    preview-material: NETHERITE_AXE
+    item-material: NETHERITE_AXE
+    display-prefix: Siekiera
+    minimum-level: 1
+    price-multiplier: 2.0
+    accepted-materials:
+      - WOODEN_AXE
+      - STONE_AXE
+      - IRON_AXE
+      - GOLDEN_AXE
+      - DIAMOND_AXE
+      - NETHERITE_AXE
+
+armor-create:
+  level-emoji: '★'
+  level-format: ' &6{EMOJI}{LEVEL}'
+  hide-all-flags: true
+  hide-enchants: true
+  hide-attributes: true
+  base-lore: []
+  armor-lore:
+    - ''
+    - '&x&0&C&9&4&C&E🛡 &8| &x&0&C&9&4&C&EOchrona {PROTECTION}'
+    - '&x&0&7&B&4&F&E❤ &8| &x&0&7&B&4&F&ENiezniszczalność {UNBREAKING}'
+    - ''
+  sword-lore:
+    - ''
+    - '&x&B&5&0&0&0&0🪓 &8| &x&B&5&0&0&0&0Ostrość {SHARPNESS}'
+    - '&x&0&7&B&4&F&E❤ &8| &x&0&7&B&4&F&ENiezniszczalność {UNBREAKING}'
+    - '{FIRE_ASPECT_LINE}'
+    - ''
+  tool-lore:
+    - ''
+    - '&x&F&F&A&8&0&0⛏ &8| &x&F&F&A&8&0&0Wydajność {EFFICIENCY}'
+    - '&x&0&0&F&F&8&6✦ &8| &x&0&0&F&F&8&6Szczęście {FORTUNE}'
+    - '&x&0&7&B&4&F&E❤ &8| &x&0&7&B&4&F&ENiezniszczalność {UNBREAKING}'
+    - ''
+  fire-aspect-line: '&x&F&F&6&0&0&0🔥 &8| &x&F&F&6&0&0&0Zaklęty ogień {FIRE_ASPECT}'
+
+best-effects:
+  enabled: true
+  sword:
+    enabled: true
+  full-set:
+    enabled: true
+
+items: {}
+
+styles:
+  skypvp:
+    items: {}

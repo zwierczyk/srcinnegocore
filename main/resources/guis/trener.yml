@@ -1,0 +1,55 @@
+template45:
+  YELLOW_STAINED_GLASS_PANE:
+  - 0
+  - 8
+  - 36
+  - 44
+  ORANGE_STAINED_GLASS_PANE:
+  - 1
+  - 7
+  - 9
+  - 17
+  - 27
+  - 35
+  - 37
+  - 43
+  WHITE_STAINED_GLASS_PANE:
+  - 2
+  - 3
+  - 5
+  - 6
+  - 18
+  - 26
+  - 38
+  - 39
+  - 41
+  - 42
+template54:
+  GRAY_STAINED_GLASS_PANE:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 17
+  - 18
+  - 26
+  - 27
+  - 35
+  - 36
+  - 44
+  - 45
+  - 46
+  - 47
+  - 48
+  - 50
+  - 51
+  - 52
+  - 53
+backgroundItemName: ' '
+hideAttributes: true

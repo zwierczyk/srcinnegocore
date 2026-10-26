@@ -1,0 +1,165 @@
+gui:
+  rows: 6
+  title: '&8Status sektorow'
+  sector-slots:
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  filler:
+  - slot:
+    - 0
+    - 8
+    - 45
+    - 53
+    item:
+      material: BLACK_STAINED_GLASS_PANE
+  - slot:
+    - 1
+    - 7
+    - 9
+    - 17
+    - 36
+    - 44
+    - 46
+    - 52
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+
+items:
+  online:
+    material: LIME_TERRACOTTA
+    name: '&e&l{SECTORNAME}'
+    lore:
+    - ''
+    - ' &f &7TPS: &a{TPS}'
+    - ' &f &7MSPT: &a{MSPT}'
+    - ' &f &7CPU: &b{CPU}'
+    - ' &f &7RAM: &e{RAM}'
+    - ' &f &7Sredni Ping: &d{PING}'
+    - ' &f &7Graczy Online: &6{ONLINE}'
+    - ' &f &7Ostatni ping: &6{LAST_PING}'
+    - ' &f &7Typ: &6{TYPE}'
+    - ' &f &7Swiat: &6{WORLD}'
+    - ' &f &7Border X: &a{BORDER}'
+    - ''
+    - ' &f &cCo laguje serwer:'
+    - '  &8» {LAG_1}'
+    - '  &8» {LAG_2}'
+    - '  &8» {LAG_3}'
+    - ''
+    - ' &f &ePrognoza obciazenia:'
+    - '  &8» {PRED_1}'
+    - '  &8» {PRED_2}'
+    - '  &8» {PRED_3}'
+    - ''
+    - ' &f &aKliknij, aby przeteleportowac sie'
+  warning:
+    material: YELLOW_TERRACOTTA
+    name: '&e&l{SECTORNAME} &8(&e{health}&8)'
+    lore:
+    - ''
+    - ' &f &7TPS: &e{TPS}'
+    - ' &f &7MSPT: &e{MSPT}'
+    - ' &f &7CPU: &b{CPU}'
+    - ' &f &7RAM: &e{RAM}'
+    - ' &f &7Sredni Ping: &d{PING}'
+    - ' &f &7Graczy Online: &6{ONLINE}'
+    - ' &f &7Ostatni ping: &6{LAST_PING}'
+    - ' &f &7Typ: &6{TYPE}'
+    - ' &f &7Swiat: &6{WORLD}'
+    - ' &f &7Border X: &a{BORDER}'
+    - ''
+    - ' &f &cCo laguje serwer:'
+    - '  &8» {LAG_1}'
+    - '  &8» {LAG_2}'
+    - '  &8» {LAG_3}'
+    - ''
+    - ' &f &ePrognoza obciazenia:'
+    - '  &8» {PRED_1}'
+    - '  &8» {PRED_2}'
+    - '  &8» {PRED_3}'
+    - ''
+    - ' &f &aKliknij, aby przeteleportowac sie'
+  critical:
+    material: RED_TERRACOTTA
+    name: '&c&l{SECTORNAME} &8(&c{health}&8)'
+    lore:
+    - ''
+    - ' &f &7TPS: &c{TPS}'
+    - ' &f &7MSPT: &c{MSPT}'
+    - ' &f &7CPU: &b{CPU}'
+    - ' &f &7RAM: &e{RAM}'
+    - ' &f &7Sredni Ping: &d{PING}'
+    - ' &f &7Graczy Online: &6{ONLINE}'
+    - ' &f &7Ostatni ping: &6{LAST_PING}'
+    - ' &f &7Typ: &6{TYPE}'
+    - ' &f &7Swiat: &6{WORLD}'
+    - ' &f &7Border X: &a{BORDER}'
+    - ''
+    - ' &f &cCo laguje serwer:'
+    - '  &8» {LAG_1}'
+    - '  &8» {LAG_2}'
+    - '  &8» {LAG_3}'
+    - ''
+    - ' &f &ePrognoza obciazenia:'
+    - '  &8» {PRED_1}'
+    - '  &8» {PRED_2}'
+    - '  &8» {PRED_3}'
+    - ''
+    - ' &f &aKliknij, aby przeteleportowac sie'
+  current:
+    material: LIME_GLAZED_TERRACOTTA
+    name: '&a&l{SECTORNAME} &8(&aTUTAJ&8)'
+    lore:
+    - ''
+    - ' &f &7TPS: &a{TPS}'
+    - ' &f &7MSPT: &a{MSPT}'
+    - ' &f &7CPU: &b{CPU}'
+    - ' &f &7RAM: &e{RAM}'
+    - ' &f &7Sredni Ping: &d{PING}'
+    - ' &f &7Graczy Online: &6{ONLINE}'
+    - ' &f &7Ostatni ping: &6{LAST_PING}'
+    - ' &f &7Typ: &6{TYPE}'
+    - ' &f &7Swiat: &6{WORLD}'
+    - ' &f &7Border X: &a{BORDER}'
+    - ''
+    - ' &f &cCo laguje serwer:'
+    - '  &8» {LAG_1}'
+    - '  &8» {LAG_2}'
+    - '  &8» {LAG_3}'
+    - ''
+    - ' &f &ePrognoza obciazenia:'
+    - '  &8» {PRED_1}'
+    - '  &8» {PRED_2}'
+    - '  &8» {PRED_3}'
+    - ''
+    - ' &f &cJestes juz na tym sektorze'
+  offline:
+    material: RED_TERRACOTTA
+    name: '&c&l{SECTORNAME}'
+    lore:
+    - ''
+    - ' &f &cSektor offline'
+    - ' &f &7Ostatni ping: &c{LAST_PING}'
+
+messages:
+  already-here: '&#FF0000✘ &8Ξ &cJestes juz na tym sektorze!'
+  offline: '&#FF0000✘ &8Ξ &cTen sektor jest offline!'

@@ -1,0 +1,8 @@
+#
+
+cooldown: 0
+duration: 1
+durability-per-boost: 2
+
+messages:
+  cooldown: "&#FF0000✘ &8Ξ &cMusisz odczekać jeszcze &4%time%s &cprzed następnym boostem elytry."

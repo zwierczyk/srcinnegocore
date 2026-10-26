@@ -1,0 +1,351 @@
+# Edytowalny config: plugins/HollyCore/masakra-customitems.yml
+# /krzysmcitems — GUI; /krzysmcitems reload — wczytaj zmiany; /krzysmcitems config — ścieżka.
+# /krzysmcitems give <nick> <id> — wydaj przedmiot.
+# Istniejący config nie jest zastępowany domyślnym przy restarcie ani przeładowaniu.
+# Uprawnienie do GUI i wydawania: Holly.masakra.items (domyślnie OP).
+# Wszystkie eventówki są niezniszczalne i wielokrotnego użytku. Cooldown jest osobny dla każdego gracza i przedmiotu.
+# Zablokowane regiony sprawdzane są u użytkownika oraz celu. OP również podlega blokadzie.
+blocked-regions:
+  - spawn
+  - bezpieczna
+blocked-worlds: []
+respect-pvp-deny: true
+# sounds.used = użycie przedmiotu (główka: założenie; kilof: udane kopanie).
+# sounds.received = dźwięk dla gracza, na którego zadziałał przedmiot.
+# name: nazwa dźwięku Bukkit; enabled: false lub name: NONE wyłącza dźwięk.
+# volume = głośność, pitch = wysokość, min-interval-ms = odstęp między dźwiękami.
+presentation-version: 2
+gui:
+  rows: 6
+  title: '&8✦ &6&lMASAKRA &8| &fPrzedmioty eventowe'
+messages:
+  no-permission: '&c✘ &7Nie masz uprawnień do tego menu.'
+  only-player: '&c✘ &7Ta komenda jest dostępna tylko w grze.'
+  reloaded: '&a✔ &7Przeładowano &fmasakra-customitems&7.'
+  usage: '&cUżycie: /krzysmcitems [reload|config|give <nick> <id>|resetcooldown <nick|all>]'
+  inventory-full: '&c✘ &7Zwolnij miejsce w ekwipunku.'
+  blocked-region: '&c✘ &7Nie możesz użyć tego przedmiotu w tym regionie.'
+  helmet-occupied: '&c✘ &7Zdejmij obecny hełm, aby założyć głowę Krzysimira.'
+  cooldown: '&c⌛ &7Przedmiot będzie gotowy za &f{TIME} s&7.'
+  cooldown-reset-player: '&aZresetowano cooldowny eventówek gracza &f{PLAYER}&a.'
+  cooldown-reset-all: '&aZresetowano cooldowny eventówek wszystkich graczy.'
+  cooldown-reset-not-found: '&cNie znaleziono gracza &f{PLAYER}&c. Podaj nick znanego gracza lub all.'
+  web-removed: '&7Usunięto &f{COUNT} &7pajęczyn w pobliżu.'
+  bag-error: '&cNie można odczytać lub zapisać torby. Zgłoś błąd administracji.'
+  bag-invalid: '&cTorba musi być pojedynczym przedmiotem z poprawnym ID.'
+  bag-in-use: '&cTa torba jest już otwarta przez innego gracza.'
+  bag-stored: '&dTorba Misako &8| &7Zebrano &f{COUNT} &7przedmiotów z zabójstwa.'
+  lotus-active: '&dMasz już zapisany punkt powrotu. Poczekaj na teleportacje.'
+  lotus-marked: '&dKwiat lotosu &8| &7Zapisano miejsce. Powrót za &f{TIME} s&7.'
+  lotus-countdown: '&dKwiat lotosu &8| &7Powrót za &f{TIME} s'
+  lotus-unsafe: '&cMiejsce powrotu musi być bezpieczne i miec podłoże. Teleportacja nie została wykonana.'
+  lotus-cancelled: '&cPowrót kwiatu lotosu został anulowany.'
+  lotus-returned: '&dKwiat lotosu &8| &7Wróciłeś do zapisanego miejsca!'
+items:
+  topor-zlotej-goraczki:
+    enabled: true
+    slot: 0
+    material: GOLDEN_AXE
+    custom-model-data: 0
+    unbreakable: true
+    name: '&#FFCF00&lᴛ&#FFCA09&lᴏ&#FFC611&lᴘ&#FFC11A&ló&#FFBD22&lʀ &#FFB434&lᴢ&#FFAF3C&lʟ&#FFAA45&lᴏ&#FFA64D&lᴛ&#FFA156&lᴇ&#FF9D5E&lᴊ &#FF9F5A&lɢ&#FFA64D&lᴏ&#FFAD40&lʀ&#FFB434&lą&#FFBA27&lᴄ&#FFC11A&lᴢ&#FFC80D&lᴋ&#FFCF00&lɪ'
+    lore:
+      - ''
+      - '&8» &7Po &cuderzeniu &7naznaczasz gracza na &f{DURATION}s&7.'
+      - '&8» &7Cel świeci &cna czerwono &7i otrzymuje'
+      - '&8» &f{DAMAGE_BONUS}% więcej obrażeń &7od Ciebie.'
+      - '&8» &7Przez &f{DURATION}s &7nie może skakać.'
+      - ''
+      - '&8» &7Odnowienie: &f{COOLDOWN}s'
+      - ''
+      - '&8» &7Przedmiot &deventowy'
+    duration-seconds: 3
+    cooldown-seconds: 30
+    bonus-damage-percent: 25
+    blocked-regions: []
+    titles:
+      used:
+        title: '&#FFCF00&lZŁOTA GORĄCZKA'
+        subtitle: '&7Naznaczono &f{PLAYER}&7! &e+25% obrażeń przez 3 s'
+      received:
+        title: '&c&lZOSTAŁEŚ NAZNACZONY!'
+        subtitle: '&f{PLAYER} &7użył topora! &cNie możesz skakać przez 3 s'
+    sounds:
+      used:
+        enabled: true
+        name: ENTITY_LIGHTNING_BOLT_THUNDER
+        volume: 0.8
+        pitch: 1.0
+        min-interval-ms: 250
+      received:
+        enabled: true
+        name: ENTITY_LIGHTNING_BOLT_IMPACT
+        volume: 0.8
+        pitch: 0.9
+        min-interval-ms: 250
+  lapka-ziomeczka:
+    enabled: true
+    slot: 1
+    material: BLUE_DYE
+    custom-model-data: 0
+    unbreakable: true
+    name: '&#00C1FF&lʟ&#09BDF8&lᴀ&#11BAF0&lᴘ&#1AB6E9&lᴋ&#22B3E1&lᴀ &#33ABD2&lᴢ&#3CA8CB&lɪ&#44A4C3&lᴏ&#39A9CD&lᴍ&#2DAED7&lᴇ&#22B3E1&lᴄ&#17B7EB&lᴢ&#0BBCF5&lᴋ&#00C1FF&lᴀ'
+    lore:
+      - ''
+      - '&8» &7Kliknij &cprawym &7na gracza, aby nadać mu'
+      - '&8» &cSiłę I &7oraz &fSzybkość I &7na &e{DURATION}s&7.'
+      - ''
+      - '&8» &7Odnowienie: &f{COOLDOWN}s'
+      - ''
+      - '&8» &7Przedmiot &deventowy'
+    duration-seconds: 10
+    cooldown-seconds: 30
+    blocked-regions: []
+    titles:
+      used:
+        title: '&#00C1FF&lŁAPKA ZIOMECZKA'
+        subtitle: '&7Wzmocniłeś &f{PLAYER}&7! &bSiła I i Szybkość I na 10 s'
+      received:
+        title: '&#00C1FF&lZIOMECZEK CI POMÓGŁ!'
+        subtitle: '&f{PLAYER} &7nadał ci &bSiłę I i Szybkość I &7na 10 s'
+    sounds:
+      used:
+        enabled: true
+        name: ENTITY_ALLAY_ITEM_GIVEN
+        volume: 0.8
+        pitch: 1.2
+        min-interval-ms: 250
+      received:
+        enabled: true
+        name: ENTITY_ALLAY_AMBIENT_WITH_ITEM
+        volume: 0.8
+        pitch: 1.4
+        min-interval-ms: 250
+  glowa-krzysimira:
+    enabled: true
+    slot: 2
+    material: PLAYER_HEAD
+    owner: Krzysimir_YT
+    # Opcjonalna stała tekstura (base64 / link textures.minecraft.net / hash).
+    # Pozostaw puste, aby pobierać skin po nicku, również na serwerach offline/proxy.
+    # Pobrany skin zapisuje się w skin-cache.yml na wypadek niedostępności Mojang.
+    texture: ''
+    custom-model-data: 0
+    unbreakable: true
+    name: '&#00C1FF&lɢ&lʟ&lᴏ&lᴡ&lᴀ &lᴋ&lʀ&lᴢ&lʏ&lꜱ&lɪ&lᴍ&lɪ&lʀ&lᴀ'
+    lore:
+      - ''
+      - '{UPGRADE_LORE}'
+      - ''
+      - '&8» &7Nosząc tę główkę, otrzymujesz &cSiłę I&7.'
+      - ''
+      - '&8» &7Przedmiot &deventowy'
+    blocked-regions: []
+    titles:
+      used:
+        title: '&#00C1FF&lGŁOWA KRZYSIMIRA'
+        subtitle: '&7Poczuj moc Krzysimira! &bSiła I podczas noszenia'
+    sounds:
+      used:
+        enabled: true
+        name: BLOCK_BEACON_ACTIVATE
+        volume: 0.6
+        pitch: 1.3
+        min-interval-ms: 1000
+  krwisty-kiel:
+    enabled: true
+    slot: 3
+    material: RED_DYE
+    custom-model-data: 0
+    unbreakable: true
+    name: '&#FF0000&lᴋ&#EE0404&lʀ&#DD0808&lᴡ&#CC0C0C&lɪ&#BA1010&lꜱ&#A91414&lᴛ&#981818&lʏ &#C10E0E&lᴋ&#D60A0A&lɪ&#EA0505&lᴇ&#FF0000&lʟ'
+    lore:
+      - ''
+      - '&8» &7Po kliknięciu &cprawym &7przez &f{DURATION}s'
+      - '&8» &7odbijasz ciosy &cprzeciwników &7do atakującego!'
+      - ''
+      - '&8» &7Odnowienie: &f{COOLDOWN}s'
+      - ''
+      - '&8» &7Przedmiot &deventowy'
+    duration-seconds: 3
+    cooldown-seconds: 60
+    blocked-regions: []
+    titles:
+      used:
+        title: '&#FF0000&lKRWISTY KIEŁ'
+        subtitle: '&7Odbijasz ciosy atakujących przez &c3 sekundy&7!'
+      received:
+        title: '&c&lTWÓJ CIOS ZOSTAŁ ODBITY!'
+        subtitle: '&f{PLAYER} &7użył &cKrwistego Kła&7!'
+    sounds:
+      used:
+        enabled: true
+        name: ENTITY_EVOKER_CAST_SPELL
+        volume: 0.8
+        pitch: 0.8
+        min-interval-ms: 250
+      received:
+        enabled: true
+        name: ITEM_SHIELD_BLOCK
+        volume: 0.8
+        pitch: 0.7
+        min-interval-ms: 300
+  kilof-6-3-3:
+    enabled: true
+    slot: 4
+    material: GOLDEN_PICKAXE
+    custom-model-data: 0
+    unbreakable: true
+    name: '&#DDFF00&lᴋ&#E4F61A&lɪ&#EBED34&lʟ&#F1E54E&lᴏ&#F8DC68&lꜰ &l6&#F1E54E&l/&#EBED34&l3&#E4F61A&l/&#DDFF00&l3'
+    lore:
+      - ''
+      - '{UPGRADE_LORE}'
+      - ''
+      - '&8» &7Kopiąc tym kilofem, otrzymujesz'
+      - '&8» &e{BONUS}% więcej dropu i zarobku&7.'
+      - '&8» &7Przedmiot jest &fniezniszczalny&7.'
+      - ''
+      - '&8» &7Przedmiot &deventowy'
+    bonus-percent: 15
+    blocked-regions: []
+    sounds:
+      used:
+        enabled: true
+        name: BLOCK_AMETHYST_BLOCK_CHIME
+        volume: 0.4
+        pitch: 1.5
+        min-interval-ms: 750
+  ognisty-koszmar:
+    enabled: true
+    slot: 5
+    material: CAMPFIRE
+    custom-model-data: 0
+    unbreakable: true
+    name: '&#FF7C00&lᴏ&#FE830F&lɢ&#FD8B1F&lɴ&#FC922E&lɪ&#FB9A3E&lꜱ&#FAA14D&lᴛ&#F9A95D&lʏ &lᴋ&#FAA14D&lᴏ&#FB9A3E&lꜱ&#FC922E&lᴢ&#FD8B1F&lᴍ&#FE830F&lᴀ&#FF7C00&lʀ'
+    lore:
+      - ''
+      - '&8» &7Po kliknięciu &cprawym &7przez &f{DURATION}s'
+      - '&8» &7gracze zadają Ci &f{REDUCTION}% mniej obrażeń&7!'
+      - ''
+      - '&8» &7Odnowienie: &f{COOLDOWN}s'
+      - ''
+      - '&8» &7Przedmiot &deventowy'
+    duration-seconds: 5
+    cooldown-seconds: 60
+    reduction-percent: 30
+    blocked-regions: []
+    titles:
+      used:
+        title: '&#FF7C00&lOGNISTY KOSZMAR'
+        subtitle: '&7Otrzymujesz &630% mniej obrażeń &7od graczy przez &f5 s'
+      received:
+        title: '&#FF7C00&lOGNISTA OCHRONA!'
+        subtitle: '&f{PLAYER} &7użył Ognistego Koszmaru! &6Zadajesz 30% mniej obrażeń'
+    sounds:
+      used:
+        enabled: true
+        name: ITEM_FIRECHARGE_USE
+        volume: 0.8
+        pitch: 0.9
+        min-interval-ms: 250
+      received:
+        enabled: true
+        name: BLOCK_FIRE_AMBIENT
+        volume: 0.7
+        pitch: 1.2
+        min-interval-ms: 250
+
+  usuwacz-pajeczyn:
+    enabled: true
+    slot: 6
+    material: GRAY_DYE
+    custom-model-data: 0
+    unbreakable: true
+    name: '&#E6EBF0&lᴜ&#DAE0E6&lꜱ&#CDD5DB&lᴜ&#C1C9D1&lᴡ&#B4BEC7&lᴀ&#A8B3BD&lᴄ&#9CA8B2&lᴢ &#8E9CA8&lᴘ&#98A5B1&lᴀ&#A2AFBA&lᴊ&#ACB9C3&lę&#B7C2CC&lᴄ&#C1CCD6&lᴢ&#CBD5DF&lʏ&#D5DFE8&lɴ'
+    lore:
+      - ''
+      - '&8» &7Użycie: &#D5DFE8PPM'
+      - '&8» &7Usuwa pajęczyny w promieniu'
+      - '&8» &#D5DFE8{RADIUS} kratek &7wokół Ciebie.'
+      - ''
+      - '&8» &7Odnowienie: &#D5DFE8{COOLDOWN}s'
+      - ''
+      - '&8» &7Przedmiot &#C77DFFeventowy'
+    radius: 3
+    cooldown-seconds: 5
+    blocked-regions: []
+    sounds:
+      used:
+        enabled: true
+        name: ENTITY_SHEEP_SHEAR
+        volume: 0.8
+        pitch: 1.2
+        min-interval-ms: 250
+  torba-misako:
+    enabled: true
+    slot: 7
+    material: CYAN_DYE
+    color-version: 1
+    custom-model-data: 0
+    unbreakable: true
+    name: '&#72FFF0&lᴛ&#5DF2E4&lᴏ&#49E5D9&lʀ&#34D8CD&lʙ&#1FCBC1&lᴀ &#10BEB6&lᴍ&#31CBC3&lɪ&#52D8CF&lꜱ&#73E5DC&lᴀ&#93F2E8&lᴋ&#B4FFF5&lᴏ'
+    gui-title: '&8Torba Misako &8| &#72FFF0Łupy'
+    lore:
+      - ''
+      - '&8» &7Po zabójstwie zbiera przedmioty'
+      - '&8» &7z &#72FFF0/ulepsz &7oraz eventówki.'
+      - '&8» &7Noś torbę w swoim ekwipunku.'
+      - ''
+      - '&8» &7Otwórz: &#72FFF0PPM &8| &7Wyciągnij: &#72FFF0klik'
+      - '&8» &7Szybkie wyciąganie: &#72FFF0Shift + klik'
+      - '&8» &7Pojemność: &#72FFF0{CAPACITY} sloty'
+      - ''
+      - '&8» &7Przedmiot &#C77DFFeventowy'
+    blocked-regions: []
+    sounds:
+      used:
+        enabled: true
+        name: ITEM_BUNDLE_DROP_CONTENTS
+        volume: 0.8
+        pitch: 1.0
+        min-interval-ms: 250
+      received:
+        enabled: true
+        name: ENTITY_ITEM_PICKUP
+        volume: 0.7
+        pitch: 1.3
+        min-interval-ms: 250
+  kwiat-lotosu:
+    enabled: true
+    slot: 8
+    material: PINK_TULIP
+    custom-model-data: 0
+    unbreakable: true
+    name: '&#FF9DDE&lᴋ&#F891E4&lᴡ&#F085EA&lɪ&#E97AF0&lᴀ&#E26EF6&lᴛ &#DB65FD&lʟ&#E278FA&lᴏ&#E98BF6&lᴛ&#F09EF3&lᴏ&#F8B0EF&lꜱ&#FFC3EC&lᴜ'
+    lore:
+      - ''
+      - '&8» &7Użyj &#FF9DDEPPM&7, aby zapisać miejsce.'
+      - '&8» &7Po &#FF9DDE{RETURN_TIME}s &7powrócisz do niego.'
+      - '&8» &7Odliczanie zobaczysz na actionbarze.'
+      - ''
+      - '&8» &7Odnowienie: &#FF9DDE{COOLDOWN}s'
+      - '&8» &7Śmierć, wyjście i zmiana świata'
+      - '&8» &7anulują powrót.'
+      - ''
+      - '&8» &7Przedmiot &#C77DFFeventowy'
+    return-seconds: 20
+    cooldown-seconds: 20
+    blocked-regions: []
+    sounds:
+      used:
+        enabled: true
+        name: BLOCK_AMETHYST_BLOCK_RESONATE
+        volume: 0.7
+        pitch: 1.4
+        min-interval-ms: 250
+      received:
+        enabled: true
+        name: ENTITY_ENDERMAN_TELEPORT
+        volume: 0.8
+        pitch: 1.3
+        min-interval-ms: 250

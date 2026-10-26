@@ -1,0 +1,5 @@
+player-ignored: '&#FF0000✘ &8Ξ &cTen gracz Cię zignorował!'
+you-ignored: '&#00FF3B✔ &8Ξ &#4EFA76Zignorowałeś gracza &e{player}&a!'
+you-unignored: '&#00FF3B✔ &8Ξ &#4EFA76Odblokowano gracza &e{player}&a!'
+ignored-all: '&#00FF3B✔ &8Ξ &#4EFA76Zignorowałeś wszystkich graczy!'
+unignored-all: '&#00FF3B✔ &8Ξ &#4EFA76Odblokowano wszystkich graczy!'

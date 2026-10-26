@@ -1,0 +1,27 @@
+enabled: true
+collection: playerdata
+auto-save-seconds: 60
+auto-save-players-per-tick: 4
+rejoin-cooldown-ms: 5000
+load-on-join: true
+save-on-quit: true
+save-on-disable: true
+teleport-on-load: true
+teleport-to-spawn-on-death: true
+sync-location: true
+sync-stats: true
+sync-potion-effects: true
+sync-ender-chest: true
+sync-offhand: true
+clear-death-flag-after-load: true
+messages:
+  reload: '&#00FF3B✔ &8Ξ &#4EFA76Przeladowano itemsync.yml.'
+  save-all: '&#00FF3B✔ &8Ξ &#4EFA76Zapisano dane &#4EFA76{count} &fgraczy.'
+  rejoin-cooldown: '&#FF5C5C✘ &8• &fPoczekaj chwile przed ponownym dolaczeniem.'
+dev-actionbar:
+  enabled: true
+  permission: Holly.itemsync.loadspeed
+  channel: ITEMSYNC_TIMING
+  duration-ticks: 60
+  load-message: '&8• &aWczytano twoje dane w &2{time}'
+  save-message: '&8• &aZapisano twoje dane w &2{time}'

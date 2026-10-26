@@ -1,0 +1,180 @@
+settings:
+  gui-title: "&7CustomItems"
+  gui-size: 27
+  admin-permission: "Holly.customitems.admin"
+  default-cooldown-seconds: 30
+  messages:
+    no-permission: "&#FF0000✘ &8Ξ &cNie posiadasz dostępu do &#FF0000/customitems &8(&4Holly.customitems.admin&8)"
+    only-player: "&#FF0000✘ &8Ξ &cTylko gracz może użyć tej komendy."
+    reloaded: "&#00FF3B✔ &8Ξ &#4EFA76Przeładowano MinestarOG CustomItems."
+    blocked-region: "&#FF0000✘ &8Ξ &cTen przedmiot nie działa w tej strefie."
+    cooldown: "&#FF0000✘ &8Ξ &cMusisz odczekać jeszcze &4%time%s &cprzed następnym użyciem."
+    unknown-item: "&#FF0000✘ &8Ξ &cNie znaleziono itemu &4%item%&c."
+    setitem-empty-hand: "&#FF0000✘ &8Ξ &cMusisz trzymać item w głównej ręce."
+    setitem-saved: "&#00FF3B✔ &8Ξ &#4EFA76Zapisano item &f%item%&a z trzymanego przedmiotu."
+    reset-player: "&#00FF3B✔ &8Ξ &#4EFA76Zresetowano cooldowny gracza &f%player%&a."
+    reset-all: "&#00FF3B✔ &8Ξ &#4EFA76Zresetowano cooldowny wszystkich graczy online."
+    gui-give: "&#00FF3B✔ &8Ξ &#4EFA76Dodano item &f%item% &ado ekwipunku."
+
+blocked-regions:
+  - spawn
+
+items:
+  serce-wardena:
+    enabled: true
+    action: WARDEN_HEART
+    slot: 10
+    material: SPIDER_EYE
+    name: "&4&lSerce Wardena"
+    lore:
+      - "&8✕ &7Po użyciu, osoby wokół dostają &cefekt oślepienia"
+      - ""
+      - "&8✕ &7Przedmiot można trafić w &dMistycznej &7Skrzyni"
+    cooldown-seconds: 60
+    effect-duration-seconds: 5
+    radius: 7.0
+    amplifier: 0
+    consume: false
+  hak:
+    enabled: true
+    action: HOOK
+    slot: 11
+    material: FISHING_ROD
+    name: "&c&lHak"
+    lore:
+      - "&8✕ &7Przyciąga cię w miejsce &crzucenia &7haka"
+      - ""
+      - "&8✕ &7Przedmiot można trafić w &dMistycznej &7Skrzyni"
+    cooldown-seconds: 15
+    pull-power: 1.8
+    pull-y: 0.45
+    pull-y-down: 0.08
+    consume: false
+  smocza-fajerwerka:
+    enabled: true
+    action: DRAGON_FIREWORK
+    slot: 12
+    material: FIREWORK_ROCKET
+    firework-flight-duration: 1
+    name: "&5&lSmocza Fajerwerka"
+    lore:
+      - "&8✕ &7Nieskończona fajerwerka"
+      - ""
+      - "&8✕ &7Przedmiot pochodzi ze &dMistycznej &7Skrzyni"
+    cooldown-seconds: 0
+    consume: false
+  rozdzka-harrego-pottera:
+    enabled: true
+    action: HARRY_WAND
+    slot: 13
+    material: END_ROD
+    name: "&d&lRóżdżka Harrego Pottera"
+    lore:
+      - "&8✕ &7Aktywowany czar: &fWingardium Leviosa"
+      - "&8✕ &7Po użyciu &eczaru&7, każdy gracz"
+      - "&8✕ &7wokół otrzyma &befekt lewitacji"
+      - ""
+      - "&8✕ &7Przedmiot można trafić w &dMistycznej &7Skrzyni"
+    cooldown-seconds: 60
+    effect-duration-seconds: 4
+    radius: 7.0
+    amplifier: 0
+    consume: false
+  granat-uwiezienia:
+    enabled: true
+    action: WEB_GRENADE
+    slot: 14
+    material: LINGERING_POTION
+    name: "&f&lGranat Uwięzienia"
+    lore:
+      - "&7No Effects"
+      - "&8✕ &7Po wyrzuceniu tworzy pułapkę z pajęczyn"
+      - ""
+      - "&8✕ &7Przedmiot można trafić w &dMistycznej &7Skrzyni"
+    cooldown-seconds: 45
+    effect-duration-seconds: 6
+    trap-radius: 1
+    trap-height: 1
+    consume: false
+  sniezka-teleportacji:
+    enabled: true
+    action: TELEPORT_SNOWBALL
+    slot: 15
+    material: SNOWBALL
+    name: "&b&lŚnieżka Teleportacji"
+    lore:
+      - "&8✕ &7Po trafieniu &cprzeciwnika&7, jest szansa"
+      - "&8✕ &7na &eprzeteleportowanie &7do niego i nadania"
+      - "&8✕ &7mu &5efektu spowolnienia"
+      - ""
+      - "&8✕ &7Przedmiot można trafić w &dMistycznej &7Skrzyni"
+    cooldown-seconds: 20
+    effect-duration-seconds: 4
+    amplifier: 1
+    chance: 0.65
+    consume: false
+  granat-odepchniecia:
+    enabled: true
+    action: KNOCKBACK_GRENADE
+    slot: 16
+    material: SPLASH_POTION
+    name: "&9&lGranat Odepchnięcia"
+    lore:
+      - "&8✕ &7Po wyrzuceniu &bodpycha &7wszystkich graczy wokół"
+      - ""
+      - "&8✕ &7Przedmiot można trafić w &dMistycznej &7Skrzyni"
+    cooldown-seconds: 30
+    radius: 6.0
+    knockback-power: 1.7
+    knockback-y: 0.45
+    consume: false
+  buty-sonica:
+    enabled: true
+    action: SONIC_BOOTS
+    slot: 17
+    material: GOLDEN_BOOTS
+    name: "&e&lButy Sonica"
+    lore:
+      - "&8✕ &7Nadają efekt &bSZYBKOŚCI II &7gdy są nałożone"
+      - ""
+      - "&8✕ &7Przedmiot można trafić w &dMistycznej &7Skrzyni"
+    cooldown-seconds: 0
+    effect-duration-seconds: 4
+    amplifier: 1
+    consume: false
+  lampion:
+    enabled: true
+    action: LAMPION
+    slot: 18
+    material: LANTERN
+    name: "&6&lLampion"
+    lore:
+      - "&8✕ &7Po użyciu, otrzymujemy &cregenerację &7na kilka sekund"
+      - ""
+      - "&8✕ &7Przedmiot można trafić w &cHalloweenowej &7Skrzyni"
+    cooldown-seconds: 45
+    effect-duration-seconds: 5
+    amplifier: 1
+    consume: false
+  usuwacz-pajeczyn:
+    enabled: true
+    action: COBWEB_REMOVER
+    slot: 19
+    material: BLAZE_POWDER
+    name: "&6&lUsuwacz Pajęczyn"
+    lore:
+      - "&8&m--------------------------"
+      - "&7Magiczny proszek, który &frozrywa pajęczyny"
+      - "&7wokół gracza w jednej chwili."
+      - ""
+      - "&8✕ &7Użycie: &ePPM"
+      - "&8✕ &7Zasięg: &63 kratki"
+      - "&8✕ &7Cooldown: &610 sekund"
+      - "&8✕ &7Zużycie: &cnie"
+      - ""
+      - "&8✕ &7Przedmiot można trafić w &dMistycznej &7Skrzyni"
+      - "&8&m--------------------------"
+    glow: true
+    cooldown-seconds: 10
+    radius: 3
+    consume: false

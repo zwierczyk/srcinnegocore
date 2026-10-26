@@ -1,0 +1,26 @@
+enabled: true
+
+check-interval-ticks: 5
+warning-distance: 10.0
+protection-distance: 10.0
+push-distance: 1.5
+push-strength: 0.85
+push-y: 0.18
+
+bossbar:
+  enabled: true
+  title: '&#FF5C5C⚠ &fGranica mapy &8• &7pozostało &#FFDD57{distance}m'
+  color: RED
+  overlay: PROGRESS
+
+title:
+  enabled: true
+  title: '&#FF5C5C&lUWAGA!'
+  subtitle: '&fZbliżasz się do granicy mapy &8• &#FFDD57{distance}m'
+  fade-in-ticks: 5
+  stay-ticks: 35
+  fade-out-ticks: 10
+
+messages:
+  blocked-action: '&#FF0000✘ &8Ξ &cNie możesz tego robić przy granicy mapy.'
+  blocked-teleport: '&#FF0000✘ &8Ξ &cNie możesz teleportować się w pobliże granicy mapy.'

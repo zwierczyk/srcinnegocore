@@ -1,0 +1,22 @@
+enabled: true
+check-interval-ticks: 10
+check-only-on-block-change: true
+debug: false
+defaults:
+  render-distance: -1
+regions:
+  spawn:
+    world: world
+    region: spawn
+    render-distance: 2
+  afk:
+    world: world
+    region: afk
+    render-distance: 0
+messages:
+  reload: '&#00FF3B✔ &8Ξ &#4EFA76Pomyślnie przeładowano konfigurację widoczności graczy!'
+  no-permission: '&#FF0000✘ &8Ξ &cNie posiadasz dostępu do &#FF0000/renderdistance &8(&4Holly.cmd.renderdistance.reload&8)'
+  player-only: '&#FF0000✘ &8Ξ &cTej komendy może użyć tylko gracz.'
+  disabled: '&#FF0000✘ &8Ξ &cModuł widoczności graczy jest wyłączony.'
+  unavailable: '&#FF0000✘ &8Ξ &cModuł widoczności graczy jest niedostępny, ponieważ WorldGuard nie jest włączony.'
+  invalid-player: '&#FF0000✘ &8Ξ &cNie znaleziono tego gracza.'

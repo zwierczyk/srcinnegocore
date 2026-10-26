@@ -1,0 +1,176 @@
+music-loop-seconds: 50
+music-volume: 1.3
+music-sound: minecraft:eventmusic
+music-fadeout-sound: minecraft:eventmusic_fadeout
+music-fadein-sound: minecraft:eventmusic_fadein
+music-fadeout-ticks: 140
+music-quiet-ticks: 30
+music-fadein-ticks: 140
+ambient-loop-seconds: 35
+ambient-volume: 0.7
+ambient:
+  level-1: minecraft:event.dungeon_ambient_1
+  level-2: minecraft:event.dungeon_ambient_2
+  level-3: minecraft:event.dungeon_ambient_3
+dash-cooldown-seconds: 4
+revive-seconds: 10
+revive-radius: 4.5
+# Po wipe (cala druzyna martwa): GUI kup/anuluj VPLN (/portfel).
+wipe-revive-seconds: 25
+wipe-revive-cost: 10
+spectator-teammate-radius: 12.0
+death-hold-ticks: 50
+upgrade-timeout-ticks: 240
+coin-shop-timeout-ticks: 240
+# Sklep za coiny tylko co N zakonczonych fal (ulepszenia darmowe sa nadal co fale).
+coin-shop-every-waves: 4
+# Komendy konsoli po wygranej. {player} = nick gracza.
+win-rewards:
+  free:
+    - "give {player} gold_ingot 16"
+  premium:
+    - "give {player} gold_ingot 48"
+    - "give {player} diamond 8"
+# Baza monety po wygranej (/adungeon coinprize). Final = amount × moneyMultiplier (free x1, 1t x3 … 5t x7).
+coin-prize-amount: 0
+coin-prize-command: "eco give {player} {amount}"
+# Baza Vault za kazdego bossa (/adungeon coinreward). Final = amount × moneyMultiplier.
+coin-reward-amount: 0
+# HollyEconomy ($) za kazdy 1 dungeon coin podniesiony z ziemi — kasa zostaje po dungeonie (jak /ulepsz).
+coin-pickup-vault: 1
+# Pule itemow po bossie — FREE i PREMIUM sa osobne.
+# /adungeon reward boss <1-3> free   → GUI tylko free
+# /adungeon reward boss <1-3> premium → GUI tylko premium
+# Zapis jednej puli NIE rusza drugiej.
+boss-rewards:
+  free:
+    1: []
+    2: []
+    3: []
+  premium:
+    1: []
+    2: []
+    3: []
+template-world: ninjaevent
+world-prefix: ninja_dungeon_
+difficulty: HARD
+rejoin-seconds: 480
+tutorial-seconds: 35
+tutorial-slide-ticks: 70
+prepare-seconds: 4
+boss-cinematic-seconds: 4
+cinematic-fly-ticks: 100
+mobs-per-wave-base: 5
+# Skalowanie HP z liczby osob (5 graczy nie powinno x2.5 HP).
+# Final HP = baza × (solo-mult LUB 1+(gracze-1)×per) × mob/boss-hp-mult
+party-hp-per-player: 0.14
+party-boss-hp-per-player: 0.12
+solo-mob-hp-mult: 0.80
+solo-boss-hp-mult: 0.55
+mob-hp-mult: 0.75
+boss-hp-mult: 0.72
+# Extra moby na fale na kazdego dodatkowego gracza.
+party-mobs-per-player: 1
+knockback-resistance: 0.9
+# Max poziom Protection z upgrade'ow (netherite + wysoki Prot = bossy biją za 0.5❤).
+max-protection: 2
+# Obrazenia mobow/bossow vs gracze (1.0 = normalnie, 0.7 = latwiej o 30%).
+mob-damage-mult: 0.60
+
+kit:
+  golden-apples: 12
+  steak: 32
+  sword-custom-model-data: 1
+
+bosses:
+  1:
+    name: '<gradient:#FF3B3B:#FF9B00><bold>Sensei Kuro</bold></gradient></shadow>'
+    type: WITHER_SKELETON
+    health: 220
+  2:
+    name: '<gradient:#FF9B00:#FFD900><bold>Oni Masamune</bold></gradient></shadow>'
+    type: PIGLIN_BRUTE
+    health: 280
+  3:
+    name: '<gradient:#C800FF:#FC73F7><bold>Smoczy Ninja Ryujin</bold></gradient></shadow>'
+    type: RAVAGER
+    health: 340
+
+messages:
+  spawn-blocked: '<gradient:#FF3B3B:#FF5C5C>/spawn zablokowany</gradient> &fpodczas dungeona!</shadow>'
+  spectate-tp-blocked: '<gradient:#FF3B3B:#FF5C5C>Nie mozesz sie tepac</gradient> &fdo graczy w spectatorze!</shadow>'
+  not-configured: '<gradient:#FF3B3B:#FF5C5C>Dungeon nie skonfigurowany</gradient> &8(brak spawnu/fal/bossow)</shadow>'
+  world-missing: '<gradient:#FF3B3B:#FF5C5C>Brak swiata</gradient> <gradient:#FFD900:#FF9B00>ninjaevent</gradient></shadow>'
+  cloning: '<gradient:#FFD900:#FF9B00>Tworzenie instancji</gradient> &fdungeona...</shadow>'
+  clone-fail: '<gradient:#FF3B3B:#FF5C5C>Nie udalo sie sklonowac</gradient> &fswiata!</shadow>'
+  starting: '<gradient:#00FFC1:#00FF5A>Start Dungeon Ninja!</gradient> &fPowodzenia.</shadow>'
+  wave-clear: '<gradient:#00FF5A:#9FFF00>Fala pokonana!</gradient> &7Podazaj dalej sciezka.</shadow>'
+  wave-actionbar: 'Fala: <gradient:#00C1FF:#00D6FF>{WAVE}</gradient> &8| &fZostalo: <gradient:#FFD900:#FF9B00>{LEFT}</gradient>&8/&f{TOTAL} &8| &fCzas: <gradient:#FFD900:#FF9B00>{TIME}</gradient></shadow>'
+  gate-blocked: '<gradient:#FF3B3B:#FF5C5C>Najpierw pokonaj</gradient> &faktualna fale!</shadow>'
+  boss-title: '<gradient:#FF3B3B:#C800FF><bold>POKONAJ BOSSA!</bold></gradient></shadow>'
+  boss-subtitle: 'Straznik poziomu <gradient:#FFD900:#FF9B00>{LEVEL}</gradient></shadow>'
+  boss-down: '<gradient:#00FF5A:#9FFF00>Boss poziomu {LEVEL} pokonany!</gradient></shadow>'
+  win: '<gradient:#00FFC1:#00FF5A>Dungeon ukonczony!</gradient> &fGratulacje.</shadow>'
+  lose: '<gradient:#FF3B3B:#FF5C5C>Przegrana!</gradient> &7Cala druzyna padla.</shadow>'
+  lose-title: '<gradient:#FF3B3B:#FF5C5C><bold>PRZEGRANA</bold></gradient></shadow>'
+  lose-subtitle: '<gradient:#B5CFD4:#A7A7A7>Nikt nie przezyl dungeona ninja.</gradient></shadow>'
+  spectator: '<gradient:#FF5C5C:#FF9B00>Zginales!</gradient> &7Teammate: sneak 15s przy ciele</shadow>'
+  freeze: '<gradient:#FFB800:#FF9B00>Nie mozesz sie jeszcze ruszac...</gradient></shadow>'
+  skip-vote: 'Skip: <gradient:#FFD900:#FF9B00>/skip</gradient> &8| &fGlosy: <gradient:#00C1FF:#00D6FF>{VOTES}</gradient>&8/&f{NEED}</shadow>'
+  skipped: '<gradient:#00FF5A:#9FFF00>Tutorial pominiety</gradient> &fglosami.</shadow>'
+  skip-ok: '<gradient:#00FFC1:#00FF5A>Zaglosowano</gradient> &fna skip tutoriala.</shadow>'
+  skip-need-tutorial: '<gradient:#FF3B3B:#FF5C5C>/skip</gradient> &ftylko podczas tutoriala.</shadow>'
+  quit-freeze: '<gradient:#FFB800:#FF9B00>Wyszedles.</gradient> &fMasz <gradient:#FFD900:#FF9B00>{MIN} min</gradient> &fna powrot.</shadow>'
+  quit-lost: '<gradient:#FF3B3B:#FF5C5C>Nie wrociles na czas</gradient> &8— &ftickety przepadly.</shadow>'
+  rejoin: '<gradient:#00FFC1:#00FF5A>Auto-rejoin:</gradient> &fprzywrocono Cie do dungeona!</shadow>'
+  loc-set: '<gradient:#00FF5A:#9FFF00>Zapisano</gradient> &f{WHAT}.</shadow>'
+  loc-invalid: '<gradient:#FF3B3B:#FF5C5C>Nieprawidlowe argumenty.</gradient></shadow>'
+  must-be-in-template: 'Musisz stac w swiecie <gradient:#FFD900:#FF9B00>ninjaevent</gradient></shadow>'
+  announce-win: '<gradient:#00FFC1:#00FF5A>Druzyna</gradient> &f{PLAYERS} <gradient:#00FF5A:#9FFF00>ukonczyla</gradient> &fDungeon Ninja!</shadow>'
+  announce-lose: '<gradient:#FF3B3B:#FF5C5C>Druzyna</gradient> &f{PLAYERS} <gradient:#FF5C5C:#FF9B00>przegrala</gradient> &fDungeon Ninja.</shadow>'
+  announce-timeout: '<gradient:#FF3B3B:#FF5C5C>Druzyna</gradient> &f{PLAYERS} &cnie wrocila na czas.</shadow>'
+
+tutorial:
+  title: '<gradient:#00C1FF:#C800FF><bold>TUTORIAL DUNGEON</bold></gradient></shadow>'
+  subtitle: 'Aby pominac wpisz <gradient:#FFD900:#FF9B00>/skip</gradient></shadow>'
+  slides:
+    - title: '<gradient:#00C1FF:#2BD4FF><bold>TUTORIAL</bold></gradient></shadow>'
+      subtitle: '<gradient:#FFFFFF:#B5CFD4>Dungeon Ninja</gradient> &8— &fprzygotuj sie</shadow>'
+    - title: '<gradient:#00FFC1:#00FF5A><bold>CO TO JEST?</bold></gradient></shadow>'
+      subtitle: '<gradient:#FFD900:#FF9B00>3 poziomy</gradient>&f, fale i bossy</shadow>'
+    - title: '<gradient:#FFD900:#FF9B00><bold>FALE</bold></gradient></shadow>'
+      subtitle: 'Pokonuj po kolei — sciezka zablokowana</shadow>'
+    - title: '<gradient:#2BD4FF:#00C1FF><bold>JAK GRAC?</bold></gradient></shadow>'
+      subtitle: 'Bij ninje, idz dalej po czystej fali</shadow>'
+    - title: '<gradient:#FF3B3B:#FF5C5C><bold>BOSSY</bold></gradient></shadow>'
+      subtitle: 'Kamera GM3, potem walka</shadow>'
+    - title: '<gradient:#00FF5A:#9FFF00><bold>ULEPSZENIA</bold></gradient></shadow>'
+      subtitle: 'Co fale darmowy upgrade, co 4 fale shop coinow</shadow>'
+    - title: '<gradient:#9FFF00:#2AFF5B><bold>UPGRADE</bold></gradient></shadow>'
+      subtitle: 'Protection / Sharpness / Gapple</shadow>'
+    - title: '<gradient:#FF5C5C:#FF9B00><bold>SMIERC</bold></gradient></shadow>'
+      subtitle: 'Sneak 15s przy ciele = revive</shadow>'
+    - title: '<gradient:#00C1FF:#00D6FF><bold>DASH</bold></gradient></shadow>'
+      subtitle: 'Shift + PPM katana</shadow>'
+    - title: '<gradient:#FFB800:#FF5C5C><bold>WYSOKOSC</bold></gradient></shadow>'
+      subtitle: '8+ kratek = insta kill</shadow>'
+    - title: '<gradient:#00FFC1:#2BD4FF><bold>WODA</bold></gradient></shadow>'
+      subtitle: 'Trujaca woda — nie wchodz</shadow>'
+    - title: '<gradient:#FFD900:#FFFFFF><bold>/SKIP</bold></gradient></shadow>'
+      subtitle: '50% lobby: wpisz /skip</shadow>'
+
+mob-names:
+  - 'Ninja Adas'
+  - 'Ninja Bartek'
+  - 'Cien Kaito'
+  - 'Shinobi Marek'
+  - 'Ninja Oskar'
+  - 'Zabojca Leo'
+  - 'Ninja Filip'
+  - 'Cichy Wojtek'
+  - 'Ninja Szymon'
+  - 'Mistrz Tomek'
+  - 'Ninja Kuba'
+  - 'Cien Patryk'
+  - 'Ronin Dominik'
+  - 'Ninja Igor'

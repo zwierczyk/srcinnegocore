@@ -1,0 +1,34 @@
+packages: {}
+
+gui:
+  title: '&7Odbierz przedmioty'
+  rows: 5
+  use-template: true
+
+  item:
+    add-separator: true
+    lore:
+      - ''
+      - '&8▸ &fNazwa przedmiotu: &#00E0FF{NAME}'
+      - '&8▸ &fLiczba przedmiotów: &#FFB800{AMOUNT} szt.'
+      - ''
+      - '&#4EFA76✔ Kliknij, aby odebrać te przedmioty'
+
+  claim-all:
+    slot: 40
+    material: CHEST
+    name: '&#4EFA76&lODBIERZ WSZYSTKO'
+    lore:
+      - ''
+      - '&8▸ &fPozycje do odebrania: &#00E0FF{PACKAGES}'
+      - '&8▸ &fŁącznie przedmiotów: &#FFB800{ITEMS} szt.'
+      - ''
+      - '&#4EFA76✔ Kliknij, aby odebrać wszystko'
+
+  empty:
+    material: BARRIER
+    name: '&#FF5C5C&lBRAK PRZEDMIOTÓW'
+    lore:
+      - ''
+      - '&7Nie masz obecnie żadnych przedmiotów'
+      - '&7oczekujących na odebranie.'

@@ -1,0 +1,24 @@
+guiTitle: '&7Warpy'
+guiRows: 5
+teleportDelay: 5
+cancelOnMove: true
+cancelOnDamage: true
+countdownTitle: '&8• &x&F&F&F&F&F&F&lᴛ&x&E&A&E&A&E&A&lᴇ&x&D&5&D&5&D&5&lʟ&x&B&F&B&F&B&F&lᴇ&x&A&A&A&A&A&A&lᴘ&x&C&6&C&6&C&6&lᴏ&x&E&3&E&3&E&3&lʀ&x&F&F&F&F&F&F&lᴛ&lᴀ&lᴄ&lᴊ&lᴀ &8•'
+countdownSubtitle: '&7Zostaniesz &fteleportowany&7 za &f{time} &7sekund...'
+teleportingSubtitle: '&fZostaniesz przeniesiony za &#77F454{TIME}'
+teleportSuccessTitle: '&#77F454☺'
+teleportSuccessSubtitle: '&aPomyślnie zostałeś przeniesiony'
+teleportSuccessMessage: '&a» &7Przeteleportowano do warpa &f{warp}&7!'
+teleportCancelledMessage: '&c» &7Teleportacja przerwana &8(&#AAAAAAruszyłeś się&8)!'
+warpNotFoundMessage: '&#FF0000✘ &8Ξ &cWarp nie został znaleziony!'
+warpCreatedMessage: '&#00FF3B✔ &8Ξ &#4EFA76Utworzono warp &a{warp}&a!'
+warpDeletedMessage: '&#00FF3B✔ &8Ξ &#4EFA76Usunięto warp &a{warp}&a!'
+warpExistsMessage: '&#FF0000✘ &8Ξ &cWarp o tej nazwie już istnieje!'
+noPermissionMessage: '&#FF0000✘ &8Ξ &cNie posiadasz dostępu do &#FF0000/warp &8(&4Holly.cmd.warp&8)'
+warpClickToTeleport: '&aKliknij aby się teleportować'
+warpNoPermissionLore: '&cBrak uprawnień!'
+defaultItemMaterial: NETHERITE_PICKAXE
+defaultLore:
+- ''
+- '&8▶ &7Kliknij &faby &7się &fteleportować'
+- ''

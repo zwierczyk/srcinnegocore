@@ -1,0 +1,392 @@
+roll:
+  base-cost: 50.0
+  multiplier: 2.0
+
+papugi:
+  pirat:
+    material: PARROT_SPAWN_EGG
+    variant: BLUE
+    shoulder: right
+    give-displayname: '&7???'
+    displayname: '&fPapuszka %imie% &7na czas &3%czas%'
+    random-names:
+      - 'Pirat'
+      - 'Kapitan'
+      - 'Korsarz'
+      - 'Rabuś'
+      - 'Bosman'
+      - 'Beczka Rumu'
+      - 'Hakobrody'
+      - 'Czarny Dziób'
+      - 'Sztorm'
+      - 'Neptun'
+      - 'Srebrnoskrzydły'
+      - 'Brodaty'
+      - 'Morski Wilk'
+      - 'Rafa'
+      - 'Czarnobrody'
+      - 'Perłowy Dziób'
+      - 'Fregata'
+      - 'Kaper'
+    lore:
+      - '&7Przedmiot wydarzeniowy'
+      - '&9Niebieska papuga'
+      - ''
+      - '&7Ten przedmiot mogłeś zdobyć'
+      - '&7w trakcie wydarzenia pirackiego 2025!'
+
+  rubin:
+    material: PARROT_SPAWN_EGG
+    variant: RED
+    shoulder: left
+    give-displayname: '&7???'
+    displayname: '&fPapuszka %imie% &7na czas &3%czas%'
+    random-names:
+      - 'Rubin'
+      - 'Karmazyn'
+      - 'Ognisty Dziób'
+      - 'Szkarłat'
+      - 'Flara'
+      - 'Płomień'
+      - 'Iskra'
+      - 'Rudy'
+      - 'Ares'
+      - 'Feniks'
+      - 'Pożoga'
+      - 'Wulkan'
+      - 'Mars'
+      - 'Szrapnel'
+      - 'Błysk'
+      - 'Rozżarzony'
+    lore:
+      - '&7Przedmiot wydarzeniowy'
+      - '&cCzerwona papuga'
+      - ''
+      - '&7Rzadka papuga o ognistym umaszczeniu.'
+
+  szmaragd:
+    material: PARROT_SPAWN_EGG
+    variant: GREEN
+    shoulder: right
+    give-displayname: '&7???'
+    displayname: '&fPapuszka %imie% &7na czas &3%czas%'
+    random-names:
+      - 'Szmaragd'
+      - 'Liść'
+      - 'Dżungla'
+      - 'Bambus'
+      - 'Mango'
+      - 'Limonka'
+      - 'Szyszka'
+      - 'Echo'
+      - 'Wicher'
+      - 'Zielony Korsarz'
+      - 'Trawka'
+      - 'Jaszczur'
+      - 'Palma'
+      - 'Sawanna'
+      - 'Jadeit'
+      - 'Amazonka'
+    lore:
+      - '&7Przedmiot wydarzeniowy'
+      - '&aZielona papuga'
+      - ''
+      - '&7Papuga z tropikalnej dżungli.'
+
+  popiol:
+    material: PARROT_SPAWN_EGG
+    variant: GRAY
+    shoulder: left
+    give-displayname: '&7???'
+    displayname: '&fPapuszka %imie% &7na czas &3%czas%'
+    random-names:
+      - 'Popiół'
+      - 'Mgła'
+      - 'Pyłek'
+      - 'Burza'
+      - 'Grafit'
+      - 'Cień'
+      - 'Dymek'
+      - 'Komin'
+      - 'Lodowy Dziób'
+      - 'Skrawek'
+      - 'Pył'
+      - 'Huragan'
+      - 'Monolit'
+      - 'Smuga'
+      - 'Popielec'
+      - 'Kamyk'
+    lore:
+      - '&7Przedmiot wydarzeniowy'
+      - '&7Szara papuga'
+      - ''
+      - '&7Niepozorna, ale bardzo charakterystyczna.'
+
+  turkus:
+    material: PARROT_SPAWN_EGG
+    variant: CYAN
+    shoulder: right
+    give-displayname: '&7???'
+    displayname: '&fPapuszka %imie% &7na czas &3%czas%'
+    random-names:
+      - 'Turkus'
+      - 'Fala'
+      - 'Laguna'
+      - 'Perła'
+      - 'Sztormiak'
+      - 'Błękit'
+      - 'Morski Wilk'
+      - 'Rafa'
+      - 'Hydra'
+      - 'Piana'
+      - 'Ocean'
+      - 'Mewa'
+      - 'Tsunami'
+      - 'Koral'
+      - 'Głębia'
+      - 'Bryza'
+    lore:
+      - '&7Przedmiot wydarzeniowy'
+      - '&bTurkusowa papuga'
+      - ''
+      - '&7Papuga w morskim, egzotycznym kolorze.'
+
+bonuses:
+  damage_10:
+    displayname: '&aDodatkowe obrażenia +10%'
+    lore:
+      - ' &8» &7Dodatkowe obrażenia &a+10%'
+    damage-multiplier: 0.10
+    weight: 20
+  damage_20:
+    displayname: '&aDodatkowe obrażenia +20%'
+    lore:
+      - ' &8» &7Dodatkowe obrażenia &a+20%'
+    damage-multiplier: 0.20
+    weight: 15
+  damage_30:
+    displayname: '&aDodatkowe obrażenia +30%'
+    lore:
+      - ' &8» &7Dodatkowe obrażenia &a+30%'
+    damage-multiplier: 0.30
+    weight: 10
+  damage_40:
+    displayname: '&aDodatkowe obrażenia +40%'
+    lore:
+      - ' &8» &7Dodatkowe obrażenia &a+40%'
+    damage-multiplier: 0.40
+    weight: 7
+  damage_50:
+    displayname: '&aDodatkowe obrażenia +50%'
+    lore:
+      - ' &8» &7Dodatkowe obrażenia &a+50%'
+    damage-multiplier: 0.50
+    weight: 4
+  damage_60:
+    displayname: '&aDodatkowe obrażenia +60%'
+    lore:
+      - ' &8» &7Dodatkowe obrażenia &a+60%'
+    damage-multiplier: 0.60
+    weight: 2
+  damage_70:
+    displayname: '&6Dodatkowe obrażenia +70%'
+    lore:
+      - ' &8» &7Dodatkowe obrażenia &6+70%'
+    damage-multiplier: 0.70
+    weight: 1
+  flat_damage_1:
+    displayname: '&aDodatkowe obrażenia +0.1'
+    lore:
+      - ' &8» &7Dodatkowe obrażenia &a+0.1'
+    damage: 0.1
+    weight: 14
+  flat_damage_2:
+    displayname: '&aDodatkowe obrażenia +0.2'
+    lore:
+      - ' &8» &7Dodatkowe obrażenia &a+0.2'
+    damage: 0.2
+    weight: 11
+  flat_damage_3:
+    displayname: '&aDodatkowe obrażenia +0.3'
+    lore:
+      - ' &8» &7Dodatkowe obrażenia &a+0.3'
+    damage: 0.3
+    weight: 9
+  flat_damage_4:
+    displayname: '&aDodatkowe obrażenia +0.4'
+    lore:
+      - ' &8» &7Dodatkowe obrażenia &a+0.4'
+    damage: 0.4
+    weight: 6
+  flat_damage_5:
+    displayname: '&aDodatkowe obrażenia +0.5'
+    lore:
+      - ' &8» &7Dodatkowe obrażenia &a+0.5'
+    damage: 0.5
+    weight: 4
+  flat_damage_6:
+    displayname: '&6Dodatkowe obrażenia +0.6'
+    lore:
+      - ' &8» &7Dodatkowe obrażenia &6+0.6'
+    damage: 0.6
+    weight: 2
+  flat_damage_7:
+    displayname: '&6Dodatkowe obrażenia +0.7'
+    lore:
+      - ' &8» &7Dodatkowe obrażenia &6+0.7'
+    damage: 0.7
+    weight: 1
+  speed_1:
+    displayname: '&bStały efekt Szybkość I'
+    lore:
+      - ' &8» &7Stały efekt &bSzybkość I'
+    effects:
+      - 'speed:0'
+    weight: 12
+  speed_2:
+    displayname: '&bStały efekt Szybkość II'
+    lore:
+      - ' &8» &7Stały efekt &bSzybkość II'
+    effects:
+      - 'speed:1'
+    weight: 4
+  strength_1:
+    displayname: '&cStały efekt Siła I'
+    lore:
+      - ' &8» &7Stały efekt &cSiła I'
+    effects:
+      - 'increase_damage:0'
+    weight: 5
+  strength_2:
+    displayname: '&6Stały efekt Siła II'
+    lore:
+      - ' &8» &7Stały efekt &6Siła II'
+    effects:
+      - 'increase_damage:1'
+    weight: 1
+  haste_1:
+    displayname: '&eStały efekt Haste I'
+    lore:
+      - ' &8» &7Stały efekt &eHaste I'
+    effects:
+      - 'fast_digging:0'
+    weight: 8
+  haste_2:
+    displayname: '&6Stały efekt Haste II'
+    lore:
+      - ' &8» &7Stały efekt &6Haste II'
+    effects:
+      - 'fast_digging:1'
+    weight: 2
+  jump_1:
+    displayname: '&aStały efekt Skok I'
+    lore:
+      - ' &8» &7Stały efekt &aSkok I'
+    effects:
+      - 'jump:0'
+    weight: 7
+  jump_2:
+    displayname: '&2Stały efekt Skok II'
+    lore:
+      - ' &8» &7Stały efekt &2Skok II'
+    effects:
+      - 'jump:1'
+    weight: 2
+  regeneration_1:
+    displayname: '&dStały efekt Regeneracja I'
+    lore:
+      - ' &8» &7Stały efekt &dRegeneracja I'
+    effects:
+      - 'regeneration:0'
+    weight: 3
+  resistance_1:
+    displayname: '&9Stały efekt Odporność I'
+    lore:
+      - ' &8» &7Stały efekt &9Odporność I'
+    effects:
+      - 'damage_resistance:0'
+    weight: 3
+  fire_resistance_1:
+    displayname: '&6Stały efekt Ognioodporność'
+    lore:
+      - ' &8» &7Stały efekt &6Ognioodporność'
+    effects:
+      - 'fire_resistance:0'
+    weight: 4
+  water_breathing_1:
+    displayname: '&bStały efekt Oddychanie pod wodą'
+    lore:
+      - ' &8» &7Stały efekt &bOddychanie pod wodą'
+    effects:
+      - 'water_breathing:0'
+    weight: 4
+  night_vision_1:
+    displayname: '&5Stały efekt Noktowizor'
+    lore:
+      - ' &8» &7Stały efekt &5Noktowizor'
+    effects:
+      - 'night_vision:0'
+    weight: 5
+  luck_1:
+    displayname: '&aStały efekt Szczęście I'
+    lore:
+      - ' &8» &7Stały efekt &aSzczęście I'
+    effects:
+      - 'luck:0'
+    weight: 5
+  weakness_1:
+    displayname: '&8Stały efekt Słabość I'
+    lore:
+      - ' &8» &7Stały efekt &8Słabość I'
+    effects:
+      - 'weakness:0'
+    weight: 9
+  slow_1:
+    displayname: '&8Stały efekt Spowolnienie I'
+    lore:
+      - ' &8» &7Stały efekt &8Spowolnienie I'
+    effects:
+      - 'slow:0'
+    weight: 9
+  slow_2:
+    displayname: '&7Stały efekt Spowolnienie II'
+    lore:
+      - ' &8» &7Stały efekt &7Spowolnienie II'
+    effects:
+      - 'slow:1'
+    weight: 4
+  mining_fatigue_1:
+    displayname: '&8Stały efekt Zmęczenie I'
+    lore:
+      - ' &8» &7Stały efekt &8Zmęczenie I'
+    effects:
+      - 'slow_digging:0'
+    weight: 8
+  hunger_1:
+    displayname: '&8Stały efekt Głód I'
+    lore:
+      - ' &8» &7Stały efekt &8Głód I'
+    effects:
+      - 'hunger:0'
+    weight: 7
+  blind_1:
+    displayname: '&8Stały efekt Ślepota I'
+    lore:
+      - ' &8» &7Stały efekt &8Ślepota I'
+    effects:
+      - 'blindness:0'
+    weight: 2
+  poison_1:
+    displayname: '&4Stały efekt Trucizna I'
+    lore:
+      - ' &8» &7Stały efekt &4Trucizna I'
+    effects:
+      - 'poison:0'
+    weight: 1
+  unluck_1:
+    displayname: '&8Stały efekt Pech I'
+    lore:
+      - ' &8» &7Stały efekt &8Pech I'
+    effects:
+      - 'unluck:0'
+    weight: 4

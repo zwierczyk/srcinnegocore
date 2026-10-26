@@ -1,0 +1,142 @@
+gui:
+  title: '&8Misje'
+  rows: 6
+  # Używa szablonu z guis/template.yml (template54 dla 6 rzędów)
+
+messages:
+  claimed: '&#00FF3B✔ &8Ξ &#4EFA76Odebrałeś nagrodę za misję &f{mission}&a! (&f+{shards} odlamków&a)'
+  not-ready: '&#FF0000✘ &8Ξ &cNie ukończyłeś jeszcze tej misji. (&f{current}/{goal}&c)'
+  no-shard-system: '&#FF0000✘ &8Ξ &cSystem odlamków (szaman) jest wyłączony — skontaktuj się z administracją.'
+
+missions:
+  cases:
+    enabled: true
+    slot: 21
+    material: CHEST
+    name: '&e&lOtworzone skrzynki'
+    progress-lore: '&7Otworzono {current}/{goal}'
+    rewards-header: '&8Ξ &6&lNagrody:'
+    reward-line: '&7{display} - &f{shards} odlamki'
+    goal: 100
+    claimable-lore: '&a» Kliknij LPM aby odebrać nagrodę!'
+    rewards:
+      gracz:
+        display: gracz
+        permission: ''
+        shards: 5
+        default: true
+      vip:
+        display: vip
+        permission: Holly.mission.reward.vip
+        shards: 7
+      svip:
+        display: svip
+        permission: Holly.mission.reward.svip
+        shards: 10
+      legenda:
+        display: legenda
+        permission: Holly.mission.reward.legenda
+        shards: 15
+      og:
+        display: og
+        permission: Holly.mission.reward.og
+        shards: 30
+
+  kills:
+    enabled: true
+    slot: 22
+    material: DIAMOND_SWORD
+    name: '&c&lZabójstwa'
+    progress-lore: '&7Zabij {current}/{goal}'
+    rewards-header: '&8Ξ &6&lNagrody:'
+    reward-line: '&7{display} - &f{shards} odlamki'
+    goal: 30
+    claimable-lore: '&a» Kliknij LPM aby odebrać nagrodę!'
+    rewards:
+      gracz:
+        display: gracz
+        permission: ''
+        shards: 5
+        default: true
+      vip:
+        display: vip
+        permission: Holly.mission.reward.vip
+        shards: 7
+      svip:
+        display: svip
+        permission: Holly.mission.reward.svip
+        shards: 10
+      legenda:
+        display: legenda
+        permission: Holly.mission.reward.legenda
+        shards: 15
+      og:
+        display: og
+        permission: Holly.mission.reward.og
+        shards: 30
+
+  generator_blocks:
+    enabled: true
+    slot: 24
+    material: GOLDEN_PICKAXE
+    name: '&b&lWykopane bloki z generatorów'
+    progress-lore: '&7Wykop {current}/{goal}'
+    rewards-header: '&8Ξ &6&lNagrody:'
+    reward-line: '&7{display} - &f{shards} odlamki'
+    goal: 70000
+    claimable-lore: '&a» Kliknij LPM aby odebrać nagrodę!'
+    rewards:
+      gracz:
+        display: gracz
+        permission: ''
+        shards: 5
+        default: true
+      vip:
+        display: vip
+        permission: Holly.mission.reward.vip
+        shards: 7
+      svip:
+        display: svip
+        permission: Holly.mission.reward.svip
+        shards: 10
+      legenda:
+        display: legenda
+        permission: Holly.mission.reward.legenda
+        shards: 15
+      og:
+        display: og
+        permission: Holly.mission.reward.og
+        shards: 30
+
+  boss_hits:
+    enabled: true
+    slot: 25
+    material: WITHER_SKELETON_SKULL
+    name: '&d&lUderzenie bossa'
+    progress-lore: '&7Uderz {current}/{goal}'
+    rewards-header: '&8Ξ &6&lNagrody:'
+    reward-line: '&7{display} - &f{shards} odlamki'
+    goal: 100
+    claimable-lore: '&a» Kliknij LPM aby odebrać nagrodę!'
+    rewards:
+      gracz:
+        display: gracz
+        permission: ''
+        shards: 5
+        default: true
+      vip:
+        display: vip
+        permission: Holly.mission.reward.vip
+        shards: 7
+      svip:
+        display: svip
+        permission: Holly.mission.reward.svip
+        shards: 10
+      legenda:
+        display: legenda
+        permission: Holly.mission.reward.legenda
+        shards: 15
+      og:
+        display: og
+        permission: Holly.mission.reward.og
+        shards: 30

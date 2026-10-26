@@ -1,0 +1,1339 @@
+gui:
+  items:
+    '0':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: ELYTRA
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Wzmocniona elytra","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Jest
+          to przedmiot zdobyty podczas","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Wielkanocnego
+          Wydarzenia 2025","italic":false,"color":"white"},{"text":"!","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Po
+          naładowaniu elytry do ","italic":false,"color":"gray"},{"text":"100%","italic":false,"color":"white"},{"text":",
+          zyskujesz","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"potężną
+          moc","italic":false,"color":"red"},{"text":", która przy uderzeniu w ziemię","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"uwolni
+          się, oddziałując na pobliskich graczy!","italic":false,"color":"gray"}]}'
+        custom-model-data: 42421
+        enchants:
+          DURABILITY: 10
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: a5aa4a75-2460-446e-aeaf-c4ea7ee27d06
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+1VXW8bRRS9aSLHNkVFIFH1bRjoCzhpEohSuRVSIeWjotAHSiQ+ZGZnxvbUszPWzJ2E3SY8IPVH9AdUkXiAB9QneAruH+GRX8HddZK6QKUgPiSkWCt75+7dc8493jnbBmjDhU/e2r0VPHrp7WpvbaW3/rGvf19vwdnrTg6Fw1w7jG0AmGvCGaOgnVwWtBgZNzgD83bbEk4TnnUZLo8FDpetDxpeNKjz5cz7iD1tCwyirrfh1ScZVw/51neNk95t64Ams7qnBIoWvCAQg8kS6l7ulekbHWKzUgLPDQZLUUv0IXZVyvMC5qH1nlH6HSsGkVpenodzb6eIPr/plbabhAfw4GEbXvudgN4btQQ6dmXdX1FpWytYhCaNYLVwFSQ8A42+9QKrxdy7Fx9CCxYjCXQ1Y32dQElSvWrBORrbRStQq6Vq+lr63Kd3OeqvkHc573A6CYJ3Pzuu/blv1FkRjTQOg0+DIe/2hY26w33WT1FWDMclaY0cXd+mf41373Ih0XhHwH6sXS8FS1DbwiZNpSHiuHvp0lMo9zo88/YxrkFByMfL5JQO1rhZ5mp4wg1U2+vMjnli8X+H8Yu95hOWO5Hruc//otto0P7Xdk85/4d+t2FRmTi2omjCwodkN1zgB/vrB/t2q8y9dGSFYNMheQsWPjjcAw1Y4uxg//LBj/S9cUNHZOjZOJRa5cYjK5XPCizY2CtZishn2/tbRtuRcISuB55tFUrQfc4ItrayRswbL3FoVO0bHK7MsNzyzIlH3wjld4QzaaqqYMpXmKsrKxepp8PKIo7SHR1LDm8+vlmOPU7uP/rJTe4xGqvuHOHPPwRRiS5YIp8qDYntsNLo3Ezuc7g6Q552vHWGRbrQYV6p0pCUdGdyT5IoGjOzJo6MHLJBELIsaIQWPH/tKPtuHkXfYQhPnf5DAlIAfjTWQVQP4DSNFm7ffn+TzhYefHsjvfLlpvvu+8mvX/+y16C4Pkavwc4OtNPByGWb5KgBjWu5Tw7h6DMb79WugvNPeYjhXwz4k79jTiP+NOJPI/6f8vukW/83+lPEAVEKAAA=
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: FISHING_ROD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Wędka
+          surferka"}],"text":""}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Jest to przedmiot z:"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"white","text":"eventu wakacyjnego (2023)"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Ta "},{"italic":false,"color":"green","text":"niezwykła
+          "},{"italic":false,"color":"gray","text":"wędka zapewnia ci"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"zdumiewająca zdolność przyciąania
+          się"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"do "},{"italic":false,"color":"aqua","text":"bloków
+          "},{"italic":false,"color":"gray","text":"i "},{"italic":false,"color":"light_purple","text":"graczy"},{"italic":false,"color":"gray","text":",
+          tworząc zupełnie"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"nowe możliwości eksploracji i
+          walki!"}],"text":""}'
+        custom-model-data: 1
+        enchants:
+          LOOT_BONUS_BLOCKS: 10
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 0f85c69e-b548-48ad-bfda-242281892b7f
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/81Wy27TQBS9aaPmQXkIVuyMYQE0oD7oJhtUKKggCizaskAomtg3ztTjmTAe18RtBVSqEB8AUoXEH7BCrEBCgoQPYIVYs+AzGLtu0lLJPCRQokjxxOece8/MnblTBijD8aVLa7elUMISbKI2OV6bXhDJ71QJRq9wq0m48pArvwwAuSIMURsKDSFVwHEIhtkK0yJlOLtXZiIVmV6j3BJ8BaWidYY1myhSgmNEKUnrgcKaJ2zaoCj9YiwPRxznnI+WEtKv2oHntfV/h5aW1qzAV8JL6LlhKM1RG68y4viadLIMYz8Fr11IwuvvDlGHQZbQC1CsC8GQ8JgMB2CkwQRR8SB38RFACQq+To4n2sl7LarTSUbDcPhyIjgf681quZhWhoJN/RYj7SLkbxIP4fmqiQ+UJGb17qqZ8M2qSe4HxKyYAbdRMsrRNqsNwnysmEqDNeBOZ8t2ieEHsoHSjbF1wTRKyUCD4qxcVE0pAqfZo4p6I/AtonapUUUYtdLh+r2evLlegvwNITGe6gJ87udoGmaln6dNpFtzJGlnJvvhrdFLMH3zlxnuCp1GTUNcR18ZShgtGaHtUaGMqGpm+YMvA+gpbFKFfVO4ojdTYITEJVZ7maMjjNOT45NTZ7KdDZlmbmoA3e1dsQVi7LOxB4zI+2hOMQrbbnfjV6zdIcLtTRKRFoacEsOi2RP3feAnLdIHHcWQLHc2LW3MFoyL7ovOk7ju2xbtbJLYp087W5lOc88G3qktMhc6PSBTcJ0J9+Pr8A9Kg2ZiGXWaqtYKZIvt2o5awYravx+jYqhQyEgvlREFLexu6CLOLsBvA78sXIRoeKL7jtFQV55FDXR1OxN6apapQfVZxVx6IttlCY7O7DT1+Z2enl4Ztnvivtau+/itFkqiqODbrTa/uHhtVj/lD29+evlmbu7V+6+nzMdPxx4W4WBPPREbdZCjpNZ5FljuCIzMeCLgCnqf/beGf3hF+Y8XEPgBruLyy7QJAAA=
+    '2':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: FISHING_ROD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Wędka
+          nielota"}],"text":""}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Wędka nielota była do zdobycia"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"w "},{"italic":false,"color":"white","text":"2024
+          roku "},{"italic":false,"color":"gray","text":"podczas "},{"italic":false,"color":"green","text":"dnia
+          dziecka"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Po złapaniu gracza na haczyk"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"nie może on odlecieć "},{"italic":false,"color":"light_purple","text":"elytrą!"}],"text":""}'
+        custom-model-data: 2
+        ItemFlags:
+          - HIDE_UNBREAKABLE
+        Unbreakable: true
+        Damage: 4
+        internal: H4sIAAAAAAAA/81UwW7TQBDdlELSINEzt2Wv5NCGcskJAUdAPaBwQGCNvZN45c2OtV6rOG0vSIhvQOJP4ITSr0DiWxibkKRQjMQBxbJsj+fNmzezs9sXoi9ujx+eHXsKlJA9jIYH0f3n1Lzv9cXdy77D6Kjx8X2WlEWgWTQjjTbSEKArejGRRXCF4OumuDGxBKE2Og/4sSe6RfDGTRt37WdS8j+sjrg1Hv/krNk618T+o8Z8Wmd4zL8YttMXXW2K3ELVE7vPYIbi46nCN8GDGr08VQ2jGikNPovy0ucW1UCVTqO3xqFWownYAgcqcAzjXiw+6AykM2gpAENjsgwKvmRMrTbDkHoqp+kqkuJJWSQQNshMAGuSpXn+asWuzvfE7hPy2GPp18W3tVIl1eAXtVMPVavWL5/kSuDS848KN1Ivs17ZDhlXF29BapJzTXGVmLpBf66183rr6zuRv1WwgT1JTcA1eHgwPJKesrI16HKCnHQyh+IvEYhuHaKd4R7PDSZZe3/FjlLi69b3+JjHhccmB2dKyS7uh3QgU/6osvYB2t/64nhnyBldfEZJTpK2mBhcvG9dbmumaVifRUsitFXwi3d32lf8imPxP57J4jvA1FZgHwYAAA==
+    '3':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Smoczy
+          miecz"}],"text":""}'
+        lore:
+          - '{"text":"","extra":[{"text":"Dodatkowe obrażenia 0%","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":false}]}'
+          - '{"text":"","extra":[{"text":"Posiada on możliwość strzelania","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"perłami kresu","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false},{"text":"!","italic":false,"color":"gray"}]}'
+        custom-model-data: 1
+        enchants:
+          FIRE_ASPECT: 2
+          DAMAGE_ALL: 6
+        ItemFlags:
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+        internal: H4sIAAAAAAAA/8WTwUojQRCGK1FMMsp69jY2eNocdN295LKg7m13EZRcFhkqM5VMk56uobtHTVRYvOxDCD6Az+DRHHwre8YYlJVcVtmmoamuv6q+KqgAIIC17s75vmHHMaut6NNm9OWQq3e7Bh+63fO4sI6zKEGHtQA+vlRvRZ8rtb9PwowTUpW8Ac0esyLUFvxZhqW+YnSlUfv6G6AFDeuM1IPKXfp9UjaPVgtWvuk4Re0y0s4G/qvehLpMoGVTNLkma+uwoI4VLMGjY7kvDUVoc4rd1OUfWN2twH6UXHseqywfQCORNlc4asLiT8wIrs4EnTqDovPrTFQcoiOUHKQuyguTKxJtUeiEjJKaEtHpo7LUFs4HeeFBxvF4FGaS4rEX9lh5iTOFV5QtDsmlhotBOovjXr+wMbpnqaRDJeOpeXE0yy0uWrD4nQ01PfkC3LwGOjA4mgu4z1ZigiHrMOPJrZInPLm6+xN6ujEp1BJn2NPAN+CG+38aak5mcomZDIeGbPFGfO2/hjatti7mtnL9WivGl5nXwR77PRjyCYXcMzi5JT/ncHPjPUYN/3Vb4QGLzgg+SwQAAA==
+    '4':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: RABBIT_FOOT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Sakiewka
+          dropu"}],"text":""}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Posiadając ten przedmiot w"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"ekwipunku po "},{"italic":false,"color":"red","text":"zabiciu
+          "},{"italic":false,"color":"gray","text":"dowolnego"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"white","text":"gracza "},{"italic":false,"color":"gray","text":"jego
+          przedmioty trafiają"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"do twojej "},{"italic":false,"color":"green","text":"sakiewki"},{"italic":false,"color":"gray","text":"!"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"yellow","text":"Kliknij PRAWYM, aby otworzyć
+          sakiewkę!"}],"text":""}'
+        custom-model-data: 1
+        internal: H4sIAAAAAAAA/81VzY7TMBCewmr7gwRnbsYHLkSC5efSC4LlBosqQEUIociJ3dSJm4kcWyHdXYkL4g2QeBZuqC/BG/AYOGlouoCywAE1ihSNZ+ab7/ti2SOAEVydPjyZaDQYojrwb9/y773A+ntnBDfO5g78u3XOvSehzQ0u/AVyoXzODOvDIEBUgqU5uOcS7M8UMlMFvfvvAIbQz42WaVSnq7wDRb2OenB5Ov2BWaH1LsKVwzo8qiY8cktV2Qj6XOaZYuUA9p6yhYCPx1S8NZrR8etjWiPSMY20ECn1qE250EqmgtPxjKlceNS4alfxnCVSFAkjXGNmXWmAyhUZbV1NxTMRZq7RRvNNJwYzm4fMbIFJw5QMm/D0zQadng5h7wlqMXCk9+Fry5ES6rU8OdOJH2lWdnL98plsCDaZf2TobVtUT21GTDCXjLN49T4kRqQk00vBFxINKWiXzN7NnZcmkkJmNk0syZD8ImarTTvsTdeSBTKUtrPh7ByOBapURNht2HAHDSvm0ohWiSMRLtlfSI+d6nbLlMTJm8lqM3VbcX0Hrfj5nxJTYCzic8xYnzZNU74+WuSf+3et0ye4QCl820GvSqEUFq2Mx0omqYzJ5NmDl6+OPMKCkqDzTy/L1QfS2LL6dI7a39wF//Eigu/F32X1FAcAAA==
+    '5':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: PINK_DYE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Wata cukrowa","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Jest
+          to przedmiot zdobyty podczas","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"wydarzenia
+          cyrkowego 2025","italic":false,"color":"white"},{"text":"!","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Po
+          użyciu rozpoczyna ","italic":false,"color":"gray"},{"text":"naprawę","italic":false,"color":"light_purple"},{"text":"
+          jednego","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"z
+          elementów twojej zbroi do ","italic":false,"color":"gray"},{"text":"pełnej
+          trwałości","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        custom-model-data: 1
+        enchants:
+          DURABILITY: 11
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 691badfe-9075-4949-8f33-a2b91d966006
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+1VS28URxAuY2e9uxCBIEqEENKkcyLYazCxQHtBhIcwCoFDCBIJWnq6e3fb29M16qnxZhZbQvwBcoqEuHHxKaecouTkxH8LUTN+sBCQHPGQkDwazXRXV31fdU3XN02AJhz98duVmwEJFbrTnflTnYUfsHqfacCBy171pafEeMqaADBRh31WQzP3cTByYH1vH0y6ZQf7oQ6f+phaqaR+y2Ew8Lklk7QUEqHvKOl1Udmb8PXLjKe3+BZWrFfol00gGzvT0ZJkA45IomDjnEwnQW271oSsXmYCh3q92cwowpC1dZ4kBUxC46rV5oqTvYxdvpqEgxfzjDC5jtq4S4xXBjbh5CsJdL6pUuB7RVX+JZVxVQbTUI8RnZG+hOR91roOJZWTifMPABownXGCvmKs1hmUU6pmDThIgSOdJKNny91XqU/cuS/I/EKiLcSM4EGQov3Tju31dWPPkmhgqB8w7/VFuytdZmYExt08UyXDjkk5qwaXl/mrifZ9IRVZ9AyMqfGdPDiGWpYuN2zqE6Xtubk3UK7OiBjdC1xLkpF3prnXJjjrx5nLzTNuYNvqzPg2d5382zDeXa2/VHIvEzPx8/+sNllyH7rcm5wfYb2bMK1tljpZ1GHqey43fCbW1+L1NXebuydS+SDgUIoGTH23dfw/gVkRra+dW/+Ln2evmYwiwigNI6MTixSNNMYFFVGKWo1kJuDEC/fusNCSPb1l6CIMcGh6GM2fml9gqC8F1ErXswLOjTHcxCjf+LtQNo8CjlJUo8JLXtBepkEO/33MPtGS0Z6hBFwcixxFxplS+/75YxjREJfMUjSKA9pII6/L1Gw89GyjMJQbD3HjibIc1RLc94cvbMvW9W3V2tLPzSL9R7xYu26kJsjy7GwKydStW4uXeDRlj/3+7Nd8cfHRmad/Hv/tXo2Vdge9AjvQM94Eq1ouV4Ma1C4kmHuC7WtcmcuGgC/ecP7gPWrz7n8Pe+q8p8576vyu6r3b1n8OL5wWjAwKAAA=
+    '6':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Hydro Trójząb","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_aqua","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Jest
+          to przedmiot zdobyty podczas","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"wydarzenia
+          wakacyjnego 2025","italic":false,"color":"white"},{"text":"!","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Po
+          rzuceniu trójzębem w miejsce","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"uderzenia
+          ","italic":false,"color":"gray"},{"text":"uderza piorun","italic":false,"color":"aqua"},{"text":",
+          który","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"zadaje
+          obrażenia i odpycha","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"pobliskich
+          przeciwników!","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Klikając
+          ","italic":false,"color":"gray"},{"text":"SHIFT ","italic":false,"color":"white"},{"text":"możesz
+          się","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"wystrzelić
+          w dowolnym miejscu!","italic":false,"color":"gray"}]}'
+        custom-model-data: 6000
+        enchants:
+          ARROW_INFINITE: 1
+          LOYALTY: 1
+          PIERCING: 3
+          DURABILITY: 15
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 082f45a3-7486-4e3e-964d-f71d5fa88edf
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+1Vz28bRRR+bqLENkVB9BB6QBoGoUrUcZq0UZAPlQpNlUJTKpFyoWDNzo7t8c7OrGbfxqybSFwKN45IPXMI9xzLyQl/B38GV96uncShitSKHxJSLMv2vB/f9723nvfqAHW4+uXHu4+8QyedWWmv3mivbbvy+2YNLm9Y2RMWY2UxrQPAbBUu6RCq2na01ZhfghmzY6ACY/u8cbkwL5mriVZeatud2Gcm9npmA69EdOpZIM+bNsBmIrDXNM4rWNSo4mYvD71ro9chSSkddfjwrPKVie61XW2lszvKow6MaocCRQ2uCKTsIEPVjl2oO6QorVJFFXir211KlUTn01aYxXFO+mqbRHTPiG5KIe/PwMInWYou3nKhMncJD2AxqcP1vwho3yol0HtXlvEFlTKlgnmoBs4ZJWwBCW/AXMc4gcWhsvHiO6jBfEoCbclY+gmUJJWnGiygp0wjUIVLRfWl9MqTpxzVt8hbnDc4/fCCt746sZ3TOAotmCKFPe+ybo+3OsKkqsFd0MlSWVCcmKTRMtrYoVTeesqFRO0sIbtE2XbmDUHtCJMpMvUQk9by8nmcew0eOHMKrFEQ9Mkxs6HyRttp6qJ8AvZk22tMF/rK6v8O49d71TNNtyJWlW9et9+o0fznDR+T/g87Xof5UKeJEXkVZh9Sw2GRj/ZvjvbNZlEg2/aHB/3h0bOA12D2weQW1GGJs9H+R6MX9Ln+qUqRoWOJH6ow1g7ZMHRBjjlLXCiHIuVw/TS8M8hDQZFWCzYQkZB536quY6s3VtcI7D0Oc0XwOj/D8cgxP8wkZWUMx5KeBypmAxZr1U+l4rAyFZ5R2WOK0X5QHgRLtPOZJWeDRXh44HMO16ZShiIUfcVc4MVvv5apmrkwyWkYc/hgKjBxgdFppGWvrFjqgdXR4cFgSnlzKvwzoyPRP3omi9q/2Lx/b7uwxo5I0iFL9dHzM+1ZH+T05IfK6KMfqLrQDZyxeTwpMyOSGrx953iubh2P1WJRVI6f4EvTlYbr54nyovhnjyfd7OPH9++Wy2V542f8/uHtn7b+eLf9y4+/0y44QS/BLneVVV7LpslkNAdzd2KXWYTj1/TuKO4rvHPe7YB/cXu8xga7WCAXC+RigfyTHX/lAfAnV584+/wKAAA=
+    '7':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: BLAZE_ROD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Wyrzutnia Hydro Klatki","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_aqua","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Jest
+          to przedmiot zdobyty podczas","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"wydarzenia
+          wakacyjnego 2025","italic":false,"color":"white"},{"text":"!","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Po
+          użyciu wystrzeliwuje pocisk, który","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"tworzy
+          ","italic":false,"color":"gray"},{"text":"wodną klatkę","italic":false,"color":"dark_aqua"},{"text":"
+          uwięziającą","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"przeciwników
+          w miejscu!","italic":false,"color":"gray"}]}'
+        custom-model-data: 2
+        enchants:
+          DURABILITY: 10
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 6ab50a5b-481e-4284-9ec0-a055d14d5be4
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+1Vy24TMRS9fShNAggEKxagwbCiaYGWAsoKykPlUeiCwqJCkeNxJs547Mi+7jBpu6MfwQax6wcgVrBAJXwA/8CH4Jk+CCBVPAQIqaPRxL6+Pufe45mTKkAVjj+aXV0wGjXT8kJj6nxj5qEufqcrcPCmYm2qMOEKbRUAhsowLEKoOtU0nMZCRcMwIpelxynDIdXEyS7F9qTUhsMJgTyZbGeh0Q1GI96w3SyS1NpiuQpnvya+sE07syoU02qZGxRNyRshRVqBYxTRiKZD3kh0KFqCG1vOC4IjUTRhOUNtbD10SZLBCFTmRMhvSRpZn3J6BA5fdxZ1Mq9DLm94PB8drsL4NwU0LhYl+HuVFfk5FZdFBWNQbmotOVU5JByAUktqivlk6Kp/VGDM+gJVwVise1BfUjGrwGE0fqekyMOJvPui9KH2CkH+FEmdkBrxA0NJfWk3tqd8fkPOF3NsG+2iNqm3qLS8RnSz5SzLiXZDTAoW31z2Z0jqK4QyFFp5fN3lquGM9FDLVDruQ23Ebv3cub2Z12qkqeUXeIHUE+xOnQq5kUINFpBL4eGNj63VBpv+4R5+h/HJWvmrA1A04UOdX9MeBcp/JP4W9X+ofhXGQmG7kmZlGL3vxYeTZHNjenNDPs5Mz6ESNJjLGw7u+gOKBanA6L3tj6QEEyTY3Liy+cY/L9/hFgPUQdf0eJgIjUEv1M0Ms6CrQ9ajlsD4l/RWmoXUZ+b4KY0pyzqKRzqYOj8148FOESjlyZcJTA9wLOjAfXibMeGCNPMK9bgUqetwT8GEjWtBjO9fmYzApYFNmGrTy/xoOtWh6q8Hcd5J/7lfClwq+s97gnb666y/TuDMwL68ESZSJeL3r9IgDRLBO5Y5X1oFjl7bsbz5HcfbtuAtEb8zPu97D7rc0PwV2zKh0cXF2zf8aLTzuro0d3L22Yt3Lxc/zi998ma9i16AHYy44kawSelYXILStUQ7hbBzDZq7Kk5w79cU/qC9//Qfzb7P7/v8vs//DfV/0iQ+A4KoVGGACgAA
+    '8':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: IRON_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Boski topór","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Jest
+          to przedmiot z:","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"specjalnego
+          wydarzenia (2025)","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Po
+          ","italic":false,"color":"gray"},{"text":"kliknięciu ","italic":false,"color":"white"},{"text":"prawym
+          przyciskiem","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"aktywujesz
+          ","italic":false,"color":"gray"},{"text":"potężna fale uderzeniową","italic":false,"color":"yellow"},{"text":"","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"która
+          zapewnia Tobie ","italic":false,"color":"gray"},{"text":"nieśmiertelność","italic":false,"color":"red"},{"text":"!","italic":false,"color":"gray"}]}'
+        custom-model-data: 3462232
+        enchants:
+          DURABILITY: 10
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 26e0be64-a98e-41fa-b56a-c7517adfc206
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        Damage: 1
+        internal: H4sIAAAAAAAA/+1VS2/TQBCe0pImAQTiceBmFgnxKAUKFSicykuAeIqHkBAKa3uSbL3etdbjhIT2iLhxR/yAijPiBOIQWvEHuMPv4MTYfRCgh6IKJKRakeOdnfm+bybrL1WAKuy9f27mlrNkA6tP1CeO1yfv2uL7ZAW2XjRBSxqK0VBaBYChMmxSIVQz4zuUkTLNTTCs25pxyrDN+DSeSGqNa+sQdivCeDxUbWWwLp9gEa3C4Z/5TiyxTc4oE1jTRkfK11gPJckK7JJETvkZYT22oWoodGk51wE7ms2jKQZkXVoLszjuwjBULqsQL2nZTDll/zBsP5+lZOPrNkR9gfHg1OcHVTjyi4D6qUICf2aCIj+nQl0oGIWyb61GaXJI2AKlhraS8sXQ1Tu3H1dgNGWBpmAs9hmUJRWrCmwnx5VaEoZH8+4L6UP3nwrCJyRqQowJfnBS1B6uxFabGuflNBFSy9ms2RK1htQpjgnrN7I0yPFXQoFWQXSxzb+YqD0VMiBlDcPaBE09c5qh2lJnyKEWUVI7dmxVwtkx4Vv9A1WRZNyVZWZCdJorBnjzxhnVcWx2bLDFNUtfD+Oj2fJP4zYyxqEHfzRpUqT/7agXGf/DWVdhNFRpomW3DCM3eNSwW/Tn/P6cPmfTSHlkk49vnKjAyLWlY18CT3j9uTP9d3w/fRVT4iQvcT0MY2XJ69UEHPqR0UgTDKalNti0XqcbSk40SnoHJ45PTB4SsJnpTgs4OYB5y+Z1kVaRUfMvA5XlwcTJTjfOebqBYmUYCzgzUCQj6nayaUx7vMLE0vzLhfdGetw2ehmPIae1nflnBd3ZgcqIuEPp9WSCnVzZXesr5I3AKFx4FbNTEWpjF17NP+fsfYLtYOfUsptdXzazJVNdnOFvnsaWdjNBJ/ODtegvI/fuXbnATyMHvn4IX7+Y+vZ2+tPt3pd+ie13Bb0A29pEg04F4zoLohKUpmKbGYLla9Cu83cF9qx6OOEvGvZa/zE2DHvDsDcMe72zXtvr/h0t2/H3EwoAAA==
+    '9':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: FIRE_CHARGE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Bombarda
+          maxima"}],"text":""}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Po wystrzeleniu wybucha w okolicy"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"i niszczy każdy możliwy blok oprócz"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"white","text":"skały macierzystej"},{"italic":false,"color":"gray","text":"!"}],"text":""}'
+        custom-model-data: 1
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 2b411aba-1722-4727-b331-e7e828694b86
+              operation: 0
+        ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/81UTW/TQBCdqFE+zKfooYKT2QuIBkQKveSCUio+BIUeaC4IWev1xlm89kTrXVKnqYQ48C/4Fb1BT6D+Di5I8CeQWJskLY2aAxKoliXveOa9ec/WjAPgwOXO2mhToUaGsumt3PZWX2DxvOPAjT9zzXFmdSQShskbrrTwJfcCqmkdFqnWSvhGcy/GQHQFV2kNAEpwMQxvppxpVGkrMHGc2XfnO50RM6nGuICXFqD+SAT8gaRhakHEgeVjzb27RXt7T4C2DZcFvAo1H1FymuRgOAOVrkSq86B07y1AHaqpFZcU3EXeklo5RbQAF+4XhBs537qly2EOVAOR9iXNalB+RmMOH3YI39aKktbLHVLgSYsEVEVe36i+5KRBTBJwJUXCA9LqUpnyBtEWY+vWMPapCqgb020RU1vro7RVWhlblIuLuO4pNGFvCkW/a1JG9RE2oakUbBzuvprSk906lJ+i4rXC0NdDqcQljWNyQ0WzuWI/f3KnAseZv1R4pPW467jFJrqDzJIOueSJMDbwDetRd+BihJYgLz3ZLHw79QaFm4h0yIaZG9GD/SBzYzzYl2KQub7EyMW++rLHhvNd/jyFLgc9ofmhzdS6e2fNUWbnfWj/KH894+nEb3R1vv06XGpPdsrGZKU4+XBORnJms9g18rzPFdUCk9+TXt7aerxuT+Xl9pWPS+Thtb3m9x/XxZP3NTg3ZS/IzoY84UqwW9KwqAKVdowm0TC9ZpfWP9yQ/3H/wS9ZjsFkCAYAAA==
+    '10':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: PURPLE_DYE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Złamane serce","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Jest
+          to przedmiot z:","italic":false,"color":"gray"},{"text":"","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"eventu
+          walentynkowego (2025)","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Uderz
+          nim w przeciwnika, aby","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"złamać
+          jego ","italic":false,"color":"gray"},{"text":"serduszko","italic":false,"color":"light_purple"},{"text":"!","italic":false,"color":"gray"}]}'
+        custom-model-data: 56463536
+        enchants:
+          DURABILITY: 10
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: d228f5c1-70d5-47b3-bf95-e9e9eb1ad04f
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+1Vu2/TQBj/0qRtEoqKQFSCyb0upaRRG4iKshXKUy1loCCBIutsX5wj57vofG5IaBYWVhY29qxIjAyICHaExAJ/QcXMztlt0vSRPgakDoki2d/d9/h9D3+/NEAaLj25ufFICiVswebN3JyZfyyi57UUjN3mdhlz5RGu/DQAxJIwRB1IB9ySBFcod4cgztaZ9pOEs9xS2SpW5SwTksBFqoiXjfTMMsFSRcdpmNkdcH47XH6DclvwdSIVtRgxHaxwCi5gpSS1AkVMTzi0RIn0kyEQOOe6sz6xlZB+wQk8rw5xSN2jDrnDsOtrlak4jN8KfCW8FeEQtqT9xYtvP6Th6h4A5vUIgv5v2JF+GIqwCMEoJC0hGME8dAlnYKTEBFahEFt+6mRSMOprgDyKGN1rpxpSJKVgXEltybAizmyYfQh9OBZ7hRR5qVABoQzSLxKjwnNkoEz3vP1JSyj0XCGqLEXgllGhhJlPMkhYpcC3Q5fdI0uwHYEqzKjdFQPuEMko71GPIOooDpYV05W4jpo7oR8QXxlKGFXZII5HhTIaBbTPa8fFXuv+mj3Bik34fZpLQNb1vAdGDTP9rPOKqBFXGNO5uVz+Sv8Ea2U98FFyQwjBr9Oc4JpWbxicekYt6rNNa5xWcMbAVv2oXhebsdxpzq3x7TX28Nc3xouwacefXJ9IJ/AbFdHfhFG3rMxqIKuM9JpOHl2z5K5VwLFH4P1BVeyePYvS4MTQuGxy8mIqGZy8lp3Uis00jDrUrzJcT0LiYQh3ArVb+XaL7QGWgsRyZ7HBFDLarRu6+e3WwkF7RF8imN5RKh36pcGwDrmwy2Dh0MmFmR7N3XPQbjndBuvLSaSX8/nFDresdKhlm+O2Mt7HMJpgVqtEYkUF39r2ibW1+0v6LfFj+u+X6s+7Hz+/29z8c/n7qmbDrvfI2ZhLOJHUzrLArozAyKInAq6g8+tlz2g6Jvaxp6KKEfiP/HlsBh8Q6IBABwQ6INABgfYn0GMv9H+aqocUhQ0AAA==
+    '11':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: TOTEM_OF_UNDYING
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Totem
+          ułaskawienia"}],"text":""}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Jest to przedmiot z:"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"white","text":"eventu halloween (2023)"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Trzymając go po śmierci "},{"italic":false,"color":"light_purple","text":"nie"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"light_purple","text":"stracisz "},{"italic":false,"color":"gray","text":"swoich
+          przedmiotów!"}],"text":""}'
+        custom-model-data: 1
+        internal: H4sIAAAAAAAA/81UPY/TQBCdwEFyQUBNt2wFIsVdDpo0SECFuBNFlAYha2JP7CVrT7S7xiR3JyGk+xVU9xso6YD7AxT8HtbG5ANOLihQrJWs2Xn75r3Zjy5AF+6Mnpy8NOw4ZL0f9PeCR0Ou/gddeLCZ2w8eVjk/TsLcOk6DlCPSQYQO29AZM2vCzIL/bsD1iWZ0ZdB6/B5gF9rWGZXFVbrMe1I2v6IW3BqNfnOWbK2rcPtpFR6WFZ75qRLWhXak7EzjvAM7R5gSnB9LeucMysGrY1kxyoGM0EyDWW5mmmRP5llERquMIjmYoLbUk86v8bghO0pFfvEB7RQLRZlCjx+z9khncg8sJU/JJYbzOFku5/EktyG6NUblUKuwDk9fL0vI013YecGGOl7/Nfi+kiuF7P0hOTY4bxT85bNYCqwz/6hwrXRdtS7xnKwTjsXMLChKFTuxGMgmf/BjCz0ViXK0MkVvKXO5SFBrLogyca+/1z+43+zripStm1vobXO/hmYxT/HNt7NQxH7XWFx8TBWZUIm/3K1xaBUnbnVFaq5MUWNLtrIdl1vxvBgqu2jswmYnbcEqTFYH/+un4m7zCbnk3fqPjyb8BK90sqfABQAA
+    '12':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: GOLDEN_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Korona
+          ANARCHII"}],"text":""}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"yellow","text":"Ten przedmiot jest wyjątkowy!"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Na serwerze znajdują się tylko
+          jedna"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"taka korona! Która nigdy nie zostanie"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"zniszczona."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"yellow","text":"Zalety przedmiotu:"}],"text":""}'
+          - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Stałe
+          efekty:"}],"text":""}'
+          - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"-
+          "},{"italic":false,"color":"gray","text":"Szybkość II"}],"text":""}'
+          - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"-
+          "},{"italic":false,"color":"gray","text":"Odporność na ogień I"}],"text":""}'
+          - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"-
+          "},{"italic":false,"color":"gray","text":"Siła II"}],"text":""}'
+          - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"-
+          "},{"italic":false,"color":"gray","text":"Odporność III"}],"text":""}'
+          - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"-
+          "},{"italic":false,"color":"gray","text":"Szczęście I"}],"text":""}'
+        custom-model-data: 1
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 4825687c-33e0-44f1-aa09-b4668dd9bc7f
+              operation: 0
+        ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        Damage: 8
+        internal: H4sIAAAAAAAA/9WWTWsTQRjHn9rQJrG+oCdv0wEv2hZr7SUXiS3SUNuKfTkoEia7k810JzNhdta42xSlKJ48S6mfwKve9KQJIogHD4IX8eAX8Bs4u03StEoCYiVdlt2dneftt/Oy/zRAGs6tXavdVFJLS/LJ/OVL+ekVGd+n0nBhf99ks2e6xoQlxT2qNCtwmreJJik4S7RWrOBrmi9LmxUZVV4SAAbgtOOMe9TSUnkZ2y+XA/Pu5NpazfI9Lcux+8AgpOaYTa9z4njGCafh4oHk+StxenO2HE0aymP3YUgWpOSUiMgZjsNQkUuio8bA1YcAKRj2THEijh33m6CmnLg1CKdm4oALUbxZEy5yS8OwzbwKJ0ESEoukTOHZBqb3tSI4c2cDx/44gx3JbTyGfWFTxZmgNs4UCffoGNbG2BjMSyUFQdnF7K2ZuVzO2BYil5ZVVJZLdUlJ3ym138pC0fcsojvCMU04s5rNzbvt+HgzBYkbUtHoW4/At70iMcJje4XaRLl5R5Gga7VvX6N/VGFH6oByLqu4nWSFClRRIbXLTGq0Tj2NqsF6/bF2ZTUYxd1Y4Ucf8jWzNlMsEuRRVaUGEIWCrNu+QUMeq28jHXBXGmBbkKNOqYlLkBvP7VE0r9+9VAQJ5tiBuRpu6WliHrpTfuh7ylAwL7RCAznRHeUYxvC5D3EOLr3bhFMd7K0+P9Od63kn0z6oaolp2hVoWZPGFkW0SF0dZA5h44OP+6r7i28+fugzaDkMCq5s7NSfoHjz70Lzpf9pluyKVGIXx/zUpMNo4xHqwfW+/7mWWWOL9BygT/0P0jlAuV48R2L5WGF9u7FjmZ9KD5oUnMm2FOhCS4CmIynXEnC/6VAjOpcqVBHNpNjVhYnV1dyseUrMnS/Vpr7P/nyRelV8+vXNgyEYypalLzQ0jyScaKeLo484VFDFrAnuWy78QeIeop7+j2oZfgHG74xrNgwAAA==
+    '13':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"text":"","extra":[{"text":"Balonik z helem","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_aqua","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Jest
+          to przedmiot zdobyty podczas","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Dnia
+          Dziecka 2025","italic":false,"color":"white"},{"text":"!","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Po
+          aktywacji unosi się, niszcząc","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"wszystkie
+          bloki znajdujące się nad nim","italic":false,"color":"gray"}]}'
+        custom-model-data: 811
+        enchants:
+          DURABILITY: 10
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 3a441fc5-9ed8-4a6e-9572-0fbc6b02bb9b
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+1WS28bVRQ+edumKFVZlK6YDhtEHdfxI6GWWKR1aMaKx33YTmwK1p2Za/t67txrzdxxOtNkAYKfwAIhdZs/wK4sUFRW/AH2rFiyZsO9k0cdoKgIVAkp1siec+ac7zx87ncmA5CBa+3b+/d8LrjN6WqvkO+Vmzz5Labh0iazh4gJDzMRZABgJgWzxIFMyCwfI5ewwSzM0QmVOBl4/zzS6glOeZ8wm7MJ9gWxKO45SKA0vIWE8IkVCtzzuEP6BPtBSkWAy4PBSoBtwf2g4oSeF0EK3mSWyI2RGOYY8jC8TQT2ckNMSej1LEQpZzlBBMVzkN4iDv6IokEgwd6dg+U7YSC4V+cOplUZGWDuRgZu/CHVXilJVl77dmKvksI0yXUJUhbnFCOmIOENWOxTjoQSZqq17yENS4EshSURk+cSVCafSGlYFr70pEhgZ0WqcVLkzKMnusCPhV7R9awub3ykVz4+0/1FecpVmqpILhZDn4eDoV7pIxrgrM6tfhjYKsSZyqbEdjcn8o/TK090ZAvCmUTmY8x6oU8l1ATREEvVUIhx5ebNl8U8yOoWpy+AiUAS+kwMmYN9Sth0aFW+BPal7iA7XegrZ/9vIn5ykDrXdDUxM5/+034n4/S6G34c9H/Y8QwsOSQYUxSlYN5UR/SqfnRYPDqkt5EsjLharMlSsaenYX775BQswIquHR1+cPRMfq/XcCA0wbWxH2PHI1xoscOtSETamDt2jAIdrr8w71cZQVo1Jth2kVbIF8oS4roOi8pkXYfcFPI9riFXRHvIHhEtZDwgWkCef53VGAliO37+pa1Dacp+L4ijQLgEaxblLtFihkZOOJJ2OHHUGHKkr6fL031l45TG6qcsdsKTx234E5lJhmqMsY/UeBzTxXyrZVTl3Xyl+s4PT3+qsa/85e/c2WffLMLihsdDJuDkI3nwLFyCfmmAGfaJnaOh7SoOfuiGlDb2pPI0AaWVTDdW7IuDNKTUbIQ+Pk1zoa2mEr7FUS3f3R3mnd0atSNjTcrNh3naMEbjdYO1I+uOsWZ48vnWxtp2dGvKtizQTpl2irVhl90PLa+d3y4+oHjrwarttSbm3U7JbLaiutemjermare6+bhebZXMQtfrevWiqeRCJ19vUrfRNMpm0y11m0beHJmkcdekjZ37cWPHHHaa1OuMpM+oPeyQ2q3+bv5D1b1Zw1G9+7mxc+3HzytPPzO++GXhvd9+PbczFI/B1ZcQ3OtaXH+bxMVGuthIFxvpv+34q74zwu9jIMpeBwsAAA==
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: e34f5719-cb82-3a9e-8149-84e90528fbf1
+          properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY4NTUyMmVlODE1ZDExMDU4N2ZmZmM3NDExM2Y0MTlkOTI5NTk4ZTI0NjNiOGNlOWQzOWNhYTlmYjZmZjVhYiJ9fX0=
+    '14':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: BEETROOT_SOUP
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Krew
+          wampira"}],"text":""}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Jest to przedmiot z:"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"white","text":"eventu halloween (2023)"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Po kliknięciu ulecz Cię"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"do "},{"italic":false,"color":"red","text":"pełnego
+          HP"},{"italic":false,"color":"gray","text":"!"}],"text":""}'
+        custom-model-data: 1
+        internal: H4sIAAAAAAAA/81UPU/jQBCdcEA+kKCmW7Y6hAsI0KRBAgoEdygFSoOQtbEnySprT7ReEwhEQvyE6+63XHeCP0ABf4e1MQkB5IICxVrJevtm3ryn1W4FoALLjd3ruiZDHqkNt7rubp9Q+t+swNokt+FupZxd114cGQrcgHxUri+MKEKpSaRQhBHYbwHmW4qESUBh5wagDMXIaBm2UzrhrSjpF1SAxUbjVTNRK/yApb0U/k4m7NutpKwCRV9GPSUuSzB7LAKEP1ccL4wWvHZ6xVNFXuMafe7wOPRRKxlaUGsJFaHDja21/JHGPuuLoCdto8ObpGyJ0bGtSDx20XQ0xe3OqI+arTjyhHkjJY1Q0svg8GykzYdlmP1FGkvW8Bw8jP1xxp2xR1/ortvW4jLX6f9/bGQwY77o8M3obGo24hAjwwyxnh6gH0gybFDjefngcQoz9TvS4DgUnmNoYtYRSlEfMWQ/q+vVzdX8XDOcw9MUZps8rzqxrpLdUN799WTMYoXegO1ZlBuuwKY+mE/sQwTn/aXOant4fxtim9hBPa9ncsBK/vF/8gp94xMIzy5zMjWOBQAA
+    '15':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Kosa"}],"text":""}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Jest to przedmiot z:"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"white","text":"eventu halloween (2023)"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Twoje uderzenie może "},{"italic":false,"color":"white","text":"co
+          minute"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"przestraszyć przeciwnika nadając"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"mu efekty utrudniające widoczność"}],"text":""}'
+        custom-model-data: 1
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 04091988-dd70-42c9-8208-f7581809b800
+              operation: 0
+        ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        Damage: 2
+        internal: H4sIAAAAAAAA/81Vz2sTQRR+sSHNxl9FL/Y2zMkfVdrUXnKR1iL+qnpoiyASJrsvyTSz88LsTGPSFkSQevTuPyLoSdqDVw/eBPGf8OrsmqStxYCCkmVhd/bN973vezu8VwIowfT60vYjQ5ZCUnPV8mx1YZWy53wJLh+NzfUjC9tSh6Q30VhZU1iNhBUBnBfWGllzFqsxRbIu0SRFAMjBVKNxNcHQkkkqkYvjrv92Zn19O3SJpTiD5yYguC0jvKVEI/EgXoIrvySvXs/S+3sA9GlQZfBJKNaIFAqdguEkFOqKhE0XuRvPAQKYTLw4nXFncU/q5WSrCTh7MyNcSfmWPV0KK8FkJJO2Et0i5B+IGOH1Fsdn1gheebLFMzyv8EiYVrVhRJfPcKcjNEpqjHilLlSCM9x6hN91jxLhN9RI+ZA1zkdSPS20TUOu0Rzup1rdJaGwhyikFUqG/eXO0yEn3wkgf58MpkUuwKcDdZzxmT9V+OEdGwrsR/5S4aHU/az9FHcxscwSa5seRrEky3oVPsoffB5DT52mtHhgCjdRW8eaQinqIGp2sTxbnr802tcJznPFMfR29H+tdmgDmfMKeqglspj23yM75uz3tQmJxVK77NOIanwd+0qkJ9ZziqTX3dvNzm8oO1q2BNMiEht7L8PRDr+NvcPYMaxjy3aZ8+0p0jJzhawjIwp7mvbf7O2O9hjAucXBAFgZ9P9S2kkH/fPYGPA9/2EbjbCS9M+2nF9bu7Ps3/L5YPrVl/bSxxfF748vBG+hCKeH7BnZqQZqNDK8plzYKkBhMSanLQyv4xPmH46z/zis4AeIMumutQcAAA==
+    '16':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: GOLDEN_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Siekiera
+          Grincha"}],"text":""}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Jest to przedmiot z:"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"white","text":"eventu świątecznego (2023)"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Po "},{"italic":false,"color":"green","text":"uderzeniu
+          "},{"italic":false,"color":"gray","text":"strzela "},{"italic":false,"color":"white","text":"piorun"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"w przeciwnika zabierając mu "},{"italic":false,"color":"red","text":"30%"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"jego życia! "},{"italic":false,"color":"white","text":"Umiejętność
+          "},{"italic":false,"color":"gray","text":"działa"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"raz na 1 minute."}],"text":""}'
+        custom-model-data: 1
+        enchants:
+          LOOT_BONUS_BLOCKS: 1
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: da836a2a-c2e0-4289-b9c0-058c69baab07
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/81WW2sTQRQ+aWM3ifWCPvm2jgheaunF+pAXaa1XrBa0BREJk92TzSSzM2F2tjHbFkQpIvgHpOAf8Bd4eZCSvPrgo774U5zdpuklsFJQSQgks3u+73zn2zl7pgBQgDPLc2uLSmrpSD5ZmpoozTyWye90HkZvCqdKhfZR6KAAAJkcDDEXrIpUOhQ4BMN8hUPG0FzaTzPZJZlZY8KRYgWVZmWOJZdqmofTVGvFyqHGki9dVmGoglxMDyc970qAjpYqKLqh77fMtePLy2tOGGjpJ/DMMOTvMBdvceoFBnSuAJcPJC9dTdKb7w7QpEGewC3IlaXkSEUMhqMwUuGS6niRuf4CIA9WYMSJhDu5b0iNnGQ1DCduJIQLMd+8oYthBbBcFjQ4beUg+4D6CO9XCT7XipLi01WS4EmRuFTVS55CFGSMhMJFxZlAlxQrlAc4RrSBmLBHDOvGEGrfNiqM/Sa4LPluWKyujrqqZOhVe1dluRIGDtV7+JimnDnd5fqzXgKynofsfakwttyC77taiU3G+vTSVqrcrc/2X1K4J3U3azfFPQy0raXdUBG6PpPajookrT74OYA1NatM425RuGKaKrQ7m03W3tDoRAI9aV+Ympiavphe3BAhmScDWOD+h7Yo7b4y9gVv90E3OjRKIxQs/ANobwajOEJOUxEHTG8wqUKRam/GGnhrm0knOKwpWJ3aES3Hr4tae8Ox/XT/lMnVY5meOJ9uxLWBN6IWt0znS8th9OxhtsGSz7DWfqeF7Gy2Xx9iy7kRo52XNL0/vw28b4pGtqD2pO0zYYbweHo9eTg1uzOvF3bGdfc0sD3u+qa2GdEPG2ZTaibF9hTNLi3dnTf/sj9e1S5t/Zp78/Hrkbfs0wcrB8d67AnZqIcCFXPGeejUR2Bk1peh0ND79B8I/uHp4z+eLeA3JxrJPY8JAAA=
+    '17':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: STRUCTURE_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"Blok widmo","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Jest
+          to przedmiot zdobyty podczas","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Dnia
+          Dziecka 2025","italic":false,"color":"white"},{"text":"!","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Po
+          postawieniu na ziemi, ","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"uwalnia
+          ","italic":false,"color":"gray"},{"text":"energię","italic":false,"color":"yellow"},{"text":",
+          która obniża","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"maksymalny
+          limit ","italic":false,"color":"white"},{"text":"serc pobliskim","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"graczom
+          na określony czas.","italic":false,"color":"gray"},{"text":".","italic":false,"color":"gray"}]}'
+        custom-model-data: 74574576
+        enchants:
+          DURABILITY: 10
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: ba277de6-234f-489c-9174-655fd539883c
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+1VQU8TQRj9gKa0FYPBE56WIcZESoEqQRs9gMWgAeEgXozW2dlpO9nZmTo7C7bA3ZOJR6P3/gBv6qnKT/AvePDkT/DbBUrRkEgMMSY0TTvzzTfvvXmdfc0B5GD00cL2mtFWMy1nKsXpyuxDnXxfy8LQomJ1qmzAlQ1zANCXgX7hQS5SruHUF6rWDwNyQyJOBs4r1xYa1NYLUhsOo8LyoKC4rXODw4orNfOTpRxcPUo6s085uy0U02qDGytcySsetTQLF6m1RrgRYgTaE1XBTZiJxcCFWm0y5MxqE5a8KAiaMADZJeHxu5LWQmwZH4DhO1FodbCiPS7LiJd6/v1HDiZ+EVC5nkjA9zZL+mMqLhMFg5BxtZacqhgSzkG6KjW18aRv+dXtp1kYDFGgShiTdQRFScksC8PW4E5JLfcm49Mn0vuebRHLX1hSIiRPcGAoKT3u1o61DptjLh+XjI5qdVKqUhnyPNFuNQpZTNItMSmYv7iBvx0pbRHKrNAKsXWDq0pkJEJtUBlxLNWtbZSmpo5n3ckTV8tDaGEpgnenkfK4kUL1kscWILTB2k6+97B/rP9vGJ/sZI4Yr2jA+9yTe26Flf/A9D3a/9D1HAx6ImxI2sxA6gGaDiOk02adtlyQ2nc2hRdokoXU8v6DMAiTxOm0b3Q+4ufcfR5ax2qnYVrcC4S2TsvTbtM2nYb2WIuGBMYO26tlJahTbgnOfOoUp4uzCDFGIB23zBG43IO8hqA6tHRTcCUiR1EHtwUi7xAo9rRFm1TGoJ0254qbmvjyBqt5x7ef3xvqaFeJ3U+UQKFHRUD9sBngvqYjRSBsjBNyw5DQlSL0RUBgooejZihr6SDWoH3Dd99KjVvj0xVwtUAwMkbmDxJv5SDw9tN3z9Pfcg9jb7XBDY1v214GpdbX75VxlPpwZefb+OrSu9d4ub7efHkLc7qLnoAN1eKjClaQEfPTkJ4PdKQsHLx6cz1+iuDS8TcWTjHZT/T/chbvZ/F+Fu+n4foJwuAnKmzEFF8KAAA=
+        blockMaterial: STRUCTURE_BLOCK
+    '18':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: EGG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Turbo-Trap","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Jest
+          to przedmiot zdobyty podczas","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Wielkanocnego
+          Wydarzenia 2025","italic":false,"color":"white"},{"text":"!","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Podczas
+          wystrzelenia Turbotrapu","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"budujesz
+          prostą pułapkę ","italic":false,"color":"white"},{"text":"w miejscu eksplozji!","italic":false,"color":"gray"}]}'
+        custom-model-data: 50
+        enchants:
+          DAMAGE_UNDEAD: 10
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: c9b96c9e-2bff-4837-b681-ad9e4c68cef1
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+1Vz08TQRj9CqW0FaNBPXhbx5u0BaoE04MJCAYNKAd+mBjTzO5O26GzM5uZb4stcNDEP8ILV05eTYy3Bg9e/F/8C3R2C7UoBwzRxIRm0+58++1773s7fZsHyMPNjfndVa1QeUpMV8tT1Zk1lfzezcHYovQaVGLAJJo8AKSyMMR9GDEBRzYEw6IlLEQWLksXSyHFRkkozeC6vRqUMNKuqqKmYVLNw52TVNNHRDO7XHpKtphG7gpW9SnSHFyjiJq7EbJqoHxe40ybbCwBrtbrRcM8VNpU/CgI2jAMuSXus0eC1o1tuT0MVx5GBlWwonwmFiyerZbzMPGLgOq9RII9dr2kP6ZiIlEwCllXKcGojCHhEmRqQlGMF6n5JYAcjBorUCaMyXULaiUlqxxcsXNLIygyvxhPn0hPbewQZK+QVAgpEHuiKam86NdOc832xTRNhg2tonqDVGpUGFYgyq1Fxovx+yVPcK+52LIPi1R2CPWQK2lhVchkNdLCQrWoiJgtNRDDyuTkqYR7BeIq8ROVI7W4/WUkfaYFl4O88eAWVdvaXmFwxDNLPw/jy73sCbslDVjq+R85jRzFv7W6x/gfep2HUZ+bUNB2FtJPrdUwTroHtHsg1uLpimt2OpKD9PLRph+BInG6B/e7n+z37BNm0EHlhLrD/IArdDq+ctvYdkLlex1qyGB7bZMz0aRSeZLVlbPZ9qm9T3LqlKfKMxbuFoFM3D5LYGKAZbWH5Wy3rSkdJpJbEnmx9xGBBwMcbuRHW8x0rCZl8PCtE0af39Cwefguhtp2As62jBc5rGmnVp0tbklzMD53HE8rx+l0FJA9U34LKZtRz0KmabxTeoGRXl9/vGDP0l8+iv2J70uzH16/319ufP1m87SPnoCN1ZlkmnslEXnNDGTmAhVJhOPPYP7Gmx9unLrb4C8m8FlfARcJfJHAFwl8Xq/P9nf/AbMIe4zfCQAA
+    '19':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: FEATHER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Parawan"}],"text":""}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Jest to przedmiot zdobyty z"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"white","text":"wydarzenia wakacyjnego 2024"},{"italic":false,"color":"gray","text":"!"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Po użyciu tego przedmiotu odrzuca"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"wszystkich przeciwników w okolicy!"}],"text":""}'
+        custom-model-data: 1
+        internal: H4sIAAAAAAAA/81UPY8TMRCdwB3JBQlqOuOWFHfhaNIgARUClAKlQWg1sZ3ErLNz8oeM9+4kfgL/hRIqED+CDv4J3iUkdwKCRIFiWbLGb/zmvRnJfYA+3Jo8OBtb8iTIHBXDw+Lec2rPu324cxk7Ko5bLO8zEZynZbEkqUwh0WMXelMio7BykNd1uDYzhL4JOvffABxA13mrq3kLN3gmJfsj6sCNyeQnZ8PWuQo3H7bh06bCo3zVpPWhK7U7MZh6sPcMlwrennL12lvkoxenvGXkI56UMRT5gIdKKmt0pSQfzdA4NeA+p+eUMVqMWOWcKZmMehsy2CgslV9YCvPF+glNZ8EJ9BdYtEejxSo8f7mm5ecHsPeErOplufvwZaOOMz7YKJRoy2JuMW0V+fE9WwtcIf+o8ELpVdVVicfKeeaJndhayaUmz2pJ0+QTq/k2m539HbQWF9qrjbeYspZaVRpZxBJFelWpObHh4fD4F29/bNDtrW2AK5zD1x1sxWUTY2Lh84ckdGC+acF62oGRtHUQuN3lt513GF2dnC+1WLTmhI6VLj+9iywyKikzpL8M8jd/0H/8AOE7scQQHYwFAAA=
+    '20':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Excalibur","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[{"text":"Dodatkowe obrażenia 0%","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":false}]}'
+          - '""'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Jest
+          to przedmiot zdobyty z","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"wydarzenia
+          wakacyjnego 2024","italic":false,"color":"white"},{"text":"!","italic":false,"color":"gray"}]}'
+          - '""'
+          - '{"text":"","extra":[{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Aktualnie
+          zabójstw: ","italic":false,"color":"gray"},{"text":"0","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"-","italic":false,"strikethrough":true,"color":"white","bold":true},{"text":"-","italic":false,"strikethrough":true,"color":"white","bold":true},{"text":"-","italic":false,"strikethrough":true,"color":"white","bold":true},{"text":"-","italic":false,"strikethrough":true,"color":"white","bold":true},{"text":"-","italic":false,"strikethrough":true,"color":"white","bold":true},{"text":"-","italic":false,"strikethrough":true,"color":"white","bold":true},{"text":"-","italic":false,"strikethrough":true,"color":"white","bold":true},{"text":"-","italic":false,"strikethrough":true,"color":"white","bold":true},{"text":"-","italic":false,"strikethrough":true,"color":"white","bold":true},{"text":"-","italic":false,"strikethrough":true,"color":"white","bold":true},{"text":"
+          ","italic":false,"strikethrough":false,"bold":false},{"text":"0%","italic":false,"color":"yellow"}]}'
+          - '""'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Zapełnienie
+          paska zapewnia","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Ci
+          ","italic":false,"color":"gray"},{"text":"12 punktów obrażeń","italic":false,"color":"white"},{"text":",
+          co","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"jest
+          równoznaczne z ","italic":false,"color":"gray"},{"text":"ostrościa 7","italic":false,"color":"yellow"},{"text":"!","italic":false,"color":"gray"}]}'
+          - '""'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Obrażenia
+          od ataku: ","italic":false,"color":"gray"},{"text":"11.5","italic":false,"color":"white"}]}'
+        custom-model-data: 5
+        enchants:
+          FIRE_ASPECT: 2
+          DAMAGE_ALL: 6
+          DURABILITY: 3
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+    '21':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Króliczy miecz","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_aqua","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[{"text":"Dodatkowe obrażenia 0%","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":false}]}'
+          - '{"text":"","extra":[{"text":" » ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Jest
+          to przedmiot z ","italic":false,"color":"gray"},{"text":"wydarzenia","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" » ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"wielkanocnego
+          ","italic":false,"color":"white"},{"text":"z ","italic":false,"color":"gray"},{"text":"2024
+          roku","italic":false,"color":"white"}]}'
+          - '""'
+          - '{"text":"","extra":[{"text":" » ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Po
+          uderzeniu przeciwnika blokuje","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":" » ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"możliwość
+          skakania na ","italic":false,"color":"gray"},{"text":"4 sekundy","italic":false,"color":"white"},{"text":"!","italic":false,"color":"gray"}]}'
+        custom-model-data: 2
+        enchants:
+          FIRE_ASPECT: 2
+          DAMAGE_ALL: 6
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+    '22':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: GOLDEN_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Marchewkowy miecz","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Dzięki niemu możesz "},{"italic":false,"color":"aqua","text":"zamrozić
+          "},{"italic":false,"color":"gray","text":"przeciwnika"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"po "},{"italic":false,"color":"red","text":"uderzeniu
+          "},{"italic":false,"color":"gray","text":"na "},{"italic":false,"color":"green","text":"sekundę!"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Przedmiot z "},{"italic":false,"underlined":true,"color":"yellow","text":"EVENTU
+          WIELKANOCNEGO!"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Zdobyty: "},{"italic":false,"color":"white","text":"09-04-2023,
+          08:30:08"}],"text":""}'
+        custom-model-data: 1
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 4800cc20-9d4b-42a2-8bf6-2f1ee51a29fc
+              operation: 0
+        ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/81VyW7TQBj+TUOahFVwAglk5gakkG5SsYRQl0CrtmkPTZCKUDSx/zgjLxPGY4LTVuLGgSfogQuvASdUbrwGr8CJA2OTxF2EERKgWpY8y/8t/jSavwRQgmuNhd1NwSU3uTvZnKo0Z7d48p0uwZ2je5ODndld5pvcf4lCspaLTYtKWoSrVErBWqHEpsct1mYoggIAaHDZticCNCUXgWGFnheptYuNxq4ZBpJ7CVwbg+Iys/CxS+1AgUgJ7h4Tb84k8uodApUMugl8HAotzl2kfgyGc5Bvu5zKeKI9eg1QhPFAmfMT7mRfkSo7yWwMLi0mhOsx35Kii2ElGLdY0HVpVIBcjXoI+zsEX0lBifFshyR4YhCbuxYpk9C3ULjMR4sYbeoGWCZSFauCdSrMDvYc3ot0j6HZV9WtGDSsi405KDuCh3ZntMpb7TAwqTxEyCR1mTmY7j0fKZC9IuTWuMA47bPaw9Qm0Uk5tWpR4TRtQaNMv58+6H/J4SHpgepAYqnPDvYdpvsMvVD3+OePGPRj1V/i6YuQpvg+9QRXHG8yMUc1u6KPJuv5zKEnQIej1OqnPr4uz/xvgVZaGyqfffRZ+AdR+fQ3xYh+Wh2go9I42L+VGSucIUS7ceqj3VRhWR7jUs8+jxG6Lu8dcytFmJqtNqq1rbr+dKW6tjpf21isVZ9sZEek5U99PNsWb0UyMjKz6XWYxBRTeTBRmZmYqkxNl/XKnDFdMSpz2UelCFfmh61kfdhJSvGdPLyJTzQU1T02uiioZNz/ecHn6vWVJTXKLcMX/d3qwvu33+7f/Hr99vcCXBixJ2TnbfRRMPOeG5pOHvLzHg99CaPnZK/6h43xP7Y9+AGD3BM5/wcAAA==
+    '23':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Kostka
+          rubika"}],"text":""}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Kostka rubika była do zdobycia"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"w "},{"italic":false,"color":"white","text":"2024
+          roku "},{"italic":false,"color":"gray","text":"podczas "},{"italic":false,"color":"green","text":"dnia
+          dziecka"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Uderz gracza, aby jego ekwipunek"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"został "},{"italic":false,"color":"white","text":"przemieszany!"}],"text":""}'
+        custom-model-data: 1
+        internal: H4sIAAAAAAAA/81Vv2/TQBS+9AdNgwQzm7HERAY3aYraBZWGqk7rhKapaYwgOvsu8dlnX3Q+k9ptJVT+Byb+BDZGNqT+C2zAwszGijiHtklFCYIB1TrJeve+973ve7LvCgAUwC3zweEjzgRzGF3olLROpcWG73IB3L2YW+gsDnNyHTpxJFjQCRjCtIOggHMgbzNGMQwjIJ/r4FqXMiiyIHf/BQDzYC4SnIS9YTrLS1LGf0Y5cMM0zzgzttw0uLk2DI2sQ1VuZbACmEMk6lOY5MFMHQYYvDpQ8b7gUF15cqAOGdUVNcGUsoFaVOMQYU5JiJG60oU0wkVVSLiEbLJI+FDhsU18KJE2oxIjeCwhmU4fC5ezuOeeFzK7G0cOFGNcREBKnNPw6Ok5uXo0D2a2GMd5KXoWfBxpVBW1ONKJIPc7PQ6TiVLfv1POBZ5m/lHhWOvTrpdNQ7GTk2OoIKakiNmJQ7L5/N5q7tmVtzdQfnEwhh24ROARuKSVFhXO/Hhi0cUGfYacFEZ/qMA4HJWgkMgZpwQ7/uT5gilVBZ+u/Ix3Ze9UkXtyEEUF2oni4R5TsD8g/TjE/mSP36+8v1T+IvDk+G++pD5PcUBwlMIwuT3ZfwEUdvyY0sYgxPzsbMt25fHbx1xIlnmQz/Axx1EhOwvzYNaENMbgLU5qmrXnamivRp1EX5Jxa0ejDd3r39NDM7HX9CU9kPmN1aWtZHkMWxHwcYW2yzXXCrdjOzC1rXKT4o3mghPsPm9Ud/eNUntgeet+O10tGWnNb3tu0E7XPcNzKkbwsFT39IrVWq1Y1e1yO0XEaNW8umcsGl7Traem12g1ieU1PauKaKMqeZLacndPyy6AKR1JHzMnd15++LypvXn97evBl5RPX3Yb/MerCPwA52IiBBYHAAA=
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: c52583d6-df4b-30ac-9cf5-ee7be47a7203
+          properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODUxM2YwZjFkYzA2MzJkYjhmYzFjMjc5MmE2NjI5ZTA5ZDQ3YzdiMTJjNjM4MjRhNzVjOTRiZjRjZDdlODFkYyJ9fX0
+    '24':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: ALLIUM
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Lizak"}],"text":""}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Przedmiot zdobyty w "},{"italic":false,"color":"white","text":"dzień
+          dziecka"},{"italic":false,"color":"gray","text":"!"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Trzymaj go w ręce aby otrzymywać:"}],"text":""}'
+          - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"-
+          "},{"italic":false,"color":"white","text":"Efekt SIŁY 1"}],"text":""}'
+        custom-model-data: 1
+        internal: H4sIAAAAAAAA/81UTWsbMRAdk1A7LrTn3lRd60Ldr4MvhX4cCmkINBhKKcvsSl6rq/UY7SzubhJooNA/kEt+S28lueVP5J9U2rq20w8fAi1dBGL0Zt57M2LVBejCreHTg11HTAnZfnT/XvRoj5r9QRfuXMb60cMG8+sgKQumPMpJaRspZGxDJyayGicF+O86XBtZQg5B68lHgC1oF+zMJG3ggHtSct+jFtwYDn9wBrbWBtx81oSvgsJzfxTSutBWppharDqwuYO5huN9qT+wQzl4uy8bRjmQ1qRjjqalm1ote7KcKO2smWglByO0he5J9kU+cdvUmPmMmKzH2JUeCi4zzWNHZTpeFFA8KosEeYXDMFqTzMPDdwtSebgFm9vkdMdb3mg9XjqUQvaWLhW6LEodVmstfv0iFgbnyBUdrkjPVecSu67WKjfEolYUV1yJWdD8Y/VsbFgvy1Vt9NknEbYkw3WFl2Vv/5K6OkO4+O/ntufqKsf3IiU/MHd6kmiBcSWIw3k1w9PPg/Utnq+2eIUe7/6FFn+63BcjnbF4/fLs6I3or+/mN3/xP3xC4BtE+yI/zgQAAA==
+    '25':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: POPPY
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Róża
+          kupidyna"}],"text":""}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Przedmiot zdobyty w "},{"italic":false,"color":"white","text":"walentynki
+          w 2024 roku"},{"italic":false,"color":"gray","text":"!"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Trzymaj go w ręce aby otrzymywać:"}],"text":""}'
+          - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"-
+          "},{"italic":false,"color":"white","text":"Efekt odporności 1"}],"text":""}'
+          - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"-
+          "},{"italic":false,"color":"white","text":"Efekt regeneracji 1"}],"text":""}'
+        custom-model-data: 1
+        internal: H4sIAAAAAAAA/91Uy27TQBS9ERFJgwRrdsNsm0pNKJssQOKxg6qqqmwQsq49E2fq8dxoPFaYtJXY8QUsEJ/Bsqxo+wP8AX/C2IQk5RGkSiCEZcm6c84995xraToAHbg9fHi8Z8lRQroX9bejewdUf+92YPMy1ot2aiy8x0lZOMqjnITUkUCHLWjHRFqiKSA8N+D6SBO6qmg8eAWwAa3CWWXSGq7wIEr2a9WAm8PhN81KrXENbj2qy2fVhMfhqKJ1oCVUMdHo29DcxVzCmyMuXzqLfPD8iNeKfMCtFLzLSyOk1cqEYjBCXcgud4Eb8P2z9xcfkGXlRAlvMHBj0oHlbBlIlc1MurGlMh0vWikelUWCbkVNOdQqmZcnLxby/GQDmk/Jynbw3GzcX1rkjHeXNgXaLEot+rVmP56yhcE5ckWHK6PnU+cj9uxMilyRYzNBsXeeTauZv+yejpWTy/YpammcN5kKff3t/g6zlJXrBC6Pv/MDdXWX8Pmf39+BnfkcD1lKYQH2/G0iGcaekavO/RTPXw/WR/y0GvEKGbf+QMTvfvKTkcwcIzEha+jiXaJY7z/JZGUqjbSYHP42008uqr94S8IXT+wIxbEFAAA=
+    '26':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Rózga"}],"text":""}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Jest to przedmiot z:"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"white","text":"eventu świątecznego (2023)"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"red","text":"Odrzuca "},{"italic":false,"color":"gray","text":"z
+          potężna siła"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"niegrzecznych graczy!"}],"text":""}'
+        custom-model-data: 1000
+        enchants:
+          KNOCKBACK: 4
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 9f248827-3da9-4938-a1ce-9acd594564bd
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/81Uy2sTQRj/ksaajVVET97WUfBBlDalIAEPFStW1IrYgIiEycyX3WF3Z8LMbGq26UUQvHtSD+LRs0f1os1RD3r0n3Ea82ipBgQLmcu8vvk9ZoZfCSAHx2q1LkuNVUmdU0tzJThVu9a9p5VVTMUL9cp8femB6veLHsytSBZSaROU1pTAARQhLzh4kVQsalAW5WEmbsdQgBJc3Au0MIBZ6grJlGyjtqIRY5/Wg5PUWi0aqcV6orhoCtSmuEMAx4PgkkFmlTZVniZJ54+qD3NhWjHtFKFwlyYILzYJPrGakuqjTeIEKE2qhFMd1QNNO6RMUslRx0IiJ9UmjQ2WiXUnXNX9L++zgLqShorHm8bJi9CGWqVBOFpVjWZqGLW7UISlsWCD6dbjESzZ8qBwW2ncsXUIvo8FEp+U/1Xk5w/+f1K4i3rAOqC4hcb6VvktnSFPhLJ+ViWT/MHPKfS0EQqLY1PYdl839XuvN8T2M4sskxgo/3xlvrJ4YbK5PCE5mEKD2hWNGNa4zlJG/X1W/vrKmd9Sdvtl76OkvhG9p3TyLfyYwhvYa0gKDNyPdS/bYaHv9ljWOT3ZlAcnlofxc2eYPoN4+x0n+0JoBry1FmpqhZKuEI5AYX199bobFd6cfX7u6rvVK2+/vfr6cIV/KsLREXofbC5AiVqwy3HKolmYXU5UKi0Mm4O+KTjeiGlg3PTMQUYp/AKFg/JqBQYAAA==
+    '27':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: BOWL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Ciepłe mleko","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Jest
+          to przedmiot z:","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"eventu
+          świątecznego (2024)","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Po
+          wypiciu usuwa wszystkie","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"negatywne
+          efekty","italic":false,"color":"red"},{"text":"! Również posiada","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"mechanike
+          ","italic":false,"color":"gray"},{"text":"stakowania","italic":false,"color":"gray"}]}'
+        custom-model-data: 43634712
+        enchants:
+          DURABILITY: 10
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 2fa3ea83-641a-4892-b650-451310fea3b8
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+1VXU/UQBS9C7jsrhiIaKI+1SEhqHwLQfcNAYMGlBjkxZjNbHt3d9LpTDO93XX5eNH4B3wzPvLADzAxJvqE8u7v8EcYp+VrUR4wRBMTmqade3vnnDun09MCQAGurtxbXzKatKvlWGl8tDS5rNP77Tx0zSm3xhUFqCgqAEAmB23Cg0Ksyga5L1S1DdplXVqcHFxQZRoOOdWGpTYIvYIwGG5wE5QCIf00WYCbR+nG9sgm14VytaqjIVGWWPI48Tz0ciIjyjFhKdCeqAg0US5pA3qq1aEIXdImKnpxEDShHfLzwsP7klcjW9LXDt0zcUQ6WNQeylmL1/b225UC3PqlgdJE2oI91920PqFCmXbQCbmy1hK5SiDhPGQrUnNKgsxCP2Xz0BnZBlXKmD63oLalNMpDNxk7U3JCbyhZfdp6ZnmNEb4gVmRskNmB4az47CB3jGi2LGHxkWpGx9UaK1a4jHCQ6XIljtwE/iDlSuH6c3X7vlhxjXGXhFYWVYeoSrGRFqrOZYw2VSMKiyMjx/FtDLKyloeggriFPQhj5aGRQrXSJsu2oMbmNgZbF3jizk/D+Hwjd0RsxQPMrPyJziRI/lOhdwn/Q6UL0OmJKJS8mYOOR1ZouMy2t+5ub8kZgeHOS3QCib5meehY2NvzWXCYs711Z/uTvU49xIgc0k5oVtELhCZntchg4LCigomssbPzriG+viZ0VxVWtTMwPjo+cYPBOUs3xaC/BXJJO41mKFwRO3EUN7jTiFabEfkCGYwf1rkWh1OzodDBCvrUtFOvO0++vG8ogTufnVBHgnucQV8LdoCJBVplkyAi7uuGDW1RHi5O79vT4r477ZnkrjC/mZT1qMchGp5sll3D6Hj69MGsHXWMbH5/5V2bf/Nhaa6358fmR2unB+gpWFcVFRrhDsvY9bOQnQ50rAj2j1b7TbY/XDpuw8FfNOAT/gDO/PfMf8/89zRKn+hD/wmsHgjZ3AkAAA==
+    '28':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: LIME_CANDLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Zatruty
+          ołówek"}],"text":""}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Jest to przedmiot zdobyty z"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"white","text":"wydarzenia szkolnego 2024"},{"italic":false,"color":"gray","text":"!"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Po uderzeniu przeciwnika"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"otrzymuje on "},{"italic":false,"color":"red","text":"trujący
+          efekt"},{"italic":false,"color":"gray","text":"!"}],"text":""}'
+        custom-model-data: 14
+        internal: H4sIAAAAAAAA/81UwW7TQBCd0ELSIJUzt2WvBKkN5ZIb0BMC1EOVA1XlbuyJs/V6p1qPFey2FyT+of/RY28t/AISf9O1G5JWBR8QQrEsWbPz9s2bN97tAnTh6fDNyY4jppDMZtDfCF7tUv192YXnd3ObwVad8+9JmGdMaZBShCaIFKs2dEZEBpXNwD+P4dHYkOIqaL0+AFiDdsZO27hOV3lPSu4masH6cPiLs2JrrcCTt3X4oaqw7Zc8bL0L7UhnR0YVHVj9qFKEs2OJn9kpOdg7ljWjHMjYIVrZk7mN0BltMZKDsTIZ9iR7tEd8UuxyLgR9/3J1PsXEg0dkPMwve1SlNEGeOMrjyXwvjcZ5Fiq+RadZGR3OwtP9Ob88XYPV9+Sw42U/hJ8LlVLI3kJppFwSxE4VjWovL8Rc4Czzlwp7t02qq85KvMOMBZM4ciVGqSYWZUSjwltUyqY2WytL2Np0ohkXvU0Lr6VEq5XIyoSMxZhEf6O/da+zP9rzrNEEeCAl/FhCI+42sUMi9+UrJ/J60KGeWp2o5gG/WPq+iF1ZpPkhCrKiaabOc893+ZN++O1rWAgcY8L/7Ff4zV32Hy9SuAYkNoLp1AUAAA==
+    '29':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: ENCHANTED_GOLDEN_APPLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Wampirze
+          jabłko"}],"text":""}'
+        lore:
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Jest to przedmiot z:"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"white","text":"eventu halloween (2024)"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Po zjedzeniu otrzymujesz na"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"krótki czas "},{"italic":false,"color":"red","text":"siły
+          II"},{"italic":false,"color":"gray","text":"!"}],"text":""}'
+        custom-model-data: 5324
+        internal: H4sIAAAAAAAA/+1VO28TQRCeQIIfCKWhCAVosxQJwliJCQpyyaMIApQCQYGiY303jtfeuz3tzSX4iJv8CH4C/gGUdEbpqCiQ+DfsnRU/lBjjzkI+nXQ3OzPfPHb22yJAHm4ENSqHghrlQPgIdyShX8YjDKh8JPxQGnREGCoskySFRbj19snJvtGkXa22ncqW8+iNzr4PR7GUNgi3J2Kl6tlD3x8Pve3sZKHte+LGEWnf8bWHyvEEiRzka1orFEEE9rkO1+pKC0qFpedfPkABchEZGRxm6lRvQbXpSwVYJWM9lSD0HvSTBViBn5844UfiVc5L3P4YwavvOeOlwXrvm5V4itxCahgdHzZ4tS5UhCWua/U4clPIwVJNq6EgSSjpDsQ48NAoGYyYZynaKJ4wLefQiDbvDEO/wIgYaRaaBD1famJJlV9APYfoex904Nc815QNQ8waQil9jBiwzcpWZefe5LKOG3aIsrqucA6/57m2fc2SJnoJBjJmmkzS9uMmRgkLxPRtW9qY59Ja5vtXaknmJiJi04oZukXy7LTN9vYmexibwYjD+vRG5ceOcsYzny9r3WDtXcY8CbKmqJ2dtvTsPSQTz9TCrKiDzlVYfZqx2KuUxJ5ZDgO4+aMIOU9GoRLtPCy/TtNf472u2+uqC4kWYPnlgKoYZ73uYzsDve7upcwAd4cW9UnnDFZssF0OGyNof5tb2BwxHJsCm/P59lrVOh+/ev7huljQ/4L+F/S/oP//lf7hD49q0RGOCwAA
+    '30':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: EGG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Olaf","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Przedmiot
+          z ","italic":false,"color":"gray"},{"text":"światecznego wydarzenia 2025","italic":false,"color":"white"},{"text":"!","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Po
+          trafieniu przeciwnika przywoła","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"bałwana
+          Olafa","italic":false,"color":"aqua"},{"text":", który ","italic":false,"color":"gray"},{"text":"zasłoni
+          mu widok","italic":false,"color":"red"},{"text":"!","italic":false,"color":"gray"}]}'
+        custom-model-data: 53
+        enchants:
+          DURABILITY: 10
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 5a4eaf58-a611-4a5c-9da1-b76371ca28b7
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+1Uz08TQRR+pU1pKwaFk7d1vBgt5YcSTGOMKBg18iMGjPFXMzs73U46O1NnZ1tb4MK/YTx4kaMHDxy8YXrxr/LtFkoRDqjRxITNZnfnzZvv+96b2a8AUIBLz+5trhptNdNyujIzVZld08n7Rh5GFhWrUWUDrmxYAIBUDoaEB4VIuYbTulD+EKRlUyJODs4r15Ya1NZKUhsOY8LyoKQlrVa47yexAlw7yja9zzW7KRTTqsmNFa7kFY9amodxaq0RbmR5JdCeqApuwlysAi74/kTImdUmLHtRELQhDfmHwuMPJPVDTLmShtH7UWh1sKQ9LhcQDyDdLsD1nwRUbiYS8N5kSX5MxWWiYBhyrtaSUxVDwjnIVqWmNh6kFt7chTwMhyhQJYzJPIKipGSUh1FrcKWklnsTcfWJ9NTTDWL5O0vKhBQJfhhKyi/7seM9w6yYpM5tzejIr5FylcqQF4l2q1HIYvR+iEnB6otN3C1S3iCUWaEVguoGV5XISIRqUhlxDNWsbZQnJ0+g2yoSV8tDTGEpovaHkfK4kUINssZFI6bB2FZxsLxTC/8TxtdbuSOtVjTgqbVf6LIVVv7LNvf4/sM+F2DYE2FD0nYOMsvYZhghezvu3o5cwdpIHjJP9o95Bm4TZ2/n1t5XfM6tmg73AqGt08Fhtfu+JVAV6yjua6fV9ijOK0GdmamZWUy/TCAbr54jUBpE0Q5uI5qAEpHTwCVMtJSo0/i73dLdbUrgzmG+69Ludosq6sTiKAIUnbr99sW0cZJ1aNjd1ko4QeS0hKfrPd48jM0feM7SgeXsG1+v4mPOg8az0uCGxoeg5wKZ9fVHC3ETXix/fv7p4uNXHz7usrffr+6iRfbRe+3zueJGsJKMWD0L2flAR8rCwTVoqfGphvETDhL8RVM9naefWeqZpZ5Z6u/2+TS/+A/BSFnEqQkAAA==
+    '31':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: GOLDEN_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Różdżka iluzjonisty","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Jest
+          to przedmiot zdobyty podczas","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"wydarzenia
+          cyrkowego 2025","italic":false,"color":"white"},{"text":"!","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"LPM:
+          przywołuje ","italic":false,"color":"gray"},{"text":"Szczęki Evokera","italic":false,"color":"light_purple"},{"text":"","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"atakujące
+          przeciwników na wprost.","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"PPM:
+          ","italic":false,"color":"gray"},{"text":"znikasz","italic":false,"color":"light_purple"},{"text":"
+          na ","italic":false,"color":"gray"},{"text":"4s","italic":false,"color":"yellow"},{"text":"
+          i tworzysz","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"klona","italic":false,"color":"light_purple"},{"text":"
+          biegnącego do przodu.","italic":false,"color":"gray"}]}'
+        custom-model-data: 2
+        enchants:
+          DURABILITY: 10
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 7ea11e70-3d74-4842-94bc-9f9de62dccde
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+1Vy24URxS9fsieGUBEySLJIlFTrEjsMRgsRyNFCg9HBGFiEcgGyKi6q2am3NVVrarbM5nGziISf8CGRYRY+QNYhtUAO76BZb6DW+3XALIECkSK5Faru+r2veecut19qgHQgC9/vbCx5izaxOoz7cXT7aUbtrqfrcPRFZP0uMFMGvQNAJiowaQS0ChM7CRPlelOwpTua8KpwTETYzPn2Gtq6yR8rlBmTaV14ZU17QE3onrQgG9epzyzQ7i0oUxiTV86VLGWbcGR1+EzjuhUXKBsZ1aojpLO14IU+KTbnfcyQet8SxRZNoQpqF9WQv6oeddTyskpOH6x8GizVSukvkR4FJ1swLdvCGifqyTQuZFU+YFK6krBLNRia7XkJkDCEZjpaMsxTCZ+oEsdZj0JNBVj9ZxASVI1q8NxdFSpOUoxH1ZfSZ+4fZeh/B1Zi7E5RgPHWevWXuyAxlFqYEol9pwtuj3W6nDt5RyzcafwSaDYCyVaJelKn94ba91lPEFCImSbS9MunCaoPteFpFAPMW8tLBzEuTnHYqv3gRVygt6bFkZIp5UZpw7LJ2BHsc258YW+s/p/w3hns/Za0w3P5MRv79tvVKj/84Zvk/4PO96AWaF8rvmwBtPXqOHwFRttLY229PWnj58/EWXKI6WLct0a5XHI6jB9dedfqME8i0Zb343+puvyFekxQhvlrpQiUxajUth4iMMotyIpuWdwaj+9MxgKTplG8SgZutQOZNdGi6cXiXn5BIOZkLrM4OwYw9W11VaAHw7s8z+LdUkx8UuZlM8epCpa6dtUOl4VLYwVkQ2kxfqze4mslCVqYFT69PEgMjwa5M56bO6zLY0VrgU2Yigpn/uSIqFktCXP+TBWEQ4safElg+ZYGVWk2pogJIqV7JpATUsTVWesKIiuDp+e33XG1V1j3PHo7Xfwlj+SPf6c0/rCt7ntVdM3b/50iUbTfzz6Ov8eL1+4/+ThX//Mv3hJbr6HXoEd7UojnUqaukjSGZg5n9nCIOwe4+4f/jj44qDvGz6i/7/HHnS4BRxuAYdbwIfs+DsbwCvbAVkTdwoAAA==
+    '32':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Łopata grincha","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Jest
+          to przedmiot z:","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"eventu
+          świątecznego (2024)","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Po
+          ","italic":false,"color":"gray"},{"text":"uderzeniu ","italic":false,"color":"green"},{"text":"przeciwnika","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"zostaje
+          on ","italic":false,"color":"gray"},{"text":"ogłuszony","italic":false,"color":"red"},{"text":"
+          przez co","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"rotacja
+          zostaje wylosowana","italic":false,"color":"gray"},{"text":"!","italic":false,"color":"gray"}]}'
+        custom-model-data: 4572321
+        enchants:
+          DURABILITY: 10
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: ecf5c60d-d5e5-4f88-af9a-e32ad2099090
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+1Vy04UQRS9PBxmRghGF+iuLTeIw1MIZnYgGCUiLMSNj0lNd01PMdV1J9XVgzPAQhMTjRvWunLF0g9wR8APMPELjDu37r3dw2PQkEB8JCZ0Ot1dt26fc+7tqtNZgCxcejC9tmjQootqtDA2Upi4j8n9ega6Z7Vb5toGQtswCwBtaWiXHmQjXTSCV6T226FD1RThpKFHF+1QldvykEIjoE9aEQz5RhJGISxjTahkIgsDhylHdwkn1igVdU0YK4tKFDxueQYucGuNLEZWFAL0ZEkKE6ZjKXDO9wdD4Vo0Yd6LgqAOHZC5LT1xS3E/pJQrHdB7MwotBvPoCTVDeDC7/S4L134SUBhPJNC55ib5MZVQiYIuSBcRleA6hoSzkCop5DYetM29fjWdga6QBOqEMZknUJKUjDLQaw29qbgV3mBcfSK97dEqs+KpZXnGcoweDGf5h/uxIxpHqTFTRdiywcgvs3yJq1DkGBZLUejGFPshV0m3Mluj78byq4y7VqImZKwKXYiMIqgaV5GgUNnaan54+CjO9RwrojoAlpYT9P4w0p4wSupW6rh8AjYUW8+1Fnps9b/D+Hg9fajpmgei7clJ+22lVf+84U3S/7DjWejyZFhVvJ6GznvUcOhjW5t8a1PtPENyBO40C+UsA513d3dBChzmbG3e2PpA18k5EVrHolM1DeEFEq3TyDPoP8goibi5kbPzdkVuv7DCbWjho9M/NjI2fpXBGSKcZDDQArmIdOURiW8ILaM4FKO7ckXLCmcw0pLbwNDyZeGgppGL/s7zKGygrtNUIqnhuHgYneyDu8vc2Xtzpa4wxBWuqezJy4y2/vmpPeea3zOuXQ9t9ugX/yL7WqgKw+O10/SSzqWlOzP01Pnt+8eez18XXr5/82XgU2Zjg9x2Hz0B6/aFFka6QypyKylITQUYaQt7R6s7xzsCLh61/uAv+vMJ/hGnFn1q0acW/Sc7fmwD+AELoR7gFwoAAA==
+    '33':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: COOKIE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Piernik","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Jest
+          to przedmiot z:","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"eventu
+          świątecznego (2024)","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Po
+          zjedzeniu ","italic":false,"color":"gray"},{"text":"piernika ","italic":false,"color":"yellow"},{"text":"otrzmujesz","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"efekt
+          ","italic":false,"color":"gray"},{"text":"szybkości kopania 10","italic":false,"color":"green"},{"text":"!","italic":false,"color":"gray"}]}'
+        custom-model-data: 100000000
+        enchants:
+          DURABILITY: 10
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 5b8ffd99-dd53-4333-bfc8-fedbf6e83159
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+1UXU/UQBS9CwvsrhiMRhPf6viCuizsAmL2DQEDRpREMSoxm2l7tzt0OtNMp6ss8Oizz4QfQPwNPphsJPE/GN/9Bb5pnHb5WJQHjB+JCU3Tzty5PefM7Z1TACjA5ce3N5aU1NKRvFyrjNUmH8n0PZ6HwTnhNKjQAQodFQAgk4Me5kIhFrZC6jPh9UAvb3KDk4OzwtalkOpGiUuFcJFpDEqeyUGVZLtpuADXjxKW9+gmN5hwpGii0szmWHOppnm4QLVWzI411gLpsjpDFeUSIXDO80YidLRUUdWNg2ANeiE/z1y8w6kXmZSrvTA0E0daBovSRT5r8KBvYasAN34QUJtIJZh7w0nzEyrkqYIByNlScqQigYQz0F/nkupkkpl/M27lYSAyAkXKmK4bUCMpneVhSCvzJaca3ZFk96n0zJN1ovGlJlVCisQMFCXVlYPYsWUziQmPj7qhZOw1SLVOeYRFIu16HDkJwUHI4czx55rmn5HqOqGOZlIYXBmiqMWKG6gm5TGaUEPrsDo6ejzjZpHYkh/CMk0N8ME0Fi4qzkQ3cbJ1A6tMbLPYvckTa/8dxuebuSMFFzTAzLNfq7Vmmv/jYnco/8NqF2DAZVHI6VoOsvdNsWGItHdutnf4kjmmgvkkD9l7e13fBxax2ju32m/Nc+ouRtrS0gpVC92ASW21qgSGDzPqmJQ0tna3X7D3rzQ6LYGetIYrY5WJawT6DNEUgUoX5JK0WqvotlCw2Mwx7GigyZrUqhXEqxi1CJS6vsE6+toMaNRas325u+0wy5chFYxa5TGTcIWYQ3x+et+DFvctaM8LO7v+yYmMET0IUdGkFzqukF1eXpg1o+zK669bnx7OjL/78O3jl8/lp8Y1D9BTsEEPBSrmlHjs+P3QPx3IWGjYv7pdNulvuHR8P8Ff9NkTO/2p0Z4a7anR/olqn/DQfwcz3AjD0QkAAA==
+    '34':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: SNOWBALL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Śnieżka"}],"text":""}'
+        lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Jest to przedmiot z:"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"white","text":"wydarzenia świątecznego (2023)"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"Po trafieniu "},{"italic":false,"color":"yellow","text":"zamieniasz
+          się"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+          "},{"italic":false,"color":"gray","text":"z przeciwnikiem miejscem!"}],"text":""}'
+        enchants:
+          DURABILITY: 10
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 3a969ef8-1339-4dba-9133-0280ca1dbb0a
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/81UP28TMRR/SUNJjoIQnRiQDrMACqhN1IHbigABotCBZkEocnyvF/d8dmT7GnJNJRY+AAxIgMQHoUyoWRhYGPkijDjhkrRqlQmk3A13tt/7/bHvfh5AAS40Gn2WGquSZkgtLXhwuXG3v6mVVUyJ1WZtpbn2XI2e9Qos3ZesTaVNUFrjgQMoQ5GH4KWypZHGXEZFWBC7Ajx33zyOtJrjrPW5ZEruora8JXDEW4Flaq3mrdRiM1Eh3+aoTXnIABej6JZBZpU2QZgmSe9U2WdDbjqC9spQekoThHd7BF9ZTUnwYo84AUqTgHTb3CKpklSGqAWXGJJgmwqDVWJdtasYfJQcB19j6qpaSkzXjVMXo21rlUbtyaxqbaeGUXsEiFsqOMuH+y8nyGS/AqUnSuPQ1Rn4cZq+kOq4GWnam6nx24H/j9RVp9Q5a07xGI31rfI7OsMw4cr6WUBmeYNfc+ZnfNQ5R7fntGQoOfUHn7r88I1FlkmMlH+9tlKr35htrkhIoThnBo8f2KbynTb310ie+ifMHGnroRCqO23MaDJsoibzDT/8MHsffs71HmSjz5XxruQxx8R3xnYMw+TqbFMVuLQ+zp6NcfTk4fY3S04k0AJUnnVQU8uVdIVwDkpbW4/uubdS8P7z7+U7G1/e1ouvv1858MpwfoI+AluKUKLm7LZIWbwIi+uJSqWF8eWgH/IQHwgaGTe89j9zFP4AmHDMyAMGAAA=
+    '35':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: BEACON
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"Cudowna Latarnia","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"light_purple","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Przedmiot
+          z ","italic":false,"color":"gray"},{"text":"światecznego wydarzenia 2025","italic":false,"color":"white"},{"text":"!","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Po
+          postawieniu otrzymujesz:","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Regenerację
+          V ","italic":false,"color":"light_purple"},{"text":"(20s)","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Absorpcję
+          VI ","italic":false,"color":"yellow"},{"text":"(10s)","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Siłę
+          II ","italic":false,"color":"red"},{"text":"(10s)","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Fontanna
+          pozostanie aktywna przez ","italic":false,"color":"gray"},{"text":"30 sekund","italic":false,"color":"white"},{"text":".","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Efekty
+          działają w zasięgu ","italic":false,"color":"gray"},{"text":"30 kratek","italic":false,"color":"white"},{"text":".","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Zniszczenie
+          fontanny usuwa efekty.","italic":false,"color":"gray"}]}'
+        custom-model-data: 888
+        enchants:
+          DURABILITY: 10
+        attribute-modifiers:
+          GENERIC_LUCK:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: ''
+              uuid: 34bc26c7-a51b-4509-8a25-f8d843dd7af2
+              operation: 0
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+1VXW8TRxS9IVFiGyoq+tKqLVoG9QsSk4REaS2EFJKgRoIW0cIDqLXGu3ftiWdnVvMR4yV5QeKFf4B4RvkR7VOUqH+Bl/6JPvHInXU+TCtFUISqSrEse2fm3HPPnNm5twZQg0/uXtu4ZbTTsZYzzdnp5vzPuvy/XIVTKyrucOUyVM7WAGCkAidEAjWvWgZ5V6j2CRiV65J4KvCBarl6zl2nLrVB+Ew4zOoS26gSbvrNVHvluFDlag0uvJ53Zi/r/IZQsVbraJxoSWwm3PEqfMSdM6LlHTYznYhUoLGVoAc+bLenLMZOG9tIfJb1YRSq34sEr0vetgQ5Pwqnl7x1OrupE5TLxAcw+qAGF/8moDlXSqDvRlziQyqUpYIJqLS0lshVoISTMJ5KzV0YjCz/ClCFCUsCVZmxXCdSklSOqnDaGYqU3GEyFXZfSh9JHzKHDxxrMDbJ6MFw1rh/MHeUe4QP6broOkb7doc1Ui4tTjLdSr2NQ56DqViKuLuyTifIGg8Zj53Qiuh1jqrpjSSqdS490lTHubxx6dKRiTcnWUvLQ3bhOPEfDL1K0EihhvMHI4jd0Nzm5PCW33gL75Lxl83Ka/YrnuFI518574ST/431g8z/Q+9rMJEIm0ver8DYD2Q9fMy2t5LtLbnkE91TPLpBt8sowVkVxm7sXY0aXGHR9ta327/R78ItU2CSCe2igobp7rOeIIVxobCto16fnCqQCKLZ6dl5gp9jMB6iFxh8Ncyio1xbx3uCwD7SzhT9zK+hLRoMzh8Ck9vBfjQ8Xtt5Gt0N81/PTttvGLBDEC62rDb5ALJaYmZKzNlDTPyT2H1E66vD6/vKrg4pu67pkBVZkesiKFQCI951/eBOTnsrd315OrLYJcMpoM7gu6H4lRQJHSWF4LuP+NrO46gXFdyKnadtvxfaNeRYdxBaHwq9p4Qt4mAfRulARj/y1vd4hCUr4atwZnG/+N7cr717vWBwpP8owVSBf8zJwvC+D8rh2J07q8v0NDb3+5d/PP90pfrki5cvlv4s/qKuccBekp0q3RdxXfq4Ow7ji1m4BLD/Ge4y4SrD50feGXiPfeZtG95xvznuN8f95n17/3bl4RXEaJV7AgsAAA==
+        blockMaterial: BEACON
+    '36':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Łuk Kupidyna","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_red","bold":false}]}'
+        lore:
+          - '""'
+          - '{"text":"","extra":[{"text":"Specjalny przedmiot!","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":true}]}'
+          - '{"text":"","extra":[{"text":"Masz szanse, że trafiony przez","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"Ciebie gracz zostaje ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"oślepiony!","italic":false,"color":"light_purple"}]}'
+        enchants:
+          ARROW_FIRE: 1
+          ARROW_INFINITE: 1
+          ARROW_DAMAGE: 4
+          DURABILITY: 3
+    '37':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: CROSSBOW
+      meta:
+        ==: ItemMeta
+        meta-type: CROSSBOW
+        display-name: '{"text":"","extra":[{"text":"Marchewkowa Kusza","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+        lore:
+          - '""'
+          - '{"text":"","extra":[{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Jest
+          to przedmiot z ","italic":false,"color":"gray"},{"text":"wielkanocnego","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"wydarzenia
+          ","italic":false,"color":"white"},{"text":"z ","italic":false,"color":"gray"},{"text":"2024
+          roku","italic":false,"color":"yellow"},{"text":"!","italic":false,"color":"gray"}]}'
+          - '""'
+          - '{"text":"","extra":[{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Ta
+          ","italic":false,"color":"gray"},{"text":"niezwykła ","italic":false,"color":"green"},{"text":"kusza
+          zapewnia ci","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"zdumiewającą
+          zdolność przyciągania","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"do
+          siebie ","italic":false,"color":"gray"},{"text":"graczy","italic":false,"color":"yellow"},{"text":",
+          tworząc zupełnie","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"nowe
+          możliwości eksploracji i walki!","italic":false,"color":"gray"}]}'
+        custom-model-data: 10
+        charged: false
+    '38':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: RED_CANDLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Dynamit","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_red","bold":true}]}'
+        lore:
+          - '{"text":"","extra":[{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Ten
+          przedmiot umożliwi tobie zniszczenie","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"skały
+          macierzystej! Wystarczy kliknąć","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"tylko
+          ","italic":false,"color":"gray"},{"text":"prawy ","italic":false,"color":"red"},{"text":"przycisk!","italic":false,"color":"gray"}]}'
+        custom-model-data: 1
+    '39':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: GOAT_HORN
+      meta:
+        ==: ItemMeta
+        meta-type: MUSIC_INSTRUMENT
+        display-name: '{"text":"§d§lRóg Jednorożca"}'
+        lore:
+          - '{"text":" §8» §7Jest to przedmiot z:"}'
+          - '{"text":" §8» §feventu walentynkowego (2026)"}'
+          - '{"text":"§7"}'
+          - '{"text":" §8» §7Po użyciu przywołujesz §djednorożca§7,"}'
+          - '{"text":" §8» §7którym możesz jeździć! Niszczy bloki"}'
+          - '{"text":" §8» §7na swojej drodze i §cogłusza graczy§7,"}'
+          - '{"text":" §8» §7w których wjedziesz!"}'
+        custom-model-data: 1
+        enchants:
+          DURABILITY: 10
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+1VTW8URxAtY8fe3YBARMoHp3bnwsdig4NxtBdEAhFBQBACDgS06u2pne3dnq5VT483O9hSlEt+QK6RcvQP8C3hZLL/gCMXTvkbqZk19joByYgECcmj0cx0ddV7r2um39QAavDZ/a/WbnsKpMmeby6day7fpfL+RRUOX3W6o1xI0IW0BgBTFThkIqhlruVR9YyLD8G0XbWMU4EjrhUW+ip0Fix5hI9NwGQhc0aTd80OX8p4DU7vZTy/zbe8Zpwmt4o+mJbFZqSCqsJHKgRvWlnAZkKRaRv0aaVQAsfi+GyKOpBPG1GWJEOYhuo1E+E3VsUpp3w+DUe/ztJAyU2K0F5hvKKwBmf+IaB5oZTA55ou8wsqtKWCOai0iCwqV0DChzDbtqRCMZi69CNAFeZSFuhKxnKeQVlSOarC0eC50qqA0dli9aX0qQePZcAfgmxIWZf84JVsfL8Te3XfOLMg6mHoeMrijmy0lU2xLqnVzlJdMOyEtDW6d3WV35psPJZKB0OOgamPrpl5y1CrymbIoU4I/cbi4mso1+uyRXYX1wTFyDvDzEXorXGTzMXiGddzbL0+ucx9i38bxkfrlT0tdyrBqYdv2O1ggn3X7R5zvof9rsFcZNK+VcMKzNzidsOncmsj2tqwd55uxuI6Ro48jZ5oJaswc2N7C8yBkGJr48utP/i6ch3TIAKJvs8xSgwFkTcknNzNaGPR3EwMlOX70PVogDGJk0vnli6ekvABM65IWJmAvE0iGz0ZapMVqMMBjX7KupjmPBd1dzVxZl3ChYnCXni66YeJSHi+yO/i6PcoN3/+PC9umTTX+VC0LPWMhOWJKqdEOqAudkXkKcpRGI5qipk1zZWIveLCMdn8RNlAjOl0RwxYVW6YcV6ybRy//NL1br40vW37Hff4X97H1vddH70qPr2xD83cu/ftFX6aSS/+Qi/ia79tPns+GP164q9ZmL2cUOYCbB/s3Dt0JfrhGB16oxdspnt7jL3YT/DJaz5f+B+tff9/lwNzPzD3A3P/r/q9363/Nxu0HkBLCgAA
+    '40':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Piekielny
+          miecz"}],"text":""}'
+        lore:
+          - '{"text":"","extra":[{"text":"Dodatkowe obrażenia 0%","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":false}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Po
+          uderzeniu przeciwnika podpalasz","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"go
+          ","italic":false,"color":"gray"},{"text":"piekielnym ogniem","italic":false,"color":"red"},{"text":",
+          który","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[" ",{"text":"» ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"ignoruje
+          ","italic":false,"color":"gray"},{"text":"odporności na ogień","italic":false,"color":"white"},{"text":"!","italic":false,"color":"gray"}]}'
+        custom-model-data: 666
+        enchants:
+          FIRE_ASPECT: 1
+          DAMAGE_ALL: 5
+          DURABILITY: 5
+        ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/81Wy27TQBS9SUObpOUhWLEzRoAEIX1AN9kV0goEhUq03SAUTewbZ/B4xhrPJCRtJZBYsGKBxAYkfoIlXQEVEms+gI/gAxi7edC0DagqVa1IzvWce+ecM2PPzQPk4fzqrfUlKZRwBJuuzExVZpdFcr+RglOrq+uOjpQIKi5RJJWHqzvR0x3s7DrljuANlIpWGSboHJwjSkla1QorgXBpjaKMsgCQgjOedz1CRwkZlVwdBC3IwcQ8d+qEqwC5ivIGNpKFNHUhF9WJDDlGURpGWIPBCdgeGK9RiRUShaZQZyjVGcprXpVIfMq9XtII5O5QFxcY8SJT/WIerg2IqdxM5JhfV7WhjSxRMwbZqhAMCY+TYRxGa0wQFQep8uXnhv9YZMTypHYybooaeUmUg7NzXSsWu07EElNZyDwgAe42xLB9GKIkigq+XTCzsnK3bP5lrixsvv4+sfjmxbevy+XmrzALJ3vVk2ITHnKU1Cky7fijMDoXCM0VdK88jLk0ChlpdWd/u2bjMyWJXXq8Zie87ZIt0bULtuYuSka5CUo1wiIs2MpgzfgSRZ8i4y0roOi0DbYqmEEpqQ0oNsNHVZdCe/VeqqjWdOQQ9Uc1qgijTifceNIrb2/kIHNfSIx3TBY+HIRiWZil80UTLVGVZGsTOSXW1KUe1Q76ELjCq734eZK0hhL8H0x+9pnYll3os3GJ9Ct/pfT5k3VIrAq7jOjuHGFpM33bLIe2QnN3aJNTn1ihcEPCSBRvpv0Vpq4fe4WesHZJKAzu2w427L5HgSU8TjEYlrlzmoLlqy8fZWu4XTPH3i7qcSH1UxxqWrNOFfZzzFYRkout9w61ODHWUdx6+e/WXRjqGaRtOzW/1yvdZbG/X/fMV7eNVpv4OqRRu3SY7pnQn2+YA9IurdnEiQ+H2IoQeUVLZiZqEKbRPKorFZYmJ5vNZpFwIp06JUXPszcKPSEtZEw0+4YMQoc4OZg63MofB7PxUdsctSReWoU8+Uq4ARVKH6qf+wiaLU4lp8QQVSNw+nbSIyzGLULZdAgA6XdwpD3TEXYw8Bux252ELAoAAA==
+    '42':
+      material: NETHERITE_SWORD
+      displayName: '&e&lExcalibur'
+      lore:
+        - '&cDodatkowe obrazenia 0%'
+        - ''
+        - '&8» &7Jest to przedmiot zdobyty z'
+        - '&8» &fwydarzenia wakacyjnego 2024&7!'
+        - ''
+        - '&8» &7Aktualnie zabojstw: &f0'
+        - '&8» &f&m---------- &e0%'
+        - ''
+        - '&8» &7Zapelnienie paska zapewnia'
+        - '&8» &f12 punktow obrazen&7, co'
+        - '&8» &7jest rownoznaczne z &eostroscia 6&7!'
+        - ''
+        - '&8» &7Obrazenia od ataku: &f11.5'
+        - '&8» &7Sharpness: &f6'
+        - '&8» &7Attack speed: &f1.6'
+      enchants:
+        DAMAGE_ALL: 6
+        FIRE_ASPECT: 2
+        DURABILITY: 3
+      unbreakable: true
+      item-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+    '43':
+      material: RED_DYE
+      displayName: '&4&lAnarchiczne serce'
+      lore:
+        - ' &8» &7To &cserce &7możesz użyć poza limitem &c30 serc&7.'
+        - ' &8» &7Maksymalnie możesz uzyskać &f40 serduszek&7!'
+        - '&7'
+      custom-model-data: 4
+      item-flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+

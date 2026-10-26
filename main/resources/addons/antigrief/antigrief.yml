@@ -1,0 +1,19 @@
+enabled: true
+
+# 300 sekund = 5 minut.
+remove-after-seconds: 300
+track-bypass-allowed-blocks: true
+remove-tracked-on-shutdown: true
+
+use-zonebox-allowed-blocks: true
+
+creative-bypass: true
+track-creative-placements: false
+bypass-permission: Holly.antigrief.bypass
+
+allowed-blocks:
+  - COBWEB
+  - OBSIDIAN
+
+messages:
+  blocked: "&#FF0000✘ &8Ξ &cNie mozesz postawic tego bloku."

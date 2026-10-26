@@ -1,0 +1,97 @@
+grant:
+  duration: 7d
+  # bez górnego title — tylko subtitle: nick + odebrał rangę + prefix
+  title: ''
+  subtitle: '&f{PLAYER} &7odebrał rangę {PREFIX}'
+  title-fade-in: 5
+  title-stay: 60
+  title-fade-out: 10
+  success: '&#00FF3B✔ &8Ξ &#4EFA76Nadano &f{RANK} &ana 7 dni dla &f{PLAYER}&a.'
+  usage: '&#FF0000✘ &8Ξ &cPoprawne użycie: &#FF0000/{LABEL} <minimedia|media|tworca> <nick>'
+  unknown-rank: '&#FF0000✘ &8Ξ &cNieznana ranga. Dostępne: &fminimedia&c, &fmedia&c, &ftworca&c.'
+  player-not-found: '&#FF0000✘ &8Ξ &cNie znaleziono gracza &4{PLAYER}&c.'
+  ranks:
+    minimedia:
+      group: minimedia
+      prefix: '&f&x&F&F&7&1&F&5&lᴍ&lɪ&lɴ&lɪ &lᴍ&lᴇ&lᴅ&lɪ&lᴀ'
+    media:
+      group: media
+      prefix: '&f&x&F&F&5&1&F&3&lᴍ&lᴇ&lᴅ&lɪ&lᴀ'
+    tworca:
+      group: tworca
+      prefix: '&f&x&F&F&0&0&E&D&lᴛ&lᴡ&ló&lʀ&lᴄ&lᴀ'
+gui:
+  rows: 5
+  title: '&8Media'
+ranks:
+  minimedia:
+    name: '&f&x&F&F&7&1&F&5&lᴍ&lɪ&lɴ&lɪ &lᴍ&lᴇ&lᴅ&lɪ&lᴀ'
+    aliases:
+      - mm
+    slot: 20
+    icon: TOTEM_OF_UNDYING
+    lore:
+      - '&7ᴘɪᴇʀᴡsᴢʏ ᴋʀᴏᴋ ᴡ śᴡɪᴇᴄɪᴇ ᴛᴡóʀᴄóᴡ'
+      - ''
+      - '&8| &#E56EFF&lᴡ&#DE49FF&lʏ&#D825FF&lᴍ&#D100FF&lᴀ&#D516FF&lɢ&#D92CFF&lᴀ&#DD42FF&lɴ&#E158FF&lɪ&#E56EFF&lᴀ'
+      - '&8| &7ᴍɪɴɪᴍᴜᴍ &f1 ᴛɪᴋᴛᴏᴋ &7ᴡʀᴢᴜᴄᴏɴʏ ᴢ sᴇʀᴡᴇʀᴀ'
+      - '&8| &7ᴍᴜsɪ ᴍɪᴇć &fɪᴘ &7ɴᴀ ᴇᴋʀᴀɴɪᴇ ᴏʀᴀᴢ &#3CCA00ᴏ&#00FF5Aɢ&#00FF79ʜ&#00FF5Aᴜ&#3CCA00ʙ &7ᴡ ᴏᴘɪꜱɪᴇ'
+      - ''
+      - '&8| &#E56EFF&lʙ&#DB37FF&lᴏ&#D100FF&lɴ&#DB37FF&lᴜ&#E56EFF&lꜱ'
+      - '&8| &7ᴅᴏꜱᴛęᴘ ᴅᴏ ʀᴀɴɢɪ: &f&f&x&D&7&C&D&7&B&lꜱ&lᴠ&lɪ&lᴘ'
+      - ''
+      - '&8| &7ᴢɢłᴏś sɪę ɴᴀ &fdc.oghub.pl &7(#ᴢɢʟᴏꜱᴢᴇɴɪᴀ)'
+  media:
+    name: '&f&x&F&F&5&1&F&3&lᴍ&lᴇ&lᴅ&lɪ&lᴀ'
+    aliases:
+      - media
+    slot: 22
+    icon: NETHER_STAR
+    lore:
+      - '&7ʀᴀɴɢᴀ ᴅʟᴀ ᴀᴋᴛʏᴡɴʏᴄʜ ᴛᴡóʀᴄóᴡ'
+      - ''
+      - '&8| &#FF1DB9&lᴡ&#E51CA6&lʏ&#CA1A94&lᴍ&#B01981&lᴀ&#C01A8C&lɢ&#D01B97&lᴀ&#DF1BA3&lɴ&#EF1CAE&lɪ&#FF1DB9&lᴀ'
+      - '&8| &7ᴍɪɴɪᴍᴜᴍ &f5 ᴛɪᴋᴛᴏᴋɪ &7ᴡʀᴢᴜᴄᴏɴᴇ ᴢ sᴇʀᴡᴇʀᴀ'
+      - '&8| &7ᴍᴜsɪ ᴍɪᴇć &fɪᴘ &7ɴᴀ ᴇᴋʀᴀɴɪᴇ ᴏʀᴀᴢ &#3CCA00ᴏ&#00FF5Aɢ&#00FF79ʜ&#00FF5Aᴜ&#3CCA00ʙ &7ᴡ ᴏᴘɪꜱɪᴇ'
+      - ''
+      - '&8| &7śʀᴇᴅɴɪᴀ ʟɪᴄᴢʙᴀ ᴡʏśᴡɪᴇᴛʟᴇń &f800-1000'
+      - '&8| &7śʀᴇᴅɴɪᴀ ʟɪᴄᴢʙᴀ ᴘᴏʟᴜʙɪᴇń &f15-25'
+      - ''
+      - '&8| &#FF1DB9&lʙ&#D81B9D&lᴏ&#B01981&lɴ&#D81B9D&lᴜ&#FF1DB9&lꜱ'
+      - '&8| &7ᴅᴏꜱᴛęᴘ ᴅᴏ ʀᴀɴɢɪ: &f&f&x&F&F&8&7&0&0&lʟ&lᴇ&lɢ&lᴇ&lɴ&lᴅ&lᴀ'
+      - ''
+      - '&8| &7ᴢɢłᴏś sɪę ɴᴀ &fdc.oghub.pl &7(#ᴢɢʟᴏꜱᴢᴇɴɪᴀ)'
+  tworca:
+    name: '&f&x&F&F&0&0&E&D&lᴛ&lᴡ&ló&lʀ&lᴄ&lᴀ'
+    aliases:
+      - yt
+      - tiktok
+    slot: 24
+    icon: BLAZE_POWDER
+    lore:
+      - '&7ʀᴀɴɢᴀ ᴅʟᴀ ᴛᴏᴘᴏᴡʏᴄʜ ᴛᴡóʀᴄóᴡ'
+      - ''
+      - '&8| &#D71DFF&lᴡ&#C317E7&lʏ&#AE12D0&lᴍ&#9A0CB8&lᴀ&#A60FC6&lɢ&#B213D4&lᴀ&#BF16E3&lɴ&#CB1AF1&lɪ&#D71DFF&lᴀ'
+      - '&8| &7ᴍɪɴɪᴍᴜᴍ &f5 ᴛɪᴋᴛᴏᴋɪ &7ᴡʀᴢᴜᴄᴏɴᴇ ᴢ sᴇʀᴡᴇʀᴀ'
+      - '&8| &7ᴍᴜsɪ ᴍɪᴇć &fɪᴘ &7ɴᴀ ᴇᴋʀᴀɴɪᴇ ᴏʀᴀᴢ &#3CCA00ᴏ&#00FF5Aɢ&#00FF79ʜ&#00FF5Aᴜ&#3CCA00ʙ &7ᴡ ᴏᴘɪꜱɪᴇ'
+      - ''
+      - '&8| &7śʀᴇᴅɴɪᴀ ʟɪᴄᴢʙᴀ ᴡʏśᴡɪᴇᴛʟᴇń &f2000-3500'
+      - '&8| &7śʀᴇᴅɴɪᴀ ʟɪᴄᴢʙᴀ ᴘᴏʟᴜʙɪᴇń &f35-70'
+      - ''
+      - '&8| &#D71DFF&lʙ&#B915DC&lᴏ&#9A0CB8&lɴ&#B915DC&lᴜ&#D71DFF&lꜱ'
+      - '&8| &7ᴅᴏꜱᴛęᴘ ᴅᴏ ʀᴀɴɢɪ: &f&x&0&0&F&F&1&1&lᴏ&x&5&4&B&0&5&A&lɢ'
+      - ''
+      - '&8| &7ᴢɢłᴏś sɪę ɴᴀ &fdc.oghub.pl &7(#ᴢɢʟᴏꜱᴢᴇɴɪᴀ)'
+  info:
+    name: '&#FFD93D&lɪɴғᴏʀᴍᴀᴄᴊᴇ'
+    slot: 40
+    icon: BOOK
+    lore:
+      - '&7ᴊᴀᴋ ᴏᴅᴇʙʀᴀć ʀᴀɴɢę?'
+      - ''
+      - '&8» &7ɴᴀɢʀᴀᴊ ᴛɪᴋᴛᴏᴋᴀ'
+      - '&8» &7sᴘᴇłɴɪᴊ ᴡʏᴍᴀɢᴀɴɪᴀ'
+      - '&8» &7sᴛᴡóʀᴢ ᴛɪᴄᴋᴇᴛ'
+      - ''
+      - '&#FFD93D&lᴅɪsᴄᴏʀᴅ:'
+      - '&8» &edc.oghub.pl'

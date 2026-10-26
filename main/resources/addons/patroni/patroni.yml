@@ -1,0 +1,388 @@
+mongodb:
+  collection: "patroni_players"
+
+gui:
+  title: "&8✘ &d&lPATRONI &8✘"
+  rows: 6
+  use-template: true
+  selected-slot: 48
+  roll-slot: 50
+  info-slot: 49
+  selected-name: "&d⚔ &fTwój patron: {PATRON}"
+  selected-footer:
+    - ""
+    - "&8▶ &7Aktywny jeszcze: &#00F4FF{czas}"
+    - "&8▶ &7Losuj ponownie pod &eNETHER STAR"
+  patron-slots:
+    feniks: 11
+    zolh: 12
+    strus: 13
+    pajak: 14
+    modliszka: 15
+    skorpion: 20
+    zyrafa: 21
+    pan: 22
+    goryl: 23
+    krowa: 24
+  roll-item:
+    material: NETHER_STAR
+    name: "&x&B&8&5&7&F&F&lʟ&x&C&1&6&8&F&F&lᴏ&x&C&A&7&9&F&F&lꜱ&x&D&3&8&A&F&F&lᴜ&x&D&C&9&B&F&F&lᴊ &x&E&E&B&D&F&F&lᴘ&x&E&5&A&C&F&F&lᴀ&x&D&C&9&B&F&F&lᴛ&x&D&3&8&A&F&F&lʀ&x&C&A&7&9&F&F&lᴏ&x&C&1&6&8&F&F&lɴ&x&B&8&5&7&F&F&lʏ"
+    lore:
+      - "&8▶ &7Status: {COST}x &#B857FFodłamków"
+      - "&8▶ &7Darmowe losowanie: &#00F4FF{czas}"
+      - ""
+      - "&8▶ &aKliknij, aby wylosować patrona"
+  info-item:
+    material: BOOK
+    name: "&x&B&8&5&7&F&F&lɪ&x&C&1&6&8&F&F&lɴ&x&C&A&7&9&F&F&lꜰ&x&D&3&8&A&F&F&lᴏ&x&D&C&9&B&F&F&lʀ&x&E&5&A&C&F&F&lᴍ&x&E&E&B&D&F&F&lᴀ&x&E&5&A&C&F&F&lᴄ&x&D&C&9&B&F&F&lᴊ&x&D&3&8&A&F&F&lᴇ"
+    lore:
+      - "&8▶ &7Patron daje pasywne bonusy"
+      - "&8▶ &7oraz efekt podczas &eGodziny Boga"
+      - ""
+      - "&8▶ &7Darmowe losowanie co &f{FREE_DAYS} &7dni"
+      - "&8▶ &7Płatne: &f{COST}x &7odłamków"
+      - "&8▶ &7Patron trwa &f{DURATION} &7dni"
+
+roll:
+  free-cooldown-days: 3
+  paid-shard-cost: 50
+  patron-duration-days: 14
+  free-ready-text: "TERAZ"
+  shard-packages:
+    - odlamek
+    - odlamkow
+    - shard
+
+roll-gui:
+  title: "&8✘ &d&lLOSOWANIE &8✘"
+  rows: 3
+  use-template: false
+  final-slot: 13
+  roll-slots: [10, 11, 12, 13, 14, 15, 16]
+  anim-delay-ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 3
+    - 3
+    - 3
+    - 4
+    - 4
+    - 5
+    - 6
+    - 8
+    - 10
+    - 13
+    - 16
+    - 20
+    - 5
+    - 30
+  decoration:
+    - slots: [0, 9, 18, 8, 17, 26]
+      material: MAGENTA_STAINED_GLASS_PANE
+      name: " "
+    - slots: [1, 2, 6, 7, 19, 20, 24, 25]
+      material: PURPLE_STAINED_GLASS_PANE
+      name: " "
+    - slots: [3, 5, 21, 22, 23]
+      material: BLACK_STAINED_GLASS_PANE
+      name: " "
+    - slots: [4]
+      material: END_ROD
+      name: "&d&l⬇"
+
+god-hour:
+  duration-minutes: 30
+  title-enabled: true
+  title-fade-in: 10
+  title-stay: 60
+  title-fade-out: 10
+  title: "&d⚔ &fGodzina Boga"
+  subtitle: "{PATRON}"
+  bossbar-enabled: true
+  bossbar-title: "&d⚔ &fGodzina Boga: {PATRON} &8| &7Koniec za: &#00F4FF{TIME}"
+  bossbar-color: PURPLE
+  bossbar-style: SEGMENTED_10
+  bossbar-progress: true
+  bossbar-flags: []
+
+sounds:
+  roll-tick:
+    sound: UI_BUTTON_CLICK
+    volume: 0.7
+    pitch: 1.4
+  roll-finish:
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
+  roll-fail:
+    sound: BLOCK_NOTE_BLOCK_BASS
+    volume: 0.8
+    pitch: 0.6
+  gui-open:
+    sound: UI_BUTTON_CLICK
+    volume: 0.5
+    pitch: 1.2
+
+titles:
+  roll-win:
+    enabled: true
+    title: "&a&lWYLOSOWANO"
+    subtitle: "{PATRON}"
+    fade-in: 5
+    stay: 40
+    fade-out: 10
+
+messages:
+  roll-broadcast: "&#FF59E8❖ &#7AD7FF{PLAYER} &8〢 &fwylosował patrona {PATRON}&f!"
+  addon-disabled: "&#FF0000✘ &8Ξ &cAddon patroni jest wyłączony."
+  no-permission: "&#FF0000✘ &8Ξ &cNie posiadasz dostępu do &#FF0000/patron &8(&4Holly.cmd.patron&8)"
+  player-only: "&#FF0000✘ &8Ξ &cTa komenda jest tylko dla gracza."
+  not-enough-shards: "&#FF0000✘ &8Ξ &cPotrzebujesz &f{COST}x &codłamków."
+  god-hour-random-started: "&#00FF3B✔ &8Ξ &#4EFA76Wylosowano Godzinę Boga."
+  god-hour-stopped: "&#FF0000✘ &8Ξ &cZatrzymano Godzinę Boga."
+  god-hour-set: "&#00FF3B✔ &8Ξ &#4EFA76Ustawiono Godzinę Boga: {PATRON}&a."
+  reload: "&#00FF3B✔ &8Ξ &#4EFA76Przeładowano konfigurację patronów."
+  set-head-success: "&#00FF3B✔ &8Ξ &#4EFA76Ustawiono head-value patrona w &faddons/patroni/patroni.yml&a."
+  set-head-fail: "&#FF0000✘ &8Ξ &cNieznany patron albo item w ręce nie ma tekstury główki."
+  set-patron-success: "&#00FF3B✔ &8Ξ &#4EFA76Ustawiono patrona {PATRON} &agraczowi &e{PLAYER}&a."
+  set-patron-target: "&#00FF3B✔ &8Ξ &#4EFA76Administrator ustawił Ci patrona {PATRON}&a."
+  set-patron-usage: |-
+    &#FF0000✘ &8Ξ &cPoprawne użycie:
+     &8• &4/patron setpatron <patron> <nick>
+  unknown-patron: "&#FF0000✘ &8Ξ &cNieznany patron."
+  player-not-found: "&#FF0000✘ &8Ξ &cNie znaleziono gracza."
+
+patrons:
+  feniks:
+    enabled: true
+    weight: 1
+    slot: 11
+    name: "&#FF9B00&lꜰ&#F68700&lᴇ&#ED7300&lɴ&#E45F00&lɪ&#DB4B00&lᴋ&#D23700&lꜱ"
+    head-value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU2ZmIxNzZkZGQyMTBmNDZjYzBjYzM2MWFmOGZhYzE3YmE3Nzg4YjBlOGYxZGFlOTJjMjgxMWRkMDM4ZjVmNSJ9fX0="
+    lore:
+      - ""
+      - "&f &7Żywioł: &#FF6B00&lᴏɢɪᴇɴ"
+      - ""
+      - " &#FF9B00&lᴘᴀꜱʏᴡɴɪᴇ"
+      - "&8» &7Masz szansę na podpalenie wroga"
+      - "&8» &7Czas płomienia: &#FF9B004s"
+      - ""
+      - " &#B857FF&lɢᴏᴅᴢɪɴᴀ ʙᴏɢᴀ"
+      - "&8» &7Złote jabłka dają dłuższą &#FF9B00Regenerację"
+      - "&8» &7Bonus regeneracji: &#FF9B00+5s &8(II)"
+    effects:
+      ignite-chance: 10.0
+      ignite-ticks: 80
+      golden-apple-extra-regen-ticks: 100
+      golden-apple-regen-amplifier: 1
+
+  zolh:
+    enabled: true
+    weight: 1
+    slot: 12
+    name: "&#7CFFB2&lᴢ&#6AF5A4&lᴏ&#58EBA6&lʟ&#46E198&lᴡ"
+    head-value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwYTgwMDFiYTZiZThhNThhYTNlNjQxZDhiODlhZDlmYzY0MWE5OWE3OWMzMDcwMWY5MTZmYmZjNzkyMWVkYSJ9fX0="
+    lore:
+      - ""
+      - "&f &7Żywioł: &#57F287&lᴏʙʀᴏɴᴀ"
+      - ""
+      - " &#57F287&lᴘᴀꜱʏᴡɴɪᴇ"
+      - "&8» &7Otrzymujesz &#57F287&l-10% &7obrażeń"
+      - ""
+      - " &#B857FF&lɢᴏᴅᴢɪɴᴀ ʙᴏɢᴀ"
+      - "&8» &7Co &#57F28760s &7dostajesz &#57F287Absorbcję I"
+      - "&8» &7Czas efektu: &#57F28712s"
+    effects:
+      damage-taken-multiplier: 0.90
+      absorption-every-seconds: 60
+      absorption-amplifier: 0
+      absorption-duration-ticks: 240
+
+  strus:
+    enabled: true
+    weight: 1
+    slot: 13
+    name: "&#7ED6FF&lꜱ&#6BC8F5&lᴛ&#58BAEB&lʀ&#45ACE1&lᴜ&#32A0D7&lꜱ"
+    head-value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjMyMTQ2ODFiNTNkMjY1NzQzOTZjM2IyNzg0ZTZiMGJmNjE1MjQzOTI5YzA2NWUyMzE2ODk3ZWJlZTAzZDM5YSJ9fX0="
+    lore:
+      - ""
+      - "&f &7Żywioł: &#5DADE2&lꜱᴢʏʙᴋᴏꜱᴄ"
+      - ""
+      - " &#5DADE2&lᴘᴀꜱʏᴡɴɪᴇ"
+      - "&8» &7Nigdy nie spada Ci &#5DADE2głód"
+      - "&8» &7Głód i saturacja zawsze &#5DADE2pełne"
+      - ""
+      - " &#B857FF&lɢᴏᴅᴢɪɴᴀ ʙᴏɢᴀ"
+      - "&8» &7Stały efekt &#5DADE2Szybkość I"
+    effects:
+      never-hungry: true
+      speed-amplifier: 0
+
+  pajak:
+    enabled: true
+    weight: 1
+    slot: 14
+    name: "&#FFE066&lᴘ&#F5D455&lᴀ&#EBC844&lᴊ&#E1BC33&lᴀ&#D7B022&lᴋ"
+    head-value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWY1MjJlZGRjYzk3ODllYmYwZjkzNzVmYjI4ODY4ZTUzYjY4ODliOGM3Y2ExYmNhZTRkNGM4YmVkMmU1ZmNlZSJ9fX0="
+    lore:
+      - ""
+      - "&f &7Żywioł: &#F1C40F&lᴋᴏɴᴛʀᴏʟᴀ"
+      - ""
+      - " &#F1C40F&lᴘᴀꜱʏᴡɴɪᴇ"
+      - "&8» &7Co &#F1C40F30–70 &7hitów stawia pajęczynę"
+      - "&8» &7Pajęczyna pojawia się pod wrogiem"
+      - ""
+      - " &#B857FF&lɢᴏᴅᴢɪɴᴀ ʙᴏɢᴀ"
+      - "&8» &7Blokada stawiania &#F1C40Fpajęczyn"
+      - "&8» &7Nikt nie postawi cobweba na mapie"
+    effects:
+      cobweb-chance: 1.0
+      disable-cobweb: true
+
+  modliszka:
+    enabled: true
+    weight: 1
+    slot: 15
+    name: "&#6CFF9A&lᴍ&#5BF58B&lᴏ&#4AEB7C&lᴅ&#39E16D&lʟ&#28D75E&lɪ&#17CD4F&lꜱ&#06C340&lᴢ&#00B938&lᴋ&#00AF30&lᴀ"
+    head-value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FiMGZhMjk5ZThjODliMDA4ZTg2YjZlZGM2ZTlmOTk4ZmNmZmVlNWYxMWI4NTU1MjdkOGJhNjJmZTBmN2IyNyJ9fX0="
+    lore:
+      - ""
+      - "&f &7Żywioł: &#2ECC71&lᴘʀᴇᴄʏᴢᴊᴀ"
+      - ""
+      - " &#2ECC71&lᴘᴀꜱʏᴡɴɪᴇ"
+      - "&8» &7Co &#2ECC7130–70 &7hitów zdejmuje hełm wroga"
+      - "&8» &7Hełm trafia do EQ (na ziemię tylko bez miejsca)"
+      - ""
+      - " &#B857FF&lɢᴏᴅᴢɪɴᴀ ʙᴏɢᴀ"
+      - "&8» &7Fajerwerki mają &#2ECC71CD 5s"
+      - "&8» &7Ogranicza spam rocketami"
+    effects:
+      drop-helmet-chance: 1.0
+      firework-cooldown-seconds: 5
+
+  skorpion:
+    enabled: true
+    weight: 1
+    slot: 20
+    name: "&#FF6B6B&lꜱ&#F55A5A&lᴋ&#EB4949&lᴏ&#E13838&lʀ&#D72727&lᴘ&#CD1616&lɪ&#C30505&lᴏ&#B90000&lɴ"
+    head-value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVmY2Q3NTYzNGU0ZTc5NTM4MTAwMTY1MWRkOTlmMjJlYWNhZDYwNDY5ODg4OGU0ZjRmZWNkYTQ3ZmU2NTA0ZSJ9fX0="
+    lore:
+      - ""
+      - "&f &7Żywioł: &#E74C3C&lᴛʀᴜᴄɪᴢɴᴀ"
+      - ""
+      - " &#E74C3C&lᴘᴀꜱʏᴡɴɪᴇ"
+      - "&8» &7Poniżej &#E74C3C5❤ &7bijesz &#E74C3C&l+10% &7mocniej"
+      - ""
+      - " &#B857FF&lɢᴏᴅᴢɪɴᴀ ʙᴏɢᴀ"
+      - "&8» &7Masz szansę na &#E74C3CTruciznę I"
+      - "&8» &7Czas trucizny: &#E74C3C4s"
+    effects:
+      low-health-hearts: 5.0
+      low-health-damage-multiplier: 1.20
+      poison-chance: 10.0
+      poison-duration-ticks: 80
+      poison-amplifier: 0
+
+  zyrafa:
+    enabled: true
+    weight: 1
+    slot: 21
+    name: "&#FFE566&lᴢ&#F5D955&lʏ&#EBCD44&lʀ&#E1C133&lᴀ&#D7B522&lꜰ&#CDA911&lᴀ"
+    head-value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FlZTIyNWE5M2RjMzQ0MGFjZDM3ZDU1YTg2NGZhNDhhOTNhM2Q4YTVhY2RiMTRiOGM3ZmZkNjJhMjc0MGYxZiJ9fX0="
+    lore:
+      - ""
+      - "&f &7Żywioł: &#F4D03F&lᴘɪᴏʀᴜɴ"
+      - ""
+      - " &#F4D03F&lᴘᴀꜱʏᴡɴɪᴇ"
+      - "&8» &7Masz szansę na uderzenie piorunem"
+      - "&8» &7Piorun zadaje &#F4D03F2.5 serca &7obrażeń"
+      - ""
+      - " &#B857FF&lɢᴏᴅᴢɪɴᴀ ʙᴏɢᴀ"
+      - "&8» &7Masz szansę na &#F4D03FLewitację I"
+      - "&8» &7Czas lewacji: &#F4D03F2s"
+    effects:
+      lightning-chance: 10.0
+      lightning-real: false
+      lightning-hearts: 2.5
+      levitation-chance: 10.0
+      levitation-duration-ticks: 40
+      levitation-amplifier: 0
+
+  pan:
+    enabled: true
+    weight: 1
+    slot: 22
+    name: "&#C39BFF&lᴘ&#B589F5&lᴀ&#A777EB&lɴ"
+    head-value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzIzNTM2ZGYyOGIxYjIzZTNlMzE3MjI2OTIyMGU2YzNlYWZjNzJjZTA3MjFkYjlkNzFkMDQ0NWY1NzhjOGRjNiJ9fX0="
+    lore:
+      - ""
+      - "&f &7Żywioł: &#9B59B6&lᴄɪᴇɴ"
+      - ""
+      - " &#9B59B6&lᴘᴀꜱʏᴡɴɪᴇ"
+      - "&8» &7Masz szansę na zablokowanie ciosu"
+      - "&8» &7Zablokowany hit nie zadaje obrażeń"
+      - ""
+      - " &#B857FF&lɢᴏᴅᴢɪɴᴀ ʙᴏɢᴀ"
+      - "&8» &7Masz szansę na &#9B59B6Osłabienie I"
+      - "&8» &7Czas efektu: &#9B59B64s"
+    effects:
+      block-hit-chance: 10.0
+      weaken-chance: 10.0
+      weaken-duration-ticks: 80
+      weaken-amplifier: 0
+
+  goryl:
+    enabled: true
+    weight: 1
+    slot: 23
+    name: "&f&lɢ&#E8E8E8&lᴏ&#D0D0D0&lʀ&#B8B8B8&lʏ&#A0A0A0&lʟ"
+    head-value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjdlMGE5YWI0ZmIzOGRiMTViYjk1OGE2YjJjZjg1Mjg5M2Y2MmQwMzk1ZjU1YTA4NGQ4ZTI4YzhkNWI0OGU3ZSJ9fX0="
+    lore:
+      - ""
+      - "&f &7Żywioł: &f&lꜱɪʟᴀ"
+      - ""
+      - " &f&lᴘᴀꜱʏᴡɴɪᴇ"
+      - "&8» &7Zadajesz &f&l+2% &7obrażeń"
+      - ""
+      - " &#B857FF&lɢᴏᴅᴢɪɴᴀ ʙᴏɢᴀ"
+      - "&8» &7Stały efekt &fSiła I"
+    effects:
+      damage-multiplier: 1.04
+      strength-amplifier: 0
+
+  krowa:
+    enabled: true
+    weight: 1
+    slot: 24
+    name: "&#FFB366&lᴋ&#F5A555&lʀ&#EB9744&lᴏ&#E18933&lᴡ&#D77B22&lᴀ"
+    head-value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGQ0ZWY3OTM4ZGZkYzg3Yzk4OWNhNWQ5MjMxZTIzZDFlMzY4ZDIxZjgxMDBmODI3MzE2ZDcwZTU0MWY0ZDMxNSJ9fX0="
+    lore:
+      - ""
+      - "&f &7Żywioł: &#E67E22&lʟᴇᴄᴢᴇɴɪᴇ"
+      - ""
+      - " &#E67E22&lᴘᴀꜱʏᴡɴɪᴇ"
+      - "&8» &7Masz szansę na heal przy ataku"
+      - "&8» &7Leczenie: &#E67E22❤1 &8(2 HP)"
+      - ""
+      - " &#B857FF&lɢᴏᴅᴢɪɴᴀ ʙᴏɢᴀ"
+      - "&8» &7Gdy Cię uderzą: &#E67E22Regeneracja I"
+      - "&8» &7Czas regeneracji: &#E67E224s"
+    effects:
+      heal-on-hit-chance: 10.0
+      heal-amount: 2.0
+      regen-when-hit-ticks: 80
+      regen-when-hit-amplifier: 0

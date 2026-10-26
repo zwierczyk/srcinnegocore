@@ -1,0 +1,293 @@
+gui-title: '&#2BAEFF&lPRZEDMIOTY'
+# Globalna blokada: nazwa swiata (np. pvp) albo region WorldGuard.
+# Per-item: items.<id>.blocked-regions (albo PPM w GUI). Pusta lista = tylko globalna.
+# Przyklad:
+#   bomba:
+#     blocked-regions:
+#       - pvp
+blocked-regions:
+  - spawn
+blocked-region-message: '&#3B4F63&l✘&r &#FF2555Nie mozesz uzywac tych przedmiotow na spawnie!'
+
+# Fallback gdy item nie ma wlasnego cooldown-seconds
+cooldown-reusable-seconds: 70
+cooldown-consumable-seconds: 3
+cooldown-message: '&#3B4F63&l✘&r &#FF2555Musisz odczekać jeszcze %seconds%s!'
+
+ice-stick-seconds: 4
+ice-stick-amplifier: 0
+ice-stick-range: 3.0
+ice-stick-apply-to-victim: true
+ice-stick-apply-to-attacker: false
+sand-castle-seconds: 10
+sand-castle-schematic: zamek
+sand-castle-radius: 12.0
+sand-castle-teleport-radius: 3.0
+sand-castle-min-distance: 5.0
+sand-castle-block-pearls: true
+sand-castle-pearl-message: '&#3B4F63&l✘&r &#FF2555Nie mozesz cykac perel w zamku!'
+sand-castle-bossbar:
+  enabled: true
+  title: "&6Koniec zamku za: &e%czas%s"
+  color: YELLOW
+  style: SOLID
+bomb-radius: 3
+death-field-radius: 3
+death-field-seconds: 6
+death-field-damage: 4.0
+death-field-tick-interval: 10
+death-field-ignore-armor: true
+
+items:
+  bomba:
+    enabled: true
+    blocked-regions: []
+    cooldown-seconds: 3
+    material: FIRE_CHARGE
+    custom-model-data: 1
+    name: '&x&D&E&0&4&0&4&lʙ&x&E&8&1&9&1&9&lᴏ&x&F&2&2&E&2&E&lᴍ&x&E&8&1&9&1&9&lʙ&x&D&E&0&4&0&4&lᴀ'
+    lore:
+      - ""
+      - "&8× &7Po &crzuceniu &7wysadza &fbloki"
+      - "&8× &7w miejscu &etrafienia&7!"
+      - ""
+      - "&8× &7Przedmiot jest &fjednorazowy&7!"
+    serialized: bytes:H4sIAAAAAAAA/8VUzUpbURCeRlLiFUqxdOVGjtssNCa23o0gpgtXxYWbEsL59R7uuXfK+SEmEsgLiBsXFnyMPEXfQp/Ek4VJaoLgD3RzFjPfzPfNnJlJAFZg7Yh6eiqt01gCfO7UoKIFfC10KbmlyqdKW9nlGbVncgWqHEPpAeBDAgnH4jeWsvRuFT7NAgxaWYuQCowviDz3lpL01wXhGB0kJVu7rKn2dkmd+OiMhvvbm00yrM8QvUx7OfOfDIL/F7CYYnT9BKFUo9VqzRC9vqNiQDeZwVyTYadOtKdGc5Iqapyc4sgQ8HWqtxjj38Qc4liKEi0dYK//LGFtvts8OI9Ft6SFrOTzQhgaQVJvQwydUh61t5vbTbKQG5kKjlMvxdTkvNW59JnFcJY9FfH3T8wRSiGtiUoegybVLaVtf9/Z39l/O+3d+OpFvD8ajXaj/R68l/+l3he2+b1+9248WsrbmRvCBDYWhrBAIU1XxPuwCh+VQepddbL6B6P4JkumdgJNYP1nYFHuYchz7U+pCdLV4EuGxvR5PA1p4Yzqxg0voMqwYDQmgwfdpIAYiwQAAA==
+  dynamit:
+    enabled: true
+    blocked-regions: []
+    cooldown-seconds: 3
+    material: LIGHT_GRAY_DYE
+    custom-model-data: 1
+    name: '&x&D&E&0&4&0&4&lᴅ&x&E&8&1&A&1&A&lʏ&x&F&1&3&0&3&0&lɴ&x&F&B&4&6&4&6&lᴀ&x&F&1&3&6&3&6&lᴍ&x&E&7&2&7&2&7&lɪ&x&D&D&1&7&1&7&lᴛ'
+    lore:
+      - ""
+      - "&8× &7Kliknij &cprawym &7na &fbedrock&7,"
+      - "&8× &7aby go &czniszczyć&7. Nie rusza"
+      - "&8× &7ostatniej kratki nad &evoidem&7!"
+      - ""
+      - "&8× &7Przedmiot jest &fjednorazowy&7!"
+    serialized: bytes:H4sIAAAAAAAA/62UQYsTMRTHn5bV7ggiiiDsZUivPXScodW5LLt0PQhKT3tQSskkmU6cTCJJxnW6FPayBw/qVdBP4LlfQr/F+klMD7bVLQvjDoEc8v7v/f5JeM8DaMGdIbb4mGnDlQS4N27DTU7hUcElIxqnNhZ8mtnJVONqQivWgh2iSmkB4IYHHlHFWyWZtGYX7m7kKM3asCz/6RSx91ZjFL8+RUS5AIpRJ0yitB+iLrIu6A5+ffvio3l3rTjJuGXr+Gj0wpf4b0mHUEbSp2tRwqhWJEfzcRdxiwUnKE6xMGylQHP48H9+OklCBnRD8ZIzX3IzI7PKV8ZiKzl74+ca25w7q9R/pzi92opqyMpzRqXSeKZOqiuBbXi4/iFSGquKicQFa73aNJIoQVFsdelSV8jhUS/qRehSbZWkpSHYMro6MlbznNlMq3Ka/WviYnHuipSSMi2clT9Zy+tt5R49CQ6Cg+tzf36uhX0WhL2wd33sj0U97GHUj/pNvPJZ3ev2w0a4H+v97uCxWw088/da2OEwGAQNYC8WX7dyxxs958HepZ4rFGViQt3Y3YVbqVDYmp3lON0/c7u3pUmXUg/uj8rE2T0s85zbYyxKZtrwIFNCVMSN27gwIp24qVnAbVq5vubLGQ2/AS/bteTkBQAA
+  koniczynka:
+    enabled: true
+    blocked-regions: []
+    cooldown-seconds: 70
+    material: AMETHYST_SHARD
+    custom-model-data: 1
+    name: '&x&3&D&D&C&4&A&lᴋ&x&4&8&E&0&5&6&lᴏ&x&5&3&E&4&6&2&lɴ&x&5&E&E&8&6&E&lɪ&x&6&9&E&C&7&A&lᴄ&x&7&4&F&0&8&6&lᴢ&x&7&F&F&4&9&2&lʏ&x&8&A&F&8&9&E&lɴ&x&9&5&F&C&A&A&lᴋ&x&A&0&F&F&B&6&lᴀ'
+    lore:
+      - ""
+      - "&8× &7Kliknij &cprawym&7, aby otworzyć"
+      - "&8× &7losowanie &fprocentu obrażeń"
+      - "&8× &7w GUI &eszczęściarza&7!"
+      - ""
+  enderchest:
+    enabled: true
+    blocked-regions: []
+    cooldown-seconds: 3
+    material: SOUL_LANTERN
+    custom-model-data: 1
+    name: '&x&2&B&A&E&F&F&lᴇ&x&3&4&B&4&F&F&lɴ&x&3&D&B&A&F&F&lᴅ&x&4&6&C&0&F&F&lᴇ&x&4&F&C&6&F&F&lʀ&x&5&8&C&C&F&F&lᴄ&x&6&1&D&2&F&F&lʜ&x&6&A&D&8&F&F&lᴇ&x&7&3&D&E&F&F&lꜱ&x&7&C&E&4&F&F&lᴛ'
+    lore:
+      - ""
+      - "&8× &7Kliknij &cprawym&7, aby dodać"
+      - "&8× &f+1 rząd &7do swojego &eenderchesta&7!"
+      - ""
+      - "&8× &7Przedmiot jest &fjednorazowy&7!"
+  miecz_piekielny:
+    enabled: true
+    blocked-regions: []
+    cooldown-seconds: 70
+    material: NETHERITE_SWORD
+    custom-model-data: 1
+    name: '&x&D&E&0&4&0&4&lᴍ&x&E&4&1&0&0&8&lɪ&x&E&A&1&C&0&C&lᴇ&x&F&0&2&8&1&0&lᴄ&x&F&6&3&4&1&4&lᴢ &x&F&8&4&8&1&8&lᴘ&x&F&A&5&4&1&C&lɪ&x&F&C&6&0&2&0&lᴇ&x&F&D&6&8&2&4&lᴋ&x&F&E&7&0&2&8&lɪ&x&F&E&7&8&2&C&lᴇ&x&F&F&8&0&3&0&lʟ&x&F&F&8&8&3&4&lɴ&x&F&F&9&0&3&8&lʏ'
+    lore:
+      - ""
+      - "&8× &7Po &cuderzeniu &7podpalasz gracza"
+      - "&8× &7&cpiekielnym ogniem&7, który"
+      - "&8× &7ignoruje &fodporność na ogień&7!"
+      - ""
+  essence_2_critical_damage:
+    enabled: true
+    blocked-regions: []
+    material: PAPER
+    custom-model-data: 1
+    name: '&x&F&9&B&E&2&E&lᴇ&x&F&A&C&3&3&C&lѕ&x&F&B&C&7&4&9&lᴇ&x&F&C&C&C&5&7&lɴ&x&F&C&D&0&6&4&lᴄ&x&F&D&D&5&7&2&lᴊ&x&F&E&D&9&7&F&lᴀ &x&F&E&D&9&7&D&lᴋ&x&F&D&D&3&6&D&lʀ&x&F&C&C&E&5&E&lʏ&x&F&B&C&9&4&E&lᴛ&x&F&A&C&3&3&E&lᴏ&x&F&9&B&E&2&E&lᴡ'
+    lore:
+      - ""
+      - "&8× &7Po &cużyciu &7zyskujesz stały"
+      - "&8× &7efekt &fobrażeń krytycznych&7!"
+      - ""
+      - "&8× &7Do nałożenia na &fmiecz&7!"
+    serialized: bytes:H4sIAAAAAAAA/8WWv2/TUBDHr61apUYCBGJALJYZkFAGlJ/ECyJ2Onfqgqro5fncPPzsF70fKkkVKUJISDAwMTHxN9CxG8pAN/4ABv4TXiRIoE2JrFiwWJZ97z73PZ/vzgHYgmsh0eQApWIiA7h5WIJNFsGNlGVIJYm1PyADlFuwTYXJNABsOOBQkQ5EhplWu3B9YcqFxJI12dx4cOLhCy2J5z878XqCR54fE66w7FFhrTzfO+4zjV7ZY5pwRuevRS82ihKNixNKS5ag7kthjvrzp9r6t272hWumZ0PKjDsaqsQ8RzVylSbTl0PXejdZhJLbAH+5G5eviOf+Xutxu9ZYPyKMMdFuIof686fjCyFoaXB8ODf1xvDtXyUqFG5msyKmZ5gxYu+vTM8K8E9/KUM6WiWvBHcW1UGN0iLtZiTFnYeXZc8O//E52p1KZ33d309f/70OLnKfBtVqsD736/t82HbQrLX+g9wgCOrN9blfTnNiw0eNWhFyX+XjhmG9WSmC+yYftxO2mntFcCcr2toycFgE+G3eRFcbBXDPJ3nLuVMvoGucv8v797ZqhTSrD/mbVSHcnHoLa84fl3J/nyEO3Ls0Q1IRIe9GdnPZhZ2YC6LV9mw1eTKxV2fJ0JmZOnBr3/RsuG2TJEwfEG5QleB2X3A+pHZ18VPF464deincRaUwo9itdKlkmlEyw6XkCC0AfgBCffVaOQkAAA==
+  essence_2_enchanted:
+    enabled: true
+    blocked-regions: []
+    material: PAPER
+    custom-model-data: 2
+    name: '&x&C&4&4&E&F&F&lᴇ&x&C&8&5&6&F&F&lѕ&x&C&C&5&E&F&F&lᴇ&x&D&0&6&6&F&F&lɴ&x&D&4&6&E&F&F&lᴄ&x&D&8&7&6&F&F&lᴊ&x&D&C&7&E&F&F&lᴀ &x&E&0&8&6&F&F&lᴢ&x&D&C&7&E&F&F&lᴀ&x&D&8&7&6&F&F&lᴋ&x&D&4&6&E&F&F&lʟ&x&D&0&6&6&F&F&lᴇ&x&C&C&5&E&F&F&lᴄ&x&C&8&5&6&F&F&lᴇ&x&C&4&4&E&F&F&lɴ'
+    lore:
+      - ""
+      - "&8× &7Po &cużyciu &7zyskujesz stały"
+      - "&8× &7efekt &dzaklęć&7!"
+      - ""
+      - "&8× &7Do nałożenia na &fzbroję&7!"
+  essence_2_regeneration:
+    enabled: true
+    blocked-regions: []
+    material: PAPER
+    custom-model-data: 3
+    name: '&x&F&9&2&E&5&3&lᴇ&x&F&9&3&1&5&5&lѕ&x&F&8&3&4&5&7&lᴇ&x&F&8&3&6&5&A&lɴ&x&F&8&3&9&5&C&lᴄ&x&F&7&3&C&5&E&lᴊ&x&F&7&3&F&6&0&lᴀ &x&F&6&4&4&6&5&lʀ&x&F&6&4&7&6&7&lᴇ&x&F&6&4&1&6&2&lɢ&x&F&6&3&B&5&D&lᴇ&x&F&6&3&5&5&9&lɴ&x&F&6&2&F&5&4&lᴇ&x&F&7&2&A&4&F&lʀ&x&F&7&2&4&4&A&lᴀ&x&F&7&1&E&4&6&lᴄ&x&F&7&1&8&4&1&lᴊ&x&F&7&1&2&3&C&lɪ'
+    lore:
+      - ""
+      - "&8× &7Po &cużyciu &7zyskujesz stały"
+      - "&8× &7efekt &dregeneracji&7!"
+      - ""
+      - "&8× &7Do nałożenia na &fklatę&7!"
+    serialized: bytes:H4sIAAAAAAAA/8WWu24TQRSGJ4mCnEUCBIKGZrWUuGCvvlSJY7tOlQZF1nh8Np7s7I41F4ETWUQICYmeF6CkTpnWReh4AArehHFEbIhz0coru1mtds6c7/yzZ8/+FkIb6GETK7wPQlKeIfTkoITWaQ89TmkGROBY1Qd4AGIDbRKuM4UQWrOQRXg64BlkSm6hR7NQxgWUTMj62usTB94rgZ362xOny1nPqceYSSg7hJsop+6861MFTtmhCjNKpsu8G2tJsILZDqkETUD1BdeH/elTZfKbNHvc1uPzIaHaPh7KRB+BPLalwuOPQ9tk11kPBDMFXqUblW+p51W7Vm0E0eIVQQyJsgUcQgYCkyN6rQwlNIwOpuHOCP1a1mE1uZ2Zk+Hjc8goNve3HtE94L/5EoYvV++UV0LPZx1CtFQ87WQ4hdKHedmTzf+9Eq8V+ovr/n32+e5emOP6bhguzv35NR+26gdhZQVyq34U7izOvTjLi62Fu0XI/ZSPW/F3w1YR3C95ue3oTRHc03tG23VwFERRAe384zQvthKtop2jwI28Atr5W06s3wibq5Drh2Ft+V9v5LXDYAVyK95O0F5+M1e8IChgRpqPNyfXbRXhSvIPSbcauKsYkq7nF/BTuPh+I/ZfY2Khl3PGJOU9YJ2escRb6EHMOFZyc+J5t7fN1brByUxCLfR0T3dNtQ2dJFTtY6ZBltCzPmdsSIwnrqeSxR3jpFL0AqSEjEDH61xZRHXpvBH6A0sWQaWPCwAA
+  essence_2_resistance:
+    enabled: true
+    blocked-regions: []
+    material: PAPER
+    custom-model-data: 4
+    name: '&x&F&9&8&B&4&6&lᴇ&x&F&9&8&D&4&A&lѕ&x&F&8&8&F&4&D&lᴇ&x&F&8&9&1&5&1&lɴ&x&F&7&9&3&5&5&lᴄ&x&F&7&9&5&5&9&lᴊ&x&F&6&9&8&5&C&lᴀ &x&F&5&9&C&6&4&lᴏ&x&F&5&9&E&6&8&lɢ&x&F&4&A&0&6&B&lɴ&x&F&4&A&2&6&F&lɪ&x&F&4&A&0&6&B&lᴏ&x&F&5&9&E&6&8&lᴏ&x&F&5&9&C&6&4&lᴅ&x&F&6&9&A&6&0&lᴘ&x&F&6&9&8&5&C&lᴏ&x&F&7&9&5&5&9&lʀ&x&F&7&9&3&5&5&lɴ&x&F&8&9&1&5&1&lᴏ&x&F&8&8&F&4&D&lѕ&x&F&9&8&D&4&A&lᴄ&x&F&9&8&B&4&6&lɪ'
+    lore:
+      - ""
+      - "&8× &7Po &cużyciu &7zyskujesz stały"
+      - "&8× &7efekt &6ognioodporności&7!"
+      - ""
+      - "&8× &7Do nałożenia na &fspodnie&7!"
+    serialized: bytes:H4sIAAAAAAAA/8WXv28TMRTHnVZF6SEBAjqxnI41Q1rujrtMJA2dO3VBUeT43jUmd3bkH4K0ihQhEBILExISGyNzx64ZYONP4D/BGUhQQ6lMTLOc7sfz+zx/z/Z7z0NoE91sY4WPQEjKGUJ3OlW0QTN0u6QMiMC5agzxEMQm2iJcM4UQqnjII7wccgZMyW10a2FacAFVY7JRqZ8G8FIJHDSenQY9XmRBI8eFhFpAuLEKGsGLPlUQ1AKqcEHJ/DPv5VoSrGAxQipBB6D6guvj/vytMv6Nm0Pu6+n5iFDtn4zkQD8HeeJLhaevRr7xrlkGojAB/nI3rl0Sz8ODNGmF8eoRQQ4D5fNjRjnPhlwwPv1E6IVYlNAw7szHBOPKznUp1uY+M/Lw6Tkwis29nU6OopBDnjEKV8lSRTuL5UW0VLzsMlyC11mWazb4P/zPH2dv/y7QMrcdNlfnfv9gh02Sg7C9hukm6W60uzr365kd9nH6KIpcTPe1LTeKUhfcd3bcOE2ifRfcyRX7/SI4Svfj0AX4vS33aZw4WFef7bBhsx63rn85h829+MAB9staZruun/sPXEeL+Y3t7m3GdRfcj2s6NSx1dnRKfpusJSnYbl5HKdBaZUcp37bScFTgWKdeRwXdJWfk72Wnhx4slZ0lz6DoZqZb2kY38oJjJbdm7dCTibl6f6hTZ6Yeunuoeybalh4MqDrChQZZRff6vChGxLRLjVIWedeU1CW6D1ICI9Dd6wqQ1DQx5sH4Rj8BT9lVd6gNAAA=
+  essence_2_speed:
+    enabled: true
+    blocked-regions: []
+    material: PAPER
+    custom-model-data: 5
+    name: '&x&2&E&F&9&E&4&lᴇ&x&3&5&F&9&E&5&lѕ&x&3&D&F&A&E&6&lᴇ&x&4&4&F&A&E&7&lɴ&x&4&B&F&A&E&8&lᴄ&x&5&2&F&A&E&9&lᴊ&x&5&A&F&B&E&A&lᴀ &x&6&8&F&B&E&C&lѕ&x&6&1&F&B&E&B&lᴢ&x&5&A&F&B&E&A&lʏ&x&5&2&F&A&E&9&lʙ&x&4&B&F&A&E&8&lᴋ&x&4&4&F&A&E&7&lᴏ&x&3&D&F&A&E&6&lѕ&x&3&5&F&9&E&5&lᴄ&x&2&E&F&9&E&4&lɪ'
+    lore:
+      - ""
+      - "&8× &7Po &cużyciu &7zyskujesz stały"
+      - "&8× &7efekt &bszybkości&7!"
+      - ""
+      - "&8× &7Do nałożenia na &fmiecz&7!"
+    serialized: bytes:H4sIAAAAAAAA/8WWMW/TUBDHr60KqZEoAjGxWGZDWQhJSDwRk2Tu1AVV1svzmTz87Bf5vafiVJEQQkKCoRMDYkGMzBm7Zmg3PgBDvwkvEiRV2hJZsZrFsux7/9/d+Xx3FsAW3GkTRfYxlUwkAPcOSrDJAtiNWYI0JaFyB2SA6RZsU6ETBQAbFlhUxAORYKLkDtydm3KRYsmYbG48OXLwrUqJ4746cnqCB44bEi6x7FBhrBzXOewzhU7ZYYpwRmevRS/UkhKF8xNSpSxC1U+Fft2fPVVG38jsCVtPTjLKtD3MZKTfoBzaUpHJ+8w26joJMOXGwX9yo/I1/jzuNhtetb66RxhipGw5zHqRmHyjbMELlWocHcysnRH8vqlctYWdmMSIyQkmjJj7azO0BPxXL2ZIh8vCK8HDeYFQLZWI/YTEePv4ctjTwxe+SKXTbXaqq8d9Pv74/1JY4D6rGW5tde6vL/mw7W6rU0AB5g23WjXc56tzT8f5sJ7BNooI90Mubq1iuM0iuJ/ycVtdr9MqgvtuSWdbANcbBvzyxsu5/tRgvSLi/bGWPJ8dr6Wszr6u6S/6vJamcT7Ol+aimmTe3lzQSMjbrIoagac/r8ReHNQWPLo0qGMRIPcDsyHuwK2QC6Lk9nQFfPHdXK0rJvvU1IL7e7pnvPV0FDG1T7hGWYIHfcF5Rs2K6MaSh77ZLGLYRSkxoehXfDlADIws/AFGIyC3lwoAAA==
+  essence_2_strength:
+    enabled: true
+    blocked-regions: []
+    material: PAPER
+    custom-model-data: 6
+    name: '&x&F&4&2&7&1&0&lᴇ&x&F&5&2&C&1&6&lѕ&x&F&7&3&2&1&B&lᴇ&x&F&8&3&7&2&1&lɴ&x&F&B&4&2&2&C&lᴄ&x&F&C&4&7&3&2&lᴊ&x&F&A&4&1&2&B&lᴀ &x&F&9&3&A&2&4&lꜱ&x&F&7&3&4&1&E&lɪ&x&F&6&2&D&1&7&lʟ&x&F&4&2&7&1&0&lʏ'
+    lore:
+      - ""
+      - "&8× &7Po &cużyciu &7zyskujesz stały"
+      - "&8× &7efekt &csiły&7!"
+      - ""
+      - "&8× &7Do nałożenia na &fmiecz&7!"
+  essence_2_trident:
+    enabled: true
+    blocked-regions: []
+    material: PAPER
+    custom-model-data: 7
+    name: '&x&4&E&F&9&2&E&lᴇ&x&5&3&F&9&3&5&lѕ&x&5&9&F&8&3&B&lᴇ&x&5&E&F&8&4&2&lɴ&x&6&4&F&8&4&8&lᴄ&x&6&9&F&7&4&F&lᴊ&x&6&E&F&7&5&5&lᴀ &x&7&9&F&6&6&2&lᴛ&x&7&3&F&6&5&B&lʀ&x&6&D&F&7&5&3&lᴏ&x&6&7&F&7&4&C&lᴊ&x&6&0&F&8&4&4&lᴢ&x&5&A&F&8&3&D&lᴀ&x&5&4&F&9&3&5&lʙ&x&4&E&F&9&2&E&lᴜ'
+    lore:
+      - ""
+      - "&8× &7Po &cużyciu &7trident działa"
+      - "&8× &7nawet w &6lawie&7!"
+      - ""
+      - "&8× &7Do nałożenia na &ftrident&7!"
+    serialized: bytes:H4sIAAAAAAAA/8WWv2/TQBTHX1sVUiPxUyywWGbNgGLHiT1BSDx36oIq62KfySlnX+S7U1qqSBVCQmJhYkAw8Tdk7JqBbvwFkP+EFykkVdoSWbHoYlm+d+/z3ruv3zsDYAfutIkiBzSXTGQA9w8rsM1iuJeyjEY5SZQ/IAOa78BuJHSmAGDLACMS6UBkNFNyD+4uTbnIaQVNtrfME4seqZxY/usTqyt4bPkJ4ZJWrUigleVbwx5T1KpaTBHOosWy6CZaRkTR5Q6pctanqpcL/aa3+KrQP7rZF6aenB1HTJtoFmNIZvyWkck7YqJzncU05xjfX2+j6jXhPAu8ZstxNw9oaHIyZHQFrnJNR4cLI2sEv/5XhdrCzLAeYnJGM0bw/drCrAHP/c3LvC7BCjxeCiPSUok0zEhKbz+5nPhs84WjcDqBV+tsnvl0/OHfGljh1u3As+ubc39+Lob1gqbduoF0O0HTqW3O/TEuhHUdxDbLSPd9Ma4XNJygDO7HYtxO0KiXoKrp+HRNS1sBN7zAdUs43+n4azGuHbj1EvR8flqszm2ss11Gup+KcRuoq1c3oKvn+B85ZXC/F2sbL7FdtUvRczGuU053Pv9SCFveMPp2JffizDTg6aWZmYqY8jDGS9oe3Eq4IEruzm5hL37j07hiyM5MDXi4r7sYbkv3+0wdEK6prMCjnuD8OMJbmp9KnoQ45lN4QKWkWUTDWjgf7egY/gAAe6gBHAoAAA==
+  kokos:
+    enabled: true
+    blocked-regions: []
+    cooldown-seconds: 3
+    material: ENCHANTED_GOLDEN_APPLE
+    custom-model-data: 1
+    name: '&x&E&8&D&3&E&8&lᴋ&x&F&2&D&F&F&2&lᴏ&x&F&C&E&A&F&C&lᴋ&x&F&2&D&F&F&2&lᴏ&x&E&8&D&3&E&8&lѕ'
+    lore:
+      - ""
+      - "&8× &7Zjedz, aby zyskać &dRegen II &7(10s),"
+      - "&8× &eAbsorption III &7(60s), &bSpeed II &7(5s),"
+      - "&8× &fResistance I &7i &6Fire Res I &7(150s)!"
+      - ""
+      - "&8× &7Przedmiot jest &fjednorazowy&7!"
+    serialized: bytes:H4sIAAAAAAAA/+WVz4vTQBTHn7t06UYQUTx5CeO1h/QH+yMXWbcNrCdR6EVKmMy8tCGTmTIzYV2XgndBERE8+Gf4j/gn6F/i9GATu8VgqScvOcx83/t+5r03GQ9gH24PqaVj1CZTEuDupA17GQe/yCQyTVMbomQzKi3yeKoERxnT+VzgPrSYKqUFgFseeEwVcyVRWnMId6pYoTS2neQA3l0TfGU1JeHLa8KU2yAhedRPBulRn3SIdZtu4ceXzz5ZdGqKwTE7GmCleI5TlP7FxZosSdgxryXqBYYsJh2SWSoyRsKUCoOrXbKAj1vypCkPAl4pzhKj9Ny64vnjBqZuI9S2RQoG9DQ9rRQv5oi8uUjdJp4P2/FczjL7W8tMZiyVDP0mon7wj5Bc39igW+tblGn0HdkOkNSWSOtOT5FLpelrdXn1R8M2PKhuGCuNVUUsaYF7og6SuMtKQqtLF7qyHJ0M+6MTciO3StLSMOou+WrJWJ3laGdaldPZOsT3r29dklJy1MKh/IpaHm+jb9QbRlFvF77v/873fHQWnf8/591Vf7992mg7qU2hBw9vTGGhOIqYuwflEA5Soag1reUD8fiN+3obxnYp9eDeszJxtE/KPM/smIoSTRvuz5QQV8w9IGFhRBq7X0oBrVzlyrhk8BOBC+/hvAYAAA==
+  zamek:
+    enabled: true
+    blocked-regions: []
+    cooldown-seconds: 70
+    material: HONEYCOMB
+    custom-model-data: 1
+    name: '&x&F&9&D&7&2&E&lᴘ&x&F&9&D&8&3&7&lɪ&x&F&9&D&A&4&0&lᴀ&x&F&9&D&B&4&9&lѕ&x&F&9&D&D&5&1&lᴋ&x&F&9&D&E&5&A&lᴏ&x&F&9&E&0&6&3&lᴡ&x&F&9&E&1&6&C&lʏ &x&F&9&D&E&5&7&lᴢ&x&F&9&D&C&4&D&lᴀ&x&F&9&D&A&4&3&lᴍ&x&F&9&D&9&3&8&lᴇ&x&F&9&D&7&2&E&lᴋ'
+    lore:
+      - ""
+      - "&8× &7Po &ckliknięciu &7prawym wysuwa się"
+      - "&8× &7wielki &ezamek z piasku&7, w którym"
+      - "&8× &7zamykasz graczy wokół siebie na &f10s&7!"
+      - ""
+    serialized: bytes:H4sIAAAAAAAA/+WWMW8TMRTHHaJU6SGhioqJoSdnJENKrk1zC0pyycDEVCRQFfnufD1zvjPy2QqXqlK3DqjqhNSBBUbmfAnY+Ajhk+AOJKAEInMekFhu8P3t3/Pffn7PAqAK7npIoGPMc8IyAHZO6uAOCcFuSjIccBQJN2YZLgKW+lVQC5jMBACgYgFLDb1WvzKRb4N7SzllHNeVpFq5OoP4jeAIui/PoM9oCN0I0Rw3YcCUCrqw0e47o8M2bEIiECXBQsD8SOYBEng5JxecJFjEnMnTeDEqFEEt9O39ja1WkVmIOVWh/Jh23vwNeRITgctznycUv0K2L8Miw4leCI3RyGu1vPJBTFGayLXok4UGnlf2/uHjaPT7g45ngPwCpUWC7FOOgmlhT1jCqD0g2Cd4s0E7/4NBT3GYMY6mbFJsdKQOHizzOpC5YOk4QyneerTqlODyl7vd9TqPh+XDnc9u/uzTKveo3SnP/fxJF9tzWia2e6HL7Tvd8tyv73Sx3sG+ie2+1eUOD3omuNea3GHLRNrPZx90ufuHg/LcL9cbXpt1PhvIovnsoy534BioiH+RRj3HyPle6XK77SMT3EtdrqHXeX3+/lxELPBwpYikLMR0HKrGcxtsRZQhkdduu8onF+prrak6t1IL3H8mfRVuXyYJEceISpzXwW7MKFX9KcdumtNorPq6FNRUT4QTtRj4Dqbd51jkCgAA
+  knock:
+    enabled: true
+    blocked-regions: []
+    material: GHAST_TEAR
+    custom-model-data: 1
+    name: '&x&F&2&E&F&D&D&lᴋ&x&E&B&F&0&D&D&lɪ&x&E&4&F&1&D&D&lᴊ &x&D&7&F&3&D&E&lᴢ &x&C&9&F&5&D&E&lᴋ&x&C&2&F&6&D&E&lʀ&x&A&D&F&6&D&B&lʏ&x&9&8&F&7&D&9&lѕ&x&8&3&F&7&D&6&lᴢ&x&6&D&F&8&D&4&lᴛ&x&5&8&F&8&D&1&lᴀ&x&4&3&F&9&C&F&lʟ&x&2&E&F&9&C&C&lᴜ'
+    lore:
+      - ""
+      - "&8× &7Posiada efekt &fKnockback IV&7,"
+      - "&8× &7aby &codbijać &7graczy!"
+      - ""
+    serialized: bytes:H4sIAAAAAAAA/62WMW/TQBTHXwiJUiMBosDCEh0bykCbNE2yIBLHEqoEnbKgyjqfz/Hh813lO1NCFakbEgxMTCAhMTJ3ZIQBNj5CvwkXBEnVUCort9rvvd/7v3vS/zkAZbjiYo1HNFNMCoDrezW4xEK4mTJBSYYj3RvHWGlfU5yVoUJkLjQAlBxwiEz3paBCqzW4uojnMqO1WUhpdIjoC51h1Ht6iALJQ9SLMFe0gYg0UaiHDmKmKWogpjFnZP5bBlGuCNZ0kaF0xhKq40zm43j+VZv6psyuVAyHuE4jmui6qZeLkGbctPS3wLRxTgd3N4dedzBYvYedx08GO/VHo3PxF2j+U+bbFxpM6jIM2DP89VV9nGHycoKme/MANK3BrcW0Sa60TH2BU1q9tzxvneWnxXpGreuuLvbk+M3/p3yGO+x7921wv38uhm15G3bkvr5gq86A3W2v6Q5tgD8VAw+63pYdcLEHHmx6bRvcH0eFsA9dg+1bwL4thO12vG23uzr257tC2E7TYNtWtqoQt+16Hbdlg/u+EHerY7gbNrjFtqrVNJbgWdiqj4Wwtpzo5PjDP7mnPcSB2wsPoYLEWOh0ZuUluKZieeAz4WspuWb74ECV0+eUqzKsL5ISIUkSYJIYq78MJujOkimlMqTcD819sQbViEusVWV2GDw4glnCsovNQh24sZsHRn8/TxKmR5jnVNVgPZacT4i5LXqp4pFvPDSFyu8mTDH4BSupwRTLCAAA
+  pilka:
+    enabled: true
+    blocked-regions: []
+    cooldown-seconds: 3
+    material: SNOWBALL
+    custom-model-data: 1
+    name: '&x&F&9&D&B&4&6&lᴘ&x&E&F&D&F&4&F&lɪ&x&E&5&E&2&5&8&lʟ&x&D&B&E&6&6&2&lᴋ&x&D&1&E&9&6&B&lᴀ &x&B&D&F&0&7&D&lᴘ&x&A&D&F&2&7&4&lʟ&x&9&C&F&3&6&B&lᴀ&x&8&C&F&5&6&2&lᴢ&x&7&C&F&6&5&8&lᴏ&x&6&B&F&8&4&F&lᴡ&x&5&B&F&9&4&6&lᴀ'
+    lore:
+      - ""
+      - "&8× &7Po &ctrafieniu &7gracza zamieniacie"
+      - "&8× &7się &fmiejscami&7!"
+      - ""
+      - "&8× &7Przedmiot jest &fjednorazowy&7!"
+    serialized: bytes:H4sIAAAAAAAA/82Wv28TMRTHX1MFpVeEqiKmLpW7ZoAkd0luQTgXD0wdUBdURc6dj5j47OjsU2irStkZWBg6ICEYWck/Uf6L9C/BHUigDVSnO1UsHqyv3+f5/dJzADZhO6CGHrFUcyUBdo5rUOER7CZcsjClsfG1VNMhFWITqqHKpAGADQecUCUTJZk0egserdRCpaxmJZXKwzPE3pmUIv/1GRoqESE/pkKzOgqVVSEfHTRxi3hNVEfcUMHDpUAN40yH1LDVG21SPmZmlKrszWh5ayzBGrr6dLFvrWQyYqmwrvx6dl7/C3k64oYV576yX+ZMcpaPXt6/Zx9zkglpuK5bnDxRUcKppPsJZ291uNaJ46UanW/s/MfVcIBxrx2UQH7JIqlSeqqmJ3dGpAZPVl0TZtqoZCBpwqrfb0fKpNkfSewGuOUVd3cxv/h3nG5w+yQgLVKce/ktH9btN9xOceyPz7mwAe57XqOMKL/Px33W73q4DO7sjja4AcYBedoO7r+sXgSk0W7de367PdIsKc65uJ0eccupq6+5uO0e8cpoo8X8Qy6uh0mnjKmxmH/JxXUx6ZYzJdfn9/dh7sDerWGeqIiJQWS3qy14EAtFja5e707PZ/Z01kz/a6kDu4fZ0LqLs/GYmyMqMqZr8HikhDgJ7W7lJ1rEA7u9JFCdcDGm1hj8BEX0UTnJCQAA
+  lod_na_patyku:
+    enabled: true
+    blocked-regions: []
+    cooldown-seconds: 70
+    material: STICK
+    custom-model-data: 1
+    name: '&x&D&E&0&4&D&D&lʟ&x&E&1&0&C&E&0&lᴏ&x&E&3&1&5&E&2&lᴅ&x&E&6&1&D&E&5&lᴢ&x&E&8&2&5&E&7&lɪ&x&E&B&2&D&E&A&lᴋ &x&F&0&3&E&E&F&lɴ&x&F&2&4&6&F&1&lᴀ &x&E&C&3&3&E&B&lᴘ&x&E&9&2&A&E&8&lᴀ&x&E&7&2&0&E&6&lᴛ&x&E&4&1&7&E&3&lʏ&x&E&1&0&D&E&0&lᴋ&x&D&E&0&4&D&D&lᴜ'
+    lore:
+      - ""
+      - "&8× &7Po &cuderzeniu &7gracza zamrażasz"
+      - "&8× &7go na &f4 sekundy&7!"
+      - ""
+    serialized: bytes:H4sIAAAAAAAA/62WO28UMRSFb4gSbQbxEISKJjLtFvPYR5gGZXa8NVUKULTyejzZ0XjG0diWEqJIaVKloI1EJCToqLekpSD/IvwSvAW7KAlE1rqZYnR8v3uu5HvsAazCw5QosssaWYga4OleCx4UGTypiprRhuQqlqqg5SqsUaFrBQArHnhUVAeiZrWSG/B4IeWiYa2ZZGXzGLFD1RAUvz9GY8EzFOeES9ZGVBgVitGrKOkMexFqo0IRXtC5QIxzLSlRbHFGqqYomZo0Qu9P5n+VIZhCvy4vtkwVXWes4aaVP8dO2v8iJ8mgnzogvyNVQ358J1v7DaEfyJ1N7M3V6KQFLxazoloqUY1qUrH1r7enpRr9d8sp9jtpunzLV5//P6obWBz4A+wvj72efrTjRkEXhy64Z3bcXpDirgvuFzvudtjF/eW5P7/ZYZMwxTsu7J7fcwVvgId+hPHQgd+pHTbs9IaBC7+ndn7xIIpw4gJ8Ycd9He7gbSeG7bj90Mc9F9xPdtxO0McONvuV5boK/NTNmjy34rpKhevp5b3h5cHLW+FViYzxUWYeEBuwnnNBlFybxf+bU/P17ki7mdSDZ2/12LSb6LIs1C7hmskWPJ8Izo+oeUHEleT5qFCsgkdcZCYiRwdEHZXaFIXfxYMKdbQIAAA=
+  smoczy_totem:
+    enabled: true
+    blocked-regions: []
+    material: TOTEM_OF_UNDYING
+    custom-model-data: 1
+    name: '&x&B&2&4&6&F&9&lѕ&x&B&C&4&F&F&8&lᴍ&x&C&7&5&8&F&6&lᴏ&x&D&1&6&2&F&5&lᴄ&x&D&B&6&B&F&3&lᴢ&x&E&6&7&4&F&2&lʏ &x&E&4&7&2&F&2&lᴛ&x&D&7&6&7&F&4&lᴏ&x&C&B&5&C&F&5&lᴛ&x&B&E&5&1&F&7&lᴇ&x&B&2&4&6&F&9&lᴍ'
+    lore:
+      - ""
+      - "&8× &7Po &czbiciu totemu &7odzyskujesz"
+      - "&8× &7pełne &fHP &7oraz &esaturację&7!"
+      - ""
+      - "&8× &7Przedmiot jest &fjednorazowy&7!"
+    serialized: bytes:H4sIAAAAAAAA/82Wz2vbMBTH1ZSM1PtB2ehluwT1mktTx27NYGAnYuyUUy+jGEWWGy2SNSyJzimFHgo7jV42GHSn/Q35F3bZbX9C9pdMHSzZ+mPF2IxddBDvvc9Xj6cvzwFgFdztY433aK6YzABY32+BBkvAY8EySnKc6kBLTUUs09hkScGyg1XQJNJkGgCw4gCHSPFaZjTTag08WGZxmdOWDWk07h9B+kbnGAYvj+BI8gQGKeaKdiCRNgoGcHM7dJG3DTuQacwZWQTIUWoUwZouc5TO2YTqcS7NwXhxqy3BFvr+6WPbVrFCac6tlF9px50byIdjpml17lC2v5wLRnPCyvHre/nJ+5Jk1488d1CdLJNpoSbmFVXT9vPhtRr2F8HweGX9Px6HzTCM/H4N5Bc0yWSOp/KwuLUjLbCx/DbEKC1FnGFBm0+vdkrn5g+5XddDu9Xlfvvw9zZdxkYuQjvVsfPZu1LcyO/tIK8O7lkpbn/L66JeHdzTctzQC1EN0ziffS7FHXi+i7rVuV/Pbvl+l7mu362DO5+dl+uz7/nI/fdzFYW9qJ65KvfecNDbQn4d3LfluDXZ1U2+8burOuDJFVcVMqE8Tuy+swbupFxirZoXW8yzE3s619jwRagDHg7NyMoNzWTC9B7mhqoWeDSWnBfEbjmBUDyN7R4hwD0lJJkW8c+VydYEPwA2sOBfYgkAAA==
+  pole_smierci:
+    enabled: true
+    blocked-regions: []
+    cooldown-seconds: 70
+    material: FERMENTED_SPIDER_EYE
+    custom-model-data: 1
+    name: '&x&F&4&2&7&1&0&lᴘ&x&F&5&2&C&1&6&lᴏ&x&F&7&3&2&1&B&lʟ&x&F&8&3&7&2&1&lᴇ &x&F&B&4&2&2&C&lѕ&x&F&C&4&7&3&2&lᴍ&x&F&A&4&1&2&B&lɪ&x&F&9&3&A&2&4&lᴇ&x&F&7&3&4&1&E&lʀ&x&F&6&2&D&1&7&lᴄ&x&F&4&2&7&1&0&lɪ'
+    lore:
+      - ""
+      - "&8× &7Po &cużyciu &7tworzy strefę wokół Ciebie,"
+      - "&8× &7która &cblokuje elytrę &7oraz zadaje"
+      - "&8× &7obrażenia przez &f6 sekund&7!"
+      - ""
+    serialized: bytes:H4sIAAAAAAAA/72Wv2/TUBDHL62CUoMQAjFVqqzHmgE7bkO9oCaFuVMXVFkv9pk8/J5f9H6oNVWkClXqhJiQ2NiZO7J2gI0/of8JLwMpSimVFcPi4fnuPt93d76zB7AKd3epofuoNJMlwIODDqywDDYEKzFVNDdxjkpgaTBL9IRlqBKscBXaqbSlAYCWB14qxUSWzkivwf0rTy4VdpzJSmv9mOCRUZTEr47JSPKMxDnlGrsklc6KxORwzAySLmGGcpbOX8tRbnVKHX1+pI1iBZqxkvb1eH5qXHwXZk/69uJrlTLru2C2dHq50/PLe9q9Af/kZRT2g6fLCzjUbyttCib8TMpCXryjCzqMsjg9mNuTaWvjfyVnxGVh36CPvDIK/ZL6slCo62ZqGPV74fJqNn2NhePelp8OPL5qqdRqI0VSUoHt7et5mzn/g6Jenn/6e44WuZvhMNhqgvuhHtcVJhgsz/3+uR72Wa8fBk1c9+yWXlwED6IwHC4P/vGxHrahL+Dy/H097k4UhA2U99uXetjt3k4YNVLeut0cBS8a6OaTetitcDfoN3Hd03rchobVDdX9faR6sH5tpAqZIU8y9zOwBndyLqnR7dl6f37int4fZvDM1IOHe3bk1A5sUTCzT7lF3YFHY8l5lbr1HwvN88RtLwH3JpJjogVDlTIXE34CLS6P1X8IAAA=

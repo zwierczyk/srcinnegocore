@@ -1,0 +1,21 @@
+restartBossBarTitle: '&c&lRESTART &8» &f{time}'
+bossBarColor: RED
+bossBarStyle: SEGMENTED_10
+restartStartMessage: '&#FFB800⚠ &8Ξ &eRozpoczęto odliczanie do restartu: &c{time} sekund'
+restartEndMessage: '&#FFB800⚠ &8Ξ &eSerwer zostanie zrestartowany!'
+antylogoutDisabledMessage: '&#00E0FFℹ &8Ξ &aAntylogout został wyłączony na czas restartu.'
+countdownSound: BLOCK_NOTE_BLOCK_PLING
+countdownSoundVolume: 1.0
+countdownSoundPitch: 1.0
+countdownSoundTimes:
+- 60
+- 30
+- 10
+- 5
+- 4
+- 3
+- 2
+- 1
+finalSound: ENTITY_ENDER_DRAGON_GROWL
+finalSoundVolume: 1.0
+finalSoundPitch: 1.0

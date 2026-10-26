@@ -1,0 +1,184 @@
+gui:
+  items:
+    '0':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Zaklęta
+          książka"}],"text":""}'
+        lore:
+          - '{"text":"","extra":[{"text":"Unik I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '""'
+          - '{"text":"","extra":[{"text":"Zaklęcie specjalne!","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":true}]}'
+          - '{"text":"","extra":[{"text":"Może zostać nałożony na ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"spodnie","italic":false,"color":"green"},{"text":"!","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[{"text":"Daje szansę na uniknięcie ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"uderzenia","italic":false,"color":"white"}]}'
+        custom-model-data: 11
+        internal: H4sIAAAAAAAA/71VTW/TQBDdQNWkQYIzN3clTkRpAvSSG9AeEBQhATmAkDWxJ87Wm11rPxriNBckxI17JS78jx6Tn4DEz2HtpOlXaqEoYFmyZ2d25r03a0+VkCq53352/EZJIwPJm/6jhr/7TubPx1Xy8LKv6T/Jfe4+Dqw2su/3ZYjcD8FAmVQ6UnIEoYm77pDNLpdgMqP0tEHIFilro5iIcnfmd0mlmlklcrfdPsuZZStVSTlkOuEwrJCN19BH8mNE8bNRQFsfRzTfS1t0iJzLAa1RK0JUnAkMaasLXGONGhfuQj5AzCcnBrxYs8nX6WkMLrwj+XlghitG01PSRr3Fqux0rQ7AXMjIDHAWzM3xp0UJOt4iG6+kworjUiHflyGNFAwLcb4XLPZe/ANs5Bal5OcyTCGo2I8UovgLBQOGnk4wOAQucHuB0yi7HpilzZVkO5DTU/RSqQ1MvnkCpl/cghRD9+qtSczaRTgzsebFdSJDwZAW7JhrnLOY79q+Fn+pXb9X0mEPDl1/Uvf5TU4y7tYdJ8FmbVu/DoMeM3jOyDpUKQoGxczcQSztL2N3lu5mei+5DVLXZ4htwnTaWicnZ8b7RyhcnRGFwDApXEWZoPCt4q7QEXCLbqlnTNLa2RkMBnUQoIIeg3oU0XHt+v9oDvtqaIGkV7cWS/lrNRnfZgcEsvNhUHiJa1rYZ9LYtep5A6Hmbr3ReFBM6za59zyfAgfZYNlzkyCfFcvmw38bTuQP6v0o1SgHAAA=
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Zaklęta
+          książka"}],"text":""}'
+        lore:
+          - '{"text":"","extra":[{"text":"Obrażenia krytyczne I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '""'
+          - '{"text":"","extra":[{"text":"Zaklęcie specjalne!","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":true}]}'
+          - '{"text":"","extra":[{"text":"Może zostać nałożony na ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"miecz","italic":false,"color":"green"},{"text":"!","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[{"text":"Zwiększa krytyczne obrażenia","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+        custom-model-data: 12
+        internal: H4sIAAAAAAAA/71VzW7TQBDeQETSgODMzV2JE1GaAL3kxF8PCApIoByKkDVZT5zFm11rva6x01yQEM9QCSFx4Sl6TB6B92HthpC2wUJRimXJnplvZ779ZrTbIKRBbvceH73WyiimRMe913Z336rie79B7p6NddwHRcy+RyyOjBq5I+WhcD0wUCP1vlICQUbEPtfJtYFQYHKj8ughIVukFhnNpV+E87hNqvSpVSE3e73fOfNslavk1pPC3M8rPLUuC7vRIDWPR6GAtE6qL2GE5OuY4kejgXbfjWmRkXZpikKohDZpLD3Ugkv0aHcAIsImNRZuIQcQiOmxASeI+PTz7CQAC+8r8QeYsw3QDLWK/eHCq/qDOGJgljJyA4KzuTl5vyhBJ1uk+kJprFvqdfJtFVNfQ1rK81Vfw+wEJbdMdWpSlkl0nl0CV3KFUvJ9FUcPdOD6GlH+g6KMoxOFyD6AkLi94Gl0vBmalepaMu4rK6KTqcjA9IsjYfbJOpRM7a+zITGby3ROxZoXH3FkGS3BzxUu9jBfs30Bf6ZZP9ZS4SDh0+MgypZnSS0G7JKGqrK3imsy5AZLyT4XMctszyCIQx5l3U32yZrB3iFKW2dMgRmupK2oQpRurIUtdAgiRusaGhN2d3aSJGmBBM2GHFq+TyfNi2fNnPZ5aEnbzy8tb/nP9WR8k9kTGfI5NyidUGfojbgy8Ub1/MuGOrutdvtO+bZWnP3/8eIhvwCE3wj8BAcAAA==
+    '2':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Zaklęta
+          książka"}],"text":""}'
+        lore:
+          - '{"text":"","extra":[{"text":"Szybkości I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '""'
+          - '{"text":"","extra":[{"text":"Zaklęcie specjalne!","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":true}]}'
+          - '{"text":"","extra":[{"text":"Może zostać nałożony na ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"buty","italic":false,"color":"green"},{"text":"!","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[{"text":"Otrzymujesz stały efekt ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"szybkości
+          I","italic":false,"color":"white"}]}'
+        custom-model-data: 6
+        internal: H4sIAAAAAAAA/71VzW7TQBDe0KpJgwRnbu5KnIjSlB8J5YSAHhAUkIpyACFrYk+SrTe71v402GkulRAvwAXBhffogUPyBhx4HNZumjZtEqEoxbJkz8y3M998+1cmpEzuNJ4evVXSyEDyHf9+zX/0TubfB2Vybzq24z/MY+49Cqw2sut3ZYjcD8FAkZSaUnIEoYl7bpKNFpdgMqPw5Bchm6SojWKinYezuEsq1alVILcajbOcWbbCGrn9LDf3sgrPncvBNsqkGDIdc0hKZP01dJH86FP8ZBTQ+oc+zTPSOk2Qc9mjFWpFiIozgSGtt4BrrFDj4A7yHiI+/GbAizQbfh6dRODgTcnPgRnbCE1HSdvuTLyy2bI6AHMhIzPAWTA2Bx8nJehgk6y/kgpLjnqJfJ3FtK0gWchzP02akRx9D5j34hoYkhuUkp+zmIWgIr+tEMU/6Bgw9HSMwQFwgVsTnkbZ1dAsrC0l3p4cnaCXSm1g+MUTMDp2DikS9+utSMzKRTqnYo2LN63J2M2FjwXOWxgP2bqCn5qrP0uJ8MaoNOnaA9Sp54QYHScetjAy16BAr8MMnrejp9fu4lVY2J3V3VnG+e295DZI3SRDZGOm0/oq23JmtHuIwtXpUwgMk8JVlDEK3yruCh0Ct+hcHWPi+vZ2r9erggAVdBhU2206qFw9ksa0L0MXqHp56GIpfy8n437qDm7INoZB4cUqxbDLpLEr1XNOQ4+rtdrdxV3NuCH+4/VE/gIfZXQfKgcAAA==
+    '3':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Zaklęta
+          książka"}],"text":""}'
+        lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Wampiryzm
+          I"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Zaklęcie
+          specjalne!"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Może
+          zostać nałożony na "},{"italic":false,"color":"green","text":"miecz"},{"italic":false,"color":"dark_gray","text":"!"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Masz
+          aszansę na odzyskanie cześci"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"zdrowia
+          z zadanych "},{"italic":false,"color":"red","text":"obrażeń"},{"italic":false,"color":"gray","text":"!"}],"text":""}'
+        custom-model-data: 10
+        internal: H4sIAAAAAAAA/71UTW8TMRCdQNSkiwRnbq6v5ED5uOTGxwWJoh5QkEBoNfE6iVmvJ7K9KrttL6iIH8Cpggtn/kKP2f/EEe82hFZEEUQNK6/WM/N25vmN7QgggtuDx0f7ljwJ0rvxvbvxw5fUfO9HcOdybDd+0MTCOBK585TFGSVSxwl67EB3SKQlGgfhuQFbI03oa6P1iAFsQ8d5q8y4CdfxkJTsudWCm4PBr5x1ttZ1uPWkMffqCk+DK8CiCDqJclONRRfaLzCT8PWQy/feIu+/OeRNRt7nhdSaDniP5yaRVisjE94foXayx32AB8hrTPXs1CNLnZp9rM5SDPAh6d/Amm0q/cRSPp4svDQc5U6gv5BRedRKzM3jt4sS/Hgb2s/Jym6gvgWflzEdWyxW8nyF2VTZoszYsw0QhGucw7dlxBK0aTy2Upq/kFEoydxUineojdxZ8PQ2vxqarfZa2u1RdSZZSc7j7BMzWH0IDjJFmLIrErN3kc65WPPimZKi5Cvwc4WbNcz/2fkDf6lZ39dTAV3JwhsO5uy0XjolZeFSNKFpopTVF6E2sbN+rEW2TCwdKGQlKzFBU4jJBjplA2hRkYYWwzapTlb16p/atOQ2+49XKfwEWQ3gmNYFAAA=
+    '4':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Zaklęta
+          książka"}],"text":""}'
+        lore:
+          - '{"text":"","extra":[{"text":"Wytrzymałości I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '""'
+          - '{"text":"","extra":[{"text":"Zaklęcie specjalne!","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":true}]}'
+          - '{"text":"","extra":[{"text":"Może zostać nałożony na ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"uzbrojenie","italic":false,"color":"green"},{"text":"!","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[{"text":"Spowalnia niszczenie się zbroi","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+        custom-model-data: 9
+        internal: H4sIAAAAAAAA/72VzW7TQBDHN1DRJEjAlZu7EieiNAF6yY2PHhAUIRUFCYSsiT1xtt7sWOt1TZzmgoR4hggunHiJHJNH4H1YuyH0I0QoSrEs2bMzO/Pb/6x2q4xV2d32k5PXmgx5JJvug4a794aK78Mqu3/e13QfFT77nnhJbKjv9slH6fpgYJuVO0QSQcXMPjfZja4kMLlRenyHsQrbjo0WKijcud8mJX1qlditdvt3zjxb6Tq7/bQwD/IKz+yQDatU2bYv4kjCoMy2XkEf2bchx49GA2+9H/IiI2/xAUpJKa/xRPmopVDo81YXZIw1bmy4DXkHoZyODThhLKafZ5MQbHiH5J/AnDZE09OUBL3FKHW6SeyBOZNRGJDCm5ujD4sSfFRhWy9JY9mil9l4GWmgYbCS8+3A6GzQh9knmn31hPP8CjDZNc7Z92V4PujQDTSi+gcxPYFOHKF3BFLhzoLT6GQzmKXKWgoe0GyCTkaxgekXRxVKTkgN7K+zITFrZ3FOxZoXT7KOpiNUAvmKSXOZi4XMJ+5cij/XsR9rSXEYUWqbI8BRIs68LOdy7P4fOzmmuKKtVdpfBpv2hMGVtC9kYhGdDMIksritTXbLmuH+MSpbZ8jBM4KUrUgRKjfR0hY6BpmgHeoZE7V2d9M0rYMC7fUE1IOAj2qXD5s59sXQFX2/OHV1z3+uJ+NhZo9kyHe7QeVEOkO/L8gkG9XzLwtq7tUbjXurl7Xk8P+PNw/7BaOmLR0FBwAA
+    '5':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Zaklęta
+          książka"}],"text":""}'
+        lore:
+          - '{"text":"","extra":[{"text":"Regeneracji I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '""'
+          - '{"text":"","extra":[{"text":"Zaklęcie specjalne!","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":true}]}'
+          - '{"text":"","extra":[{"text":"Może zostać nałożony na ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"napierśnik","italic":false,"color":"green"},{"text":"!","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[{"text":"Nałożony daję szansę, że po","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"otrzymanym uderzeniu otrzymasz efekt","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"regeneracji II na krótki czas.","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+        custom-model-data: 4
+        internal: H4sIAAAAAAAA/71VTW/TQBDdQEXSIMGZ23YlTkRpyoeEckKFHipohQDlAELWxJ44G292rd11Q9xWQkiIX8ChggsnOHDj2hvJP+AHsU5NmrYhQlGCZcmembczb97u2GVCyuRGY/PgqVZW+UpseLdr3r0XavS8Uya3zsY2vLujmLsP/MRY1fW6KkDhBWChSEpNpQSCNMRdV8mVllBgM6Pw4C0hq6RorOYyHIWzuEuq9IlVINcajT85s2yFy+T6w5G5k1V45FwOtlImxYCbWEC/RFZ2oYvk8z7DN1YDq7/aZ6OMrM76KITqsQpLZIBacIkBq7dAGKww6+AO8hIiMTiyQCPDB++HxxE4eFOJU2DGNkLb1ioJ22OvarYS44OdyMgtCO7n5uHrcQl2uEpWniiNJZIJ/XEa01BDfybPZxiiRA1+h9PtJVAklxgjX6ZRC0BHXqgR5T8I6XOkJka/A0Li2pin1cliaBbKc6m3o4bHSFNlLAw+UAnDd86hZN+90gWJWZmkcyJWXlxCzFEPP0kesRmrcp1HneQr1y7gz2zZt7m02D3tPoDO4Iia1M3q4KhCM41itYzD9X0upsrqtN8F2e/SxGFSlDyhudOkFFsY2WWw/ToXWz05odvZyYr0zx824tRPwVSXNLOFrWlke21ucSbbxyLxUzcSECUxN2l9kWPgzGhrD6Wrs8/At1zJbDdjlF6ihSu0ByJB52pbG9fX13u9XhUkaL/NoRqG7LBy8Que0z4PnTFP55fOnqVf88n4PJsdyDbboqSxO6NBlyubLFTPvzR0v1qr3Zzd1ZQf6n/8m5PfmqrHZ1kIAAA=
+    '6':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Zaklęta
+          książka"}],"text":""}'
+        lore:
+          - '{"text":"","extra":[{"text":"Pośpiech I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '""'
+          - '{"text":"","extra":[{"text":"Zaklęcie specjalne!","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":true}]}'
+          - '{"text":"","extra":[{"text":"Może zostać nałożony na ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"kilof","italic":false,"color":"green"},{"text":"!","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[{"text":"Otrzymujesz stały efekt ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"pośpiechu
+          II","italic":false,"color":"white"}]}'
+        custom-model-data: 5
+        internal: H4sIAAAAAAAA/71Vy27TQBSdQCBpkGDNzh2JFVGa8pBQVgjoIoJCJVAWIGTd2jfO1JMZazzTYKfZVEJ8ACsEC/iPLpM/YMPfMHaT9JVaKEqxLNn3zpl7zzkzHtcIqZG7nWcHO0pq6Um+6T5ouo/fyfz5sEbunx3bdB/lY/Y+8EysZd/tSx+564OGCqnuSskRREzsdYvc7HIJOgtKT38SskYqsVZMBPlwNm6LSnUclcjtTmdWM6tWuk7uPM/D7azDC5uysBs1UvFZHHFIqqT8GvpIfgwpftIKaOvDkOYVaYsmyLkc0Do1wkfFmUCftrrAY6xTbeEW8h5CPv6mwQljNv48OQrBwnclPwFmbEPUPSVN0Jtn5W7XxB7oUxWZBs68aTj6OG9BR2uk/EoqrFrqVfJ1EdNAQVLIc0dOvkcMvZ7TvgKC5Bql5NciYj6o0A0UovgHGz2GThyhtwdc4Pqcp1ZmNTRL5aW825aTI3RSGWsYf3EETA5tQorEvjorMrN+ms6xWdPmIeOySwvwU4dzDdM56xfwZxbrz1IuvNEqTfpmD+PUsU5MDhMHuxjqK7Bg0GMaT+REs71rnHa7WJrdh6WtRfJmJS/X95IbL7XLDKGJWJy2VqnLhuHWPgrbZ0jB00wK21FGKFyjuG20D9ygTfW0jlobG4PBoAEClNdj0AgCOqpfPJOmtM9DC2w9P7XYyt/L2fg2tSc3ZJ+GRuFEKkW/z6Q2K/XzEkFPGs3mvWJVC34R//H/RP4C1wMGWSsHAAA=
+    '7':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Zaklęta
+          książka"}],"text":""}'
+        lore:
+          - '{"text":"","extra":[{"text":"Spowolnienie I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '""'
+          - '{"text":"","extra":[{"text":"Zaklęcie specjalne!","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":true}]}'
+          - '{"text":"","extra":[{"text":"Może zostać nałożony na ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"miecz","italic":false,"color":"green"},{"text":"!","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[{"text":"Masz szansę, że gracza, które uderzysz","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"otrzyma efekt spowolnienia I.","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+        custom-model-data: 7
+        internal: H4sIAAAAAAAA/81WwW7TMBh2YKJdQXDm5lkcQGQobbeJ9TQBE5q2ISTQJkAochO39eLkr2xHJdl2mYR4A6RJXDjwAIgjO0H7HjwKTle6FUrYphUtipTY/v7fnz9/v5MSQiV0c+PBzlMJGjwQZbfiuPPPof+sltDd0bGyO9cfM/eOFysNoRuCz4TrU00LqFgHEIxGCpnrKrrSEEB11rCWfiA0jQpKSx41+8PZuEkK8rBloesbG79yZtmsy+jGw35zPZvhkekysEIJFXyu2oImRTT1hIYMfdgm7I2WlNRebZN+RlIjCRMCOsQmceQzKXjEfFJrUKGYTbSBG8hLGojuvqY4ULz7tncQUAOvgzgCZmwDplsS4mZr2Av1Rqw8qo9l5JoK7g2au6+HU5DdaTS1BpIVDfVr6P04pk1Jk1yez9rQARFxZm68MgGO6BIh6OM4bj6VgduUjEUnUNIz9FSbeVtURGxmyFPL+HxoWlNnkm8degcMp6A07b7DEe3tmQ6IEvOKz0lM+zidQ7EGk4eceSnJwQ8U7q9hEDPzB35ksz6fTQWqUqxSU5rdfRtnipgQL6U2DvT3L5Lh2ESmiUon4a9PZ6IM2hAKKWYNFmjjrGEVULxyb0JlYFlHVImxx/iN+jvnb18n4qnj9thMjJM7vLeH83zVaXHNjoIeSx661WrVXRYmJNdgln3hJVgFlerTLP/W4mKQix9ThrdNkO04zp18tYoXXq2BYSCC00hWWZgtO7MVpzJvY+d+rTxXK8/nH0xZ+SxdSDVGjuRVwYOIb53EDiNxa8ubL9bzgn7D25jWE5zSIG5z8+Fpy5T5IQf9j+N9zI/Qf/wLQz8BgQNe/hEKAAA=
+    '8':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Zaklęta
+          książka"}],"text":""}'
+        lore:
+          - '{"text":"","extra":[{"text":"Niepodpalanie I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '""'
+          - '{"text":"","extra":[{"text":"Zaklęcie specjalne!","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":true}]}'
+          - '{"text":"","extra":[{"text":"Może zostać nałożony na ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"hełm","italic":false,"color":"green"},{"text":"!","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[{"text":"Otrzymujesz stały efekt odporności na ogień","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+        custom-model-data: 2
+        internal: H4sIAAAAAAAA/71VzW7TQBDelIimQYIzN3clTkRpAvSSEwJ6QNCCBMoBhKyJPXG23uxY63VDnOYSgXgEhODCS3DqMX4E3od1GkJ/goWiFMvyena+nfn2m9FulbEqu91+dPxSkyGPZNO913B3X9NsvF9ld8/7mu6Dmc++x14SG+q7ffJRuj4Y2GSVDpFEUDGzzw12vSsJTG6UHtrPFtuMjRYqmLlzvw1K+tQqsZvt9u+YebTSNXbr8czczzM8sVMWtlFlm76IIwnDCisfQB/ZtxHH90YDb70d8VlE3uJDlJIGvMYT5aOWQqHPW12QMda4sXALeQOhnH4x4ISxmH7MTkKw8A7JP8CcbYimpykJeotZ6nST2ANzJqIwIIU3N8fvFin4eIuVn5PGiqVeYZ+XMQ00DAt5HgiMyI9AghLoPL0CkmyDc/Z9GTkfdOgGGlH9g5SepRdH6B2CVLi94Gl0sh6apfJK+u1TdoJOSrGB6SdHQTaxE6SG9tdZk5i1s3ROxZon72E26fMC/Fzh2R7ma7Yv4c8V68dKKrwwOh32k0OMU8cqkU2GDnYxNI5tLdKKsq+eyBWhQGD24YqarLS3jPugJwwWkn8mEy+1NYQwiUScttZZN2uGe0eobJ4RB88IUjYjRajcREub6AhkgnkpjYlaOzuDwaAOCrTXE1APAj6uXT505rQvQgva4OLS4hb4uZqMr1J7NENeZYPKiXSKfl+QSdaq51821NytNxp3ire15BL4jzcQ+wV/Y392DQcAAA==
+    '9':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Zaklęta
+          książka"}],"text":""}'
+        lore:
+          - '{"text":"","extra":[{"text":"Otrucie przeciwnika I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '""'
+          - '{"text":"","extra":[{"text":"Zaklęcie specjalne!","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":true}]}'
+          - '{"text":"","extra":[{"text":"Może zostać nałożony na ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"miecz","italic":false,"color":"green"},{"text":"!","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[{"text":"Masz szansę, że gracza, które uderzysz","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"otrzyma efekt trucizny I.","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+        custom-model-data: 1
+        internal: H4sIAAAAAAAA/71V3YrTQBSearHdCnrtXXbAK0O36w9IbwR1LxZdFZReKBJOk9N0zHQmzEw2Nt2CCOIzLOiFjyDe7p3tG/hATrK17k+NUlpDIDk/c853vjlnpkFIg1zr3D94pqSRvuTb3s2Wd+eFLL63GuTGadu2d7uw2ffAT7SRA28gA+ReAAZqpN6VkiMITexzmVzqcQkmFyr33hGyQWraKCbCwpzbbVCpjqUKudLp/IqZR6tcJFcfFOJenuGhVeVuDVILmI45DOuk+gQGSD6NKL41Cmj71YgWEWmbDpFzmVKXJiJAxZnAgLZ7wDW61Fh36/ISIj45NOBEmk0+TI8isO5dyX875mgjNH0lk7A/18puL9E+mBMRmQHO/Jk4fj1PQccbpPpYKqyTvPzPi5CGCoalOJ8alfgMnVhl6LNUsAic3TVAJRcoJV8WQQxARV6oEMU/EJpD1TH6b4AL3JzjtEWsBmaluhSLe3J6hE4mtYHJR0fA9L1VSDG0v86KyHRPwjkma5Z8wNDPaIn/jOGihtmazXP+pzbr63IsgM4cndkJnRy6Ts6IXeJn4DqR+f5NoZPYldlQZ+vor4W99VfI0lhAA3Cwh5FxilnI7LbtNtc0ApWdRTDTPjNYivMRT/zMdhhEScx01l5lV1kx2tlHYfOMKPiGSZEzE6PwEsVton3gCVpV35i4vbWVpmkTBCi/z6AZhnTsnj8YZ7DPupY06dml5Q36Yzkan+fNCflUGhTFmRcMmDTJSvn8Q0F3m63W9fKqFtxT//GSJD8B33Tb4bAHAAA=
